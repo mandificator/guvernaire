@@ -16,6 +16,10 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-10",
+        text: "A participat la reuniunea Consiliului Nord-Atlantic de la Bruxelles, convocată la cererea României, dedicată securității Mării Negre. S-a convenit accelerarea proiectelor NATO de răspuns la amenințările cu drone; noi măsuri urmează să fie aprobate la Summit-ul de la Ankara (7–8 iulie 2026). A afirmat că securitatea Mării Negre este esențială și că aliații au exprimat solidaritate fermă cu România.",
+      },
+      {
         data: "2026-06-05",
         text: "A gestionat incidentul dronelor marine ucrainene (una a explodat în Portul Constanța, peste 1.000 de turiști evacuați): ședință de lucru la Constanța și convocarea unei întâlniri NATO dedicate Mării Negre pe 10 iunie.",
       },
@@ -106,6 +110,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-10",
+        text: "Mandatele celor 6 miniștri interimari numiți în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună constituțională fără precedent clar. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare.",
+      },
       {
         data: "2026-06-04",
         text: "A anunțat că PNL nu va vota guvernul tehnocrat Tomac și că nu va bloca alegerile anticipate.",

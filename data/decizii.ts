@@ -286,8 +286,13 @@ export const decizii: Decizie[] = [
         "PNL — refuz; USR — refuz („paravan pentru PSD”); PSD — refuz; AUR — refuz, cere anticipate; UDMR — nu votează pentru, dar nici împotrivă.",
     },
     aliniere: "fără-vot",
+    controverse: [
+      "Critici că viitorul cabinet ar include oameni PSD; a replicat că nu e cazul să fim mai catolici decât Papa.",
+      "AUR a calificat desemnarea drept pericol pentru democrație; USR a afirmat că premierul tehnocrat ar fi paravan pentru ca PSD să exercite puterea.",
+      "Pe 10 iunie, chiar în ziua depunerii listei, mandatele celor 6 miniștri interimari numiți de Bolojan în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună de conducere la 6 ministere. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare. (Surse: Digi24, Stiripesurse, Adevarul, Ziare.com — 10 iunie 2026.)",
+    ],
     verdictFinal:
-      "Verdictul rămâne suspendat până la votul de învestitură, dar semnalele convergente indică respingere. Dacă guvernul Tomac pică, președintele va fi consumat prima din cele două încercări pe o formulă despre care toți actorii îi spuseseră că nu trece — timp pierdut pe care cetățeanul îl plătește prin paralizie administrativă. Dacă, împotriva așteptărilor, trece, va guverna sub șantajul permanent al oricărui grup care i-a împrumutat voturile. Niciuna dintre variante nu e bună; amândouă erau previzibile la momentul desemnării.",
+      "Verdictul rămâne suspendat până la votul de învestitură, dar semnalele convergente indică respingere. Dacă guvernul Tomac pică, președintele va fi consumat prima din cele două încercări pe o formulă despre care toți actorii îi spuseseră că nu trece — timp pierdut pe care cetățeanul îl plătește prin paralizie administrativă. Dacă, împotriva așteptărilor, trece, va guverna sub șantajul permanent al oricărui grup care i-a împrumutat voturile. Niciuna dintre variante nu e bună; amândouă erau previzibile la momentul desemnării. Nota suplimentară de la 10 iunie: mandatele a 6 miniștri interimari au expirat chiar în ziua depunerii listei, adâncind starea de limbo constituțional — orice zi suplimentară fără un guvern deplin înseamnă și un executiv care funcționează pe jumătate.",
     surse: [
       {
         titlu: "Presidency.ro — decretul de desemnare a lui Eugen Tomac (comunicat oficial, 5 iunie 2026)",
@@ -622,6 +627,66 @@ export const decizii: Decizie[] = [
       {
         titlu: "Stiripesurse — Nicușor Dan a promulgat legea care schimbă regulile pentru mașinile electrice",
         url: "https://www.stiripesurse.ro/nicusor-dan-a-promulgat-legea-care-schimba-regulile-pentru-masinile-electrice-apar-obligatii-noi-investitii-majore-in-infrastructura-si-beneficii-pentru-soferi_3893510",
+      },
+    ],
+  },
+  {
+    slug: "consiliul-nord-atlantic-drona-marea-neagra",
+    titlu:
+      "România convoacă Consiliul Nord-Atlantic: cerere NATO pentru scut anti-dronă la Marea Neagră",
+    data: "2026-06-10",
+    institutie: "Președinție",
+    domenii: ["apărare", "securitate", "politică externă"],
+    rezumat:
+      "La cererea României, Consiliul Nord-Atlantic s-a întrunit de urgență pe 10 iunie la Bruxelles, după explozia unei drone marine în Portul Constanța (5 iunie). NATO a convenit accelerarea proiectelor anti-dronă pentru Flancul Estic; un pachet de măsuri urmează să fie aprobat la Summit-ul de la Ankara (7–8 iulie 2026).",
+    explicatie:
+      "Pe 5 iunie 2026, o dronă marină ucraineană a explodat în Portul Constanța, forțând evacuarea a peste 1.000 de turiști — al doilea incident similar în câteva săptămâni, după unul în largul Mării Negre lângă Galați. România, stat de graniță NATO fără sistem anti-dronă maritim complet operațional, a solicitat convocarea de urgență a Consiliului Nord-Atlantic (NAC) la Bruxelles.\n\nReuniunea din 10 iunie a fost convocată la solicitarea exclusivă a României și dedicată în întregime securității Mării Negre. Președintele Nicușor Dan a prezentat cererile concrete: radare de detecție a dronelor, sisteme de interceptare anti-dronă și aeronave suplimentare pentru poliția aeriană pe Flancul Estic. Aliații au exprimat solidaritate fermă, iar NAC a convenit accelerarea proiectelor dedicate acestor capabilități.\n\nLa Summit-ul NATO de la Ankara (7–8 iulie 2026) urmează să fie aprobat un pachet concret de măsuri de suport pentru aliații de pe Flancul Estic afectați de amenințările cu drone. Nicușor Dan a afirmat că s-a agreat accelerarea proiectelor NATO anti-dronă și că securitatea Mării Negre este esențială pentru România și Alianță.",
+    pro: [
+      "Incident real cu consecințe directe pentru cetățeni: o explozie în cel mai mare port al României nu e o amenințare abstractă — răspunsul diplomatic a fost rapid și a produs angajamente concrete.",
+      "România a utilizat corect mecanismele de apărare colectivă ale Alianței: convocarea NAC e instrumentul prevăzut exact pentru astfel de situații.",
+      "S-a obținut un angajament verificabil — pachetul de măsuri pentru Ankara, nu simple declarații de solidaritate.",
+      "Mișcarea ancorează amenințarea din Marea Neagră pe agenda NATO permanentă, cu implicații pentru Neptun Deep, infrastructura energetică și comerțul naval.",
+    ],
+    contra: [
+      "Livrarea rămâne de confirmat la Ankara: reuniunea NAC a convenit accelerarea proiectelor, nu capabilitățile în sine — decalajul între angajament și implementare poate fi mare.",
+      "Sistemele anti-dronă solicitate necesită buget suplimentar sau redistribuire — detaliile financiare nu au fost comunicate public.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "favorabil",
+      scor: 7,
+      motivare:
+        "Guvernul paralel votează PENTRU această acțiune diplomatică fără rezerve. România are o vulnerabilitate de securitate reală și documentată — drone care explodează în portul civil principal al țării — și a folosit corect mecanismele colective ale NATO. Convocarea NAC este exact pentru ce România a intrat în Alianță, iar angajamentul de accelerare a proiectelor anti-dronă este un rezultat concret, nu o promisiune vagă. Livrarea reală a capabilităților rămâne de urmărit la Ankara și ulterior — de aceea nu dăm +9. Scor +7.",
+    },
+    votReal: {
+      rezultat:
+        "Consiliul Nord-Atlantic s-a întrunit pe 10 iunie 2026, la Bruxelles, la solicitarea României. S-a convenit accelerarea proiectelor NATO de răspuns la amenințările cu drone. Un pachet de măsuri de suport pentru aliații de pe Flancul Estic urmează să fie aprobat la Summit-ul NATO de la Ankara (7–8 iulie 2026).",
+      detalii:
+        "România a cerut radare de detecție a dronelor, sisteme anti-dronă și aeronave suplimentare pentru poliția aeriană. Aliații au exprimat solidaritate fermă cu România.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Acțiunea diplomatică și răspunsul NATO sunt aliniate cu votul paralel — unul dintre puținele dosare pozitive ale perioadei, alături de legea hackingului etic. Testul real este Summit-ul de la Ankara (7–8 iulie): dacă pachetul de capabilități anti-dronă pentru Flancul Estic va fi adoptat și finanțat, inițiativa din 10 iunie va fi produs rezultate concrete. Dacă va rămâne la declarații, va fi o formă de presiune necesară, dar insuficientă față de gravitatea amenințării. De urmărit public, contract cu contract și sistem cu sistem.",
+    surse: [
+      {
+        titlu: "Presidency.ro — declarații de presă Nicușor Dan (pagina oficială)",
+        url: "https://www.presidency.ro/ro/media/declaratii-de-presa",
+      },
+      {
+        titlu: "Mediafax — Nicușor Dan: s-a convenit accelerarea proiectelor NATO anti-dronă",
+        url: "https://www.mediafax.ro/politic/update-nicusor-dan-s-a-convenit-accelerarea-proiectelor-nato-privind-raspunsul-la-amenintarile-cu-drone-23752754",
+      },
+      {
+        titlu: "CursDeGuvernare — Discuții la NATO: România cere radare, sisteme anti-dronă și aeronave pentru securitatea Mării Negre",
+        url: "https://cursdeguvernare.ro/discutii-nato-sedinta-bruxelles-securitate-romania-marea-neagra-incidente-drona-flanc-est.html",
+      },
+      {
+        titlu: "Bursa.ro — Reuniune NATO la Bruxelles pe tema securității Mării Negre (10.06.2026)",
+        url: "https://www.bursa.ro/-reuniune-nato-la-bruxelles-pe-tema-securitatii-marii-negre-noi-masuri-impotriva-amenintarilor-cu-drone-84862954",
+      },
+      {
+        titlu: "Stiripesurse — NATO se întrunește de urgență la cererea României după cazul dronei de la Constanța",
+        url: "https://www.stiripesurse.ro/nato-se-intruneste-de-urgenta-la-cererea-romaniei-dupa-cazul-dronei-de-la-constanta_3893713",
       },
     ],
   },
