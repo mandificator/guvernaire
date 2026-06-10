@@ -19,12 +19,12 @@ export default async function OgImage({
   const vot = d?.votParalel.vot ?? "";
   const aliniere =
     d?.aliniere === "aliniat"
-      ? "✓ decizia reală coincide cu votul nostru"
+      ? "decizia reală coincide cu votul nostru"
       : d?.aliniere === "divergent"
-        ? "✗ decizia reală diverge de votul nostru"
+        ? "decizia reală diverge de votul nostru"
         : d?.aliniere === "parțial"
-          ? "≈ aliniere parțială"
-          : "analiză";
+          ? "aliniere parțială cu votul nostru"
+          : "analiza guvernului paralel";
   const votColor =
     vot === "pentru" ? "#047857" : vot === "contra" ? "#b91c1c" : "#52525b";
 
