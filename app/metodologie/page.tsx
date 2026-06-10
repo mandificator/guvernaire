@@ -18,13 +18,26 @@ export default function MetodologiePage() {
       </header>
 
       <section>
-        <SectionTitle>1. Sursele</SectionTitle>
+        <SectionTitle>1. Sursele: faptele vin de la stat, nu din presă</SectionTitle>
+        <p className="mb-3 text-[15px] leading-relaxed text-zinc-700">
+          <strong>Faptele</strong> — texte de lege, voturi, decizii, termene — provin exclusiv din
+          sursele oficiale ale statului: Monitorul Oficial, cdep.ro și senat.ro (proiecte și voturi),
+          gov.ro (hotărâri și ordonanțe), presidency.ro (decrete și comunicate), ccr.ro, avp.ro,
+          Institutul Național de Statistică, Ministerul Finanțelor, instituțiile europene.
+        </p>
+        <p className="mb-3 text-[15px] leading-relaxed text-zinc-700">
+          <strong>Presa</strong> — pe care o evităm ori de câte ori există document oficial — e
+          folosită doar pentru informație, niciodată pentru interpretări: preluăm date, evenimente,
+          cifre și declarații atribuite (cine, ce, când) — nu preluăm etichete, caracterizări,
+          sondaje dintr-o singură sursă, „percepții" sau speculații despre motivele actorilor.
+          Nu considerăm nicio redacție „independentă" din oficiu: când cităm presa, căutăm
+          confirmarea aceleiași informații în surse cu orientări editoriale opuse și păstrăm doar
+          ce e comun. Dacă o informație există doar într-o singură sursă de presă și nu are
+          confirmare oficială, nu intră în analiză.
+        </p>
         <p className="text-[15px] leading-relaxed text-zinc-700">
-          Pornim întotdeauna de la documentele oficiale: proiectele de lege și voturile de pe cdep.ro
-          și senat.ro, hotărârile și ordonanțele de pe gov.ro, comunicatele Administrației Prezidențiale,
-          Monitorul Oficial. Completăm cu presă independentă (G4Media, HotNews, Europa Liberă, Recorder,
-          Context.ro, Profit.ro/Economedia pentru economie) pentru context și reacții. Fiecare analiză
-          listează sursele folosite — dacă o afirmație nu are sursă, nu intră în analiză.
+          Fiecare analiză listează sursele folosite — dacă o afirmație nu are sursă, nu intră în
+          analiză.
         </p>
       </section>
 
@@ -60,9 +73,12 @@ export default function MetodologiePage() {
       <section>
         <SectionTitle>4. Garanții anti-bias</SectionTitle>
         <ul className="list-disc space-y-2 pl-5 text-[15px] leading-relaxed text-zinc-700">
+          <li><strong>Zero simpatii sau antipatii politice</strong>: aceleași criterii, aplicate identic fiecărui actor, indiferent de partid. Nu avem candidați, nu avem adversari.</li>
+          <li><strong>În conflicte internaționale ținem o singură parte: a României.</strong> Nu judecăm actorii după simpatiile lor față de taberele unui război, ci strict după efectul acțiunilor lor asupra securității și intereselor României, așa cum sunt definite în documentele oficiale ale statului (Constituție, Strategia Națională de Apărare).</li>
           <li>Analizăm <strong>argumentele, nu autorii</strong>: o lege bună propusă de un partid pe care l-am criticat rămâne o lege bună, și invers.</li>
+          <li><strong>Separăm faptele de judecăți</strong>: descrierile (ce s-a întâmplat, cine, când) sunt strict factuale și sursate oficial; judecățile noastre argumentate apar doar în secțiunile marcate ca atare — votul paralel, motivarea notei, verdictul final.</li>
           <li>Publicăm <strong>întotdeauna ambele coloane</strong> — pro și contra — chiar și când verdictul e clar.</li>
-          <li>Nota actorilor politici se bazează pe <strong>fapte documentate</strong> (voturi, decizii, livrarea promisiunilor), nu pe declarații sau simpatii.</li>
+          <li>Nota actorilor politici se bazează pe <strong>fapte documentate</strong> (voturi, decizii, livrarea promisiunilor), nu pe declarații, sondaje sau simpatii.</li>
           <li>Când datele lipsesc sau sunt contradictorii, <strong>spunem explicit</strong> și ne abținem în loc să ghicim.</li>
           <li>Analizele sunt generate cu asistență AI și pot conține erori — sursele citate permit oricui să verifice și să ne contrazică.</li>
         </ul>

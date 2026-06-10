@@ -27,9 +27,10 @@ export default function Home() {
           Dacă România ar fi guvernată strict în interesul tău, cum s-ar vota fiecare lege?
         </h1>
         <p className="mb-6 max-w-2xl text-sm leading-relaxed text-blue-100">
-          Citim sursele oficiale — Parlament, Guvern, Președinție — și presa independentă.
+          Citim sursele oficiale ale statului — Monitorul Oficial, Parlament, Guvern, Președinție.
           Cântărim argumentele pro și contra pentru țară și cetățean, votăm transparent și
-          comparăm votul nostru cu decizia reală. Fără partid, fără sponsor, cu surse la vedere.
+          comparăm votul nostru cu decizia reală. Fără partid, fără sponsor, fără simpatii, cu
+          surse la vedere.
         </p>
         <div className="flex flex-wrap gap-3">
           <Link

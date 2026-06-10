@@ -57,7 +57,9 @@ export default function RootLayout({
               nu adevăruri oficiale — verificați întotdeauna sursele primare.
             </p>
             <p>
-              Surse principale: gov.ro, cdep.ro, senat.ro, presidency.ro, Monitorul Oficial, presă independentă.
+              Faptele provin din sursele oficiale ale statului: Monitorul Oficial, gov.ro, cdep.ro,
+              senat.ro, presidency.ro, ccr.ro. Presa — de orice orientare — e citată doar pentru
+              informație, nu pentru interpretări.
             </p>
           </div>
         </footer>

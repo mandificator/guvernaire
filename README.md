@@ -1,6 +1,6 @@
 # guvernAIre — Guvernul paralel al cetățeanului
 
-Un proiect civic independent, asistat de AI: pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale (Parlament, Guvern, Președinție, Monitorul Oficial) și presa independentă, punem în balanță argumentele pro și contra pentru țară și cetățean, **votăm transparent** și **comparăm votul nostru cu decizia reală** a instituțiilor.
+Un proiect civic independent, asistat de AI: pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale ale statului (Monitorul Oficial, Parlament, Guvern, Președinție), punem în balanță argumentele pro și contra pentru țară și cetățean, **votăm transparent** și **comparăm votul nostru cu decizia reală** a instituțiilor. Presa, indiferent de orientare, e citată doar pentru informație, nu pentru interpretări; în conflicte externe ținem o singură parte: a României.
 
 ## Ce conține
 

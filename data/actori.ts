@@ -29,7 +29,7 @@ export const actori: Actor[] = [
       },
       {
         data: "2026-05-05",
-        text: "Nu a intervenit public pentru salvarea guvernului Bolojan înaintea moțiunii de cenzură — pasivitate reproșată de aliații guvernului.",
+        text: "Nu a făcut declarații publice în sprijinul guvernului Bolojan înaintea moțiunii de cenzură din 5 mai.",
       },
     ],
     promisiuniVsFapte: [
@@ -48,7 +48,7 @@ export const actori: Actor[] = [
         promisiune: "Depolitizarea administrației și reforma statului",
         status: "parțial",
         detalii:
-          "A susținut corecția fiscală și reformele Bolojan, dar fără inițiative proprii vizibile; numirile din parchete au fost percepute ca rezultat al negocierii cu PSD.",
+          "A susținut corecția fiscală și reformele guvernului Bolojan, fără inițiative legislative proprii pe această temă; numirile de la conducerea parchetelor au fost criticate public.",
       },
       {
         promisiune: "Ancorarea fermă în UE/NATO și apărarea flancului estic",
@@ -58,16 +58,15 @@ export const actori: Actor[] = [
       },
     ],
     controverse: [
-      "Numirile de la Parchetul General, DNA și DIICOT, percepute ca influențate de PSD — criticate inclusiv de electoratul propriu (Cotidianul: „15 controverse într-un an de mandat”).",
-      "Scădere abruptă de popularitate: un sondaj citat de Gândul indică ~27,6% aprobare — cifră dintr-o singură sursă, de tratat cu prudență.",
-      "Pasivitate în criza guvernamentală: nu a folosit autoritatea președinției pentru a media înainte de căderea guvernului.",
+      "Numirile de la conducerea Parchetului General, DNA și DIICOT au fost criticate public, inclusiv de o parte a propriilor susținători.",
+      "Șefii SRI și SIE nu au fost numiți după mai bine de un an de mandat — atribuție prezidențială exercitată doar prin conduceri interimare.",
     ],
     pozitionare: [
       { tema: "UE / NATO", pozitie: "Ferm pro-occidental; prioritate pe securitatea Mării Negre." },
       { tema: "Austeritate / deficit", pozitie: "A susținut corecția fiscală a guvernului Bolojan." },
       {
         tema: "Stat de drept",
-        pozitie: "Discurs reformist, dar numirile din parchete i-au erodat credibilitatea pe acest front.",
+        pozitie: "Discurs reformist; numirile de la conducerea parchetelor au fost criticate public.",
       },
       {
         tema: "Criza politică",
@@ -93,10 +92,6 @@ export const actori: Actor[] = [
         url: "https://ziare.com/nicusor-dan/restante-promisiuni-preluare-functie-presedinte-nerespectate-1995695",
       },
       {
-        titlu: "Cotidianul — Cele 15 controverse din mandatul de un an",
-        url: "https://www.cotidianul.ro/nicusor-dan-cele-15-controverse-din-mandatul-de-un-an/",
-      },
-      {
         titlu: "Recorder — Tomac premier desemnat",
         url: "https://recorder.ro/stirile-zilei/4-iunie-2026-guvernul-meu-varianta-nicusor-dan-tomac-premier-desemnat/",
       },
@@ -109,7 +104,7 @@ export const actori: Actor[] = [
     partid: "PNL (președinte)",
     dinCand: "premier din 23 iunie 2025, demis 5 mai 2026",
     rezumat:
-      "Premierul austerității: a redus deficitul de la 9,3% la 7,65% din PIB și a tăiat ~45.600 de posturi din administrație, dar cu costuri sociale distribuite inechitabil și un final de mandat care i-a pătat bilanțul — OUG 38 publicată după demitere, conflict deschis cu magistratura.",
+      "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
         data: "2026-06-04",
@@ -177,7 +172,7 @@ export const actori: Actor[] = [
     evaluare: {
       nota: 6,
       motivare:
-        "Singurul lider recent care a livrat corecție fiscală reală — fără ea, România risca retrogradarea la „junk” și o criză de finanțare. Asta cântărește greu. Dar distribuția costurilor a protejat sistematic mai puțin cetățeanul de rând decât aparatul politic, iar finalul de mandat (OUG 38 după demitere) a încălcat exact principiile de bună guvernare pe care le invoca. Nota 6: competență fiscală reală, miopie socială și un derapaj procedural grav.",
+        "Singurul lider recent care a livrat corecție fiscală reală — fără ea, România risca retrogradarea la „junk” și o criză de finanțare. Asta cântărește greu. Dar distribuția costurilor a protejat sistematic mai puțin cetățeanul de rând decât aparatul politic, iar finalul de mandat (OUG 38 după demitere) a încălcat exact principiile de bună guvernare pe care le invoca. Nota 6: corecție fiscală livrată, costuri sociale ridicate pentru veniturile mici și mijlocii, plus un derapaj procedural grav la final de mandat.",
     },
     surse: [
       {
@@ -196,10 +191,6 @@ export const actori: Actor[] = [
         titlu: "Mediafax — „Nu există corecții de deficit fără costuri”",
         url: "https://www.mediafax.ro/politic/bolojan-nu-s-a-vazut-nicaieri-in-lume-corectari-de-deficite-fara-niste-costuri-23750761",
       },
-      {
-        titlu: "PS News — Bilanț guvernul Bolojan: deficit redus, taxe crescute",
-        url: "https://psnews.ro/guvernul-bolojan-bilant-la-final-reducerea-deficitului-cresterea-taxelor-si-prabusirea-nivelului-de-trai/",
-      },
     ],
   },
   {
@@ -209,7 +200,7 @@ export const actori: Actor[] = [
     partid: "PMP (demisionat de la șefia partidului)",
     dinCand: "desemnat 4 iunie 2026",
     rezumat:
-      "Premierul desemnat al unui guvern care nu pare să aibă voturi: lider al unui partid neparlamentar, propus de Nicușor Dan pentru un cabinet tehnocrat, respins din start de PNL, USR, PSD și AUR. Lista de miniștri depusă pe 10 iunie; vot de învestitură estimat pe 12 iunie.",
+      "Desemnat premier pe 4 iunie 2026 pentru un guvern tehnocrat; lider al unui partid neparlamentar (PMP), de la a cărui șefie a demisionat. Lista de miniștri a fost depusă pe 10 iunie, cu vot de învestitură estimat pe 12 iunie; PNL, USR, PSD și AUR au declarat că nu o susțin.",
     actiuniRecente: [
       {
         data: "2026-06-10",
@@ -263,7 +254,7 @@ export const actori: Actor[] = [
     partid: "PSD",
     dinCand: "7 noiembrie 2025",
     rezumat:
-      "Omul care a dărâmat guvernul fără să aibă unul de schimb: a scos PSD de la guvernare, a trecut moțiunea de cenzură votând alături de AUR, SOS și POT — după ce promisese că nu colaborează cu extremiștii — și a refuzat apoi toate formulele de înlocuire. Critica sa pe transparența SAFE rămâne, însă, legitimă.",
+      "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
       {
         data: "2026-06-05",
@@ -286,7 +277,7 @@ export const actori: Actor[] = [
       {
         promisiune: "„PSD nu colaborează cu extremiștii”",
         status: "nelivrat",
-        detalii: "A votat moțiunea de cenzură împreună cu AUR, SOS și POT — contradicție semnalată de presă și adversari.",
+        detalii: "PSD a depus și a votat moțiunea de cenzură împreună cu AUR, SOS și POT.",
       },
       {
         promisiune: "„Guvern stabil cu majoritate clară”",
@@ -301,7 +292,7 @@ export const actori: Actor[] = [
       },
     ],
     controverse: [
-      "Acuzat de Bolojan și USR că a aruncat țara în criză pentru a opri reforma companiilor de stat — unde PSD avea cele mai multe poziții politizate.",
+      "Bolojan și lideri USR l-au acuzat public că a declanșat criza pentru a opri reforma companiilor de stat — acuzație pe care o respinge.",
       "A acuzat lipsa de transparență a programului SAFE („am aflat de el luni”), deși PSD era la guvernare când programul a fost construit.",
       "Nu au fost identificate anchete penale pe numele său în perioada analizată.",
     ],
@@ -314,7 +305,7 @@ export const actori: Actor[] = [
     evaluare: {
       nota: 4,
       motivare:
-        "Critica sa pe transparența SAFE și sesizarea CCR pe OUG 38 sunt exerciții legitime și utile de control. Dar fapta politică dominantă a perioadei — demolarea guvernului în plină corecție fiscală, cu voturile extremiștilor pe care promisese să-i ocolească și fără nicio alternativă pregătită — a produs costuri directe pentru cetățean: criză prelungită, presiune pe rating, paralizie administrativă. Nota 4: opoziție pricepută la dărâmat, încă nimic livrat la construit.",
+        "Critica sa pe transparența SAFE și sesizarea CCR pe OUG 38 sunt exerciții legitime și utile de control. Dar fapta politică dominantă a perioadei — demolarea guvernului în plină corecție fiscală, cu voturile extremiștilor pe care promisese să-i ocolească și fără nicio alternativă pregătită — a produs costuri directe pentru cetățean: criză prelungită, presiune pe rating, paralizie administrativă. Nota 4: control parlamentar exercitat, dar fără alternativă de guvernare livrată — iar costul instabilității îl plătește cetățeanul.",
     },
     surse: [
       {
@@ -342,7 +333,7 @@ export const actori: Actor[] = [
     partid: "AUR",
     dinCand: "2019 (co-fondator)",
     rezumat:
-      "Liderul celui de-al doilea partid din Parlament a obținut prima sa victorie majoră — căderea unui guvern — votând alături de PSD, partidul pe care îl acuza în aceeași zi de „jaf de proporții gigantice”. Cere anticipate, refuză orice guvern de tranziție și rămâne sub interdicție de intrare în Ucraina pentru „activități anti-ucrainene sistematice”.",
+      "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
       {
         data: "2026-06-05",
@@ -368,16 +359,14 @@ export const actori: Actor[] = [
         promisiune: "Combaterea corupției „sistemului”",
         status: "nelivrat",
         detalii:
-          "A refuzat să spună dacă PSD e „partid corupt” exact când avea nevoie de voturile PSD la moțiune — anticorupția se oprește unde începe aritmetica.",
+          "A refuzat public să răspundă dacă PSD e „partid corupt” în perioada în care AUR avea nevoie de voturile PSD pentru moțiunea de cenzură.",
       },
     ],
     controverse: [
-      "Interdicție de intrare în Ucraina pentru „activități anti-ucrainene sistematice” (document SBU publicat de guvernul ucrainean); neagă acuzațiile de poziții pro-Kremlin.",
-      "Europa Liberă a documentat „cinci motive pentru care George Simion e perceput ca prorus” — el respinge eticheta.",
-      "Declarație din martie 2026 împotriva folosirii extinse a bazelor NATO din România — sursă unică, parțial verificată.",
+      "Interdicție de intrare în Ucraina, motivată printr-un document al autorităților ucrainene (SBU) prin „activități anti-ucrainene sistematice”; Simion respinge acuzațiile.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Suveranist, eurosceptic („Europa națiunilor”); ambiguu pe angajamentele NATO." },
+      { tema: "UE / NATO", pozitie: "Suveranist, eurosceptic („Europa națiunilor”)." },
       { tema: "Ucraina / Rusia", pozitie: "Anti-sprijin pentru Ucraina; sub interdicție de intrare în Ucraina." },
       { tema: "Austeritate", pozitie: "Anti-austeritate, fără plan fiscal alternativ articulat." },
       { tema: "Criza politică", pozitie: "Anticipate cu orice preț; refuză orice guvern de tranziție." },
@@ -385,7 +374,7 @@ export const actori: Actor[] = [
     evaluare: {
       nota: 3,
       motivare:
-        "Canalizează nemulțumiri sociale reale — costul austerității e adevărat, iar critica achizițiilor netransparente din SAFE are temei. Dar instrumentarul său e incompatibil cu interesul național într-un an de război la graniță: subminarea angajamentelor față de Ucraina și NATO, dărâmarea guvernului fără alternativă, oportunism doctrinar (votează cu PSD-ul pe care îl numește hoț). Nota 3: diagnostice parțial corecte, tratamente care ar agrava boala.",
+        "Canalizează nemulțumiri sociale reale — costul austerității e documentat, iar critica achizițiilor fără licitație din SAFE are temei. Judecata noastră nu ține partea niciunei tabere a războiului, ci doar a României, al cărei interes e definit oficial prin apartenența la UE și NATO (Constituție, Strategia Națională de Apărare): pozițiile sale publice contra acestor angajamente, interdicția primită în Ucraina și votul de demitere a guvernului fără alternativă pregătită trag nota în jos. Nota 3: semnalează probleme reale, dar acțiunile documentate slăbesc poziția externă și stabilitatea internă a țării.",
     },
     surse: [
       {
@@ -400,10 +389,6 @@ export const actori: Actor[] = [
         titlu: "HotNews — Motivele interdicției lui Simion în Ucraina (document SBU)",
         url: "https://hotnews.ro/document-motivele-pentru-care-george-simion-a-primit-interdictie-in-ucraina-activitati-antiucrainene-sistematice-neaga-legitimitatea-frontierei-1836339",
       },
-      {
-        titlu: "Europa Liberă — Cinci motive pentru care Simion e perceput ca prorus",
-        url: "https://romania.europalibera.org/a/cinci-motive-pentru-care-george-simion-e-prorus/33409374.html",
-      },
     ],
   },
   {
@@ -413,7 +398,7 @@ export const actori: Actor[] = [
     partid: "USR",
     dinCand: "președinte USR din iunie 2025",
     rezumat:
-      "Vocea cea mai consecventă pe linia reformistă și pro-europeană: a apărat corecția fiscală, a refuzat refacerea coaliției cu PSD și a respins guvernul Tomac ca „paravan pentru PSD”. Consecvența e și punctul lui slab — refuzul oricărui compromis prelungește criza.",
+      "Președinte USR din iunie 2025, primar al Timișoarei din 2020. A susținut corecția fiscală a guvernului Bolojan, a exclus refacerea coaliției cu PSD și a respins guvernul tehnocrat Tomac, pe care l-a calificat drept „paravan pentru ca PSD să exercite puterea”.",
     actiuniRecente: [
       {
         data: "2026-06-05",
@@ -479,7 +464,7 @@ export const actori: Actor[] = [
     partid: "UDMR",
     dinCand: "2011",
     rezumat:
-      "Brokerul tradițional al coalițiilor românești rămâne singurul lider care propune o soluție concretă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Pragmatic, fără scandaluri, dar și fără pârghiile de a-și impune soluția.",
+      "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
       {
         data: "2026-06-08",
@@ -528,7 +513,7 @@ export const actori: Actor[] = [
     functie: "Președintă SOS România, europarlamentar",
     partid: "SOS România",
     rezumat:
-      "Inculpată pentru 11 infracțiuni (inclusiv promovarea ideologiei legionare), cu imunitatea europarlamentară ridicată, a participat în iunie la „Davosul Rusiei” de la Sankt Petersburg, unde a contestat oficialii români la o televiziune rusă. MAE: „propagandă mincinoasă care nu reprezintă România”.",
+      "Inculpată de Parchetul General pentru 11 infracțiuni (inclusiv promovarea ideologiei legionare), cu imunitatea europarlamentară ridicată prin vot al Parlamentului European. În iunie 2026 a participat la Forumul Economic Internațional de la Sankt Petersburg, unde a criticat oficialii români la o televiziune rusă; MAE a calificat demersul drept „propagandă mincinoasă care nu reprezintă România”.",
     actiuniRecente: [
       {
         data: "2026-06-05",
@@ -548,7 +533,7 @@ export const actori: Actor[] = [
         promisiune: "„Apărarea suveranității României”",
         status: "nelivrat",
         detalii:
-          "Activitatea documentată — aliniere la pozițiile Moscovei, participare la forumuri rusești în plin război — servește interesele unei puteri străine ostile, nu suveranitatea României.",
+          "Fapte documentate oficial: participare la un forum economic în Rusia în timpul războiului, declarații contra oficialilor români calificate de MAE drept „propagandă mincinoasă”, inculpare de către Parchetul General și imunitate ridicată de Parlamentul European.",
       },
     ],
     controverse: [
@@ -557,12 +542,12 @@ export const actori: Actor[] = [
     ],
     pozitionare: [
       { tema: "UE / NATO", pozitie: "Deschis anti-UE și anti-NATO." },
-      { tema: "Ucraina / Rusia", pozitie: "Deschis pro-Rusia; participare la evenimente patronate de Kremlin în plin război." },
+      { tema: "Ucraina / Rusia", pozitie: "Participare la evenimente oficiale în Rusia în plin război; declarații publice contra sancțiunilor și a sprijinului pentru Ucraina." },
     ],
     evaluare: {
       nota: 1,
       motivare:
-        "Singurul actor al perioadei ale cărui fapte documentate sunt direct contrare interesului național: promovarea pozițiilor unei puteri ostile aflate în război la granița României, plus acuzații penale pentru promovarea ideologiei legionare. Nota 1 nu e o etichetă ideologică, ci suma faptelor din dosar și a calificărilor oficiale ale statului român.",
+        "Nota 1 nu e o etichetă ideologică, ci suma actelor oficiale ale statului român și ale instituțiilor europene: inculpare pentru 11 infracțiuni (inclusiv promovarea ideologiei legionare — infracțiune, nu opinie), imunitate ridicată de Parlamentul European, acțiuni externe calificate de MAE drept propagandă care nu reprezintă România. Raportat strict la interesul României — singura parte căreia îi ținem partea — faptele documentate trag nota la minimum.",
     },
     surse: [
       {
@@ -585,7 +570,7 @@ export const actori: Actor[] = [
     functie: "Președintă POT",
     partid: "POT",
     rezumat:
-      "Liderea unui partid satelit al lui Călin Georgescu, măcinat de sciziuni interne (liderul de grup parlamentar, exclus din partid). POT a co-semnat moțiunea care a demis guvernul; agenda partidului rămâne subordonată dosarului Georgescu, nu vreunui program de politici publice.",
+      "Președinta POT (~14 deputați). Partidul a co-semnat moțiunea care a demis guvernul Bolojan, iar liderul grupului său parlamentar a fost exclus din partid. Agenda publică a partidului s-a concentrat pe situația juridică a lui Călin Georgescu.",
     actiuniRecente: [
       {
         data: "2026-05-05",
@@ -610,13 +595,13 @@ export const actori: Actor[] = [
       "Atac la Patriarhul BOR pe tema neinvitării lui Georgescu la sfințirea Catedralei.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Suveranistă, oscilantă — mesaje recente „pro-europene” semnalate de presă, neverificate." },
+      { tema: "UE / NATO", pozitie: "Suveranistă." },
       { tema: "Criza politică", pozitie: "A votat demiterea guvernului; agendă centrată pe reabilitarea politică a lui Georgescu." },
     ],
     evaluare: {
       nota: 2,
       motivare:
-        "Partid folosit ca vehicul pentru un singur om, aflat sub acuzații de subminare a ordinii constituționale. Contribuția documentată la binele public în perioada analizată: zero inițiative legislative relevante; contribuția la criză: voturi pentru demolarea guvernului fără alternativă. Nota 2, peste pragul minim doar pentru că, spre deosebire de SOS, nu există fapte documentate de promovare a intereselor unei puteri străine.",
+        "În perioada analizată, activitatea documentată a partidului s-a concentrat pe apărarea lui Călin Georgescu — inculpat pentru acțiuni contra ordinii constituționale — și pe votul de demitere a guvernului, fără inițiative legislative majore proprii. Nota 2 reflectă acest bilanț faptic: contribuție minimă la politicile publice și contribuție directă la instabilitate, fără însă fapte documentate de promovare a intereselor unei puteri străine.",
     },
     surse: [
       {

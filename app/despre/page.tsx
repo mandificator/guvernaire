@@ -17,10 +17,11 @@ export default function DesprePage() {
       <section className="space-y-3 text-[15px] leading-relaxed text-zinc-700">
         <p>
           <strong>guvernAIre</strong> este un guvern paralel: nu guvernează nimic, dar judecă tot.
-          Pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale și
-          presa independentă, punem în balanță ce câștigă și ce pierde țara și cetățeanul, și votăm
+          Pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale ale
+          statului, punem în balanță ce câștigă și ce pierde țara și cetățeanul, și votăm
           transparent. Apoi comparăm votul nostru cu ce au decis în realitate Parlamentul, Guvernul
-          sau Președinția.
+          sau Președinția. Presa, indiferent de orientare, e folosită doar pentru informație —
+          niciodată pentru interpretări.
         </p>
         <p>
           Ideea e simplă: dacă există un punct de referință public, argumentat și constant — „cum ar

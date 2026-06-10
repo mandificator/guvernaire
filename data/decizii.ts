@@ -51,8 +51,7 @@ export const decizii: Decizie[] = [
       "Parlamentul a decis în aceeași direcție cu votul guvernului paralel: programul SAFE merge înainte — și e bine pentru țară că merge. Dar alinierea e doar pe rezultat, nu pe proces. Ceea ce Parlamentul a tolerat — achiziții fără licitație, listă confidențială votată în comisii, o ordonanță emisă de un guvern deja demis — guvernul paralel nu ar fi tolerat. Dacă vulnerabilitățile procedurale semnalate de generali în rezervă, sindicate (BNS a sesizat OLAF) și economiști se materializează, SAFE poate aluneca din cea mai mare oportunitate de modernizare a apărării în cel mai mare scandal de achiziții al deceniului. Verdictul rămâne deschis pe execuție: contractele trebuie monitorizate public, contract cu contract.",
     controverse: [
       "Beretta acuză „11 luni fără competiție reală” și pregătește litigiu; BNS a anunțat sesizarea Comisiei Europene și a OLAF pe lipsa de transparență.",
-      "OUG 38/2026 a fost adoptată în ședința din 4 mai dar publicată pe 8 mai — după demiterea guvernului Bolojan; Avocatul Poporului Renate Weber a numit-o „premieră de la 1991” și a sesizat CCR (termen 10 iunie 2026, rezultat în așteptare).",
-      "Capital.ro a relatat un contract direct de ~200 mil. € pentru o platformă de securitate cibernetică atribuit Digi fără licitație — fără confirmare oficială independentă până acum.",
+      "OUG 38/2026 a fost adoptată în ședința din 4 mai dar publicată pe 8 mai — după demiterea guvernului Bolojan; Avocatul Poporului Renate Weber a numit-o „premieră de la 1991” și a sesizat CCR (sesizare amânată pentru 18 iunie 2026).",
       "Eroarea „de redactare” 198 → 298 blindate Lynx a modificat valoarea contractului cu circa 1 miliard de euro.",
     ],
     surse: [
@@ -187,7 +186,7 @@ export const decizii: Decizie[] = [
     contra: [
       "Demiterea fără majoritate alternativă pregătită a aruncat țara într-o criză politică prelungită, exact în plin proces de corecție fiscală monitorizat de Comisia Europeană și agențiile de rating.",
       "Coaliția conjuncturală PSD–AUR–SOS–POT a unit un partid pro-european cu partide suveraniste/extremiste — contradicție directă cu promisiunea PSD de a nu colabora cu extremiștii.",
-      "Motivele moțiunii (oprirea reformei companiilor de stat) sugerează apărarea unor poziții de partid în administrație, nu protejarea cetățeanului.",
+      "Moțiunea a fost depusă imediat după anunțul restructurării companiilor de stat — companii în care partidele semnatare dețin numeroase poziții de conducere numite politic.",
       "Corecția deficitului — singurul lucru care ținea România departe de retrogradarea rating-ului la „junk” — a rămas fără pilot politic.",
     ],
     votParalel: {
@@ -210,7 +209,7 @@ export const decizii: Decizie[] = [
     controverse: [
       "PSD a votat alături de AUR, SOS și POT după ce promisese explicit că nu colaborează cu extremiștii.",
       "George Simion a acuzat PSD de „jaf de proporții gigantice” pe contractele SAFE chiar în ziua în care vota aceeași moțiune cu PSD.",
-      "Moțiunea a invocat „înstrăinarea de active strategice” — dar restructurarea companiilor de stat viza managementul politizat, în bună parte numit de PSD.",
+      "Moțiunea a invocat „înstrăinarea de active strategice”; programul guvernului anunța restructurarea managementului companiilor de stat.",
     ],
     surse: [
       {
@@ -330,7 +329,6 @@ export const decizii: Decizie[] = [
       "Parlamentul și guvernul paralel au votat la fel — caz rar de aliniere pe o temă de justiție. Conflictul instituțional care a urmat (Parlament + Ambasada SUA vs. Înalta Curte condusă de Lia Savonea) mută însă decizia finală la CCR. Poziția noastră: dacă CCR cere corecții punctuale pe citare și pe reexaminarea probelor, legea iese mai bună; o invalidare totală ar reînchide pe ani de zile singura fereastră de consens politic pentru accelerarea justiției penale.",
     controverse: [
       "Poziționarea publică a Ambasadei SUA de partea unei legi contestate de Curtea Supremă — situație diplomatică neobișnuită.",
-      "Sesizarea vine de la o ÎCCJ condusă de Lia Savonea, ea însăși figură controversată în magistratură — context care alimentează ambele tabere.",
     ],
     surse: [
       {
