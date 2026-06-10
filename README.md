@@ -5,7 +5,7 @@ Un proiect civic independent, asistat de AI: pentru fiecare lege, ordonanță sa
 ## Ce conține
 
 - **Decizii & legi** (`/decizii`) — analize cu explicații pe înțelesul tuturor, balanța argumentelor, votul guvernului paralel (cu scor de impact −10…+10) și comparația cu votul real din Parlament (cifre, defalcare pe partide unde există). Exemplu-fanion: programul SAFE (împrumutul de 16,68 mld. € pentru apărare).
-- **Actori politici** (`/actori`) — președinte, premier, lideri de partide: acțiuni recente datate, promisiuni vs fapte, controverse documentate, notă 1–10 de aliniere a faptelor cu interesul public.
+- **Actori politici** (`/actori`) — președinte, premier, lideri de partide: acțiuni recente datate, promisiuni vs fapte, controverse documentate, poziții declarate. Fără note și fără clasamente — un top e tot o etichetă.
 - **Metodologie** (`/metodologie`) — criteriile de vot și garanțiile anti-bias, aplicate identic tuturor.
 
 Site-ul a fost lansat pe 10 iunie 2026, populat cu deciziile majore din perioada 5 mai – 10 iunie 2026 (căderea guvernului Bolojan, programul SAFE, reforma Codului de procedură penală, Legea 64/2026 ș.a.).

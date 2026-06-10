@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { actori, getActor } from "@/data/actori";
-import { DataRo, NotaActor, SectionTitle, Surse } from "@/components/ui";
+import { DataRo, SectionTitle, Surse } from "@/components/ui";
 import type { StatusPromisiune } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -48,22 +48,15 @@ export default async function ActorPage({
         <Link href="/actori" className="text-sm text-blue-700 hover:underline">
           ← toți actorii
         </Link>
-        <div className="flex items-start gap-5">
-          <NotaActor nota={a.evaluare.nota} />
-          <div>
-            <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">{a.nume}</h1>
-            <p className="text-sm text-zinc-500">
-              {a.functie}
-              {a.partid ? ` · ${a.partid}` : ""}
-              {a.dinCand ? ` · din ${a.dinCand}` : ""}
-            </p>
-          </div>
+        <div>
+          <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">{a.nume}</h1>
+          <p className="text-sm text-zinc-500">
+            {a.functie}
+            {a.partid ? ` · ${a.partid}` : ""}
+            {a.dinCand ? ` · din ${a.dinCand}` : ""}
+          </p>
         </div>
         <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-700">{a.rezumat}</p>
-        <div className="rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm leading-relaxed text-zinc-700">
-          <strong className="text-blue-900">De ce nota {a.evaluare.nota}/10:</strong>{" "}
-          {a.evaluare.motivare}
-        </div>
       </header>
 
       <section>

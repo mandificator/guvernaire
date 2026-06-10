@@ -18,7 +18,6 @@ export default function Home() {
   const cuVot = decizii.filter((d) => d.aliniere !== "fără-vot");
   const aliniate = cuVot.filter((d) => d.aliniere === "aliniat").length;
   const divergente = cuVot.filter((d) => d.aliniere === "divergent").length;
-  const actoriSortati = [...actori].sort((a, b) => b.evaluare.nota - a.evaluare.nota);
 
   return (
     <div className="space-y-10">
@@ -113,36 +112,24 @@ export default function Home() {
 
           <div className="border-t-4 border-zinc-900 p-0">
             <h2 className="mb-3 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
-              Indicele actorilor politici
+              Actorii politici, sub lupă
             </h2>
             <ul className="divide-y divide-zinc-100">
-              {actoriSortati.map((a) => (
+              {actori.map((a) => (
                 <li key={a.slug}>
                   <Link
                     href={`/actori/${a.slug}`}
-                    className="flex items-center justify-between gap-3 py-2.5 hover:bg-zinc-50"
+                    className="block py-2.5 hover:bg-zinc-50"
                   >
-                    <div className="min-w-0">
-                      <div className="truncate text-sm font-bold text-zinc-900">{a.nume}</div>
-                      <div className="truncate text-[11px] text-zinc-500">{a.functie}</div>
-                    </div>
-                    <span
-                      className={`shrink-0 rounded px-2 py-0.5 text-sm font-extrabold tabular-nums ${
-                        a.evaluare.nota >= 7
-                          ? "bg-emerald-100 text-emerald-800"
-                          : a.evaluare.nota >= 5
-                            ? "bg-amber-100 text-amber-800"
-                            : "bg-red-100 text-red-800"
-                      }`}
-                    >
-                      {a.evaluare.nota}
-                    </span>
+                    <div className="truncate text-sm font-bold text-zinc-900">{a.nume}</div>
+                    <div className="truncate text-[11px] text-zinc-500">{a.functie}</div>
                   </Link>
                 </li>
               ))}
             </ul>
             <p className="mt-2 text-[11px] leading-relaxed text-zinc-400">
-              Nota 1–10 = alinierea faptelor documentate cu interesul public.
+              Fapte documentate, promisiuni vs livrare, poziții declarate — fără note, fără
+              clasamente, fără etichete.
             </p>
           </div>
         </aside>

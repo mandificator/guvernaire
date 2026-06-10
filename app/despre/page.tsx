@@ -41,8 +41,9 @@ export default function DesprePage() {
           </li>
           <li>
             <Link href="/actori" className="text-blue-700 hover:underline">Actori politici</Link> —
-            președinte, premier, lideri de partide: acțiuni, promisiuni vs fapte, controverse, notă
-            de aliniere cu interesul public.
+            președinte, premier, lideri de partide: acțiuni documentate, promisiuni vs fapte,
+            controverse cu sursă, poziții declarate. Fără note și fără clasamente — concluziile le
+            tragi tu.
           </li>
           <li>
             <Link href="/metodologie" className="text-blue-700 hover:underline">Metodologie</Link> —

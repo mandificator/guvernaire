@@ -2,8 +2,9 @@ import type { Actor } from "@/lib/types";
 
 /**
  * Actorii politici analizați: președinte, premier, lideri de partide.
- * Evaluarea (nota 1–10) măsoară alinierea faptelor cu interesul public,
- * pe baza acțiunilor documentate în `surse`. Actualizat la 10 iunie 2026.
+ * Doar fapte documentate în `surse`: acțiuni, promisiuni vs livrare, poziții declarate.
+ * NOTĂ: câmpul `evaluare` este DEZAFECTAT (nu se mai afișează și nu se mai actualizează) —
+ * notele pentru oameni politici sunt ele însele o etichetă. Actualizat la 10 iunie 2026.
  */
 export const actori: Actor[] = [
   {

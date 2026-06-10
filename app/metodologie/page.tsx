@@ -79,7 +79,7 @@ export default function MetodologiePage() {
           <li>Analizăm <strong>argumentele, nu autorii</strong>: o lege bună propusă de un partid pe care l-am criticat rămâne o lege bună, și invers.</li>
           <li><strong>Separăm faptele de judecăți</strong>: descrierile (ce s-a întâmplat, cine, când) sunt strict factuale și sursate oficial; judecățile noastre argumentate apar doar în secțiunile marcate ca atare — votul paralel, motivarea notei, verdictul final.</li>
           <li>Publicăm <strong>întotdeauna ambele coloane</strong> — pro și contra — chiar și când verdictul e clar.</li>
-          <li>Nota actorilor politici se bazează pe <strong>fapte documentate</strong> (voturi, decizii, livrarea promisiunilor), nu pe declarații, sondaje sau simpatii.</li>
+          <li><strong>Nu dăm note și nu facem clasamente de oameni politici</strong> — un top e tot o etichetă, doar cu cifre. Profilurile actorilor conțin exclusiv fapte documentate: voturi, decizii, promisiuni vs livrare, declarații atribuite. Concluziile le trage cititorul.</li>
           <li>Când datele lipsesc sau sunt contradictorii, <strong>spunem explicit</strong> și ne abținem în loc să ghicim.</li>
           <li>Analizele sunt generate cu asistență AI și pot conține erori — sursele citate permit oricui să verifice și să ne contrazică.</li>
         </ul>

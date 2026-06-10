@@ -68,7 +68,7 @@ export interface Actor {
   }[];
   controverse: string[];
   pozitionare: { tema: string; pozitie: string }[];
-  /** Notă 1–10: cât de aliniat e cu interesul public, pe baza faptelor de până acum */
-  evaluare: { nota: number; motivare: string };
+  /** @deprecated Nu se mai afișează și nu se mai actualizează — notele pentru oameni sunt etichete. */
+  evaluare?: { nota: number; motivare: string };
   surse: Sursa[];
 }
