@@ -140,26 +140,79 @@ export function ProContra({ pro, contra }: { pro: string[]; contra: string[] }) 
   );
 }
 
-export function Surse({ surse }: { surse: { titlu: string; url: string }[] }) {
+const DOMENII_OFICIALE = [
+  "gov.ro",
+  "cdep.ro",
+  "senat.ro",
+  "presidency.ro",
+  "ccr.ro",
+  "avp.ro",
+  "just.ro",
+  "mapn.ro",
+  "mai.gov.ro",
+  "monitoruloficial.ro",
+  "insse.ro",
+  "europa.eu",
+  "mae.ro",
+];
+
+function esteOficiala(url: string): boolean {
+  try {
+    const h = new URL(url).hostname;
+    return DOMENII_OFICIALE.some((d) => h === d || h.endsWith("." + d));
+  } catch {
+    return false;
+  }
+}
+
+function SursaLink({ s }: { s: { titlu: string; url: string } }) {
   return (
-    <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-5">
-      <h3 className="mb-3 text-sm font-bold uppercase tracking-wide text-zinc-600">
-        Surse
-      </h3>
-      <ul className="space-y-1.5">
-        {surse.map((s, i) => (
-          <li key={i} className="text-sm">
-            <a
-              href={s.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-700 underline-offset-2 hover:underline"
-            >
-              {s.titlu} ↗
-            </a>
-          </li>
-        ))}
-      </ul>
+    <a
+      href={s.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm leading-snug text-blue-800 underline-offset-2 hover:border-blue-300 hover:underline"
+    >
+      {s.titlu} ↗
+    </a>
+  );
+}
+
+export function Surse({ surse }: { surse: { titlu: string; url: string }[] }) {
+  const oficiale = surse.filter((s) => esteOficiala(s.url));
+  const presa = surse.filter((s) => !esteOficiala(s.url));
+  return (
+    <div className="space-y-4 rounded-xl border border-zinc-200 bg-zinc-50 p-4 sm:p-5">
+      {oficiale.length > 0 && (
+        <div>
+          <h3 className="mb-2 flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-zinc-600">
+            <span className="rounded bg-blue-900 px-1.5 py-0.5 text-[10px] font-black text-white">
+              OFICIAL
+            </span>
+            Surse oficiale de stat
+          </h3>
+          <div className="space-y-1.5">
+            {oficiale.map((s, i) => (
+              <SursaLink key={i} s={s} />
+            ))}
+          </div>
+        </div>
+      )}
+      {presa.length > 0 && (
+        <div>
+          <h3 className="mb-2 flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-zinc-600">
+            <span className="rounded bg-zinc-500 px-1.5 py-0.5 text-[10px] font-black text-white">
+              PRESĂ
+            </span>
+            Citată doar pentru informație, nu pentru interpretări
+          </h3>
+          <div className="space-y-1.5">
+            {presa.map((s, i) => (
+              <SursaLink key={i} s={s} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

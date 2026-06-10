@@ -55,9 +55,39 @@ export default async function DeciziePage({
             </span>
           ))}
         </div>
-        <h1 className="text-2xl font-extrabold leading-tight sm:text-3xl">{d.titlu}</h1>
-        <p className="max-w-3xl text-base text-zinc-600">{d.rezumat}</p>
+        <h1 className="text-[22px] font-extrabold leading-tight sm:text-3xl">{d.titlu}</h1>
+        <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-600 sm:text-base">
+          {d.rezumat}
+        </p>
       </header>
+
+      <section className="grid grid-cols-1 gap-2.5 sm:grid-cols-3">
+        <div className="rounded-xl border-2 border-blue-900 bg-white p-3.5">
+          <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-blue-900">
+            Votul nostru
+          </div>
+          <div className="flex flex-wrap items-center gap-1.5">
+            <VotBadge vot={d.votParalel.vot} />
+            <span className="text-sm font-semibold text-zinc-700">
+              scor {d.votParalel.scor > 0 ? `+${d.votParalel.scor}` : d.votParalel.scor}
+            </span>
+          </div>
+        </div>
+        <div className="rounded-xl border border-zinc-300 bg-zinc-100 p-3.5">
+          <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+            Decizia reală
+          </div>
+          <div className="text-sm font-semibold leading-snug text-zinc-800">
+            {d.votReal ? d.votReal.rezultat.split(".")[0] : "În așteptare"}
+          </div>
+        </div>
+        <div className="rounded-xl border border-zinc-200 bg-white p-3.5">
+          <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
+            Comparația
+          </div>
+          <AliniereBadge aliniere={d.aliniere} />
+        </div>
+      </section>
 
       <section>
         <SectionTitle>Ce înseamnă, pe înțelesul tuturor</SectionTitle>

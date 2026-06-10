@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
@@ -9,12 +9,42 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://guvernaire.vercel.app"),
   title: {
     default: "guvernAIre — Guvernul paralel al cetățeanului",
     template: "%s · guvernAIre",
   },
   description:
-    "Un guvern paralel independent: analizăm fiecare lege și decizie din România, cântărim ce e bine pentru țară și cetățean, votăm în consecință și comparăm cu votul real din Parlament.",
+    "Fiecare lege din România, explicată pe înțelesul tău: argumente pro și contra, votul guvernului paralel și comparația cu votul real din Parlament. Fapte din surse oficiale, zero simpatii politice.",
+  keywords: [
+    "legi România",
+    "Parlament",
+    "vot",
+    "guvern",
+    "analiză politică",
+    "Monitorul Oficial",
+    "decizii politice",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "ro_RO",
+    url: "https://guvernaire.vercel.app",
+    siteName: "guvernAIre",
+    title: "guvernAIre — Guvernul paralel al cetățeanului",
+    description:
+      "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
+  },
+  twitter: {
+    card: "summary",
+    title: "guvernAIre — Guvernul paralel al cetățeanului",
+    description:
+      "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
+  },
+  robots: { index: true, follow: true },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#172554",
 };
 
 const nav = [
@@ -32,23 +62,41 @@ export default function RootLayout({
   return (
     <html lang="ro" className={`${inter.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-zinc-50 text-zinc-900">
-        <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/90 backdrop-blur">
-          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-4 py-3">
-            <Link href="/" className="flex items-baseline gap-1 text-xl font-extrabold tracking-tight">
-              <span className="text-blue-900">guvern</span>
-              <span className="rounded bg-blue-900 px-1.5 py-0.5 text-sm font-black text-yellow-400">AI</span>
-              <span className="text-blue-900">re</span>
-            </Link>
-            <nav className="flex flex-wrap items-center gap-x-5 gap-y-1 text-sm font-medium text-zinc-600">
+        <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur">
+          <div className="mx-auto max-w-5xl px-4">
+            <div className="flex items-center justify-between py-2.5">
+              <Link
+                href="/"
+                className="flex items-baseline gap-0.5 text-xl font-extrabold tracking-tight"
+              >
+                <span className="text-blue-900">guvern</span>
+                <span className="rounded bg-blue-900 px-1.5 py-0.5 text-sm font-black text-yellow-400">
+                  AI
+                </span>
+                <span className="text-blue-900">re</span>
+              </Link>
+              <nav className="hidden items-center gap-5 text-sm font-medium text-zinc-600 sm:flex">
+                {nav.map((n) => (
+                  <Link key={n.href} href={n.href} className="hover:text-blue-900">
+                    {n.label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+            <nav className="-mx-4 flex gap-1 overflow-x-auto px-4 pb-2 sm:hidden">
               {nav.map((n) => (
-                <Link key={n.href} href={n.href} className="hover:text-blue-900">
+                <Link
+                  key={n.href}
+                  href={n.href}
+                  className="shrink-0 rounded-full border border-zinc-200 bg-white px-3.5 py-1.5 text-[13px] font-medium text-zinc-700 active:bg-blue-50"
+                >
                   {n.label}
                 </Link>
               ))}
             </nav>
           </div>
         </header>
-        <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8">{children}</main>
+        <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 sm:py-8">{children}</main>
         <footer className="border-t border-zinc-200 bg-white">
           <div className="mx-auto max-w-5xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
             <p>

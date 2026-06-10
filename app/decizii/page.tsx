@@ -42,11 +42,13 @@ export default function DeciziiPage() {
                 </span>
               ))}
             </div>
-            <h2 className="mb-1.5 text-lg font-bold">{d.titlu}</h2>
-            <p className="mb-3 text-sm leading-relaxed text-zinc-600">{d.rezumat}</p>
-            <div className="flex flex-wrap items-center gap-3 text-sm">
-              <span className="text-zinc-500">Votul nostru:</span>
+            <h2 className="mb-1.5 text-base font-bold leading-snug sm:text-lg">{d.titlu}</h2>
+            <p className="mb-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">{d.rezumat}</p>
+            <div className="flex flex-wrap items-center gap-2 text-sm">
+              <span className="text-xs text-zinc-500">Votul nostru:</span>
               <VotBadge vot={d.votParalel.vot} />
+            </div>
+            <div className="mt-2">
               <AliniereBadge aliniere={d.aliniere} />
             </div>
           </CardLink>
