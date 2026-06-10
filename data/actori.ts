@@ -13,7 +13,7 @@ export const actori: Actor[] = [
     partid: "independent",
     dinCand: "26 mai 2025",
     rezumat:
-      "Un an de mandat: ancorare fermă pro-UE/NATO și gestionare corectă a crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și un pariu riscant pe guvernul tehnocrat Tomac, fără majoritate conturată.",
+      "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
         data: "2026-06-05",
@@ -62,7 +62,7 @@ export const actori: Actor[] = [
       "Șefii SRI și SIE nu au fost numiți după mai bine de un an de mandat — atribuție prezidențială exercitată doar prin conduceri interimare.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Ferm pro-occidental; prioritate pe securitatea Mării Negre." },
+      { tema: "UE / NATO", pozitie: "Susține apartenența României la UE și NATO; prioritate declarată: securitatea Mării Negre." },
       { tema: "Austeritate / deficit", pozitie: "A susținut corecția fiscală a guvernului Bolojan." },
       {
         tema: "Stat de drept",
@@ -76,7 +76,7 @@ export const actori: Actor[] = [
     evaluare: {
       nota: 6,
       motivare:
-        "Plusuri solide pe securitate și politică externă — domeniile-cheie ale președinției — și o linie constantă pro-europeană într-un an turbulent. Minusuri grele la livrarea propriilor promisiuni (SRI/SIE, raportul alegerilor) și la managementul crizei politice: desemnarea Tomac fără aritmetică parlamentară prelungește vidul de guvernare. Nota 6: peste medie pe extern, sub așteptări pe intern.",
+        "Plusuri solide pe securitate și politică externă — domeniile-cheie ale președinției — și o linie constantă pe angajamentele externe asumate de România într-un an turbulent. Minusuri grele la livrarea propriilor promisiuni (SRI/SIE, raportul alegerilor) și la managementul crizei politice: desemnarea Tomac fără aritmetică parlamentară prelungește vidul de guvernare. Nota 6: peste medie pe extern, sub așteptări pe intern.",
     },
     surse: [
       {
@@ -162,7 +162,7 @@ export const actori: Actor[] = [
         tema: "Austeritate / deficit",
         pozitie: "Asumată integral: „nu s-au văzut nicăieri în lume corectări de deficite fără costuri”.",
       },
-      { tema: "UE / NATO", pozitie: "Pro-occidental; arhitectul participării României la SAFE." },
+      { tema: "UE / NATO", pozitie: "A coordonat participarea României la programul european SAFE; fără abateri de la angajamentele externe oficiale." },
       {
         tema: "Stat de drept",
         pozitie: "Reformist pe pensiile speciale, dar cu derapaje procedurale (OUG 38) și conflict instituțional cu magistratura.",
@@ -228,7 +228,7 @@ export const actori: Actor[] = [
       "AUR a numit desemnarea „un pericol pentru democrație”; USR — „paravan pentru ca PSD să exercite puterea”.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Pro-european declarat, istoric apropiat de zona de centru-dreapta." },
+      { tema: "UE / NATO", pozitie: "Susține declarativ angajamentele României în UE și NATO." },
       { tema: "Criza politică", pozitie: "Guvern tehnic, fără apartenență de partid, până la clarificarea majorității." },
     ],
     evaluare: {
@@ -298,14 +298,14 @@ export const actori: Actor[] = [
     ],
     pozitionare: [
       { tema: "Austeritate / deficit", pozitie: "Anti-austeritate: „România nu poate fi guvernată doar prin aroganță”." },
-      { tema: "UE / NATO", pozitie: "Pro-UE declarativ; fără rupturi documentate de linia externă oficială." },
+      { tema: "UE / NATO", pozitie: "Fără abateri documentate de la linia externă oficială a României." },
       { tema: "SAFE / apărare", pozitie: "Susține înzestrarea, contestă procedura (sesizare CCR pe OUG 38)." },
       { tema: "Criza politică", pozitie: "Refuză guvern minoritar, alianța cu AUR și formula Tomac — fără a propune o alternativă cu majoritate." },
     ],
     evaluare: {
       nota: 4,
       motivare:
-        "Critica sa pe transparența SAFE și sesizarea CCR pe OUG 38 sunt exerciții legitime și utile de control. Dar fapta politică dominantă a perioadei — demolarea guvernului în plină corecție fiscală, cu voturile extremiștilor pe care promisese să-i ocolească și fără nicio alternativă pregătită — a produs costuri directe pentru cetățean: criză prelungită, presiune pe rating, paralizie administrativă. Nota 4: control parlamentar exercitat, dar fără alternativă de guvernare livrată — iar costul instabilității îl plătește cetățeanul.",
+        "Critica sa pe transparența SAFE și sesizarea CCR pe OUG 38 sunt exerciții legitime și utile de control. Dar fapta politică dominantă a perioadei — demolarea guvernului în plină corecție fiscală, cu voturile partidelor cu care declarase că nu va colabora și fără nicio alternativă pregătită — a produs costuri directe pentru cetățean: criză prelungită, presiune pe rating, paralizie administrativă. Nota 4: control parlamentar exercitat, dar fără alternativă de guvernare livrată — iar costul instabilității îl plătește cetățeanul.",
     },
     surse: [
       {
@@ -366,7 +366,7 @@ export const actori: Actor[] = [
       "Interdicție de intrare în Ucraina, motivată printr-un document al autorităților ucrainene (SBU) prin „activități anti-ucrainene sistematice”; Simion respinge acuzațiile.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Suveranist, eurosceptic („Europa națiunilor”)." },
+      { tema: "UE / NATO", pozitie: "Promovează conceptul „Europa națiunilor”; critică frecvent deciziile instituțiilor UE." },
       { tema: "Ucraina / Rusia", pozitie: "Anti-sprijin pentru Ucraina; sub interdicție de intrare în Ucraina." },
       { tema: "Austeritate", pozitie: "Anti-austeritate, fără plan fiscal alternativ articulat." },
       { tema: "Criza politică", pozitie: "Anticipate cu orice preț; refuză orice guvern de tranziție." },
@@ -432,7 +432,7 @@ export const actori: Actor[] = [
       "Contestație internă în USR privind eligibilitatea sa ca președinte de partid.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Ferm pro-UE, pro-NATO, pro-Ucraina." },
+      { tema: "UE / NATO", pozitie: "Susține apartenența la UE și NATO și sprijinul pentru Ucraina." },
       { tema: "Austeritate / deficit", pozitie: "Pro-corecție fiscală; deficitul = „decizii politice”, nu fatalitate." },
       { tema: "Stat de drept", pozitie: "Linie anticorupție; critică numirile din parchete girate de președinte." },
       { tema: "Criza politică", pozitie: "Refuză coaliția cu PSD și guvernul tehnocrat; preferă clarificare prin alegeri dacă e nevoie." },
@@ -488,7 +488,7 @@ export const actori: Actor[] = [
     ],
     pozitionare: [
       { tema: "Criza politică", pozitie: "Refacerea coaliției largi; guvern politic, nu tehnocrat." },
-      { tema: "UE / NATO", pozitie: "Pro-european pragmatic." },
+      { tema: "UE / NATO", pozitie: "Susține angajamentele României în UE și NATO; accent pe stabilitate." },
       { tema: "Austeritate / deficit", pozitie: "A susținut corecția din interiorul guvernului Bolojan, fără entuziasm public." },
     ],
     evaluare: {
@@ -541,7 +541,7 @@ export const actori: Actor[] = [
       "MAE a calificat participarea la forumul de la Sankt Petersburg drept „propagandă mincinoasă care nu reprezintă România”.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Deschis anti-UE și anti-NATO." },
+      { tema: "UE / NATO", pozitie: "Declarații publice repetate împotriva apartenenței României la UE și NATO." },
       { tema: "Ucraina / Rusia", pozitie: "Participare la evenimente oficiale în Rusia în plin război; declarații publice contra sancțiunilor și a sprijinului pentru Ucraina." },
     ],
     evaluare: {
@@ -595,7 +595,7 @@ export const actori: Actor[] = [
       "Atac la Patriarhul BOR pe tema neinvitării lui Georgescu la sfințirea Catedralei.",
     ],
     pozitionare: [
-      { tema: "UE / NATO", pozitie: "Suveranistă." },
+      { tema: "UE / NATO", pozitie: "Fără program extern articulat; declarații publice critice la adresa instituțiilor UE." },
       { tema: "Criza politică", pozitie: "A votat demiterea guvernului; agendă centrată pe reabilitarea politică a lui Georgescu." },
     ],
     evaluare: {

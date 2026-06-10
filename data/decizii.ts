@@ -194,7 +194,7 @@ export const decizii: Decizie[] = [
     ],
     contra: [
       "Demiterea fără majoritate alternativă pregătită a aruncat țara într-o criză politică prelungită, exact în plin proces de corecție fiscală monitorizat de Comisia Europeană și agențiile de rating.",
-      "Coaliția conjuncturală PSD–AUR–SOS–POT a unit un partid pro-european cu partide suveraniste/extremiste — contradicție directă cu promisiunea PSD de a nu colabora cu extremiștii.",
+      "PSD, AUR, SOS și POT au votat împreună moțiunea, deși conducerea PSD declarase anterior, public, că nu va colabora cu aceste partide — contradicție directă între declarație și vot.",
       "Moțiunea a fost depusă imediat după anunțul restructurării companiilor de stat — companii în care partidele semnatare dețin numeroase poziții de conducere numite politic.",
       "Corecția deficitului — singurul lucru care ținea România departe de retrogradarea rating-ului la „junk” — a rămas fără pilot politic.",
     ],
@@ -217,7 +217,7 @@ export const decizii: Decizie[] = [
     verdictFinal:
       "Parlamentul a decis invers față de guvernul paralel, iar consecințele i-au dat dreptate votului nostru în doar o lună: niciun guvern nou la 10 iunie, un premier desemnat (Tomac) respins din start de toate partidele mari, presiune pe rating și pe leu, și un precedent toxic — OUG-uri emise de un guvern demis. Cine a votat moțiunea avea obligația să aibă o alternativă. Nu a avut-o. Costul acestei iresponsabilități colective se măsoară în dobânzile pe care le plătim toți.",
     controverse: [
-      "PSD a votat alături de AUR, SOS și POT după ce promisese explicit că nu colaborează cu extremiștii.",
+      "PSD a votat alături de AUR, SOS și POT, în contradicție cu declarația anterioară a propriei conduceri că nu va colabora cu aceste partide.",
       "George Simion a acuzat PSD de „jaf de proporții gigantice” pe contractele SAFE chiar în ziua în care vota aceeași moțiune cu PSD.",
       "Moțiunea a invocat „înstrăinarea de active strategice”; programul guvernului anunța restructurarea managementului companiilor de stat.",
     ],
