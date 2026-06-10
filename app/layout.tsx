@@ -147,6 +147,12 @@ export default function RootLayout({
                 Abonare RSS
               </a>
             </p>
+            <p className="border-t border-zinc-200 pt-2">
+              Acest site este un experiment făcut de <strong>Octavian Viorel</strong> · contact:{" "}
+              <a href="mailto:tavi@pukka.ro" className="font-semibold text-blue-800 hover:underline">
+                tavi@pukka.ro
+              </a>
+            </p>
           </div>
         </footer>
       </body>
