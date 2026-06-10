@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
+import { Invitatie } from "@/components/invitatie";
 import "./globals.css";
 
 const inter = Inter({
@@ -128,6 +130,7 @@ export default function RootLayout({
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:py-8">{children}</main>
         <footer className="mt-8 border-t-2 border-zinc-900 bg-zinc-50">
           <div className="mx-auto max-w-6xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
+            <Invitatie />
             <p className="text-sm font-extrabold tracking-tight text-blue-950">
               guvernare.online <span className="font-normal text-zinc-400">·</span>{" "}
               <span className="font-normal text-zinc-500">
@@ -148,13 +151,16 @@ export default function RootLayout({
               </a>
             </p>
             <p className="border-t border-zinc-200 pt-2">
-              Acest site este un experiment făcut de <strong>Octavian Viorel</strong> · contact:{" "}
+              <strong>guvernare.online</strong> este un proiect independent creat de{" "}
+              <strong>Octavian Viorel</strong>, dedicat informării publice pe bază de fapte, fără
+              etichete și fără părtinire. Contact:{" "}
               <a href="mailto:tavi@pukka.ro" className="font-semibold text-blue-800 hover:underline">
                 tavi@pukka.ro
               </a>
             </p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
