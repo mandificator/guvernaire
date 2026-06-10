@@ -219,9 +219,91 @@ export function Surse({ surse }: { surse: { titlu: string; url: string }[] }) {
 
 export function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="mb-4 border-l-4 border-blue-800 pl-3 text-lg font-bold text-zinc-900">
+    <h2 className="mb-4 border-t-2 border-zinc-900 pt-2 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
       {children}
     </h2>
+  );
+}
+
+export function VotCifre({
+  cifre,
+}: {
+  cifre: { pentru: number; contra: number; abtineri: number };
+}) {
+  const total = cifre.pentru + cifre.contra + cifre.abtineri || 1;
+  const rows = [
+    { eticheta: "Pentru", val: cifre.pentru, cls: "bg-emerald-600" },
+    { eticheta: "Contra", val: cifre.contra, cls: "bg-red-600" },
+    { eticheta: "Abțineri", val: cifre.abtineri, cls: "bg-zinc-400" },
+  ];
+  return (
+    <div className="mt-3 space-y-1.5">
+      {rows.map((r) => (
+        <div key={r.eticheta} className="flex items-center gap-2 text-xs">
+          <span className="w-16 shrink-0 text-zinc-500">{r.eticheta}</span>
+          <div className="h-3.5 flex-1 overflow-hidden rounded-sm bg-zinc-100">
+            <div
+              className={`h-full ${r.cls}`}
+              style={{ width: `${Math.max((r.val / total) * 100, r.val > 0 ? 2 : 0)}%` }}
+            />
+          </div>
+          <span className="w-9 shrink-0 text-right font-bold tabular-nums text-zinc-800">
+            {r.val}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+const GLOSAR: { termen: string; explicatie: string }[] = [
+  {
+    termen: "OUG (ordonanță de urgență)",
+    explicatie:
+      "Act cu putere de lege emis direct de Guvern, fără vot prealabil în Parlament; Parlamentul o aprobă sau o respinge ulterior.",
+  },
+  {
+    termen: "Moțiune de cenzură",
+    explicatie:
+      "Singurul instrument prin care Parlamentul poate demite Guvernul; are nevoie de votul majorității tuturor parlamentarilor (233).",
+  },
+  {
+    termen: "Cameră decizională",
+    explicatie:
+      "Camera Parlamentului (Deputați sau Senat) al cărei vot e cel final pentru o anumită lege; cealaltă cameră dă doar primul vot.",
+  },
+  {
+    termen: "Adoptare tacită",
+    explicatie:
+      "Dacă prima cameră nu votează un proiect în termenul legal, acesta se consideră adoptat automat, fără vot.",
+  },
+  {
+    termen: "Promulgare",
+    explicatie:
+      "Semnătura președintelui prin care o lege votată de Parlament intră în vigoare; președintele o poate retrimite o singură dată.",
+  },
+  {
+    termen: "CCR",
+    explicatie:
+      "Curtea Constituțională a României — verifică dacă legile respectă Constituția; deciziile ei sunt definitive și obligatorii.",
+  },
+];
+
+export function Glosar() {
+  return (
+    <details className="group rounded-lg border border-zinc-200 bg-white">
+      <summary className="cursor-pointer select-none px-4 py-3 text-sm font-semibold text-zinc-700 group-open:border-b group-open:border-zinc-200">
+        📖 Mini-glosar: ce înseamnă termenii din această analiză
+      </summary>
+      <dl className="space-y-3 px-4 py-3">
+        {GLOSAR.map((g) => (
+          <div key={g.termen}>
+            <dt className="text-sm font-bold text-zinc-900">{g.termen}</dt>
+            <dd className="text-sm leading-relaxed text-zinc-600">{g.explicatie}</dd>
+          </div>
+        ))}
+      </dl>
+    </details>
   );
 }
 

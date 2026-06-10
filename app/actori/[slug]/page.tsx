@@ -51,7 +51,7 @@ export default async function ActorPage({
         <div className="flex items-start gap-5">
           <NotaActor nota={a.evaluare.nota} />
           <div>
-            <h1 className="text-2xl font-extrabold sm:text-3xl">{a.nume}</h1>
+            <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">{a.nume}</h1>
             <p className="text-sm text-zinc-500">
               {a.functie}
               {a.partid ? ` · ${a.partid}` : ""}

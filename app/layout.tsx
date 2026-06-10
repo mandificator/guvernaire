@@ -1,11 +1,17 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
+});
+
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
+  subsets: ["latin", "latin-ext"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -25,6 +31,11 @@ export const metadata: Metadata = {
     "Monitorul Oficial",
     "decizii politice",
   ],
+  manifest: "/manifest.json",
+  icons: { icon: "/icon.svg" },
+  alternates: {
+    types: { "application/rss+xml": "/feed.xml" },
+  },
   openGraph: {
     type: "website",
     locale: "ro_RO",
@@ -54,41 +65,60 @@ const nav = [
   { href: "/despre", label: "Despre" },
 ];
 
+function DataAzi() {
+  const luni = [
+    "ianuarie", "februarie", "martie", "aprilie", "mai", "iunie",
+    "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie",
+  ];
+  const zile = ["duminică", "luni", "marți", "miercuri", "joi", "vineri", "sâmbătă"];
+  const d = new Date();
+  return (
+    <span suppressHydrationWarning>
+      {zile[d.getDay()]}, {d.getDate()} {luni[d.getMonth()]} {d.getFullYear()}
+    </span>
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ro" className={`${inter.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col bg-zinc-50 text-zinc-900">
-        <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/95 backdrop-blur">
-          <div className="mx-auto max-w-5xl px-4">
-            <div className="flex items-center justify-between py-2.5">
+    <html lang="ro" className={`${inter.variable} ${newsreader.variable} h-full antialiased`}>
+      <body className="flex min-h-full flex-col bg-white text-zinc-900">
+        <header className="border-b-2 border-zinc-900">
+          <div className="mx-auto max-w-6xl px-4">
+            <div className="hidden items-center justify-between border-b border-zinc-200 py-1.5 text-[11px] text-zinc-500 sm:flex">
+              <DataAzi />
+              <div className="flex items-center gap-4">
+                <span>Actualizat zilnic la 20:00</span>
+                <a href="/feed.xml" className="font-semibold text-blue-800 hover:underline">
+                  RSS
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-col items-center gap-1 py-4 sm:py-5">
               <Link
                 href="/"
-                className="flex items-baseline gap-0.5 text-xl font-extrabold tracking-tight"
+                className="flex items-baseline gap-1 text-3xl font-extrabold tracking-tight sm:text-4xl"
               >
-                <span className="text-blue-900">guvern</span>
-                <span className="rounded bg-blue-900 px-1.5 py-0.5 text-sm font-black text-yellow-400">
+                <span className="text-blue-950">guvern</span>
+                <span className="rounded bg-blue-950 px-2 py-0.5 text-xl font-black text-yellow-400 sm:text-2xl">
                   AI
                 </span>
-                <span className="text-blue-900">re</span>
+                <span className="text-blue-950">re</span>
               </Link>
-              <nav className="hidden items-center gap-5 text-sm font-medium text-zinc-600 sm:flex">
-                {nav.map((n) => (
-                  <Link key={n.href} href={n.href} className="hover:text-blue-900">
-                    {n.label}
-                  </Link>
-                ))}
-              </nav>
+              <p className="text-[11px] font-medium uppercase tracking-[0.25em] text-zinc-500 sm:text-xs">
+                Guvernul paralel al cetățeanului
+              </p>
             </div>
-            <nav className="-mx-4 flex gap-1 overflow-x-auto px-4 pb-2 sm:hidden">
+            <nav className="-mx-4 flex justify-start gap-0 overflow-x-auto border-t border-zinc-200 px-4 sm:justify-center">
               {nav.map((n) => (
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="shrink-0 rounded-full border border-zinc-200 bg-white px-3.5 py-1.5 text-[13px] font-medium text-zinc-700 active:bg-blue-50"
+                  className="shrink-0 px-4 py-2.5 text-[12px] font-bold uppercase tracking-wider text-zinc-700 hover:bg-zinc-50 hover:text-blue-900 sm:text-[13px]"
                 >
                   {n.label}
                 </Link>
@@ -96,18 +126,27 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
-        <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6 sm:py-8">{children}</main>
-        <footer className="border-t border-zinc-200 bg-white">
-          <div className="mx-auto max-w-5xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
+        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:py-8">{children}</main>
+        <footer className="mt-8 border-t-2 border-zinc-900 bg-zinc-50">
+          <div className="mx-auto max-w-6xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
+            <p className="text-sm font-extrabold tracking-tight text-blue-950">
+              guvernAIre <span className="font-normal text-zinc-400">·</span>{" "}
+              <span className="font-normal text-zinc-500">
+                fără partid, fără sponsor, fără simpatii
+              </span>
+            </p>
             <p>
-              <strong>guvernAIre</strong> este un proiect civic independent, asistat de AI. Nu este afiliat
-              niciunui partid, guvern sau instituții. Analizele sunt opinii argumentate pe baza surselor citate,
-              nu adevăruri oficiale — verificați întotdeauna sursele primare.
+              Proiect civic independent, asistat de AI. Nu este afiliat niciunui partid, guvern sau
+              instituții. Analizele sunt opinii argumentate pe baza surselor citate, nu adevăruri
+              oficiale — verificați întotdeauna sursele primare.
             </p>
             <p>
               Faptele provin din sursele oficiale ale statului: Monitorul Oficial, gov.ro, cdep.ro,
               senat.ro, presidency.ro, ccr.ro. Presa — de orice orientare — e citată doar pentru
-              informație, nu pentru interpretări.
+              informație, nu pentru interpretări.{" "}
+              <a href="/feed.xml" className="font-semibold text-blue-800 hover:underline">
+                Abonare RSS
+              </a>
             </p>
           </div>
         </footer>

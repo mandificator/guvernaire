@@ -29,6 +29,8 @@ export interface VotReal {
   rezultat: string;
   detalii?: string;
   pePartide?: string;
+  /** Cifrele oficiale ale votului, pentru afișare vizuală */
+  cifre?: { pentru: number; contra: number; abtineri: number };
 }
 
 export interface Decizie {

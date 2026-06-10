@@ -11,7 +11,7 @@ export default function DesprePage() {
   return (
     <article className="max-w-3xl space-y-8">
       <header>
-        <h1 className="text-2xl font-extrabold">Despre guvernAIre</h1>
+        <h1 className="font-serif text-3xl font-bold tracking-tight">Despre guvernAIre</h1>
       </header>
 
       <section className="space-y-3 text-[15px] leading-relaxed text-zinc-700">

@@ -3,7 +3,6 @@ import { deciziiSortate } from "@/data/decizii";
 import { actori } from "@/data/actori";
 import {
   AliniereBadge,
-  CardLink,
   DataRo,
   InstitutieTag,
   NotaActor,
@@ -13,150 +12,210 @@ import {
 
 export default function Home() {
   const decizii = deciziiSortate();
+  const [lead, ...rest] = decizii;
+  const secundare = rest.slice(0, 4);
+  const restul = rest.slice(4);
   const cuVot = decizii.filter((d) => d.aliniere !== "fără-vot");
   const aliniate = cuVot.filter((d) => d.aliniere === "aliniat").length;
   const divergente = cuVot.filter((d) => d.aliniere === "divergent").length;
+  const actoriSortati = [...actori].sort((a, b) => b.evaluare.nota - a.evaluare.nota);
 
   return (
-    <div className="space-y-10 sm:space-y-12">
-      <section className="rounded-3xl bg-blue-950 px-5 py-8 text-white sm:px-10 sm:py-10">
-        <p className="mb-2 text-[11px] font-bold uppercase tracking-widest text-yellow-400 sm:text-xs">
-          Guvernul paralel al cetățeanului
-        </p>
-        <h1 className="mb-3 max-w-3xl text-[26px] font-extrabold leading-tight sm:text-4xl">
-          Dacă România ar fi guvernată strict în interesul tău, cum s-ar vota fiecare lege?
-        </h1>
-        <p className="mb-5 max-w-2xl text-sm leading-relaxed text-blue-100">
-          Citim sursele oficiale ale statului, cântărim ce câștigi și ce pierzi tu, votăm
-          transparent — apoi comparăm cu ce au votat ei. Fără partid, fără sponsor, fără simpatii.
-        </p>
-        <div className="flex flex-wrap gap-2.5">
-          <Link
-            href="/decizii"
-            className="rounded-xl bg-yellow-400 px-5 py-3 text-sm font-bold text-blue-950 active:bg-yellow-300 sm:py-2.5"
-          >
-            Vezi deciziile →
-          </Link>
-          <Link
-            href="/metodologie"
-            className="rounded-xl border border-blue-700 px-5 py-3 text-sm font-semibold text-blue-100 active:bg-blue-900 sm:py-2.5"
-          >
-            Cum analizăm
-          </Link>
-        </div>
-      </section>
-
-      <section className="grid grid-cols-3 gap-2 sm:gap-4">
-        <div className="rounded-2xl border border-zinc-200 bg-white p-3 text-center sm:p-6">
-          <div className="text-2xl font-extrabold text-blue-900 sm:text-4xl">{decizii.length}</div>
-          <div className="mt-1 text-[11px] leading-tight text-zinc-500 sm:text-sm">
-            decizii analizate
-          </div>
-        </div>
-        <div className="rounded-2xl border border-zinc-200 bg-white p-3 text-center sm:p-6">
-          <div className="text-2xl font-extrabold text-emerald-700 sm:text-4xl">{aliniate}</div>
-          <div className="mt-1 text-[11px] leading-tight text-zinc-500 sm:text-sm">
-            aliniate cu votul nostru
-          </div>
-        </div>
-        <div className="rounded-2xl border border-zinc-200 bg-white p-3 text-center sm:p-6">
-          <div className="text-2xl font-extrabold text-red-700 sm:text-4xl">{divergente}</div>
-          <div className="mt-1 text-[11px] leading-tight text-zinc-500 sm:text-sm">
-            divergente de votul nostru
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="mb-4 flex items-baseline justify-between">
-          <h2 className="text-lg font-bold sm:text-xl">Ultimele decizii analizate</h2>
-          <Link href="/decizii" className="text-sm font-medium text-blue-700 hover:underline">
-            toate →
-          </Link>
-        </div>
-        <div className="space-y-3 sm:space-y-4">
-          {decizii.slice(0, 5).map((d) => (
-            <CardLink key={d.slug} href={`/decizii/${d.slug}`}>
-              <div className="mb-2 flex flex-wrap items-center gap-1.5 sm:gap-2">
-                <InstitutieTag institutie={d.institutie} />
-                <DataRo iso={d.data} />
+    <div className="space-y-10">
+      {/* Lead + right rail */}
+      <section className="grid gap-8 lg:grid-cols-3">
+        <div className="lg:col-span-2">
+          {lead && (
+            <article className="border-b border-zinc-200 pb-6">
+              <div className="mb-2 flex flex-wrap items-center gap-2">
+                <InstitutieTag institutie={lead.institutie} />
+                <DataRo iso={lead.data} />
               </div>
-              <h3 className="mb-1.5 text-base font-bold leading-snug text-zinc-900 sm:text-lg">
-                {d.titlu}
-              </h3>
-              <p className="mb-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">
-                {d.rezumat}
+              <Link href={`/decizii/${lead.slug}`} className="group">
+                <h1 className="font-serif text-[28px] font-bold leading-[1.15] tracking-tight text-zinc-900 group-hover:text-blue-900 sm:text-4xl">
+                  {lead.titlu}
+                </h1>
+              </Link>
+              <p className="mt-3 font-serif text-[17px] leading-relaxed text-zinc-600 sm:text-lg">
+                {lead.rezumat}
               </p>
-              <div className="flex flex-wrap items-center gap-2 text-sm">
-                <span className="text-xs text-zinc-500">Votul nostru:</span>
-                <VotBadge vot={d.votParalel.vot} />
-                <VerdictBadge verdict={d.votParalel.verdict} />
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
+                  Votul nostru:
+                </span>
+                <VotBadge vot={lead.votParalel.vot} />
+                <VerdictBadge verdict={lead.votParalel.verdict} />
               </div>
               <div className="mt-2">
-                <AliniereBadge aliniere={d.aliniere} />
+                <AliniereBadge aliniere={lead.aliniere} />
               </div>
-            </CardLink>
-          ))}
-        </div>
-      </section>
+            </article>
+          )}
 
-      <section className="rounded-3xl border border-zinc-200 bg-white p-5 sm:p-8">
-        <h2 className="mb-5 text-lg font-bold sm:text-xl">Cum funcționează</h2>
-        <div className="grid gap-5 sm:grid-cols-3">
-          <div>
-            <div className="mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-blue-900 text-sm font-black text-white">
-              1
-            </div>
-            <h3 className="mb-1 text-sm font-bold">Citim sursele oficiale</h3>
-            <p className="text-sm leading-relaxed text-zinc-600">
-              Monitorul Oficial, Parlament, Guvern, Președinție, CCR. Presa — doar pentru
-              informație, niciodată pentru interpretări.
-            </p>
-          </div>
-          <div>
-            <div className="mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-blue-900 text-sm font-black text-white">
-              2
-            </div>
-            <h3 className="mb-1 text-sm font-bold">Cântărim și votăm</h3>
-            <p className="text-sm leading-relaxed text-zinc-600">
-              Argumente pro și contra pentru țară și cetățean, un vot transparent și un scor de
-              impact de la −10 la +10, cu motivare publică.
-            </p>
-          </div>
-          <div>
-            <div className="mb-2 flex h-9 w-9 items-center justify-center rounded-full bg-blue-900 text-sm font-black text-white">
-              3
-            </div>
-            <h3 className="mb-1 text-sm font-bold">Comparăm cu realitatea</h3>
-            <p className="text-sm leading-relaxed text-zinc-600">
-              Punem votul nostru lângă votul real din Parlament — cu cifre — și marcăm fiecare
-              decizie: aliniată sau divergentă.
-            </p>
+          <div className="divide-y divide-zinc-200">
+            {secundare.map((d) => (
+              <article key={d.slug} className="py-5">
+                <div className="mb-1.5 flex flex-wrap items-center gap-2">
+                  <InstitutieTag institutie={d.institutie} />
+                  <DataRo iso={d.data} />
+                </div>
+                <Link href={`/decizii/${d.slug}`} className="group">
+                  <h2 className="font-serif text-xl font-bold leading-snug text-zinc-900 group-hover:text-blue-900 sm:text-2xl">
+                    {d.titlu}
+                  </h2>
+                </Link>
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-zinc-600">
+                  {d.rezumat}
+                </p>
+                <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
+                  <VotBadge vot={d.votParalel.vot} />
+                  <AliniereBadge aliniere={d.aliniere} />
+                </div>
+              </article>
+            ))}
           </div>
         </div>
-      </section>
 
-      <section>
-        <div className="mb-4 flex items-baseline justify-between">
-          <h2 className="text-lg font-bold sm:text-xl">Actorii politici sub lupă</h2>
-          <Link href="/actori" className="text-sm font-medium text-blue-700 hover:underline">
-            toți →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
-          {actori.slice(0, 6).map((a) => (
-            <CardLink key={a.slug} href={`/actori/${a.slug}`}>
-              <div className="flex items-center gap-4">
-                <NotaActor nota={a.evaluare.nota} />
-                <div className="min-w-0">
-                  <h3 className="truncate font-bold text-zinc-900">{a.nume}</h3>
-                  <p className="line-clamp-2 text-xs leading-snug text-zinc-500">
-                    {a.functie}
-                    {a.partid ? ` · ${a.partid}` : ""}
-                  </p>
+        {/* Right rail */}
+        <aside className="space-y-6">
+          <div className="border-t-4 border-blue-950 bg-zinc-50 p-5">
+            <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
+              Scorul guvernului paralel
+            </h2>
+            <div className="grid grid-cols-3 gap-2 text-center">
+              <div>
+                <div className="text-3xl font-extrabold text-blue-950">{decizii.length}</div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                  analizate
                 </div>
               </div>
-            </CardLink>
+              <div>
+                <div className="text-3xl font-extrabold text-emerald-700">{aliniate}</div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                  aliniate
+                </div>
+              </div>
+              <div>
+                <div className="text-3xl font-extrabold text-red-700">{divergente}</div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                  divergente
+                </div>
+              </div>
+            </div>
+            <p className="mt-3 text-xs leading-relaxed text-zinc-500">
+              Câte decizii reale au coincis cu votul dat de guvernul paralel strict în interesul
+              cetățeanului.{" "}
+              <Link href="/metodologie" className="font-semibold text-blue-800 hover:underline">
+                Cum votăm
+              </Link>
+            </p>
+          </div>
+
+          <div className="border-t-4 border-zinc-900 p-0">
+            <h2 className="mb-3 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
+              Indicele actorilor politici
+            </h2>
+            <ul className="divide-y divide-zinc-100">
+              {actoriSortati.map((a) => (
+                <li key={a.slug}>
+                  <Link
+                    href={`/actori/${a.slug}`}
+                    className="flex items-center justify-between gap-3 py-2.5 hover:bg-zinc-50"
+                  >
+                    <div className="min-w-0">
+                      <div className="truncate text-sm font-bold text-zinc-900">{a.nume}</div>
+                      <div className="truncate text-[11px] text-zinc-500">{a.functie}</div>
+                    </div>
+                    <span
+                      className={`shrink-0 rounded px-2 py-0.5 text-sm font-extrabold tabular-nums ${
+                        a.evaluare.nota >= 7
+                          ? "bg-emerald-100 text-emerald-800"
+                          : a.evaluare.nota >= 5
+                            ? "bg-amber-100 text-amber-800"
+                            : "bg-red-100 text-red-800"
+                      }`}
+                    >
+                      {a.evaluare.nota}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-[11px] leading-relaxed text-zinc-400">
+              Nota 1–10 = alinierea faptelor documentate cu interesul public.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      {/* Restul deciziilor */}
+      {restul.length > 0 && (
+        <section>
+          <h2 className="border-t-2 border-zinc-900 pt-2 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
+            Mai multe decizii
+          </h2>
+          <div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+            {restul.map((d) => (
+              <article key={d.slug} className="border-b border-zinc-100 py-4">
+                <div className="mb-1 flex flex-wrap items-center gap-2">
+                  <InstitutieTag institutie={d.institutie} />
+                  <DataRo iso={d.data} />
+                </div>
+                <Link href={`/decizii/${d.slug}`} className="group">
+                  <h3 className="font-serif text-lg font-bold leading-snug text-zinc-900 group-hover:text-blue-900">
+                    {d.titlu}
+                  </h3>
+                </Link>
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <VotBadge vot={d.votParalel.vot} />
+                  <AliniereBadge aliniere={d.aliniere} />
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="pt-4">
+            <Link
+              href="/decizii"
+              className="text-sm font-bold text-blue-800 hover:underline"
+            >
+              Toate deciziile analizate →
+            </Link>
+          </div>
+        </section>
+      )}
+
+      {/* Cum funcționează */}
+      <section className="border-t-2 border-zinc-900 pt-2">
+        <h2 className="text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
+          Cum funcționează
+        </h2>
+        <div className="mt-4 grid gap-6 sm:grid-cols-3">
+          {[
+            {
+              n: "1",
+              t: "Citim sursele oficiale",
+              p: "Monitorul Oficial, Parlament, Guvern, Președinție, CCR. Presa — doar pentru informație, niciodată pentru interpretări.",
+            },
+            {
+              n: "2",
+              t: "Cântărim și votăm",
+              p: "Argumente pro și contra pentru țară și cetățean, un vot transparent și un scor de impact de la −10 la +10, cu motivare publică.",
+            },
+            {
+              n: "3",
+              t: "Comparăm cu realitatea",
+              p: "Punem votul nostru lângă votul real din Parlament — cu cifre — și marcăm fiecare decizie: aliniată sau divergentă.",
+            },
+          ].map((s) => (
+            <div key={s.n} className="flex gap-3">
+              <div className="font-serif text-4xl font-bold leading-none text-zinc-200">
+                {s.n}
+              </div>
+              <div>
+                <h3 className="mb-1 text-sm font-bold">{s.t}</h3>
+                <p className="text-sm leading-relaxed text-zinc-600">{s.p}</p>
+              </div>
+            </div>
           ))}
         </div>
       </section>

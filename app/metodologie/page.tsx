@@ -11,7 +11,7 @@ export default function MetodologiePage() {
   return (
     <article className="max-w-3xl space-y-8">
       <header>
-        <h1 className="text-2xl font-extrabold">Cum analizăm</h1>
+        <h1 className="font-serif text-3xl font-bold tracking-tight">Cum analizăm</h1>
         <p className="mt-1 text-sm text-zinc-600">
           Reguli simple, aplicate la fel pentru fiecare decizie și fiecare actor — indiferent de partid.
         </p>

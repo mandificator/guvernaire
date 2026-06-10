@@ -5,6 +5,7 @@ import { decizii, getDecizie } from "@/data/decizii";
 import {
   AliniereBadge,
   DataRo,
+  Glosar,
   InstitutieTag,
   ProContra,
   ScorBar,
@@ -12,7 +13,9 @@ import {
   Surse,
   VerdictBadge,
   VotBadge,
+  VotCifre,
 } from "@/components/ui";
+import { ShareButton } from "@/components/share";
 
 export function generateStaticParams() {
   return decizii.map((d) => ({ slug: d.slug }));
@@ -37,10 +40,26 @@ export default async function DeciziePage({
   const d = getDecizie(slug);
   if (!d) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AnalysisNewsArticle",
+    headline: d.titlu,
+    description: d.rezumat,
+    datePublished: d.data,
+    inLanguage: "ro",
+    author: { "@type": "Organization", name: "guvernAIre" },
+    publisher: { "@type": "Organization", name: "guvernAIre" },
+    mainEntityOfPage: `https://guvernaire.vercel.app/decizii/${d.slug}`,
+  };
+
   return (
-    <article className="space-y-8">
+    <article className="mx-auto max-w-3xl space-y-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="space-y-3">
-        <Link href="/decizii" className="text-sm text-blue-700 hover:underline">
+        <Link href="/decizii" className="text-sm font-semibold text-blue-800 hover:underline">
           ← toate deciziile
         </Link>
         <div className="flex flex-wrap items-center gap-2">
@@ -55,15 +74,21 @@ export default async function DeciziePage({
             </span>
           ))}
         </div>
-        <h1 className="text-[22px] font-extrabold leading-tight sm:text-3xl">{d.titlu}</h1>
-        <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-600 sm:text-base">
+        <h1 className="font-serif text-[28px] font-bold leading-[1.15] tracking-tight sm:text-4xl">
+          {d.titlu}
+        </h1>
+        <p className="font-serif text-[17px] leading-relaxed text-zinc-600 sm:text-lg">
           {d.rezumat}
         </p>
+        <div className="flex items-center justify-between border-y border-zinc-200 py-2.5">
+          <span className="text-xs text-zinc-500">Analiza guvernului paralel</span>
+          <ShareButton title={d.titlu} path={`/decizii/${d.slug}`} />
+        </div>
       </header>
 
       <section className="grid grid-cols-1 gap-2.5 sm:grid-cols-3">
-        <div className="rounded-xl border-2 border-blue-900 bg-white p-3.5">
-          <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-blue-900">
+        <div className="border-t-4 border-blue-950 bg-zinc-50 p-3.5">
+          <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-blue-950">
             Votul nostru
           </div>
           <div className="flex flex-wrap items-center gap-1.5">
@@ -73,7 +98,7 @@ export default async function DeciziePage({
             </span>
           </div>
         </div>
-        <div className="rounded-xl border border-zinc-300 bg-zinc-100 p-3.5">
+        <div className="border-t-4 border-zinc-400 bg-zinc-50 p-3.5">
           <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
             Decizia reală
           </div>
@@ -81,7 +106,7 @@ export default async function DeciziePage({
             {d.votReal ? d.votReal.rezultat.split(".")[0] : "În așteptare"}
           </div>
         </div>
-        <div className="rounded-xl border border-zinc-200 bg-white p-3.5">
+        <div className="border-t-4 border-zinc-200 bg-zinc-50 p-3.5">
           <div className="mb-1.5 text-[10px] font-bold uppercase tracking-widest text-zinc-600">
             Comparația
           </div>
@@ -91,7 +116,7 @@ export default async function DeciziePage({
 
       <section>
         <SectionTitle>Ce înseamnă, pe înțelesul tuturor</SectionTitle>
-        <div className="space-y-3 text-[15px] leading-relaxed text-zinc-700">
+        <div className="space-y-4 font-serif text-[17px] leading-[1.7] text-zinc-800">
           {d.explicatie.split("\n\n").map((p, i) => (
             <p key={i}>{p}</p>
           ))}
@@ -103,8 +128,8 @@ export default async function DeciziePage({
         <ProContra pro={d.pro} contra={d.contra} />
       </section>
 
-      <section className="rounded-2xl border-2 border-blue-900 bg-white p-6">
-        <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-blue-900">
+      <section className="border-2 border-blue-950 bg-white p-5 sm:p-6">
+        <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.15em] text-blue-950">
           Votul guvernului paralel
         </h2>
         <div className="mb-4 flex flex-wrap items-center gap-3">
@@ -114,11 +139,13 @@ export default async function DeciziePage({
         <div className="mb-5">
           <ScorBar scor={d.votParalel.scor} />
         </div>
-        <p className="text-[15px] leading-relaxed text-zinc-700">{d.votParalel.motivare}</p>
+        <p className="font-serif text-[16px] leading-[1.7] text-zinc-800">
+          {d.votParalel.motivare}
+        </p>
       </section>
 
-      <section className="rounded-2xl border border-zinc-300 bg-zinc-100 p-6">
-        <h2 className="mb-4 text-sm font-bold uppercase tracking-widest text-zinc-700">
+      <section className="border-2 border-zinc-300 bg-zinc-50 p-5 sm:p-6">
+        <h2 className="mb-4 text-xs font-bold uppercase tracking-[0.15em] text-zinc-700">
           Ce s-a decis în realitate
         </h2>
         {d.votReal ? (
@@ -131,6 +158,7 @@ export default async function DeciziePage({
                 <strong>Detalii vot:</strong> {d.votReal.detalii}
               </p>
             )}
+            {d.votReal.cifre && <VotCifre cifre={d.votReal.cifre} />}
             {d.votReal.pePartide && (
               <p>
                 <strong>Pe partide:</strong> {d.votReal.pePartide}
@@ -147,11 +175,11 @@ export default async function DeciziePage({
         </div>
       </section>
 
-      <section className="rounded-2xl bg-blue-950 p-6 text-white">
-        <h2 className="mb-3 text-sm font-bold uppercase tracking-widest text-yellow-400">
+      <section className="bg-blue-950 p-5 text-white sm:p-6">
+        <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-yellow-400">
           Verdictul final
         </h2>
-        <p className="text-[15px] leading-relaxed text-blue-50">{d.verdictFinal}</p>
+        <p className="font-serif text-[16px] leading-[1.7] text-blue-50">{d.verdictFinal}</p>
       </section>
 
       {d.controverse && d.controverse.length > 0 && (
@@ -161,7 +189,7 @@ export default async function DeciziePage({
             {d.controverse.map((c, i) => (
               <li
                 key={i}
-                className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-relaxed text-zinc-700"
+                className="border-l-4 border-amber-400 bg-amber-50 p-4 text-sm leading-relaxed text-zinc-700"
               >
                 {c}
               </li>
@@ -170,7 +198,16 @@ export default async function DeciziePage({
         </section>
       )}
 
+      <Glosar />
+
       <Surse surse={d.surse} />
+
+      <div className="flex items-center justify-between border-t border-zinc-200 pt-4">
+        <Link href="/decizii" className="text-sm font-semibold text-blue-800 hover:underline">
+          ← toate deciziile
+        </Link>
+        <ShareButton title={d.titlu} path={`/decizii/${d.slug}`} />
+      </div>
     </article>
   );
 }

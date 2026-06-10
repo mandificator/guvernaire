@@ -13,7 +13,7 @@ export default function ActoriPage() {
   return (
     <div className="space-y-6">
       <header>
-        <h1 className="text-2xl font-extrabold">Actorii politici sub lupă</h1>
+        <h1 className="font-serif text-3xl font-bold tracking-tight">Actorii politici sub lupă</h1>
         <p className="mt-1 max-w-2xl text-sm text-zinc-600">
           Nota măsoară un singur lucru: cât de aliniate sunt <em>faptele</em> (nu declarațiile)
           fiecărui actor cu interesul țării și al cetățeanului, pe baza acțiunilor documentate.

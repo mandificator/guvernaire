@@ -134,6 +134,7 @@ export const decizii: Decizie[] = [
       rezultat:
         "Ordonanța a rămas în vigoare și a produs efecte (contractele SAFE au fost semnate până pe 30 mai). Senatul a aprobat-o pe 26 mai 2026, eliminând cele 12 articole străine de SAFE. Sesizările CCR ale lui Grindeanu și Avocatului Poporului au fost amânate pentru 18 iunie 2026 — rezultat în așteptare.",
       detalii: "Senat: 71 pentru / 1 contra / 30 abțineri.",
+      cifre: { pentru: 71, contra: 1, abtineri: 30 },
       pePartide:
         "Coaliția pro-SAFE (PNL, USR) a susținut; PSD a votat conținutul dar a contestat procedura la CCR; AUR/SOS contra sau abținere.",
     },
@@ -146,6 +147,14 @@ export const decizii: Decizie[] = [
       "Cele 12 articole străine de SAFE (vin, gaze, TVA) strecurate în ordonanță au fost eliminate de Senat — dar nimeni nu a explicat public cine și de ce le-a introdus.",
     ],
     surse: [
+      {
+        titlu: "OUG 38/2026 — textul oficial (legislatie.just.ro, M.Of. 8 mai 2026)",
+        url: "https://legislatie.just.ro/Public/DetaliiDocument/310375",
+      },
+      {
+        titlu: "Avocatul Poporului — excepția de neconstituționalitate pe OUG 38/2026 (document oficial)",
+        url: "https://avp.ro/wp-content/uploads/2026/05/EXCEPTIE_OUG-38-2026.pdf",
+      },
       {
         titlu: "Antena3 — Avocatul Poporului a depus la CCR sesizarea pentru OUG 38",
         url: "https://www.antena3.ro/politica/avocatul-poporului-a-depus-la-ccr-sesizarea-pentru-oug-38-a-lui-bolojan-a-trimis-la-monitorul-oficial-un-text-avizat-negativ-787868.html",
@@ -200,6 +209,7 @@ export const decizii: Decizie[] = [
       rezultat: "Moțiune adoptată — guvernul Bolojan demis pe 5 mai 2026.",
       detalii:
         "281 voturi pentru, 4 împotrivă, 3 anulate (necesar: 233). Cel mai mare scor al unei moțiuni de cenzură din istoria postdecembristă.",
+      cifre: { pentru: 281, contra: 4, abtineri: 0 },
       pePartide:
         "Pentru: PSD (~129), AUR (~90), SOS, POT, grupul PACE, o parte din minorități. PNL, USR și UDMR nu au votat.",
     },
@@ -212,6 +222,18 @@ export const decizii: Decizie[] = [
       "Moțiunea a invocat „înstrăinarea de active strategice”; programul guvernului anunța restructurarea managementului companiilor de stat.",
     ],
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială a moțiunii de cenzură (rezultat: adoptată, 281–4)",
+        url: "https://www.cdep.ro/ords/pls/parlam/parlament.motiuni2015.detalii?leg=2024&cam=0&idm=1584",
+      },
+      {
+        titlu: "Camera Deputaților — textul integral al moțiunii (PDF oficial)",
+        url: "https://cdep.ro/motiuni/2026/1583.pdf",
+      },
+      {
+        titlu: "Camera Deputaților — stenograma ședinței comune din 5 mai 2026",
+        url: "https://www.cdep.ro/ords/pls/steno/steno2015.data?cam=0&dat=20260505&idl=1",
+      },
       {
         titlu: "Agerpres — Moțiunea de cenzură adoptată cu 281 de voturi",
         url: "https://agerpres.ro/politic/2026/05/05/motiunea-de-cenzura---adoptata-de-parlament-cu-281-de-voturi-guvernul-bolojan-a-fost-demis--1553085",
@@ -268,6 +290,14 @@ export const decizii: Decizie[] = [
       "Verdictul rămâne suspendat până la votul de învestitură, dar semnalele convergente indică respingere. Dacă guvernul Tomac pică, președintele va fi consumat prima din cele două încercări pe o formulă despre care toți actorii îi spuseseră că nu trece — timp pierdut pe care cetățeanul îl plătește prin paralizie administrativă. Dacă, împotriva așteptărilor, trece, va guverna sub șantajul permanent al oricărui grup care i-a împrumutat voturile. Niciuna dintre variante nu e bună; amândouă erau previzibile la momentul desemnării.",
     surse: [
       {
+        titlu: "Presidency.ro — decretul de desemnare a lui Eugen Tomac (comunicat oficial, 5 iunie 2026)",
+        url: "https://www.presidency.ro/ro/media/comunicate-de-presa/decret-semnat-de-presedintele-romaniei-nicusor-dan1780645277",
+      },
+      {
+        titlu: "Presidency.ro — declarația președintelui la anunțul desemnării (4 iunie 2026)",
+        url: "https://www.presidency.ro/ro/media/declaratii-de-presa/declaratia-de-presa-sustinuta-de-presedintele-romaniei-nicusor-dan-la-palatul-cotroceni1780587062",
+      },
+      {
         titlu: "Recorder — „Guvernul meu”, varianta Nicușor Dan: Tomac premier desemnat",
         url: "https://recorder.ro/stirile-zilei/4-iunie-2026-guvernul-meu-varianta-nicusor-dan-tomac-premier-desemnat/",
       },
@@ -322,6 +352,7 @@ export const decizii: Decizie[] = [
         "Adoptată de Parlament; atacată la CCR de ÎCCJ pe 22 mai 2026 — decizia CCR în așteptare la data analizei.",
       detalii:
         "Camera Deputaților (for decizional, 13 mai): 284 pentru / 1 contra / 2 abțineri. Senat (16 martie): 110 pentru / 0 contra / 3 abțineri.",
+      cifre: { pentru: 284, contra: 1, abtineri: 2 },
       pePartide: "Susținere transpartinică cvasi-unanimă; defalcare pe partide nedisponibilă.",
     },
     aliniere: "aliniat",
@@ -331,6 +362,14 @@ export const decizii: Decizie[] = [
       "Poziționarea publică a Ambasadei SUA de partea unei legi contestate de Curtea Supremă — situație diplomatică neobișnuită.",
     ],
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 228/2026 (parcurs legislativ)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23119",
+      },
+      {
+        titlu: "Camera Deputaților — votul electronic din 13 mai 2026 (284–1–2)",
+        url: "https://www.cdep.ro/ords/pls/steno/eVot.Data?dat=20260513&idl=1",
+      },
       {
         titlu: "Agerpres — ÎCCJ sesizează CCR pe modificarea procedurii camerei preliminare",
         url: "https://agerpres.ro/justitie/2026/05/22/iccj-sesizeaza-ccr-in-legatura-cu-modificarea-legislatiei-penale-care-reglementeaza-procedura-de-cam--1559041",
@@ -380,7 +419,9 @@ export const decizii: Decizie[] = [
     votReal: {
       rezultat:
         "Adoptată de Parlament, promulgată și publicată în Monitorul Oficial pe 15 mai 2026; în vigoare de la 1 iunie 2026.",
-      detalii: "Cifrele votului final pe legea de aprobare nu sunt disponibile public în sursele consultate.",
+      detalii:
+        "Camera Deputaților (PL-x 147/2026): 264 pentru / 14 contra / 3 abțineri; promulgată prin Decretul 267/2026.",
+      cifre: { pentru: 264, contra: 14, abtineri: 3 },
     },
     aliniere: "parțial",
     verdictFinal:
@@ -390,6 +431,10 @@ export const decizii: Decizie[] = [
       "Medicii de familie au avertizat că plafonarea la nivelul 2025, cu inflație de două cifre, înseamnă tăiere în termeni reali.",
     ],
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 147/2026 (vot 264–14–3, Decret 267/2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23048",
+      },
       {
         titlu: "Legislatie.just.ro — Legea 64/2026 (text oficial)",
         url: "https://legislatie.just.ro/Public/DetaliiDocument/310545",
@@ -436,8 +481,10 @@ export const decizii: Decizie[] = [
         "Guvernul paralel votează PENTRU această prelungire — dar pentru ultima dată fără condiții. Cu inflație alimentară de două cifre, venituri înghețate și fără guvern funcțional care să livreze alternative, a lăsa plafonarea să expire pe 30 iunie ar fi fost o lovitură directă în cei mai săraci. Realismul cere prelungirea. Dar votul nostru ar fi fost legat de o foaie de ieșire: până la 31 decembrie, înlocuirea plafonării cu sprijin țintit (tichete/transferuri pentru gospodăriile vulnerabile) și o anchetă reală a Consiliului Concurenței asupra marjelor din lanțul alimentar. Plafonarea tratează simptomul; al patrulea an de simptom netratat înseamnă că boala — lipsa concurenței și a politicilor sociale țintite — convine tuturor. Scor +2.",
     },
     votReal: {
-      rezultat: "Adoptată de Camera Deputaților (for decizional) pe 10 iunie 2026; merge la promulgare.",
+      rezultat:
+        "Adoptată de Camera Deputaților (for decizional) pe 10 iunie 2026 — formal, legea de aprobare a OUG 22/2026 (PL-x 340/2026), actul care prelungește plafonarea; merge la promulgare.",
       detalii: "292 pentru / 1 contra / 1 abținere — susținere transpartinică cvasi-unanimă.",
+      cifre: { pentru: 292, contra: 1, abtineri: 1 },
       pePartide: "Defalcare pe partide nedisponibilă; scorul indică vot comun al puterii și opoziției.",
     },
     aliniere: "aliniat",
@@ -447,6 +494,18 @@ export const decizii: Decizie[] = [
       "Vicepreședintele ANCMMR: „intervenție brutală într-o piață liberă”; fermierii și procesatorii acuză transferul presiunii pe marjele lor.",
     ],
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 340/2026 (vot 292–1–1, 10 iunie 2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23223",
+      },
+      {
+        titlu: "Camera Deputaților — votul electronic din 10 iunie 2026",
+        url: "https://www.cdep.ro/ords/pls/steno/eVot.Data?dat=20260610&idl=1",
+      },
+      {
+        titlu: "OUG 22/2026 — textul oficial (legislatie.just.ro, M.Of. 254/31.03.2026)",
+        url: "https://legislatie.just.ro/Public/DetaliiDocument/308940",
+      },
       {
         titlu: "HotNews — Plafonarea adaosului comercial, prelungită până la finalul anului",
         url: "https://hotnews.ro/plafonarea-adaosului-comercial-pentru-alimentele-de-baza-prelungita-pana-la-finalul-anului-ce-alimente-sunt-vizate-2269748",
@@ -492,13 +551,23 @@ export const decizii: Decizie[] = [
         "Guvernul paralel votează PENTRU fără ezitare. E o lege ieftină, modernă și cu efect de securitate națională real: transformă o comunitate întreagă de specialiști din potențiali inculpați în santinele voluntare. Riscul de abuz există, dar se gestionează prin norme de aplicare, nu prin menținerea unei incriminări care proteja, în practică, doar instituțiile neglijente de jena de a-și afla vulnerabilitățile. Scor +6 — una dintre puținele decizii curat pozitive ale perioadei.",
     },
     votReal: {
-      rezultat: "Adoptată de Camera Deputaților pe 10 iunie 2026.",
-      detalii: "Cifrele exacte ale votului nu sunt disponibile în sursele consultate.",
+      rezultat:
+        "Adoptată de Camera Deputaților pe 10 iunie 2026 (Pl-x 350/2026 — modifică OUG 155/2024 privind securitatea cibernetică și completează Codul penal).",
+      detalii: "268 pentru / 11 contra / 4 abțineri.",
+      cifre: { pentru: 268, contra: 11, abtineri: 4 },
     },
     aliniere: "aliniat",
     verdictFinal:
       "Vot real și vot paralel pe aceeași pagină. De urmărit normele de aplicare: definiția bunei-credințe, procedura de raportare și termenele de remediere vor decide dacă legea rămâne un model sau devine literă moartă. Un test bun: câte vulnerabilități raportate public în următoarele 12 luni.",
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială Pl-x 350/2026 (vot 268–11–4, 10 iunie 2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23237",
+      },
+      {
+        titlu: "Camera Deputaților — votul electronic din 10 iunie 2026",
+        url: "https://www.cdep.ro/ords/pls/steno/eVot.Data?dat=20260610&idl=1",
+      },
       {
         titlu: "BURSA — Proiect de lege pentru consolidarea apărării digitale, adoptat",
         url: "https://www.bursa.ro/proiect-de-lege-pentru-consolidarea-apararii-digitale-a-romaniei-adoptat-de-parlament-67462953",
@@ -508,11 +577,11 @@ export const decizii: Decizie[] = [
   {
     slug: "legea-statiilor-de-incarcare-ev",
     titlu: "Legea infrastructurii pentru combustibili alternativi: reguli unice la stațiile de încărcare EV",
-    data: "2026-06-09",
+    data: "2026-06-08",
     institutie: "Președinție",
     domenii: ["energie", "transport", "protecția consumatorului"],
     rezumat:
-      "Promulgată pe 9 iunie: operatorii stațiilor de încărcare pentru mașini electrice trebuie să accepte plata fără abonament, să afișeze transparent prețurile și să se integreze într-un sistem digital unificat. Amenzi între 5.000 și 40.000 lei.",
+      "Promulgată pe 8 iunie (Decretul 317/2026 — devine Legea 89/2026): operatorii stațiilor de încărcare pentru mașini electrice trebuie să accepte plata fără abonament, să afișeze transparent prețurile și să se integreze într-un sistem digital unificat. Amenzi între 5.000 și 40.000 lei.",
     explicatie:
       "Legea implementează regulamentul european AFIR și rezolvă o problemă practică pe care o știe orice șofer de mașină electrică din România: jungla de aplicații, abonamente și tarife opace de la stațiile de încărcare. De acum, operatorii sunt obligați să permită plata directă, fără abonament sau contract prealabil, să afișeze transparent prețurile și să se integreze într-un sistem digital unificat. Ministerul Energiei coordonează, iar CNAIR răspunde de rețeaua de pe drumurile naționale și autostrăzi. Nerespectarea se sancționează cu amenzi între 5.000 și 40.000 lei.",
     pro: [
@@ -532,13 +601,24 @@ export const decizii: Decizie[] = [
         "Vot PENTRU fără rezerve majore: protecția consumatorului, concurența și obligația europeană converg. O lege mică, dar din categoria celor care chiar schimbă viața de zi cu zi a unui număr crescând de cetățeni. Scor +5.",
     },
     votReal: {
-      rezultat: "Adoptată de Parlament și promulgată de președinte pe 9 iunie 2026.",
-      detalii: "Cifrele votului parlamentar nu sunt disponibile în sursele consultate.",
+      rezultat:
+        "Adoptată de Parlament (PL-x 242/2026) și promulgată pe 8 iunie 2026 prin Decretul 317/2026 — devine Legea 89/2026.",
+      detalii:
+        "Vot final Camera Deputaților: 213 pentru / 0 contra / 20 abțineri (56 de deputați nu au votat).",
+      cifre: { pentru: 213, contra: 0, abtineri: 20 },
     },
     aliniere: "aliniat",
     verdictFinal:
       "Aliniere completă. Testul real urmează la implementare: integrarea în sistemul digital unificat și controalele efective. De reverificat peste 6 luni dacă plata fără abonament funcționează la stațiile mari de pe autostrăzi.",
     surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 242/2026 (vot 213–0–20, Decret 317/2026, Legea 89/2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23138",
+      },
+      {
+        titlu: "Presidency.ro — decretele semnate pe 8 iunie 2026 (include promulgarea legii AFIR)",
+        url: "https://www.presidency.ro/ro/media/comunicate-de-presa/decrete-semnate-de-presedintele-romaniei-nicusor-dan1780916328",
+      },
       {
         titlu: "Stiripesurse — Nicușor Dan a promulgat legea care schimbă regulile pentru mașinile electrice",
         url: "https://www.stiripesurse.ro/nicusor-dan-a-promulgat-legea-care-schimba-regulile-pentru-masinile-electrice-apar-obligatii-noi-investitii-majore-in-infrastructura-si-beneficii-pentru-soferi_3893510",

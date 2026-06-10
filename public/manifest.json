@@ -1,0 +1,18 @@
+{
+  "name": "guvernAIre — Guvernul paralel al cetățeanului",
+  "short_name": "guvernAIre",
+  "description": "Fiecare lege din România, explicată și votată în interesul tău — comparată cu votul real din Parlament.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#172554",
+  "theme_color": "#172554",
+  "lang": "ro",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

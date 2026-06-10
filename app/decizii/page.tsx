@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { deciziiSortate } from "@/data/decizii";
 import {
   AliniereBadge,
-  CardLink,
   DataRo,
   InstitutieTag,
   VerdictBadge,
@@ -18,21 +18,22 @@ export const metadata: Metadata = {
 export default function DeciziiPage() {
   const decizii = deciziiSortate();
   return (
-    <div className="space-y-6">
-      <header>
-        <h1 className="text-2xl font-extrabold">Decizii & legi analizate</h1>
-        <p className="mt-1 max-w-2xl text-sm text-zinc-600">
+    <div className="mx-auto max-w-3xl">
+      <header className="border-b-2 border-zinc-900 pb-4">
+        <h1 className="font-serif text-3xl font-bold tracking-tight">
+          Decizii & legi analizate
+        </h1>
+        <p className="mt-1 text-sm text-zinc-600">
           Fiecare decizie e cântărită pe argumente, votată de guvernul paralel și comparată cu
           rezultatul real din instituții. Cele mai recente primele.
         </p>
       </header>
-      <div className="space-y-4">
+      <div className="divide-y divide-zinc-200">
         {decizii.map((d) => (
-          <CardLink key={d.slug} href={`/decizii/${d.slug}`}>
+          <article key={d.slug} className="py-6">
             <div className="mb-2 flex flex-wrap items-center gap-2">
               <InstitutieTag institutie={d.institutie} />
               <DataRo iso={d.data} />
-              <VerdictBadge verdict={d.votParalel.verdict} />
               {d.domenii.map((dom) => (
                 <span
                   key={dom}
@@ -42,16 +43,23 @@ export default function DeciziiPage() {
                 </span>
               ))}
             </div>
-            <h2 className="mb-1.5 text-base font-bold leading-snug sm:text-lg">{d.titlu}</h2>
-            <p className="mb-3 line-clamp-3 text-sm leading-relaxed text-zinc-600">{d.rezumat}</p>
-            <div className="flex flex-wrap items-center gap-2 text-sm">
+            <Link href={`/decizii/${d.slug}`} className="group">
+              <h2 className="font-serif text-xl font-bold leading-snug text-zinc-900 group-hover:text-blue-900 sm:text-2xl">
+                {d.titlu}
+              </h2>
+            </Link>
+            <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-600">
+              {d.rezumat}
+            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
               <span className="text-xs text-zinc-500">Votul nostru:</span>
               <VotBadge vot={d.votParalel.vot} />
+              <VerdictBadge verdict={d.votParalel.verdict} />
             </div>
             <div className="mt-2">
               <AliniereBadge aliniere={d.aliniere} />
             </div>
-          </CardLink>
+          </article>
         ))}
       </div>
     </div>
