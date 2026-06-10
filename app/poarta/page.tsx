@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { PoartaForm } from "@/components/poarta-form";
+import { Contor } from "@/components/contor";
 
 export const metadata: Metadata = {
   title: "Acces prin recomandare",
@@ -35,6 +36,8 @@ export default function PoartaPage() {
           <strong className="text-yellow-400">valabil pentru exact 3 persoane</strong>.
         </p>
       </div>
+
+      <Contor />
 
       <Suspense>
         <PoartaForm />

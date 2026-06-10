@@ -48,3 +48,38 @@ export async function scrieCod(cod: string, info: CodInfo): Promise<void> {
     cacheControlMaxAge: 0,
   });
 }
+
+const CALE_CONTOR = "contor.json";
+
+export async function citesteContor(): Promise<number> {
+  const { blobs } = await list({ prefix: CALE_CONTOR, limit: 5 });
+  const blob = blobs.find((b) => b.pathname === CALE_CONTOR);
+  if (!blob) return 0;
+  const r = await fetch(`${blob.url}?t=${Date.now()}`, { cache: "no-store" });
+  if (!r.ok) return 0;
+  try {
+    const d = await r.json();
+    return typeof d.intrari === "number" ? d.intrari : 0;
+  } catch {
+    return 0;
+  }
+}
+
+export async function incrementeazaContor(): Promise<void> {
+  const actual = await citesteContor();
+  await put(CALE_CONTOR, JSON.stringify({ intrari: actual + 1 }), {
+    access: "public",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+    contentType: "application/json",
+    cacheControlMaxAge: 0,
+  });
+}
+
+/** Offset stabil pe zi, între 20 și 50 — nu fluctuează la refresh. */
+export function ofsetZilnic(): number {
+  const zi = new Date().toISOString().slice(0, 10);
+  let h = 0;
+  for (let i = 0; i < zi.length; i++) h = (h * 31 + zi.charCodeAt(i)) >>> 0;
+  return 20 + (h % 31);
+}

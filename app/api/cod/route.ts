@@ -1,8 +1,24 @@
 import { NextResponse } from "next/server";
-import { citesteCod, genereazaCod, normalizeazaCod, scrieCod } from "@/lib/coduri";
+import {
+  citesteCod,
+  citesteContor,
+  genereazaCod,
+  incrementeazaContor,
+  normalizeazaCod,
+  ofsetZilnic,
+  scrieCod,
+} from "@/lib/coduri";
 import { semneazaAcces } from "@/lib/semnatura";
 
 const UN_AN = 60 * 60 * 24 * 365;
+
+export async function GET() {
+  const intrari = await citesteContor();
+  return NextResponse.json(
+    { inauntru: intrari + ofsetZilnic() },
+    { headers: { "Cache-Control": "no-store" } }
+  );
+}
 
 export async function POST(req: Request) {
   let cod: string;
@@ -43,6 +59,7 @@ export async function POST(req: Request) {
     creat: new Date().toISOString(),
     parinte: cod,
   });
+  await incrementeazaContor();
 
   const secret = process.env.ACCES_SECRET;
   if (!secret) {
