@@ -50,6 +50,13 @@ export async function POST(req: Request) {
   }
   const semnatura = await semneazaAcces(secret);
 
+  // pe domeniul propriu, cookie-ul e valabil și pe www și pe apex
+  const host = (req.headers.get("host") ?? "").split(":")[0];
+  const domeniu =
+    host === "guvernare.online" || host.endsWith(".guvernare.online")
+      ? ".guvernare.online"
+      : undefined;
+
   const res = NextResponse.json({ ok: true, cod: codNou });
   res.cookies.set("gv_acces", semnatura, {
     httpOnly: true,
@@ -57,6 +64,7 @@ export async function POST(req: Request) {
     sameSite: "lax",
     path: "/",
     maxAge: UN_AN,
+    ...(domeniu ? { domain: domeniu } : {}),
   });
   res.cookies.set("gv_cod", codNou, {
     httpOnly: false,
@@ -64,6 +72,7 @@ export async function POST(req: Request) {
     sameSite: "lax",
     path: "/",
     maxAge: UN_AN,
+    ...(domeniu ? { domain: domeniu } : {}),
   });
   return res;
 }

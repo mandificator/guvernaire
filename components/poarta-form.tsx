@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 export function PoartaForm() {
   const [cod, setCod] = useState("");
@@ -9,9 +9,10 @@ export function PoartaForm() {
   const [eroare, setEroare] = useState("");
   const [codNou, setCodNou] = useState("");
   const [copiat, setCopiat] = useState(false);
-  const router = useRouter();
   const params = useSearchParams();
-  const next = params.get("next") || "/";
+  const nextParam = params.get("next") || "/";
+  // doar căi interne, fără URL-uri externe
+  const next = nextParam.startsWith("/") && !nextParam.startsWith("//") ? nextParam : "/";
 
   async function trimite(e: React.FormEvent) {
     e.preventDefault();
@@ -74,12 +75,12 @@ export function PoartaForm() {
           >
             Trimite pe WhatsApp
           </a>
-          <button
-            onClick={() => router.push(next)}
-            className="rounded-xl bg-yellow-400 px-5 py-3 text-sm font-bold text-blue-950 active:bg-yellow-300"
+          <a
+            href={next}
+            className="block rounded-xl bg-yellow-400 px-5 py-3 text-sm font-bold text-blue-950 active:bg-yellow-300"
           >
             Intră pe site →
-          </button>
+          </a>
         </div>
         <p className="text-xs text-blue-300">
           Codul tău rămâne afișat și în josul site-ului, dacă vrei să-l trimiți mai târziu.
