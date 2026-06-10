@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function ShareButton({ title, path }: { title: string; path: string }) {
   const [copiat, setCopiat] = useState(false);
-  const url = `https://guvernaire.vercel.app${path}`;
+  const url = `https://guvernare.online${path}`;
 
   async function share() {
     if (typeof navigator !== "undefined" && navigator.share) {

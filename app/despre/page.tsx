@@ -4,19 +4,19 @@ import { SectionTitle } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Despre",
-  description: "Ce este guvernAIre și de ce există.",
+  description: "Ce este guvernare.online și de ce există.",
 };
 
 export default function DesprePage() {
   return (
     <article className="max-w-3xl space-y-8">
       <header>
-        <h1 className="font-serif text-3xl font-bold tracking-tight">Despre guvernAIre</h1>
+        <h1 className="font-serif text-3xl font-bold tracking-tight">Despre guvernare.online</h1>
       </header>
 
       <section className="space-y-3 text-[15px] leading-relaxed text-zinc-700">
         <p>
-          <strong>guvernAIre</strong> este un guvern paralel: nu guvernează nimic, dar judecă tot.
+          <strong>guvernare.online</strong> este un guvern paralel: nu guvernează nimic, dar judecă tot.
           Pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale ale
           statului, punem în balanță ce câștigă și ce pierde țara și cetățeanul, și votăm
           transparent. Apoi comparăm votul nostru cu ce au decis în realitate Parlamentul, Guvernul

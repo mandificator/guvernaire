@@ -2,7 +2,7 @@ import { deciziiSortate } from "@/data/decizii";
 
 export const dynamic = "force-static";
 
-const BASE = "https://guvernaire.vercel.app";
+const BASE = "https://guvernare.online";
 
 function escapeXml(s: string): string {
   return s
@@ -35,7 +35,7 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>guvernAIre — Guvernul paralel al cetățeanului</title>
+    <title>guvernare.online — Guvernul paralel al cetățeanului</title>
     <link>${BASE}</link>
     <description>Fiecare lege din România, explicată și votată în interesul cetățeanului — apoi comparată cu votul real din Parlament.</description>
     <language>ro</language>

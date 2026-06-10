@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { decizii } from "@/data/decizii";
 import { actori } from "@/data/actori";
 
-const BASE = "https://guvernaire.vercel.app";
+const BASE = "https://guvernare.online";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

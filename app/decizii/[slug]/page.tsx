@@ -47,9 +47,9 @@ export default async function DeciziePage({
     description: d.rezumat,
     datePublished: d.data,
     inLanguage: "ro",
-    author: { "@type": "Organization", name: "guvernAIre" },
-    publisher: { "@type": "Organization", name: "guvernAIre" },
-    mainEntityOfPage: `https://guvernaire.vercel.app/decizii/${d.slug}`,
+    author: { "@type": "Organization", name: "guvernare.online" },
+    publisher: { "@type": "Organization", name: "guvernare.online" },
+    mainEntityOfPage: `https://guvernare.online/decizii/${d.slug}`,
   };
 
   return (

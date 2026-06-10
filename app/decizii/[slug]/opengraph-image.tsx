@@ -15,7 +15,7 @@ export default async function OgImage({
 }) {
   const { slug } = await params;
   const d = getDecizie(slug);
-  const titlu = d?.titlu ?? "guvernAIre";
+  const titlu = d?.titlu ?? "guvernare.online";
   const vot = d?.votParalel.vot ?? "";
   const aliniere =
     d?.aliniere === "aliniat"
@@ -42,20 +42,19 @@ export default async function OgImage({
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", gap: 4 }}>
-          <span style={{ color: "white", fontSize: 40, fontWeight: 800 }}>guvern</span>
+          <span style={{ color: "white", fontSize: 40, fontWeight: 800 }}>guvernare</span>
           <span
             style={{
               backgroundColor: "#facc15",
               color: "#172554",
-              fontSize: 32,
+              fontSize: 30,
               fontWeight: 900,
               padding: "2px 10px",
               borderRadius: 8,
             }}
           >
-            AI
+            .online
           </span>
-          <span style={{ color: "white", fontSize: 40, fontWeight: 800 }}>re</span>
           <span style={{ color: "#93c5fd", fontSize: 22, marginLeft: 20 }}>
             guvernul paralel al cetățeanului
           </span>

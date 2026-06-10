@@ -15,10 +15,10 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://guvernaire.vercel.app"),
+  metadataBase: new URL("https://guvernare.online"),
   title: {
-    default: "guvernAIre — Guvernul paralel al cetățeanului",
-    template: "%s · guvernAIre",
+    default: "guvernare.online — Guvernul paralel al cetățeanului",
+    template: "%s · guvernare.online",
   },
   description:
     "Fiecare lege din România, explicată pe înțelesul tău: argumente pro și contra, votul guvernului paralel și comparația cu votul real din Parlament. Fapte din surse oficiale, zero simpatii politice.",
@@ -39,15 +39,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ro_RO",
-    url: "https://guvernaire.vercel.app",
-    siteName: "guvernAIre",
-    title: "guvernAIre — Guvernul paralel al cetățeanului",
+    url: "https://guvernare.online",
+    siteName: "guvernare.online",
+    title: "guvernare.online — Guvernul paralel al cetățeanului",
     description:
       "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
   },
   twitter: {
     card: "summary",
-    title: "guvernAIre — Guvernul paralel al cetățeanului",
+    title: "guvernare.online — Guvernul paralel al cetățeanului",
     description:
       "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
   },
@@ -103,11 +103,10 @@ export default function RootLayout({
                 href="/"
                 className="flex items-baseline gap-1 text-3xl font-extrabold tracking-tight sm:text-4xl"
               >
-                <span className="text-blue-950">guvern</span>
-                <span className="rounded bg-blue-950 px-2 py-0.5 text-xl font-black text-yellow-400 sm:text-2xl">
-                  AI
+                <span className="text-blue-950">guvernare</span>
+                <span className="rounded bg-blue-950 px-1.5 py-0.5 text-lg font-black text-yellow-400 sm:text-xl">
+                  .online
                 </span>
-                <span className="text-blue-950">re</span>
               </Link>
               <p className="text-[11px] font-medium uppercase tracking-[0.25em] text-zinc-500 sm:text-xs">
                 Guvernul paralel al cetățeanului
@@ -130,7 +129,7 @@ export default function RootLayout({
         <footer className="mt-8 border-t-2 border-zinc-900 bg-zinc-50">
           <div className="mx-auto max-w-6xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
             <p className="text-sm font-extrabold tracking-tight text-blue-950">
-              guvernAIre <span className="font-normal text-zinc-400">·</span>{" "}
+              guvernare.online <span className="font-normal text-zinc-400">·</span>{" "}
               <span className="font-normal text-zinc-500">
                 fără partid, fără sponsor, fără simpatii
               </span>
