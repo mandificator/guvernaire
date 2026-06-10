@@ -27,6 +27,6 @@ export const config = {
   matcher: [
     // tot site-ul, MAI PUȚIN: assets Next, API-ul de coduri, poarta însăși,
     // fișierele publice și rutele necesare pentru SEO/preview-uri
-    "/((?!_next/|api/cod|poarta|favicon\\.ico|icon\\.svg|manifest\\.json|robots\\.txt|sitemap\\.xml|feed\\.xml|.*opengraph-image).*)",
+    "/((?!_next/|_vercel/|api/cod|poarta|favicon\\.ico|icon\\.svg|manifest\\.json|robots\\.txt|sitemap\\.xml|feed\\.xml|.*opengraph-image).*)",
   ],
 };
