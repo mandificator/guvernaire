@@ -30,10 +30,11 @@ export default function MetodologiePage() {
           folosită doar pentru informație, niciodată pentru interpretări: preluăm date, evenimente,
           cifre și declarații atribuite (cine, ce, când) — nu preluăm etichete, caracterizări,
           sondaje dintr-o singură sursă, „percepții" sau speculații despre motivele actorilor.
-          Nu considerăm nicio redacție „independentă" din oficiu: când cităm presa, căutăm
-          confirmarea aceleiași informații în surse cu orientări editoriale opuse și păstrăm doar
-          ce e comun. Dacă o informație există doar într-o singură sursă de presă și nu are
-          confirmare oficială, nu intră în analiză.
+          Nu considerăm nicio redacție „independentă" din oficiu: când cităm presa, consultăm
+          redacții de pe tot spectrul editorial — de la G4Media, HotNews, Digi24 sau Europa Liberă
+          până la ActiveNews, Realitatea, România TV sau B1TV — și păstrăm doar informația pe care
+          o confirmă surse cu orientări opuse. Dacă o informație există doar într-o singură sursă
+          de presă și nu are confirmare oficială, nu intră în analiză.
         </p>
         <p className="text-[15px] leading-relaxed text-zinc-700">
           Fiecare analiză listează sursele folosite — dacă o afirmație nu are sursă, nu intră în
