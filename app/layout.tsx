@@ -3,6 +3,7 @@ import { Inter, Newsreader } from "next/font/google";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
 import { Invitatie } from "@/components/invitatie";
+import { DataOra } from "@/components/data-ora";
 import "./globals.css";
 
 const inter = Inter({
@@ -67,19 +68,6 @@ const nav = [
   { href: "/despre", label: "Despre" },
 ];
 
-function DataAzi() {
-  const luni = [
-    "ianuarie", "februarie", "martie", "aprilie", "mai", "iunie",
-    "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie",
-  ];
-  const zile = ["duminică", "luni", "marți", "miercuri", "joi", "vineri", "sâmbătă"];
-  const d = new Date();
-  return (
-    <span suppressHydrationWarning>
-      {zile[d.getDay()]}, {d.getDate()} {luni[d.getMonth()]} {d.getFullYear()}
-    </span>
-  );
-}
 
 export default function RootLayout({
   children,
@@ -91,8 +79,8 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col bg-white text-zinc-900">
         <header className="border-b-2 border-zinc-900">
           <div className="mx-auto max-w-6xl px-4">
-            <div className="hidden items-center justify-between border-b border-zinc-200 py-1.5 text-[11px] text-zinc-500 sm:flex">
-              <DataAzi />
+            <div className="flex items-center justify-between border-b border-zinc-200 py-1.5 text-[11px] text-zinc-500">
+              <DataOra />
               <div className="flex items-center gap-4">
                 <span>Actualizat zilnic la 20:00</span>
                 <a href="/feed.xml" className="font-semibold text-blue-800 hover:underline">
