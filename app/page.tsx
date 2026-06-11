@@ -15,9 +15,10 @@ export default function Home() {
   const [lead, ...rest] = decizii;
   const secundare = rest.slice(0, 4);
   const restul = rest.slice(4);
-  const cuVot = decizii.filter((d) => d.aliniere !== "fără-vot");
-  const aliniate = cuVot.filter((d) => d.aliniere === "aliniat").length;
-  const divergente = cuVot.filter((d) => d.aliniere === "divergent").length;
+  const aliniate = decizii.filter((d) => d.aliniere === "aliniat").length;
+  const divergente = decizii.filter((d) => d.aliniere === "divergent").length;
+  const partiale = decizii.filter((d) => d.aliniere === "parțial").length;
+  const faraVot = decizii.filter((d) => d.aliniere === "fără-vot").length;
 
   return (
     <div className="space-y-10">
@@ -81,23 +82,35 @@ export default function Home() {
             <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
               Scorul guvernului paralel
             </h2>
-            <div className="grid grid-cols-3 gap-2 text-center">
-              <div>
-                <div className="text-3xl font-extrabold text-blue-950">{decizii.length}</div>
-                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
-                  analizate
-                </div>
+            <div className="mb-3 text-center">
+              <div className="text-4xl font-extrabold text-blue-950">{decizii.length}</div>
+              <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                decizii analizate
               </div>
-              <div>
-                <div className="text-3xl font-extrabold text-emerald-700">{aliniate}</div>
+            </div>
+            <div className="grid grid-cols-2 gap-2 text-center">
+              <div className="rounded-lg bg-white py-2">
+                <div className="text-2xl font-extrabold text-emerald-700">{aliniate}</div>
                 <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
                   aliniate
                 </div>
               </div>
-              <div>
-                <div className="text-3xl font-extrabold text-red-700">{divergente}</div>
+              <div className="rounded-lg bg-white py-2">
+                <div className="text-2xl font-extrabold text-red-700">{divergente}</div>
                 <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
                   divergente
+                </div>
+              </div>
+              <div className="rounded-lg bg-white py-2">
+                <div className="text-2xl font-extrabold text-amber-600">{partiale}</div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                  parțial aliniate
+                </div>
+              </div>
+              <div className="rounded-lg bg-white py-2">
+                <div className="text-2xl font-extrabold text-zinc-500">{faraVot}</div>
+                <div className="mt-0.5 text-[10px] uppercase tracking-wide text-zinc-500">
+                  fără vot (executiv)
                 </div>
               </div>
             </div>
