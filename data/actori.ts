@@ -112,6 +112,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-11",
+        text: "A prezidat ședința BPN PNL care a decis unanim să nu voteze investitura Guvernului Tomac. A declarat că formula este „o formulă de paravan pentru a scuti PSD de răspundere” și că „un guvern fără susținere politică nu poate spera decât la supraviețuire”.",
+      },
+      {
         data: "2026-06-10",
         text: "Mandatele celor 6 miniștri interimari numiți în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună constituțională fără precedent clar. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare.",
       },
@@ -200,6 +204,10 @@ export const actori: Actor[] = [
         titlu: "Mediafax — „Nu există corecții de deficit fără costuri”",
         url: "https://www.mediafax.ro/politic/bolojan-nu-s-a-vazut-nicaieri-in-lume-corectari-de-deficite-fara-niste-costuri-23750761",
       },
+      {
+        titlu: "HotNews — PNL a decis în unanimitate să nu susțină Guvernul Tomac (11 iunie 2026)",
+        url: "https://hotnews.ro/sedinta-la-pnl-pentru-guvernul-tomac-liberalii-decid-daca-voteaza-guvernul-propus-2270450",
+      },
     ],
   },
   {
@@ -211,6 +219,10 @@ export const actori: Actor[] = [
     rezumat:
       "Desemnat premier pe 4 iunie 2026 pentru un guvern tehnocrat; lider al unui partid neparlamentar (PMP), de la a cărui șefie a demisionat. Lista de miniștri a fost depusă pe 10 iunie, cu vot de învestitură estimat pe 12 iunie; PNL, USR, PSD și AUR au declarat că nu o susțin.",
     actiuniRecente: [
+      {
+        data: "2026-06-11",
+        text: "Miniștrii propuși sunt audiați în comisiile reunite ale Parlamentului; votul de învestitură e programat pe 12 iunie. PNL a decis unanim în BPN să nu voteze cabinetul; PSD a condiționat susținerea de un vot comun cu PNL și USR; suma voturilor disponibile este de maximum 224, sub pragul de 233 necesar.",
+      },
       {
         data: "2026-06-10",
         text: "A depus în Parlament lista cabinetului tehnocrat (Sorin Costreie — Educație/vicepremier, Dan Neculăescu — Apărare, Luca Niculescu — Externe, Nicolae Istudor — Agricultură) și programul de guvernare.",
@@ -229,7 +241,7 @@ export const actori: Actor[] = [
         promisiune: "Formarea unui guvern tehnocrat care să deblocheze criza",
         status: "în curs",
         detalii:
-          "Lista depusă la termen; aritmetica parlamentară îi este însă net defavorabilă — 233 de voturi necesare, zero asigurate public.",
+          "Lista depusă pe 10 iunie, audieri pe 11 iunie, vot pe 12 iunie. PNL refuză unanim, PSD condiționat dar nu votează fără PNL/USR, UDMR nu participă — maximum 224 voturi disponibile față de 233 necesare.",
       },
     ],
     controverse: [
@@ -265,6 +277,10 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
+      {
+        data: "2026-06-11",
+        text: "PSD l-a acuzat pe Bolojan că „blochează toată România” după decizia PNL de a nu vota Guvernul Tomac. Grindeanu a reiterat că PSD nu va vota investitura dacă nici PNL și nici USR nu o fac.",
+      },
       {
         data: "2026-06-05",
         text: "A respins guvernul Tomac: „nu continuăm modelul falimentar Bolojan”; exclude atât guvernul minoritar, cât și alianța cu AUR.",
@@ -332,6 +348,10 @@ export const actori: Actor[] = [
       {
         titlu: "Recorder — PSD se leapădă de Bolojan",
         url: "https://recorder.ro/stirile-zilei/20-aprilie-2026-psd-se-leapada-de-bolojan/",
+      },
+      {
+        titlu: "Mediafax — PSD îl acuză pe Bolojan că „blochează toată România” după decizia PNL de a nu vota Guvernul Tomac",
+        url: "https://www.mediafax.ro/politic/psd-il-acuza-pe-bolojan-ca-blocheaza-toata-romania-dupa-decizia-pnl-de-a-nu-vota-guvernul-tomac-23753435",
       },
     ],
   },

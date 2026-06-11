@@ -281,9 +281,9 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; votul de învestitură programat în jurul datei de 12 iunie 2026 — în așteptare la data analizei, fără majoritate conturată.",
+        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; audieri în comisii pe 11 iunie; votul de învestitură programat pe 12 iunie 2026. Pe 11 iunie, PNL a votat unanim în BPN să nu susțină investitura; matematica arată maximum 224 voturi disponibile față de 233 necesare — în așteptare.",
       pePartide:
-        "PNL — refuz; USR — refuz („paravan pentru PSD”); PSD — refuz; AUR — refuz, cere anticipate; UDMR — nu votează pentru, dar nici împotrivă.",
+        "PNL — refuz unanim (BPN, 11 iunie): Bolojan a calificat formula drept „o formulă de paravan pentru a scuti PSD de răspundere”. PSD — susținere condiționată (9 condiții: zero taxe noi, TVA 9% la alimente și medicamente, indexarea pensiilor, creșterea salariului minim de la 1 iulie 2026), dar Grindeanu a precizat că PSD nu votează dacă PNL și USR nu o fac. USR — refuz. AUR — refuz, cere anticipate. UDMR — nu susține, nu participă la vot. Scenariu post-Tomac discutat în PNL: guvern minoritar PNL+USR+UDMR la o a doua desemnare.",
     },
     aliniere: "fără-vot",
     controverse: [
@@ -292,7 +292,7 @@ export const decizii: Decizie[] = [
       "Pe 10 iunie, chiar în ziua depunerii listei, mandatele celor 6 miniștri interimari numiți de Bolojan în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună de conducere la 6 ministere. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare. (Surse: Digi24, Stiripesurse, Adevarul, Ziare.com — 10 iunie 2026.)",
     ],
     verdictFinal:
-      "Verdictul rămâne suspendat până la votul de învestitură, dar semnalele convergente indică respingere. Dacă guvernul Tomac pică, președintele va fi consumat prima din cele două încercări pe o formulă despre care toți actorii îi spuseseră că nu trece — timp pierdut pe care cetățeanul îl plătește prin paralizie administrativă. Dacă, împotriva așteptărilor, trece, va guverna sub șantajul permanent al oricărui grup care i-a împrumutat voturile. Niciuna dintre variante nu e bună; amândouă erau previzibile la momentul desemnării. Nota suplimentară de la 10 iunie: mandatele a 6 miniștri interimari au expirat chiar în ziua depunerii listei, adâncind starea de limbo constituțional — orice zi suplimentară fără un guvern deplin înseamnă și un executiv care funcționează pe jumătate.",
+      "Actualizare 11 iunie: PNL a votat unanim în BPN să nu susțină investitura, UDMR nu participă la vot, PSD nu votează fără PNL și USR — suma maximă a voturilor disponibile este de 224 față de 233 necesare. Votul de pe 12 iunie va eșua cu certitudine ridicată, consumând prima din cele două încercări constituționale. Scenariul discutat în PNL după eșec: guvern minoritar PNL+USR+UDMR la o a doua desemnare — formulă mai credibilă aritmetic, dar care adaugă noi săptămâni la criza deja prelungită de o lună. Costul desemnării fără majoritate asigurată — timp pierdut, presiune pe rating, paralizie administrativă — confirmă exact evaluarea guvernului paralel de la momentul desemnării. Mandatele a 6 miniștri interimari expiraseră pe 10 iunie, adâncind starea de limbo constituțional.",
     surse: [
       {
         titlu: "Presidency.ro — decretul de desemnare a lui Eugen Tomac (comunicat oficial, 5 iunie 2026)",
@@ -321,6 +321,18 @@ export const decizii: Decizie[] = [
       {
         titlu: "G4Media — Ce urmează după desemnarea lui Eugen Tomac",
         url: "https://www.g4media.ro/ce-urmeaza-dupa-desemnarea-lui-eugen-tomac-pentru-postul-de-premier-cat-timp-are-ca-sa-formeze-guvernul-si-sa-ceara-votul-de-investitura-al-parlamentului.html",
+      },
+      {
+        titlu: "TVR Info — PNL nu va susține învestirea Guvernului Tomac (decizie BPN unanimă, 11 iunie 2026)",
+        url: "https://tvrinfo.ro/pnl-nu-va-sustine-investirea-guvernului-tomac-bolojan-un-guvern-fara-sustinere-politica-nu-poate-spera-decat-la-supravietuire/",
+      },
+      {
+        titlu: "Digi24 — Șanse tot mai mici pentru Guvernul Tomac; PNL ia în calcul guvern cu USR și UDMR",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/sanse-tot-mai-mici-pentru-guvernul-tomac-ce-strategii-isi-fac-partidele-pnl-ia-in-calcul-guvern-cu-usr-si-udmr-surse-3810929",
+      },
+      {
+        titlu: "HotNews — PNL a decis în unanimitate să nu susțină Guvernul Tomac",
+        url: "https://hotnews.ro/sedinta-la-pnl-pentru-guvernul-tomac-liberalii-decid-daca-voteaza-guvernul-propus-2270450",
       },
     ],
   },
@@ -487,7 +499,7 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Adoptată de Camera Deputaților (for decizional) pe 10 iunie 2026 — formal, legea de aprobare a OUG 22/2026 (PL-x 340/2026), actul care prelungește plafonarea; merge la promulgare.",
+        "Adoptată de Camera Deputaților (for decizional) pe 10 iunie 2026 — formal, legea de aprobare a OUG 22/2026 (PL-x 340/2026); promulgată de președintele Nicușor Dan pe 11 iunie 2026.",
       detalii: "292 pentru / 1 contra / 1 abținere — susținere transpartinică cvasi-unanimă.",
       cifre: { pentru: 292, contra: 1, abtineri: 1 },
       pePartide: "Defalcare pe partide nedisponibilă; scorul indică vot comun al puterii și opoziției.",
@@ -526,6 +538,10 @@ export const decizii: Decizie[] = [
       {
         titlu: "Stiripesurse — Criticile ANCMMR la prelungirea plafonării",
         url: "https://www.stiripesurse.ro/plafonarea-adaosului-la-alimente-criticata-vicepresedintele-ancmmr-o-numeste-interventie-brutala-intr-o-piata-libera_3893710",
+      },
+      {
+        titlu: "Stiripesurse — Nicușor Dan a semnat decretul: plafonarea continuă și după 30 iunie (confirmare promulgare 11 iunie 2026)",
+        url: "https://www.stiripesurse.ro/nicusor-dan-a-semnat-decretul-plafonarea-preturilor-la-alimentele-de-baza-continua-si-dupa-30-iunie-lista-completa-a-produselor-vizate_3889505",
       },
     ],
   },
