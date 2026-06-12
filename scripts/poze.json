@@ -347,5 +347,25 @@
     "nume": "Raed Arafat",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Raed_Arafat_-_2025_%28cropped%29.jpg",
     "sursa": "https://ro.wikipedia.org/wiki/Raed_Arafat"
+  },
+  "nicusor-dan": {
+    "nume": "Nicușor Dan",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Nicu%C8%99or_Dan_-_Eastern_Flank_Summit_16_December_2025_%28cropped%29.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Nicu%C8%99or_Dan"
+  },
+  "eugen-tomac": {
+    "nume": "Eugen Tomac",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/5/57/1718281648577_20240612_TOMAC_Eugen_RO_009.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Eugen_Tomac"
+  },
+  "dominic-fritz": {
+    "nume": "Dominic Fritz",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Dominic_Fritz_%28May_2025%29.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Dominic_Fritz"
+  },
+  "diana-sosoaca": {
+    "nume": "Diana Șoșoacă",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/1/16/Diana_Iovanovici_%C8%98o%C8%99oac%C4%83_MEP_%282024%29.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Diana_%C8%98o%C8%99oac%C4%83"
   }
 }

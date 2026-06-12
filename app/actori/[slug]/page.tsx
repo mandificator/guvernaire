@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { actori, getActor } from "@/data/actori";
 import { DataRo, SectionTitle, Surse } from "@/components/ui";
+import { Portret } from "@/components/portret";
 import type { StatusPromisiune } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -48,13 +49,16 @@ export default async function ActorPage({
         <Link href="/actori" className="text-sm text-blue-700 hover:underline">
           ← toți actorii
         </Link>
-        <div>
-          <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">{a.nume}</h1>
-          <p className="text-sm text-zinc-500">
-            {a.functie}
-            {a.partid ? ` · ${a.partid}` : ""}
-            {a.dinCand ? ` · din ${a.dinCand}` : ""}
-          </p>
+        <div className="flex items-start gap-5">
+          <Portret nume={a.nume} marime={104} />
+          <div>
+            <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">{a.nume}</h1>
+            <p className="text-sm text-zinc-500">
+              {a.functie}
+              {a.partid ? ` · ${a.partid}` : ""}
+              {a.dinCand ? ` · din ${a.dinCand}` : ""}
+            </p>
+          </div>
         </div>
         <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-700">{a.rezumat}</p>
       </header>

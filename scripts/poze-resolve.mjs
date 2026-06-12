@@ -1,11 +1,11 @@
-// Rezolvă poze reale pentru persoanele din data/guvern.ts, via Wikipedia REST (ro, en).
+// Rezolvă poze reale pentru persoanele din data/guvern.ts și data/actori.ts, via Wikipedia REST (ro, en).
 // Scrie scripts/poze.json: { slug: { nume, foto, sursa } } + raportează lipsurile.
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const src = readFileSync(join(root, "data/guvern.ts"), "utf-8");
+const src = ["data/guvern.ts", "data/actori.ts"].map((f) => readFileSync(join(root, f), "utf-8")).join("\n");
 const nume = [...new Set([...src.matchAll(/nume: "([^"]+)"/g)].map((m) => m[1]))];
 
 export function slugify(n) {
