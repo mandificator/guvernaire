@@ -63,11 +63,14 @@ export default function GuvernPage() {
           ))}
         </div>
         <p className="mt-4 text-xs leading-relaxed text-zinc-500">
-          De ce nu primesc AUR, SOS sau POT propuneri finale, deși au candidați pe aproape toate
-          listele? Pentru că criteriul dominant este <strong>experiența executivă dovedită</strong>{" "}
-          (ministere conduse, reforme livrate), iar aceste partide nu au guvernat încă — un fapt
-          structural, nu o judecată ideologică. Acolo unde un candidat al lor domină pe merit,
-          este consemnat ca rezervă imediată în motivare. Spune-ne unde greșim:{" "}
+          Trecutul la guvernare <strong>nu este criteriu</strong>: un partid care nu a guvernat
+          încă nu pornește cu handicap, așa cum unul care a guvernat nu pornește cu bonus — și
+          USR, și UDMR, și oricare altul au fost cândva „neîncercați". Propunerea finală merge
+          la candidatul cu cel mai bun raport pro/contra pe criteriile publice: competență în
+          domeniu, activitate parlamentară, integritate. Acolo unde un partid nu are nicio
+          propunere finală, motivul este individual și documentat în fișa fiecărui candidat al
+          său (de ex. anchete DNA, conflicte de interese, lipsa oricărei activități pe domeniu)
+          — nu eticheta partidului. Spune-ne unde greșim:{" "}
           <a href="mailto:tavi@pukka.ro" className="font-semibold text-blue-800 hover:underline">
             tavi@pukka.ro
           </a>

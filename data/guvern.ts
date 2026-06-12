@@ -931,7 +931,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Angel Tîlvăr",
       motivare:
-        "Este parlamentar în funcție (criteriul principal) și singurul dintre candidații-parlamentari cu experiență executivă recentă și completă la MApN: doi ani și jumătate de mandat în plin război la granița României, perioada lansării programului F-35 și a creșterii bugetului apărării, plus președinția Comisiei pentru democrație și securitate din AP NATO. Geoană îl depășește ca anvergură internațională, dar nu este parlamentar, iar lista parlamentară pe apărare nu este slabă.",
+        "Este parlamentar în funcție (criteriul principal) și singurul dintre candidații-parlamentari cu experiență executivă recentă și completă la MApN: doi ani și jumătate de mandat în plin război la granița României, perioada lansării programului F-35 și a creșterii bugetului apărării, plus președinția Comisiei pentru democrație și securitate din AP NATO. Geoană îl depășește ca anvergură internațională, dar nu este parlamentar. Chelaru (AUR) are cea mai înaltă carieră militară din listă și a fost cântărit serios, dar expertiza sa operațională s-a încheiat în 2000, iar pozițiile sale contra programului SAFE — pe care guvernul paralel l-a susținut pe fond — ar pune ministrul în contradicție cu propria linie de apărare.",
     },
   },
   {
@@ -1461,9 +1461,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Alexandru-Florin Rogobete",
+      nume: "Cristian Vântu",
       motivare:
-        "Cumulează unic în listă mandatul de parlamentar ales, președinția comisiei de specialitate și conducerea efectivă a ministerului în 2025–2026, cu o reformă a managementului spitalelor începută și nefinalizată, plus cea mai bună rată de promulgare a inițiativelor proprii (7 din 12). Demisia sa din aprilie 2026 a fost motivată politic, nu prin eșec administrativ, iar readucerea sa ar permite continuarea reformelor întrerupte de criză.",
+        "Medic practician cu 12 ani într-un sistem de sănătate vest-european (NHS) și experiență de evaluator al calității actului medical (General Medical Council), vicepreședinte al comisiei de specialitate a Senatului, cu agendă concretă și verificabilă pe digitalizarea medicinei de familie — cel mai bun raport pro/contra din listă. Pozițiile anti-vaccinare ale partidului său sunt notate la contra, dar evaluăm omul, nu eticheta. Rogobete rămâne rezerva imediată: cunoaște dosarele PNRR la zi, însă plecarea la ordin de partid și rezidențiatul suspendat cântăresc.",
     },
   },
   {
@@ -1646,9 +1646,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Ștefan Pălărie",
+      nume: "Silviu-Octavian Gurlui",
       motivare:
-        "Îndeplinește integral criteriul prioritar (parlamentar în funcție), conduce comisia de specialitate a Senatului și are întreaga carieră dedicată educației, fără controverse de integritate — spre deosebire de Pirtea (suspiciuni de plagiat, activitate parlamentară minimă) sau David (neparlamentar, demisionat în criză). Lipsa experienței executive este compensată de poziția actuală de conducere legislativă pe domeniu și de profilul de integritate necesar reconstruirii încrederii după protestele din 2025.",
+        "Portofoliul include explicit Cercetarea, iar Gurlui este singurul candidat cu carieră științifică internațională activă (profesor dr. habil., laborator unic în țară) și cel mai activ parlamentar din întreaga rubrică: 140 de întrebări și interpelări și funcții în birourile ambelor comisii relevante. Eficiența legislativă scăzută și lipsa experienței de management sunt notate la contra, dar pe ansamblul criteriilor — competență de domeniu plus activitate — devansează. Pălărie (USR), președintele comisiei din Senat, cu profil de integritate impecabil, este rezerva imediată.",
     },
   },
   {
@@ -1819,9 +1819,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Radu Miruță",
+      nume: "Varujan Pambuccian",
       motivare:
-        "Este singurul candidat care a condus deja acest minister exact în formula actuală (economie + digitalizare + antreprenoriat + turism) și a pornit reforma guvernanței companiilor de stat, deci poate relua dosarele fără perioadă de acomodare. Alternativa Peiu, deși academic mai solidă, este blocată de conflictul de interese bursier documentat și de rolul său partizan în declanșarea crizei politice.",
+        "La un minister care are digitalizarea în titulatură, Pambuccian este autorul legilor fondatoare ale domeniului (semnătura electronică, comerțul electronic, notariatul electronic) și are profil tehnic real, cu opt mandate de activitate legislativă verificabilă și apartenență la grupul minorităților — echidistant prin construcție. Lipsa experienței executive e notată la contra, dar niciun contracandidat nu o compensează decisiv: mandatul lui Miruță (rezerva imediată) a durat doar șase luni, iar Peiu e blocat de conflictul de interese bursier documentat.",
     },
   },
   {
@@ -2362,9 +2362,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Florin-Ionuț Barbu",
+      nume: "Călin-Gheorghe Matieș",
       motivare:
-        "Pe criteriile stabilite — competență dovedită pe portofoliu, activitate verificabilă și notorietate — Barbu domină lista: aproape trei ani de mandat efectiv la MADR sub două guverne de culori diferite, expertiză tehnică în irigații (ANIF) și 5 legi promulgate în legislatura curentă. Acuzațiile de presă privind perioada ANIF rămân nevalidate judiciar și sunt notate transparent la contra; demisia sa din aprilie 2026 a fost un act politic de partid, nu o sancțiune pentru performanță. Rezervă imediată pe criterii de echidistanță: Călin Matieș (AUR).",
+        "Matieș este singurul candidat care trăiește efectiv din lanțul agroalimentar — producător cu fabrică și exploatații, președintele federației producătorilor tradiționali — și are activitate parlamentară susținută: vicepreședinte al comisiei de specialitate, 83 de inițiative legislative, prezență constantă în plen. Traseismul PSD→AUR și potențialul conflict de interese sunt notate transparent la contra, dar nu ating gravitatea acuzațiilor documentate de presă care grevează perioada ANIF a lui Barbu — rezerva imediată, cu cea mai lungă experiență executivă pe portofoliu.",
     },
   },
   {
