@@ -40,10 +40,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Stil decizional centralizat, criticat inclusiv în propriul partid (stenograme din ședința PNL de validare a miniștrilor).",
         ],
         punctaj: {
-          competenta: 36,
-          activitate: 21,
-          integritate: 28,
-          total: 85,
+          sustinere: 25,
+          competenta: 23,
+          activitate: 14,
+          integritate: 19,
+          total: 81,
         },
         surse: [
           {
@@ -82,11 +83,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cumulul președinte de partid + președinte al Camerei concentrează puterea și contrazice ideea de premier echidistant.",
         ],
         punctaj: {
-          competenta: 30,
-          activitate: 21,
-          integritate: 19,
-          total: 70,
-          penalizari: "−6 OUG 13, adoptată de guvernul condus de el (2017); −5 acuzații de numiri clientelare, documentate de presă",
+          sustinere: 30,
+          competenta: 19,
+          activitate: 14,
+          integritate: 13,
+          total: 76,
+          penalizari: "−4 OUG 13, adoptată de guvernul condus de el (2017); −3 acuzații de numiri clientelare, documentate de presă",
         },
         surse: [
           {
@@ -123,11 +125,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Interdicții de intrare în Ucraina și Republica Moldova — handicap direct pentru un șef de guvern în politica externă regională.",
         ],
         punctaj: {
-          competenta: 12,
-          activitate: 17,
-          integritate: 24,
-          total: 53,
-          penalizari: "−6 comportament conflictual documentat în plen",
+          sustinere: 32,
+          competenta: 8,
+          activitate: 11,
+          integritate: 16,
+          total: 67,
+          penalizari: "−4 comportament conflictual documentat în plen",
         },
         surse: [
           {
@@ -165,10 +168,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Relația strânsă cu guvernul de la Budapesta (subiect reactivat de alegerile din Ungaria, aprilie 2026) ridică sensibilități de politică externă.",
         ],
         punctaj: {
-          competenta: 26,
-          activitate: 18,
-          integritate: 28,
-          total: 72,
+          sustinere: 17,
+          competenta: 16,
+          activitate: 12,
+          integritate: 19,
+          total: 64,
         },
         surse: [
           {
@@ -203,11 +207,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul de premier s-a încheiat cu demisia în urma tragediei Colectiv (2015).",
         ],
         punctaj: {
-          competenta: 28,
-          activitate: 14,
-          integritate: 10,
+          sustinere: 18,
+          competenta: 18,
+          activitate: 9,
+          integritate: 7,
           total: 52,
-          penalizari: "−15 plagiat constatat, cu renunțarea la titlu; −5 traseism politic repetat",
+          penalizari: "−10 plagiat constatat, cu renunțarea la titlu; −3 traseism politic repetat",
         },
         surse: [
           {
@@ -228,7 +233,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Ilie Bolojan",
       motivare:
-        "Grila îl dă câștigător detașat: 85 de puncte (competență 36/40 — singurul bilanț complet pe toate palierele administrației; activitate 21/30; integritate 28/30), față de 72 (Kelemen Hunor) și 70 (Grindeanu). Demiterea cu 281 de voturi rămâne handicapul politic major, notat la contra — dar grila măsoară meritul, nu aritmetica parlamentară de moment.",
+        "81 de puncte: competența și bilanțul administrativ (23/25) compensează susținerea politică mai mică decât a lui Grindeanu (76, susținere 30/35, dar penalizat la integritate). Simion (67) are cea mai mare susținere populară din listă (32/35), însă competența de guvernare (8/25) îl ține departe. Singura poziție unde meritul bate aritmetica voturilor — la limită.",
     },
   },
   {
@@ -259,10 +264,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Deficitul bugetar a rămas printre cele mai mari din UE pe durata mandatului său actual.",
         ],
         punctaj: {
-          competenta: 32,
-          activitate: 17,
-          integritate: 29,
-          total: 78,
+          sustinere: 21,
+          competenta: 20,
+          activitate: 11,
+          integritate: 19,
+          total: 71,
         },
         surse: [
           {
@@ -301,10 +307,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Prezență continuă la guvernare în toate coalițiile recente — vulnerabil la critica de „om al sistemului”.",
         ],
         punctaj: {
-          competenta: 31,
-          activitate: 19,
-          integritate: 26,
-          total: 76,
+          sustinere: 16,
+          competenta: 19,
+          activitate: 13,
+          integritate: 17,
+          total: 65,
         },
         surse: [
           {
@@ -341,11 +348,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Retorica economică protecționistă intră în tensiune cu angajamentele asumate de România față de UE.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 20,
-          integritate: 20,
-          total: 69,
-          penalizari: "−8 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
+          sustinere: 24,
+          competenta: 18,
+          activitate: 13,
+          integritate: 13,
+          total: 68,
+          penalizari: "−5 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
         },
         surse: [
           {
@@ -382,10 +390,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Agenda de reduceri de taxe este greu de aplicat cu un deficit excesiv — percepută ca ideologică.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 21,
-          integritate: 30,
-          total: 74,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 14,
+          integritate: 20,
+          total: 68,
         },
         surse: [
           {
@@ -424,10 +433,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Ar prelua, la 73 de ani, cel mai solicitant portofoliu economic, într-o criză prelungită.",
         ],
         punctaj: {
-          competenta: 37,
-          activitate: 22,
-          integritate: 28,
-          total: 87,
+          sustinere: 2,
+          competenta: 23,
+          activitate: 15,
+          integritate: 19,
+          total: 59,
         },
         surse: [
           {
@@ -442,9 +452,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Daniel Dăianu",
+      nume: "Alexandru Nazare",
       motivare:
-        "Cel mai mare punctaj din întreaga rubrică: 87 (competență 37/40 — academician, fost ministru de finanțe, fost economist-șef al BNR; activitate 22/30 prin Consiliul Fiscal; integritate 28/30). Nazare (78) și Tánczos (76) rămân rezervele imediate, cu mandate recente la minister; Peiu (69) pierde la integritate (−8, conflict de interese documentat), nu la competență.",
+        "71 de puncte: două mandate la Finanțe, formație internațională și susținerea PNL (21/35). Peiu și Năsui (68) sunt la trei puncte; Dăianu (59) are cel mai mare punctaj de competență din rubrică (23/25), dar fără susținere politică (2/35) nu poate trece un buget prin Parlament — exact cazul în care tehnocratul nu surclasează.",
     },
   },
   {
@@ -473,10 +483,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A demisionat din guvern în 2018, în context conflictual, fără a finaliza pregătirea președinției Consiliului UE.",
         ],
         punctaj: {
-          competenta: 33,
-          activitate: 25,
-          integritate: 27,
-          total: 85,
+          sustinere: 26,
+          competenta: 21,
+          activitate: 17,
+          integritate: 18,
+          total: 82,
         },
         surse: [
           {
@@ -513,10 +524,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Ambele mandate ministeriale au fost întrerupte prematur de crize politice.",
         ],
         punctaj: {
-          competenta: 30,
-          activitate: 18,
-          integritate: 28,
-          total: 76,
+          sustinere: 20,
+          competenta: 19,
+          activitate: 12,
+          integritate: 19,
+          total: 70,
         },
         surse: [
           {
@@ -554,10 +566,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Face parte din guvernul demis cu 281 de voturi — politic uzat în relația cu actualul Parlament.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 18,
-          integritate: 28,
-          total: 75,
+          sustinere: 4,
+          competenta: 18,
+          activitate: 12,
+          integritate: 19,
+          total: 53,
         },
         surse: [
           {
@@ -591,10 +604,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Pozițiile AUR critice față de o parte din politicile UE pot complica relația de lucru cu Comisia Europeană.",
         ],
         punctaj: {
-          competenta: 13,
-          activitate: 17,
-          integritate: 30,
-          total: 60,
+          sustinere: 24,
+          competenta: 8,
+          activitate: 11,
+          integritate: 20,
+          total: 63,
         },
         surse: [
           {
@@ -627,10 +641,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Grupul parlamentar POT s-a destrămat (10 deputați plecați spre Uniți pentru România) — capacitate redusă de a susține politic un mandat ministerial.",
         ],
         punctaj: {
-          competenta: 16,
-          activitate: 12,
-          integritate: 26,
-          total: 54,
+          sustinere: 17,
+          competenta: 10,
+          activitate: 8,
+          integritate: 17,
+          total: 52,
         },
         surse: [
           {
@@ -651,7 +666,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Victor Negrescu",
       motivare:
-        "85 de puncte: competență 33/40 și cea mai relevantă activitate echivalentă din listă (25/30 — vicepreședinte al Parlamentului European, raportor general pe bugetul UE 2025), integritate 27/30. Ghinea (76) este rezerva parlamentară imediată, cu PNRR-ul negociat personal.",
+        "82 de puncte — cel mai mare total din rubrică: europarlamentar ales, susținut de cel mai votat partid (26/35), vicepreședinte al PE cu acces direct la decidenții PNRR (activitate 17/20). Ghinea (70) rămâne rezerva imediată.",
     },
   },
   {
@@ -681,11 +696,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Stil diplomatic considerat conservator de critici, cu apetență redusă pentru reforma serviciului diplomatic.",
         ],
         punctaj: {
-          competenta: 31,
-          activitate: 22,
-          integritate: 24,
+          sustinere: 27,
+          competenta: 19,
+          activitate: 15,
+          integritate: 16,
           total: 77,
-          penalizari: "−6 demisia din 2014, după organizarea defectuoasă a votului din diaspora",
+          penalizari: "−4 demisia din 2014, după organizarea defectuoasă a votului din diaspora",
         },
         surse: [
           {
@@ -724,10 +740,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Membră a unui guvern demis prin moțiune de cenzură, ceea ce slăbește argumentul continuității.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 17,
-          integritate: 29,
-          total: 68,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 11,
+          integritate: 19,
+          total: 64,
         },
         surse: [
           {
@@ -765,10 +782,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A fost eliberată „la cerere” din funcția de consilier prezidențial în 2025, în contextul restructurării echipei de la Cotroceni.",
         ],
         punctaj: {
-          competenta: 36,
-          activitate: 20,
-          integritate: 29,
-          total: 85,
+          sustinere: 4,
+          competenta: 23,
+          activitate: 13,
+          integritate: 19,
+          total: 59,
         },
         surse: [
           {
@@ -805,10 +823,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Pozițiile sale publice urmează linia AUR, critică față de orientarea actuală a politicii externe și față de sprijinul pentru Ucraina — risc de ruptură de consensul strategic NATO/UE.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 18,
-          integritate: 30,
-          total: 68,
+          sustinere: 24,
+          competenta: 13,
+          activitate: 12,
+          integritate: 20,
+          total: 69,
         },
         surse: [
           {
@@ -841,10 +860,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Scoruri electorale proprii constant sub 5% la prezidențiale — notorietate fără susținere electorală largă.",
         ],
         punctaj: {
-          competenta: 26,
-          activitate: 18,
-          integritate: 28,
-          total: 72,
+          sustinere: 17,
+          competenta: 16,
+          activitate: 12,
+          integritate: 19,
+          total: 64,
         },
         surse: [
           {
@@ -859,9 +879,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Luminița Odobescu",
+      nume: "Titus Corlățean",
       motivare:
-        "Odată eliminat handicapul de a nu fi parlamentar, grila o dă câștigătoare: 85 de puncte (competență 36/40 — ambasador la UE, președinția Consiliului UE din 2019, ministru de externe; integritate 29/30, cel mai curat profil din listă). Corlățean (77) rămâne rezerva imediată — îl costă demisia din 2014 (integritate 24/30).",
+        "77 de puncte: singurul cu mandat complet la MAE dintre cei cu susținere politică reală (27/35), președintele comisiei de specialitate. Odobescu (59) îl depășește la competență (23/25 față de 19/25), dar fără vot popular sau partid în spate nu surclasează; demisia lui din 2014 rămâne penalizată (−4).",
     },
   },
   {
@@ -889,10 +909,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Fidelitate de partid îndelungată față de PSD, inclusiv în perioade controversate ale guvernărilor PSD.",
         ],
         punctaj: {
-          competenta: 27,
-          activitate: 18,
-          integritate: 27,
-          total: 72,
+          sustinere: 27,
+          competenta: 17,
+          activitate: 12,
+          integritate: 18,
+          total: 74,
         },
         surse: [
           {
@@ -925,10 +946,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Apartenența la PNL, partid aflat în centrul crizei politice din 2026, poate complica un mandat de echilibru.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 21,
-          integritate: 30,
-          total: 71,
+          sustinere: 21,
+          competenta: 13,
+          activitate: 14,
+          integritate: 20,
+          total: 68,
         },
         surse: [
           {
@@ -963,11 +985,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A respins public condițiile în care România a aderat la programul SAFE — pe care le-a descris drept „plătește, supune-te și taci” — precizând că nu se opune programelor de acest tip; ministerul ar avea însă de executat programul exact în condițiile deja asumate de România.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 17,
-          integritate: 22,
-          total: 64,
-          penalizari: "−5 litigiul cu statul, relatat de presă; −3 demisia forțată din fruntea SMG (2000)",
+          sustinere: 24,
+          competenta: 16,
+          activitate: 11,
+          integritate: 15,
+          total: 66,
+          penalizari: "−3 litigiul cu statul, relatat de presă; −2 demisia forțată din fruntea SMG (2000)",
         },
         surse: [
           {
@@ -1004,10 +1027,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A recunoscut public dependența de ajutorul NATO și lipsurile de capabilități fără a prezenta un plan de remediere asumat.",
         ],
         punctaj: {
-          competenta: 21,
-          activitate: 16,
-          integritate: 29,
-          total: 66,
+          sustinere: 20,
+          competenta: 13,
+          activitate: 11,
+          integritate: 19,
+          total: 63,
         },
         surse: [
           {
@@ -1045,11 +1069,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eșec electoral sever în 2024 (~6% la prezidențiale), după o campanie cu controverse privind anturajul.",
         ],
         punctaj: {
-          competenta: 34,
-          activitate: 18,
-          integritate: 22,
-          total: 74,
-          penalizari: "−4 umbra anchetei DNA a cumnatului la nominalizarea NATO; −4 controversele de anturaj din campania 2024",
+          sustinere: 1,
+          competenta: 21,
+          activitate: 12,
+          integritate: 15,
+          total: 49,
+          penalizari: "−3 umbra anchetei DNA a cumnatului la nominalizarea NATO; −2 controversele de anturaj din campania 2024",
         },
         surse: [
           {
@@ -1064,9 +1089,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Mircea Geoană",
+      nume: "Angel Tîlvăr",
       motivare:
-        "Cea mai strânsă decizie majoră din rubrică: Geoană 74 — Tîlvăr 72 — Pauliuc 71. Decide competența (34/40: cinci ani în conducerea NATO, fără egal într-un context de război), odată ce absența mandatului de parlamentar nu mai e criteriu; penalizările lui de integritate (22/30) sunt afișate transparent, iar Tîlvăr, la două puncte, e rezervă cu drepturi aproape egale. Chelaru (64) rămâne și sub principiul deja asumat: nu propui la conducerea ministerului un om care a respins public condițiile exact ale proiectului pe care ministerul îl are de aplicat (SAFE).",
+        "74 de puncte: doi ani și jumătate la MApN în plin război, plus susținerea PSD (27/35). Pauliuc (68) și Chelaru (66) urmează; Geoană (49) are competența maximă a listei (21/25), dar 1/35 la susținere — fără partid și după eșecul electoral din 2024, nu surclasează. Chelaru rămâne și sub principiul asumat: nu propui la minister un om care a respins public condițiile proiectului SAFE pe care ministerul îl aplică.",
     },
   },
   {
@@ -1096,10 +1121,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Înainte de 2024 nu a trecut niciodată testul votului popular, fiind numit, nu ales, timp de 16 ani.",
         ],
         punctaj: {
-          competenta: 31,
-          activitate: 15,
-          integritate: 28,
-          total: 74,
+          sustinere: 21,
+          competenta: 19,
+          activitate: 10,
+          integritate: 19,
+          total: 69,
         },
         surse: [
           {
@@ -1133,10 +1159,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil intens partizan: ani de zile purtător de mesaj al PSD în confruntările politice.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 19,
-          integritate: 28,
-          total: 69,
+          sustinere: 27,
+          competenta: 14,
+          activitate: 13,
+          integritate: 19,
+          total: 73,
         },
         surse: [
           {
@@ -1170,11 +1197,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Vizite și poziții pro-ruse documentate (audiență la Ambasada Rusiei în timpul mandatului de deputat PSD); pensionar special la 45 de ani, în contradicție cu discursul public despre reformă.",
         ],
         punctaj: {
-          competenta: 21,
-          activitate: 15,
-          integritate: 5,
-          total: 41,
-          penalizari: "−20 anchetă DNA în curs (șantaj, trafic de influență, grup infracțional organizat); −5 traseism politic extrem",
+          sustinere: 14,
+          competenta: 13,
+          activitate: 10,
+          integritate: 3,
+          total: 40,
+          penalizari: "−14 anchetă DNA în curs (șantaj, trafic de influență, grup infracțional organizat); −3 traseism politic extrem",
         },
         surse: [
           {
@@ -1211,10 +1239,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate publică foarte redusă — încredere publică neconstruită.",
         ],
         punctaj: {
-          competenta: 11,
-          activitate: 12,
-          integritate: 30,
-          total: 53,
+          sustinere: 16,
+          competenta: 7,
+          activitate: 8,
+          integritate: 20,
+          total: 51,
         },
         surse: [
           {
@@ -1247,11 +1276,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Longevitatea sub toate guvernele poate fi citită și ca apartenență la „sistemul” pe care un guvern al cetățeanului promite să-l reformeze.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 16,
-          integritate: 24,
-          total: 69,
-          penalizari: "−6 demiterea de la șefia Poliției Române (2018, scandalul polițistului pedofil)",
+          sustinere: 0,
+          competenta: 18,
+          activitate: 11,
+          integritate: 16,
+          total: 45,
+          penalizari: "−4 demiterea de la șefia Poliției Române (2018, scandalul polițistului pedofil)",
         },
         surse: [
           {
@@ -1270,9 +1300,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Cătălin Predoiu",
+      nume: "Mihai Fifor",
       motivare:
-        "74 de puncte (competență 31/40, cu Schengen livrat integral; integritate 28/30), peste Fifor și Despescu (69). Critica „ministrului de serviciu” rămâne notată la contra, dar nu are corespondent în grilă: longevitatea fără scandaluri personale documentate nu e penalizabilă.",
+        "73 de puncte: experiență dublă la ministerele de forță (MApN, MAI ad-interim), vicepreședinte al comisiei de apărare și susținerea celui mai mare partid (27/35). Predoiu (69) pierde la susținere (21/35) ce câștigă la livrări (Schengen); Despescu (45) arată limita tehnocratului fără vot.",
     },
   },
   {
@@ -1302,10 +1332,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "În mandatul său de ministru au persistat problemele de fond ale sistemului (supraaglomerarea penitenciarelor, deficitul de grefieri), fără reforme structurale finalizate.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 21,
-          integritate: 29,
-          total: 75,
+          sustinere: 21,
+          competenta: 16,
+          activitate: 14,
+          integritate: 19,
+          total: 70,
         },
         surse: [
           {
@@ -1340,11 +1371,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Carieră asociată în presă cu gruparea PSD Dolj; activitate parlamentară proprie foarte redusă.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 13,
-          integritate: 21,
-          total: 57,
-          penalizari: "−6 acuzația publică de plagiat (nevalidată); −3 demisia la ordinul partidului",
+          sustinere: 27,
+          competenta: 14,
+          activitate: 9,
+          integritate: 14,
+          total: 64,
+          penalizari: "−4 acuzația publică de plagiat (nevalidată); −2 demisia la ordinul partidului",
         },
         surse: [
           {
@@ -1383,10 +1415,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil perceput ca militant de tabără politică, ceea ce poate accentua polarizarea în jurul Justiției.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 17,
-          integritate: 28,
-          total: 67,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 11,
+          integritate: 19,
+          total: 64,
         },
         surse: [
           {
@@ -1421,11 +1454,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cariera juridică s-a desfășurat majoritar în alt sistem de drept; doar 3 din 75 de inițiative au devenit legi.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 21,
-          integritate: 20,
-          total: 61,
-          penalizari: "−6 acuzațiile de conflict de interese din mandatul de la Chișinău; −4 vulnerabilitatea legăturii de familie cu fostul serviciu secret moldovean",
+          sustinere: 24,
+          competenta: 13,
+          activitate: 14,
+          integritate: 13,
+          total: 64,
+          penalizari: "−4 acuzațiile de conflict de interese din mandatul de la Chișinău; −3 vulnerabilitatea legăturii de familie cu fostul serviciu secret moldovean",
         },
         surse: [
           {
@@ -1464,10 +1498,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Ultima funcție publică s-a încheiat în 2000 — distanță de un sfert de secol față de administrația ministerului.",
         ],
         punctaj: {
-          competenta: 35,
-          activitate: 17,
-          integritate: 28,
-          total: 80,
+          sustinere: 1,
+          competenta: 22,
+          activitate: 11,
+          integritate: 19,
+          total: 53,
         },
         surse: [
           {
@@ -1482,9 +1517,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Valeriu Stoica",
+      nume: "Alina-Ștefania Gorghiu",
       motivare:
-        "80 de puncte (competență 35/40 — autoritate doctrinară de primă mărime plus patru ani de minister), peste Gorghiu (75), care păstrează cea mai bună activitate parlamentară din listă (21/30). Afilierea liberală istorică a lui Stoica e notată la contra; grila măsoară fapte, nu trecutul de partid.",
+        "70 de puncte: mandat recent la Justiție, cea mai bună activitate legislativă din listă (14/20) și susținerea PNL. Marinescu, Stelian Ion și Munteanu (64) sunt la egalitate în urmă; Stoica (53) domină competența (22/25), dar fără susținere politică (1/35) nu surclasează.",
     },
   },
   {
@@ -1515,10 +1550,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Traseul profesional dependent de numiri politice ridică semne de întrebare privind independența față de PSD.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 19,
-          integritate: 27,
-          total: 71,
+          sustinere: 27,
+          competenta: 16,
+          activitate: 13,
+          integritate: 18,
+          total: 74,
         },
         surse: [
           {
@@ -1552,10 +1588,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eficiență legislativă scăzută din opoziție: 2 din 41 de inițiative promulgate.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 16,
-          integritate: 30,
-          total: 69,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 11,
+          integritate: 20,
+          total: 65,
         },
         surse: [
           {
@@ -1588,9 +1625,10 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Partidul său a promovat public poziții anti-vaccinare în pandemie — tensiune cu politicile de sănătate publică bazate pe dovezi.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 19,
-          integritate: 27,
+          sustinere: 24,
+          competenta: 15,
+          activitate: 13,
+          integritate: 18,
           total: 70,
         },
         surse: [
@@ -1626,10 +1664,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR este suprareprezentată istoric în executiv raportat la scorul electoral (~6%).",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 18,
-          integritate: 30,
-          total: 70,
+          sustinere: 16,
+          competenta: 14,
+          activitate: 12,
+          integritate: 20,
+          total: 62,
         },
         surse: [
           {
@@ -1664,10 +1703,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Longevitatea sub toate guvernele îl expune criticii de „om al sistemului” pe care un guvern al cetățeanului promite să-l reformeze.",
         ],
         punctaj: {
-          competenta: 37,
-          activitate: 21,
-          integritate: 26,
-          total: 84,
+          sustinere: 3,
+          competenta: 23,
+          activitate: 14,
+          integritate: 17,
+          total: 57,
         },
         surse: [
           {
@@ -1682,9 +1722,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Raed Arafat",
+      nume: "Alexandru-Florin Rogobete",
       motivare:
-        "84 de puncte: competență 37/40 (SMURD și sistemul integrat de urgență — reformă construită de la zero și menținută trei decenii), activitate 21/30, integritate 26/30 (−4, controversele documentate ale pandemiei și transparența achizițiilor DSU). Rogobete (71), Vântu și Vass (70) urmează la distanță mare.",
+        "74 de puncte: cel mai recent ministru plin al Sănătății, cu reforma managementului spitalelor începută și susținerea PSD (27/35). Vântu (70) e rezerva imediată; Arafat (57) are competența maximă din întreaga rubrică (23/25), dar 3/35 la susținere — poate intra în calcul doar susținut formal de un partid.",
     },
   },
   {
@@ -1713,10 +1753,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Provine dintr-un partid aflat în conflict deschis cu o parte a Parlamentului, ceea ce poate îngreuna votul de învestitură.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 20,
-          integritate: 30,
-          total: 73,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 13,
+          integritate: 20,
+          total: 67,
         },
         surse: [
           {
@@ -1754,10 +1795,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Măsurile de austeritate din educație aplicate în mandatul său (creșterea normei didactice, comasări) au declanșat proteste ample ale profesorilor și o moțiune simplă AUR împotriva sa.",
         ],
         punctaj: {
-          competenta: 31,
-          activitate: 16,
-          integritate: 28,
-          total: 75,
+          sustinere: 4,
+          competenta: 19,
+          activitate: 11,
+          integritate: 19,
+          total: 53,
         },
         surse: [
           {
@@ -1795,10 +1837,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Experiența sa este aproape exclusiv universitară; învățământul preuniversitar, zona cu cele mai acute crize, îi este străin administrativ.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 14,
-          integritate: 25,
-          total: 63,
+          sustinere: 27,
+          competenta: 15,
+          activitate: 9,
+          integritate: 17,
+          total: 68,
         },
         surse: [
           {
@@ -1832,10 +1875,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Afilierea la AUR îl leagă de un partid aflat în conflict cu mediul academic pe teme precum autonomia universitară.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 22,
-          integritate: 28,
-          total: 75,
+          sustinere: 24,
+          competenta: 16,
+          activitate: 15,
+          integritate: 19,
+          total: 74,
         },
         surse: [
           {
@@ -1870,10 +1914,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Interesele comerciale din zona evaluării psihologice și educaționale (Cognitrom) ar cere o separare strictă de politicile ministerului.",
         ],
         punctaj: {
-          competenta: 35,
-          activitate: 18,
-          integritate: 29,
-          total: 82,
+          sustinere: 1,
+          competenta: 22,
+          activitate: 12,
+          integritate: 19,
+          total: 54,
         },
         surse: [
           {
@@ -1888,9 +1933,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Mircea Miclea",
+      nume: "Silviu-Octavian Gurlui",
       motivare:
-        "82 de puncte (competență 35/40 — singura viziune sistemică de reformă transpusă în lege; integritate 29/30). David (75), Gurlui (75) și Pălărie (73) formează cel mai dens pluton din rubrică — diferențele dintre ei sunt în marja grilei, dar distanța față de Miclea nu este.",
+        "74 de puncte: profesor universitar cu carieră științifică reală, cel mai activ parlamentar al rubricii (140 de interpelări) și susținerea AUR (24/35). Cașcaval (68) și Pălărie (67) urmează; Miclea (54) are competența 22/25, dar fără susținere politică nu surclasează. Gurlui punctează și la Mediu (70), dar regula e una: e propus acolo unde are maximul — aici.",
     },
   },
   {
@@ -1921,10 +1966,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Figură partizană vizibilă a USR, într-un guvern care tocmai a fost demis prin moțiune de cenzură.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 16,
-          integritate: 29,
-          total: 67,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 11,
+          integritate: 19,
+          total: 64,
         },
         surse: [
           {
@@ -1959,11 +2005,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cariera managerială include perioade controversate ale companiilor de stat pe care le-a condus (Sidex înainte de privatizare).",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 20,
-          integritate: 20,
-          total: 69,
-          penalizari: "−8 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
+          sustinere: 24,
+          competenta: 18,
+          activitate: 13,
+          integritate: 13,
+          total: 68,
+          penalizari: "−5 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
         },
         surse: [
           {
@@ -1998,11 +2045,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Traseu politic oscilant și declarații publice controversate.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 16,
-          integritate: 20,
-          total: 60,
-          penalizari: "−8 conflict de interese major (jucător dominant în sectorul pe care l-ar reglementa); −2 datoriile companiilor, documentate de presă",
+          sustinere: 24,
+          competenta: 15,
+          activitate: 11,
+          integritate: 13,
+          total: 63,
+          penalizari: "−5 conflict de interese major (jucător dominant în sectorul pe care l-ar reglementa); −2 datoriile companiilor, documentate de presă",
         },
         surse: [
           {
@@ -2036,10 +2084,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Grupul minorităților votează tradițional cu orice putere, ceea ce diluează imaginea de independență.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 21,
-          integritate: 28,
-          total: 78,
+          sustinere: 17,
+          competenta: 18,
+          activitate: 14,
+          integritate: 19,
+          total: 68,
         },
         surse: [
           {
@@ -2072,10 +2121,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate publică națională redusă.",
         ],
         punctaj: {
-          competenta: 15,
-          activitate: 18,
-          integritate: 30,
-          total: 63,
+          sustinere: 16,
+          competenta: 9,
+          activitate: 12,
+          integritate: 20,
+          total: 57,
         },
         surse: [
           {
@@ -2092,7 +2142,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Varujan Pambuccian",
       motivare:
-        "78 de puncte (competență 29/40, activitate 21/30 — legile fondatoare ale digitalizării românești; integritate 28/30), peste Peiu (69, penalizat la integritate) și Miruță (67). La un minister cu digitalizarea în titulatură, palmaresul legislativ tehnic atârnă cel mai greu.",
+        "68 de puncte, la egalitate cu Peiu — departajează integritatea (19/20 față de 13/20, după penalizarea conflictului de interese bursier). Legile fondatoare ale digitalizării plus mandatul direct de deputat al minorităților fac din el singurul „aproape-tehnocrat” cu vot popular în spate.",
     },
   },
   {
@@ -2122,10 +2172,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul său a coincis cu facturi ridicate la energie după eliminarea plafonării, fără scăderi vizibile pentru consumatori până la demisie.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 13,
-          integritate: 27,
-          total: 62,
+          sustinere: 27,
+          competenta: 14,
+          activitate: 9,
+          integritate: 18,
+          total: 68,
         },
         surse: [
           {
@@ -2160,10 +2211,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Ascensiune politică foarte rapidă, asociată de presă cu poziția tatălui său, fost șef al Bancorex.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 15,
-          integritate: 27,
-          total: 71,
+          sustinere: 21,
+          competenta: 18,
+          activitate: 10,
+          integritate: 18,
+          total: 67,
         },
         surse: [
           {
@@ -2197,10 +2249,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Vizibilitate publică sub cea a foștilor miniștri din listă.",
         ],
         punctaj: {
-          competenta: 19,
-          activitate: 19,
-          integritate: 30,
-          total: 68,
+          sustinere: 20,
+          competenta: 12,
+          activitate: 13,
+          integritate: 20,
+          total: 65,
         },
         surse: [
           {
@@ -2233,10 +2286,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate redusă în afara sectorului energetic și a electoratului UDMR.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 22,
-          integritate: 30,
-          total: 76,
+          sustinere: 16,
+          competenta: 15,
+          activitate: 15,
+          integritate: 20,
+          total: 66,
         },
         surse: [
           {
@@ -2274,10 +2328,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Specializat preponderent pe gaze; dosarele nuclear, hidro și regenerabile i-ar fi mai puțin familiare.",
         ],
         punctaj: {
-          competenta: 28,
-          activitate: 18,
-          integritate: 27,
-          total: 73,
+          sustinere: 0,
+          competenta: 18,
+          activitate: 12,
+          integritate: 18,
+          total: 48,
         },
         surse: [
           {
@@ -2292,9 +2347,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Antal István-Loránt",
+      nume: "Bogdan-Gruia Ivan",
       motivare:
-        "76 de puncte: cea mai bună activitate verificabilă pe energie din Parlament (22/30 — 27 de inițiative, 5 legi, legea prosumatorilor) și integritate maximă (30/30). Chisăliță (73) și Burduja (71) sunt rezervele; Ivan (62) plătește anul facturilor mari și demisia la ordin de partid.",
+        "Cea mai strânsă poziție din rubrică: Ivan 68 — Burduja 67 — Antal 66. Departajează susținerea (27/35 față de 21 și 16), exact dimensiunea cu cea mai mare pondere: legea plafonării, bugetul energiei și contractele strategice trec prin Parlament. Anul facturilor mari rămâne în fișa lui, la contra.",
     },
   },
   {
@@ -2325,10 +2380,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Moțiune simplă AUR pe transporturi în noiembrie 2025, care a semnalat performanța feroviară a României — penultimul loc în clasamentul european.",
         ],
         punctaj: {
-          competenta: 29,
-          activitate: 16,
-          integritate: 27,
-          total: 72,
+          sustinere: 27,
+          competenta: 18,
+          activitate: 11,
+          integritate: 18,
+          total: 74,
         },
         surse: [
           {
@@ -2367,11 +2423,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Asociat cu gestionarea controversată a unor dosare din mandatul de la Interne (azilele groazei, scandalul 2 Mai).",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 19,
-          integritate: 15,
-          total: 57,
-          penalizari: "−15 plagiat constatat de comisia de etică a UBB, confirmat în instanță",
+          sustinere: 21,
+          competenta: 14,
+          activitate: 13,
+          integritate: 10,
+          total: 58,
+          penalizari: "−10 plagiat constatat de comisia de etică a UBB, confirmat în instanță",
         },
         surse: [
           {
@@ -2410,10 +2467,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Stil politic conflictual, care i-a fragilizat relațiile chiar și în propria tabără.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 18,
-          integritate: 30,
-          total: 71,
+          sustinere: 20,
+          competenta: 14,
+          activitate: 12,
+          integritate: 20,
+          total: 66,
         },
         surse: [
           {
@@ -2448,10 +2506,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Acuzații recurente în presă de numiri clientelare în companiile din subordinea Transporturilor în mandatul 2021–2025.",
         ],
         punctaj: {
-          competenta: 30,
-          activitate: 14,
-          integritate: 25,
-          total: 69,
+          sustinere: 30,
+          competenta: 19,
+          activitate: 9,
+          integritate: 17,
+          total: 75,
         },
         surse: [
           {
@@ -2485,10 +2544,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Apartenența la un partid fără experiență de guvernare ridică riscuri de execuție într-un minister cu termene PNRR critice.",
         ],
         punctaj: {
-          competenta: 12,
-          activitate: 18,
-          integritate: 30,
-          total: 60,
+          sustinere: 24,
+          competenta: 8,
+          activitate: 12,
+          integritate: 20,
+          total: 64,
         },
         surse: [
           {
@@ -2503,9 +2563,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Ciprian-Constantin Șerban",
+      nume: "Sorin Grindeanu",
       motivare:
-        "Decizie la limită: Șerban 72 — Drulă 71 — Grindeanu 69. Departajează competența-livrări (146 km deschiși în 2025, A8 montan semnat integral), care cântărește mai greu decât integritatea perfectă a lui Drulă (30/30 față de 27/30). La un punct diferență, cei doi sunt practic interșanjabili — o spunem explicit.",
+        "75 de puncte, la un punct de Șerban (74) — marja grilei, decisă de cea mai mare susținere politică din întreaga rubrică (30/35) și de palmaresul contractelor A7/A0/A8. Numirea ar presupune renunțarea la președinția Camerei; acuzațiile de numiri clientelare rămân la contra. Șerban este rezervă cu drepturi practic egale.",
     },
   },
   {
@@ -2536,11 +2596,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitate parlamentară proprie aproape inexistentă: zero întrebări și interpelări în legislatura curentă.",
         ],
         punctaj: {
-          competenta: 27,
-          activitate: 13,
-          integritate: 19,
-          total: 59,
-          penalizari: "−8 anchetele de presă privind contractele ANIF (nevalidate judiciar); −3 demisia la ordinul partidului",
+          sustinere: 27,
+          competenta: 17,
+          activitate: 9,
+          integritate: 13,
+          total: 66,
+          penalizari: "−5 anchetele de presă privind contractele ANIF (nevalidate judiciar); −2 demisia la ordinul partidului",
         },
         surse: [
           {
@@ -2579,11 +2640,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Interesele de afaceri proprii în panificație și agricultură ridică un potențial conflict de interese la preluarea MADR.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 18,
-          integritate: 20,
-          total: 62,
-          penalizari: "−5 traseism politic documentat (PSD → AUR); −5 conflict de interese potențial (afaceri proprii în sectorul reglementat)",
+          sustinere: 24,
+          competenta: 15,
+          activitate: 12,
+          integritate: 13,
+          total: 64,
+          penalizari: "−3 traseism politic documentat (PSD → AUR); −4 conflict de interese potențial (afaceri proprii în sectorul reglementat)",
         },
         surse: [
           {
@@ -2620,10 +2682,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate publică națională redusă în afara sectorului.",
         ],
         punctaj: {
-          competenta: 17,
-          activitate: 17,
-          integritate: 30,
-          total: 64,
+          sustinere: 20,
+          competenta: 11,
+          activitate: 11,
+          integritate: 20,
+          total: 62,
         },
         surse: [
           {
@@ -2662,10 +2725,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul de secretar de stat a durat sub un an și jumătate.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 14,
-          integritate: 29,
-          total: 66,
+          sustinere: 21,
+          competenta: 14,
+          activitate: 9,
+          integritate: 19,
+          total: 63,
         },
         surse: [
           {
@@ -2699,10 +2763,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR (~6% din voturi) ar fi suprareprezentată într-un guvern în care deține deja alte portofolii grele.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 16,
-          integritate: 30,
-          total: 68,
+          sustinere: 16,
+          competenta: 14,
+          activitate: 11,
+          integritate: 20,
+          total: 61,
         },
         surse: [
           {
@@ -2717,9 +2782,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Könczei Csaba",
+      nume: "Florin-Ionuț Barbu",
       motivare:
-        "68 de puncte (competență 22/40 — inginer agricol cu un deceniu la conducerea DAJ Covasna; integritate 30/30 și cea mai bună rată de legi promulgate din listă), peste Scarlat (66), Cernic (64) și Matieș (62, penalizat −10 la integritate pentru traseism și conflict de interese). Barbu (59) plătește anchetele de presă privind ANIF.",
+        "66 de puncte: aproape trei ani de mandat la MADR, expertiza ANIF pe irigații și susținerea PSD (27/35). Matieș (64) e rezerva imediată; anchetele de presă privind ANIF rămân penalizate (−5) și afișate. Könczei (61) pierde exclusiv pe susținere — UDMR are 4 puncte de partid față de 15.",
     },
   },
   {
@@ -2750,10 +2815,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Conflict deschis cu personalul silvic (proteste la minister), care i-ar îngreuna implementarea politicilor forestiere.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 20,
-          integritate: 27,
-          total: 72,
+          sustinere: 20,
+          competenta: 16,
+          activitate: 13,
+          integritate: 18,
+          total: 67,
         },
         surse: [
           {
@@ -2792,10 +2858,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Revenirea sa ar fi percepută ca restaurație PNL la un minister deținut de partid până în 2025.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 17,
-          integritate: 28,
-          total: 70,
+          sustinere: 21,
+          competenta: 16,
+          activitate: 11,
+          integritate: 19,
+          total: 67,
         },
         surse: [
           {
@@ -2830,10 +2897,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR ar fi puternic suprareprezentată dacă ar primi și Mediul pe lângă alte portofolii vizate.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 15,
-          integritate: 26,
-          total: 65,
+          sustinere: 16,
+          competenta: 15,
+          activitate: 10,
+          integritate: 17,
+          total: 58,
         },
         surse: [
           {
@@ -2867,10 +2935,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Apartenența la AUR, partid cu poziții frecvent sceptice față de politicile climatice europene, e în tensiune cu profilul său științific.",
         ],
         punctaj: {
-          competenta: 23,
-          activitate: 20,
-          integritate: 28,
-          total: 71,
+          sustinere: 24,
+          competenta: 14,
+          activitate: 13,
+          integritate: 19,
+          total: 70,
         },
         surse: [
           {
@@ -2905,10 +2974,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitatea sa în plen e dominată de declarații politice, nu de dezbatere legislativă pe mediu.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 15,
-          integritate: 26,
-          total: 61,
+          sustinere: 27,
+          competenta: 13,
+          activitate: 10,
+          integritate: 17,
+          total: 67,
         },
         surse: [
           {
@@ -2923,9 +2993,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Diana Buzoianu",
+      nume: "Mircea Fechet",
       motivare:
-        "72 de puncte, la un punct de Gurlui (71) și două de Fechet (70) — cea mai disputată poziție din rubrică. Decid livrările: reorganizarea Romsilva e singura reformă structurală adoptată în domeniu (HG 123/2026), iar grila premiază reformele duse până la semnătură.",
+        "Triplă egalitate la 67 (Fechet, Buzoianu, Trif) — departajează integritatea: 19/20 la Fechet. Doi ani de mandat plin la MMAP plus ani de secretariat de stat. Gurlui punctează aici 70, dar e propus la Educație, unde are maximul (74); Buzoianu, cu reforma Romsilva livrată, rămâne rezerva imediată.",
     },
   },
   {
@@ -2956,10 +3026,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR (~6% din voturi) ar păstra unul dintre cele mai mari bugete de investiții — critică recurentă privind supraponderea partidului în executiv.",
         ],
         punctaj: {
-          competenta: 31,
-          activitate: 13,
-          integritate: 26,
-          total: 70,
+          sustinere: 16,
+          competenta: 19,
+          activitate: 9,
+          integritate: 17,
+          total: 61,
         },
         surse: [
           {
@@ -2993,11 +3064,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul la Ministerul Muncii a fost marcat de întârzieri criticate public în recalcularea pensiilor.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 15,
-          integritate: 24,
-          total: 59,
-          penalizari: "−6 doctoratul dispărut din CV și studiile la Academia SRI, semnalate de presă",
+          sustinere: 27,
+          competenta: 13,
+          activitate: 10,
+          integritate: 16,
+          total: 66,
+          penalizari: "−4 doctoratul dispărut din CV și studiile la Academia SRI, semnalate de presă",
         },
         surse: [
           {
@@ -3032,10 +3104,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Presa economică i-a contestat creșterea averii după intrarea în politică, deși fără urmări judiciare.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 16,
-          integritate: 28,
-          total: 69,
+          sustinere: 20,
+          competenta: 16,
+          activitate: 11,
+          integritate: 19,
+          total: 66,
         },
         surse: [
           {
@@ -3069,10 +3142,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Și-a dat propriul partid în judecată pentru recuperarea cheltuielilor electorale — episod care ridică întrebări despre stabilitatea sa politică.",
         ],
         punctaj: {
-          competenta: 12,
-          activitate: 21,
-          integritate: 30,
-          total: 63,
+          sustinere: 24,
+          competenta: 8,
+          activitate: 14,
+          integritate: 20,
+          total: 66,
         },
         surse: [
           {
@@ -3107,11 +3181,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Trecut politic la PRM și apartenența la un partid cu poziții extremiste contestă echidistanța numirii.",
         ],
         punctaj: {
-          competenta: 27,
-          activitate: 20,
-          integritate: 14,
-          total: 61,
-          penalizari: "−8 pensia specială de la Curtea de Conturi, în conflict cu agenda reformei; −8 relația conducător–doctorand cu un judecător CCR pe dosarele pensiilor speciale",
+          sustinere: 17,
+          competenta: 17,
+          activitate: 13,
+          integritate: 9,
+          total: 56,
+          penalizari: "−5 pensia specială de la Curtea de Conturi, în conflict cu agenda reformei; −6 relația conducător–doctorand cu un judecător CCR pe dosarele pensiilor speciale",
         },
         surse: [
           {
@@ -3126,9 +3201,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Cseke Attila",
+      nume: "Răzvan-Daniel Biro",
       motivare:
-        "70 de puncte (competență 31/40 — circa cinci ani la conducerea exact acestui minister, sub patru premieri), la un punct de Mihaiu (69, profil de integritate superior). Penalizarea pentru alocările discreționare din programul Anghel Saligny (−4) este aplicată și asumată public.",
+        "Triplă egalitate la 66 (Biro, Mihaiu, Bucura-Oprescu) — departajează integritatea: 20/20 la Biro, singurul fără nicio penalizare. Cele 252 de interpelări, recordul Parlamentului, sunt exact pe investițiile locale și programele MDLPA. Cseke (61) pierde pe susținere; Mihaiu rămâne rezerva imediată.",
     },
   },
   {
@@ -3159,10 +3234,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitate parlamentară redusă în legislatura curentă, explicabilă parțial prin mandatul de ministru.",
         ],
         punctaj: {
-          competenta: 19,
-          activitate: 16,
-          integritate: 27,
-          total: 62,
+          sustinere: 27,
+          competenta: 12,
+          activitate: 11,
+          integritate: 18,
+          total: 68,
         },
         surse: [
           {
@@ -3201,10 +3277,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Prezența simultană în trei comisii permanente diluează specializarea strictă pe muncă.",
         ],
         punctaj: {
-          competenta: 24,
-          activitate: 21,
-          integritate: 28,
-          total: 73,
+          sustinere: 21,
+          competenta: 15,
+          activitate: 14,
+          integritate: 19,
+          total: 69,
         },
         surse: [
           {
@@ -3238,10 +3315,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR a susținut coaliția Bolojan în perioada măsurilor de austeritate socială criticate de sindicate și pensionari.",
         ],
         punctaj: {
-          competenta: 20,
-          activitate: 20,
-          integritate: 30,
-          total: 70,
+          sustinere: 16,
+          competenta: 13,
+          activitate: 13,
+          integritate: 20,
+          total: 62,
         },
         surse: [
           {
@@ -3276,10 +3354,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitate preponderent de opoziție (14 moțiuni), fără politici publice asumate cu rezultate concrete.",
         ],
         punctaj: {
-          competenta: 16,
-          activitate: 16,
-          integritate: 30,
-          total: 62,
+          sustinere: 24,
+          competenta: 10,
+          activitate: 11,
+          integritate: 20,
+          total: 65,
         },
         surse: [
           {
@@ -3314,10 +3393,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "„Legea Vexler” a generat o dispută publică majoră în 2025, obiecțiile președintelui fiind respinse de Parlament — subiect de controversă documentat.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 17,
-          integritate: 28,
-          total: 67,
+          sustinere: 16,
+          competenta: 14,
+          activitate: 11,
+          integritate: 19,
+          total: 60,
         },
         surse: [
           {
@@ -3334,7 +3414,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Raluca Turcan",
       motivare:
-        "73 de puncte: cea mai bună combinație de competență (24/40 — mandat la Muncă plus vicepremier) și activitate parlamentară (21/30 — 66 de inițiative, 12 legi promulgate). Csép (70) e rezerva imediată, cu integritate maximă; Manole (62) coboară prin bilanțul pensiilor neindexate și demisia la ordin de partid.",
+        "69 de puncte, la un punct de Manole (68) — marja grilei, decisă de competență (15/25 față de 12/25: mandat la Muncă plus vicepremier, față de un an cu pensii neindexate) și de cele 12 legi promulgate. Csép (62) rămâne profilul cel mai curat din listă.",
     },
   },
   {
@@ -3365,10 +3445,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Carieră de politician de partid de peste 20 de ani, inclusiv funcția curentă de vicelider PNL.",
         ],
         punctaj: {
-          competenta: 22,
-          activitate: 17,
-          integritate: 30,
-          total: 69,
+          sustinere: 21,
+          competenta: 14,
+          activitate: 11,
+          integritate: 20,
+          total: 66,
         },
         surse: [
           {
@@ -3403,10 +3484,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatele sale ministeriale nu au produs reformele structurale cerute de sectorul cultural independent.",
         ],
         punctaj: {
-          competenta: 25,
-          activitate: 12,
-          integritate: 29,
-          total: 66,
+          sustinere: 27,
+          competenta: 16,
+          activitate: 8,
+          integritate: 19,
+          total: 70,
         },
         surse: [
           {
@@ -3441,11 +3523,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Portret critic în presă: acuzații de dezinformare și declarații controversate la adresa unor lideri europeni.",
         ],
         punctaj: {
-          competenta: 21,
-          activitate: 17,
-          integritate: 20,
-          total: 58,
-          penalizari: "−6 folosirea sălii comisiei pentru evenimente de partid (Context.ro); −4 suma primită de la finanțatorul campaniei online Georgescu",
+          sustinere: 24,
+          competenta: 13,
+          activitate: 11,
+          integritate: 13,
+          total: 61,
+          penalizari: "−4 folosirea sălii comisiei pentru evenimente de partid (Context.ro); −3 suma primită de la finanțatorul campaniei online Georgescu",
         },
         surse: [
           {
@@ -3483,10 +3566,11 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate publică națională redusă.",
         ],
         punctaj: {
-          competenta: 17,
-          activitate: 17,
-          integritate: 30,
-          total: 64,
+          sustinere: 20,
+          competenta: 11,
+          activitate: 11,
+          integritate: 20,
+          total: 62,
         },
         surse: [
           {
@@ -3521,11 +3605,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Membru al Comisiei pentru cultură doar din noiembrie 2025, fără expertiză anterioară în administrarea culturii.",
         ],
         punctaj: {
-          competenta: 12,
-          activitate: 17,
-          integritate: 18,
-          total: 47,
-          penalizari: "−12 fondator și lider al organizației extremiste Noua Dreaptă",
+          sustinere: 17,
+          competenta: 8,
+          activitate: 11,
+          integritate: 12,
+          total: 48,
+          penalizari: "−8 fondator și lider al organizației extremiste Noua Dreaptă",
         },
         surse: [
           {
@@ -3540,9 +3625,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Gigel Știrbu",
+      nume: "Ionuț Vulpescu",
       motivare:
-        "69 de puncte (activitate 17/30, cu 7 legi promulgate; integritate 30/30), peste Vulpescu (66, activitate aproape nulă în legislatura curentă) și Neamțu (58, −10 la integritate). Profil fără strălucire publică — dar grila premiază consecvența verificabilă, nu vizibilitatea.",
+        "70 de puncte: două mandate complete de ministru al Culturii, doctorat în filosofie și susținerea celui mai votat partid (27/35). Activitatea aproape nulă din legislatura curentă rămâne la contra; Știrbu (66), cu 7 legi promulgate și integritate maximă, este rezerva imediată.",
     },
   },
 ];

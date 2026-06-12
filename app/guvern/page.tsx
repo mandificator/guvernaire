@@ -34,32 +34,47 @@ export default function GuvernPage() {
         <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-blue-950">
           Grila de punctare (max. 100)
         </h2>
-        <div className="grid gap-3 text-sm leading-relaxed text-zinc-700 sm:grid-cols-3">
-          <div>
-            <span className="font-bold text-blue-950">Competență în domeniu · 0–40</span>
+        <div className="grid gap-3 text-sm leading-relaxed text-zinc-700 sm:grid-cols-2">
+          <div className="rounded-lg bg-white/70 p-3">
+            <span className="font-bold text-blue-950">
+              Susținere politică — votul poporului · 0–35
+            </span>{" "}
+            <span className="text-[10px] font-bold uppercase text-blue-800">
+              cea mai mare pondere
+            </span>
             <br />
-            pregătire (10) + carieră și realizări (20) + livrări verificabile la vârf (10)
+            mandat direct de la electorat (parlamentar ales în dec. 2024 = 12, europarlamentar =
+            10, fost ales = 4) + votul pentru partidul care îl susține (PSD 15, AUR 12, PNL 9,
+            USR 8, SOS 5, POT 4, UDMR 4, minorități 2; un independent susținut demonstrat de un
+            partid primește jumătate din punctele partidului) + capital electoral personal
+            demonstrat (0–8). Un guvern există doar dacă poate fi votat.
           </div>
-          <div>
-            <span className="font-bold text-blue-950">Activitate verificabilă · 0–30</span>
+          <div className="rounded-lg bg-white/70 p-3">
+            <span className="font-bold text-blue-950">Competență în domeniu · 0–25</span>
             <br />
-            funcții în comisii/instituții (10) + producție legislativă sau echivalent (10) +
-            control și expertiză publică (10)
+            pregătire + carieră și realizări + livrări verificabile la vârf
           </div>
-          <div>
-            <span className="font-bold text-blue-950">Integritate · 0–30</span>
+          <div className="rounded-lg bg-white/70 p-3">
+            <span className="font-bold text-blue-950">Activitate verificabilă · 0–20</span>
             <br />
-            pornește de la 30; scad doar penalizările documentate: anchetă penală −20, plagiat
-            constatat −15, extremism −12, conflict de interese −5…−10, suspiciuni nevalidate −6,
-            traseism −5, demisie la ordin de partid −3
+            funcții în comisii/instituții + producție legislativă sau echivalent + control și
+            expertiză publică
+          </div>
+          <div className="rounded-lg bg-white/70 p-3">
+            <span className="font-bold text-blue-950">Integritate · 0–20</span>
+            <br />
+            pornește de la 20; scad doar penalizările documentate: anchetă penală −14, plagiat
+            constatat −10, extremism −8, conflict de interese −4…−7, suspiciuni nevalidate −4,
+            traseism −3, demisie la ordin de partid −2
           </div>
         </div>
         <p className="mt-3 text-xs leading-relaxed text-zinc-500">
-          Propunerea fiecărei poziții = punctajul maxim. Diferențele de 1–3 puncte sunt în marja
-          grilei și sunt semnalate explicit în motivare. Absența unei funcții anterioare nu se
-          penalizează nicăieri: cine nu a condus încă pornește de la zero doar la „livrări", nu
-          cu minus. Aceeași grilă se aplică identic candidaților din Parlament și celor din
-          afara lui.
+          Propunerea fiecărei poziții = punctajul maxim; la egalitate decide integritatea; un
+          candidat prezent pe mai multe poziții e propus doar acolo unde are punctajul lui
+          maxim. Diferențele de 1–3 puncte sunt în marja grilei și sunt semnalate explicit în
+          motivare. Absența unei funcții anterioare nu se penalizează nicăieri. Cineva din afara
+          politicii intră în calcul doar dacă surclasează totalul sau are susținerea demonstrată
+          a unui partid — votul cetățenilor atârnă cel mai greu.
         </p>
       </section>
 

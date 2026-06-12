@@ -27,9 +27,10 @@ export async function generateMetadata({
 
 function PunctajGrila({ p }: { p: PunctajCandidat }) {
   const randuri = [
-    { eticheta: "Competență în domeniu", val: p.competenta, max: 40 },
-    { eticheta: "Activitate verificabilă", val: p.activitate, max: 30 },
-    { eticheta: "Integritate", val: p.integritate, max: 30 },
+    { eticheta: "Susținere politică (vot)", val: p.sustinere, max: 35 },
+    { eticheta: "Competență în domeniu", val: p.competenta, max: 25 },
+    { eticheta: "Activitate verificabilă", val: p.activitate, max: 20 },
+    { eticheta: "Integritate", val: p.integritate, max: 20 },
   ];
   return (
     <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 p-3.5">

@@ -55,18 +55,28 @@ export type CameraParlament = "Camera Deputaților" | "Senat" | "neparlamentar";
 
 /**
  * Grila de punctare a candidaților (max. 100), aplicată identic tuturor.
- * Absența unei funcții anterioare nu se penalizează nicăieri — cine nu a condus încă
- * pornește de la zero doar la „livrări", nu cu minus.
+ * Susținerea politică — votul poporului — are cea mai mare pondere: un guvern există
+ * doar dacă poate fi votat. Absența unei funcții anterioare nu se penalizează nicăieri.
+ * Reguli: propunerea = totalul maxim; la egalitate decide integritatea; un candidat
+ * prezent pe mai multe poziții e propus doar acolo unde are punctajul lui maxim.
  */
 export interface PunctajCandidat {
-  /** Competență în domeniu: pregătire (10) + carieră și realizări (20) + livrări verificabile la vârf (10). Max 40. */
+  /**
+   * Susținere politică — votul poporului. Max 35 (cea mai mare pondere):
+   * mandat direct de la electorat (parlamentar ales în dec. 2024 = 12; europarlamentar = 10;
+   * fost ales = 4) + votul pentru partidul care îl susține (PSD 15, AUR 12, PNL 9, USR 8,
+   * SOS 5, POT 4, UDMR 4, minorități 2; independent susținut demonstrat de un partid =
+   * jumătate din punctele partidului) + capital electoral personal demonstrat (0–8).
+   */
+  sustinere: number;
+  /** Competență în domeniu: pregătire + carieră și realizări + livrări verificabile la vârf. Max 25. */
   competenta: number;
-  /** Activitate verificabilă: funcții în comisii/instituții (10) + producție legislativă sau echivalent (10) + control/expertiză publică (10). Max 30. */
+  /** Activitate verificabilă: funcții în comisii/instituții + producție legislativă sau echivalent + control/expertiză publică. Max 20. */
   activitate: number;
-  /** Integritate: pornește de la 30; scad doar penalizările documentate. Max 30. */
+  /** Integritate: pornește de la 20; scad doar penalizările documentate. Max 20. */
   integritate: number;
   total: number;
-  /** Penalizările semnificative de integritate (afișate când integritate ≤ 24) */
+  /** Penalizările semnificative de integritate, când există */
   penalizari?: string;
 }
 
