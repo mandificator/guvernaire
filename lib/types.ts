@@ -51,6 +51,34 @@ export interface Decizie {
   surse: Sursa[];
 }
 
+export type CameraParlament = "Camera Deputaților" | "Senat" | "neparlamentar";
+
+export interface CandidatGuvern {
+  nume: string;
+  /** Partidul pe ale cărui liste a fost ales / afilierea actuală — doar fapt, nu etichetă */
+  partid: string;
+  camera: CameraParlament;
+  functieActuala: string;
+  /** Background profesional: studii, carieră, realizări în domeniu */
+  profil: string;
+  /** Activitate parlamentară concretă: comisii, interpelări, propuneri legislative */
+  activitate: string;
+  pro: string[];
+  contra: string[];
+  surse: Sursa[];
+}
+
+export interface PozitieGuvern {
+  slug: string;
+  minister: string;
+  /** Mizele portofoliului în contextul actual */
+  misiune: string;
+  /** Exact 5 candidați, din tot spectrul politic */
+  candidati: CandidatGuvern[];
+  /** Alegerea guvernului paralel, strict pe criterii — cu motivare publică */
+  propunere: { nume: string; motivare: string };
+}
+
 export type StatusPromisiune = "livrat" | "parțial" | "nelivrat" | "în curs";
 
 export interface Actor {
