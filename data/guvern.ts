@@ -1,4 +1,5 @@
 import type { PozitieGuvern } from "@/lib/types";
+import ilustratii from "@/data/ilustratii.json";
 
 /**
  * Guvernul României — componența propusă de guvernul paralel al cetățeanului.
@@ -3075,6 +3076,28 @@ export const pozitiiGuvern: PozitieGuvern[] = [
 
 export function getPozitie(slug: string): PozitieGuvern | undefined {
   return pozitiiGuvern.find((p) => p.slug === slug);
+}
+
+/** Slug ASCII pentru numele unei persoane (aceeași logică folosită de scripts/poze-resolve.mjs). */
+export function slugNume(nume: string): string {
+  return nume
+    .toLowerCase()
+    .replaceAll(/[ăâá]/g, "a")
+    .replaceAll(/[î]/g, "i")
+    .replaceAll(/[șş]/g, "s")
+    .replaceAll(/[țţ]/g, "t")
+    .replaceAll(/[éè]/g, "e")
+    .replaceAll(/[ó]/g, "o")
+    .normalize("NFD")
+    .replaceAll(/[̀-ͯ]/g, "")
+    .replaceAll(/[^a-z0-9]+/g, "-")
+    .replaceAll(/^-|-$/g, "");
+}
+
+/** Calea către ilustrația editorială a persoanei, dacă a fost generată (vezi scripts/genereaza-ilustratii.mjs). */
+export function ilustratiePentru(nume: string): string | null {
+  const s = slugNume(nume);
+  return (ilustratii as string[]).includes(s) ? `/ilustratii/${s}.jpg` : null;
 }
 
 /** Normalizează afilierea la eticheta principală, pentru statistica de transparență. */

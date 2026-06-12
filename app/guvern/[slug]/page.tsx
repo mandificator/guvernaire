@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { pozitiiGuvern, getPozitie } from "@/data/guvern";
 import { SectionTitle, Surse } from "@/components/ui";
+import { Portret } from "@/components/portret";
 import type { CandidatGuvern } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -31,18 +32,21 @@ function CardCandidat({ c, propus }: { c: CandidatGuvern; propus: boolean }) {
         propus ? "border-blue-300 ring-2 ring-blue-100" : "border-zinc-200"
       }`}
     >
-      <header className="mb-3">
-        <div className="flex flex-wrap items-center gap-2">
-          <h3 className="font-serif text-xl font-bold text-zinc-900">{c.nume}</h3>
-          {propus && (
-            <span className="rounded-full bg-blue-950 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-yellow-400">
-              Propunerea noastră
-            </span>
-          )}
+      <header className="mb-3 flex items-start gap-4">
+        <Portret nume={c.nume} marime={76} />
+        <div>
+          <div className="flex flex-wrap items-center gap-2">
+            <h3 className="font-serif text-xl font-bold text-zinc-900">{c.nume}</h3>
+            {propus && (
+              <span className="rounded-full bg-blue-950 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-yellow-400">
+                Propunerea noastră
+              </span>
+            )}
+          </div>
+          <p className="mt-0.5 text-xs text-zinc-500">
+            {c.partid} · {c.camera} · {c.functieActuala}
+          </p>
         </div>
-        <p className="mt-0.5 text-xs text-zinc-500">
-          {c.partid} · {c.camera} · {c.functieActuala}
-        </p>
       </header>
 
       <div className="space-y-3 text-sm leading-relaxed text-zinc-700">
@@ -121,16 +125,19 @@ export default async function PozitiePage({
         <p className="max-w-3xl text-[15px] leading-relaxed text-zinc-700">{p.misiune}</p>
       </header>
 
-      <section className="rounded-xl border-l-4 border-blue-950 bg-blue-50/60 p-5">
-        <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-blue-900">
-          Propunerea guvernului paralel
+      <section className="flex gap-5 rounded-xl border-l-4 border-blue-950 bg-blue-50/60 p-5">
+        <Portret nume={p.propunere.nume} marime={104} />
+        <div>
+          <div className="text-[10px] font-bold uppercase tracking-[0.15em] text-blue-900">
+            Propunerea guvernului paralel
+          </div>
+          <div className="mt-1 font-serif text-2xl font-bold text-blue-950">
+            {p.propunere.nume}
+          </div>
+          <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-700">
+            {p.propunere.motivare}
+          </p>
         </div>
-        <div className="mt-1 font-serif text-2xl font-bold text-blue-950">
-          {p.propunere.nume}
-        </div>
-        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-700">
-          {p.propunere.motivare}
-        </p>
       </section>
 
       <section>

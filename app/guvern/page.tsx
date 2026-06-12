@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pozitiiGuvern, distributiePartide, partidPrincipal } from "@/data/guvern";
+import { Portret } from "@/components/portret";
 
 export const metadata: Metadata = {
   title: "Guvernul României",
@@ -92,29 +93,32 @@ export default function GuvernPage() {
               <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-zinc-600">
                 {p.misiune}
               </p>
-              <div className="mt-3 border-t border-zinc-100 pt-3">
-                <div className="text-[10px] font-bold uppercase tracking-wide text-zinc-400">
-                  Propunerea noastră
-                </div>
-                <div className="mt-0.5 text-sm font-bold text-blue-950">
-                  {p.propunere.nume}
-                  {propus ? (
-                    <span className="ml-1.5 font-normal text-zinc-500">
-                      · {partidPrincipal(propus.partid)}
-                    </span>
-                  ) : null}
-                </div>
-                <div className="mt-1.5 flex flex-wrap gap-1">
-                  {p.candidati
-                    .filter((c) => c.nume !== p.propunere.nume)
-                    .map((c) => (
-                      <span
-                        key={c.nume}
-                        className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-600"
-                      >
-                        {c.nume}
+              <div className="mt-3 flex items-start gap-3 border-t border-zinc-100 pt-3">
+                <Portret nume={p.propunere.nume} marime={48} />
+                <div className="min-w-0">
+                  <div className="text-[10px] font-bold uppercase tracking-wide text-zinc-400">
+                    Propunerea noastră
+                  </div>
+                  <div className="mt-0.5 text-sm font-bold text-blue-950">
+                    {p.propunere.nume}
+                    {propus ? (
+                      <span className="ml-1.5 font-normal text-zinc-500">
+                        · {partidPrincipal(propus.partid)}
                       </span>
-                    ))}
+                    ) : null}
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap gap-1">
+                    {p.candidati
+                      .filter((c) => c.nume !== p.propunere.nume)
+                      .map((c) => (
+                        <span
+                          key={c.nume}
+                          className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-600"
+                        >
+                          {c.nume}
+                        </span>
+                      ))}
+                  </div>
                 </div>
               </div>
             </Link>
@@ -127,7 +131,10 @@ export default function GuvernPage() {
         Cifrele de activitate parlamentară provin din fișele oficiale cdep.ro și senat.ro la data
         actualizării (12 iunie 2026) și se pot schimba. Controversele sunt citate doar dacă sunt
         documentate public, iar acuzațiile nevalidate judiciar sunt marcate ca atare. Verificați
-        întotdeauna sursele primare din fiecare fișă.
+        întotdeauna sursele primare din fiecare fișă. Portretele sunt ilustrații editoriale
+        generate cu AI din fotografii publice (Wikimedia Commons, pagini oficiale de partid și
+        instituții), în același stil grafic pentru toți candidații — uniformitatea vizuală face
+        parte din echidistanță; persoanele fără fotografie publică verificată apar cu monogramă.
       </p>
     </div>
   );
