@@ -220,8 +220,12 @@ export const actori: Actor[] = [
       "Desemnat premier pe 4 iunie 2026 pentru un guvern tehnocrat; lider al unui partid neparlamentar (PMP), de la a cărui șefie a demisionat. Lista de miniștri a fost depusă pe 10 iunie, cu vot de învestitură estimat pe 12 iunie; PNL, USR, PSD și AUR au declarat că nu o susțin.",
     actiuniRecente: [
       {
+        data: "2026-06-12",
+        text: "USR a votat oficial în Comitetul Politic (>90% majoritate) să nu susțină învestirea. Votul de învestitură, programat inițial pe 12 iunie, a fost amânat la aproximativ 16 iunie. Matematic, Tomac nu poate atinge pragul de 233 de voturi (maximum disponibil: 224).",
+      },
+      {
         data: "2026-06-11",
-        text: "Miniștrii propuși sunt audiați în comisiile reunite ale Parlamentului; votul de învestitură e programat pe 12 iunie. PNL a decis unanim în BPN să nu voteze cabinetul; PSD a condiționat susținerea de un vot comun cu PNL și USR; suma voturilor disponibile este de maximum 224, sub pragul de 233 necesar.",
+        text: "Miniștrii propuși sunt audiați în comisiile reunite ale Parlamentului. PNL a decis unanim în BPN să nu voteze cabinetul; PSD a condiționat susținerea de un vot comun cu PNL și USR.",
       },
       {
         data: "2026-06-10",
@@ -241,7 +245,7 @@ export const actori: Actor[] = [
         promisiune: "Formarea unui guvern tehnocrat care să deblocheze criza",
         status: "în curs",
         detalii:
-          "Lista depusă pe 10 iunie, audieri pe 11 iunie, vot pe 12 iunie. PNL refuză unanim, PSD condiționat dar nu votează fără PNL/USR, UDMR nu participă — maximum 224 voturi disponibile față de 233 necesare.",
+          "Lista depusă pe 10 iunie, audieri pe 11 iunie, vot amânat la ~16 iunie. PNL refuză unanim, USR a decis oficial pe 12 iunie (CP, >90%) să nu voteze, PSD condiționat dar nu votează fără PNL/USR — maximum 224 voturi disponibile față de 233 necesare. Eșecul primei încercări constituționale este previzibil.",
       },
     ],
     controverse: [
@@ -430,6 +434,10 @@ export const actori: Actor[] = [
       "Președinte USR din iunie 2025, primar al Timișoarei din 2020. A susținut corecția fiscală a guvernului Bolojan, a exclus refacerea coaliției cu PSD și a respins guvernul tehnocrat Tomac, pe care l-a calificat drept „paravan pentru ca PSD să exercite puterea”.",
     actiuniRecente: [
       {
+        data: "2026-06-12",
+        text: "Comitetul Politic al USR a votat cu peste 90% să nu susțină învestirea Guvernului Tomac. Fritz a declarat că un guvern tehnocrat ar fi „nefuncțional, pentru că nimeni nu răspunde cu adevărat de decizii” și a propus ca alternativă un guvern politic minoritar PNL+USR+UDMR.",
+      },
+      {
         data: "2026-06-05",
         text: "A respins guvernul tehnocrat Tomac: „paravan pentru ca PSD să exercite puterea”.",
       },
@@ -483,6 +491,14 @@ export const actori: Actor[] = [
       {
         titlu: "Jurnalul — Saga cetățeniei lui Dominic Fritz",
         url: "https://jurnalul.ro/special-jurnalul/alegeri-usr-dominic-fritz-cetatenie-999944.html",
+      },
+      {
+        titlu: "Digi24 — USR nu susține guvernul Tomac (decizie CP, 12 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/usr-nu-sustine-guvernul-tomac-3812977",
+      },
+      {
+        titlu: "ProTV — USR a anunțat oficial că nu votează guvernul Tomac; alternativa propusă",
+        url: "https://stirileprotv.ro/stiri/politic/usr-a-decis-oficial-sa-nu-voteze-guvernul-lui-eugen-tomac-alternativa-pe-care-o-propune.html",
       },
     ],
   },

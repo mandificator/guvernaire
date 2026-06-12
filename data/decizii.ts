@@ -281,9 +281,9 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; audieri în comisii pe 11 iunie; votul de învestitură programat pe 12 iunie 2026. Pe 11 iunie, PNL a votat unanim în BPN să nu susțină investitura; matematica arată maximum 224 voturi disponibile față de 233 necesare — în așteptare.",
+        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; audieri în comisii pe 11 iunie. Votul de învestitură, programat inițial pe 12 iunie, a fost amânat la aproximativ 16 iunie 2026. Pe 12 iunie, Comitetul Politic al USR a votat cu peste 90% să nu susțină investitura. PSD urmează să decidă în weekendul 14–15 iunie. Matematic, Tomac nu poate aduna 233 de voturi (maximum disponibil: 224) — în așteptare, rezultat previzibil: respins.",
       pePartide:
-        "PNL — refuz unanim (BPN, 11 iunie): Bolojan a calificat formula drept „o formulă de paravan pentru a scuti PSD de răspundere”. PSD — susținere condiționată (9 condiții: zero taxe noi, TVA 9% la alimente și medicamente, indexarea pensiilor, creșterea salariului minim de la 1 iulie 2026), dar Grindeanu a precizat că PSD nu votează dacă PNL și USR nu o fac. USR — refuz. AUR — refuz, cere anticipate. UDMR — nu susține, nu participă la vot. Scenariu post-Tomac discutat în PNL: guvern minoritar PNL+USR+UDMR la o a doua desemnare.",
+        "PNL — refuz unanim (BPN, 11 iunie): Bolojan a calificat formula drept „o formulă de paravan pentru a scuti PSD de răspundere”. USR — refuz oficial (Comitet Politic, 12 iunie, >90% majoritate): Fritz a declarat că un guvern tehnocrat ar fi „nefuncțional, pentru că nimeni nu răspunde cu adevărat de decizii” și a propus un guvern politic minoritar PNL+USR+UDMR. PSD — susținere condiționată (9 condiții), dar Grindeanu menține că PSD nu votează dacă PNL și USR nu o fac; decizie finală așteptată în weekend. AUR — refuz, cere anticipate. UDMR — nu susține, nu participă la vot. Scenariu post-Tomac discutat în PNL: guvern minoritar PNL+USR+UDMR la o a doua desemnare.",
     },
     aliniere: "fără-vot",
     controverse: [
@@ -292,7 +292,7 @@ export const decizii: Decizie[] = [
       "Pe 10 iunie, chiar în ziua depunerii listei, mandatele celor 6 miniștri interimari numiți de Bolojan în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună de conducere la 6 ministere. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare. (Surse: Digi24, Stiripesurse, Adevarul, Ziare.com — 10 iunie 2026.)",
     ],
     verdictFinal:
-      "Actualizare 11 iunie: PNL a votat unanim în BPN să nu susțină investitura, UDMR nu participă la vot, PSD nu votează fără PNL și USR — suma maximă a voturilor disponibile este de 224 față de 233 necesare. Votul de pe 12 iunie va eșua cu certitudine ridicată, consumând prima din cele două încercări constituționale. Scenariul discutat în PNL după eșec: guvern minoritar PNL+USR+UDMR la o a doua desemnare — formulă mai credibilă aritmetic, dar care adaugă noi săptămâni la criza deja prelungită de o lună. Costul desemnării fără majoritate asigurată — timp pierdut, presiune pe rating, paralizie administrativă — confirmă exact evaluarea guvernului paralel de la momentul desemnării. Mandatele a 6 miniștri interimari expiraseră pe 10 iunie, adâncind starea de limbo constituțional.",
+      "Actualizare 11 iunie: PNL a votat unanim în BPN să nu susțină investitura, UDMR nu participă la vot, PSD nu votează fără PNL și USR — suma maximă a voturilor disponibile este de 224 față de 233 necesare. Costul desemnării fără majoritate asigurată — timp pierdut, presiune pe rating, paralizie administrativă — confirmă exact evaluarea guvernului paralel de la momentul desemnării. Mandatele a 6 miniștri interimari expiraseră pe 10 iunie, adâncind starea de limbo constituțional.\n\nActualizare 12 iunie: USR a votat oficial în Comitetul Politic (>90% majoritate) să nu susțină învestirea. Fritz a propus explicit un guvern politic minoritar PNL+USR+UDMR drept alternativă, ceea ce transformă eșecul Tomac dintr-o probabilitate într-o certitudine matematică. Votul de învestitură a fost amânat la aproximativ 16 iunie; PSD urmează să decidă în weekend, dar condiția proprie — „nu votăm fără PNL și USR” — e automat neîndeplinită. Prima din cele două încercări constituționale se consumă. A doua desemnare, cu o formulă mai credibilă aritmetic (PNL+USR+UDMR), devine scenariul cel mai probabil — cu prețul altor câteva săptămâni de vid guvernamental.",
     surse: [
       {
         titlu: "Presidency.ro — decretul de desemnare a lui Eugen Tomac (comunicat oficial, 5 iunie 2026)",
@@ -333,6 +333,18 @@ export const decizii: Decizie[] = [
       {
         titlu: "HotNews — PNL a decis în unanimitate să nu susțină Guvernul Tomac",
         url: "https://hotnews.ro/sedinta-la-pnl-pentru-guvernul-tomac-liberalii-decid-daca-voteaza-guvernul-propus-2270450",
+      },
+      {
+        titlu: "Digi24 — USR nu susține guvernul Tomac (decizie oficială CP, 12 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/usr-nu-sustine-guvernul-tomac-3812977",
+      },
+      {
+        titlu: "CursDeGuvernare — USR a decis: nu votează Guvernul Tomac; Fritz propune guvern PNL+USR+UDMR",
+        url: "https://cursdeguvernare.ro/usr-decis-nu-voteaza-guvernul-tomac.html",
+      },
+      {
+        titlu: "ProTV — USR a anunțat oficial că nu votează guvernul Eugen Tomac",
+        url: "https://stirileprotv.ro/stiri/politic/usr-a-decis-oficial-sa-nu-voteze-guvernul-lui-eugen-tomac-alternativa-pe-care-o-propune.html",
       },
     ],
   },
