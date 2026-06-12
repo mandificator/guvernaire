@@ -30,6 +30,57 @@ export default function GuvernPage() {
         </p>
       </header>
 
+      <div className="grid gap-4 sm:grid-cols-2">
+        {pozitiiGuvern.map((p) => {
+          const propus = p.candidati.find((c) => c.nume === p.propunere.nume);
+          return (
+            <Link
+              key={p.slug}
+              href={`/guvern/${p.slug}`}
+              className="block rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            >
+              <h2 className="font-serif text-lg font-bold leading-snug text-zinc-900">
+                {p.minister}
+              </h2>
+              <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-zinc-600">
+                {p.misiune}
+              </p>
+              <div className="mt-3 flex items-start gap-3 border-t border-zinc-100 pt-3">
+                <Portret nume={p.propunere.nume} marime={48} />
+                <div className="min-w-0">
+                  <div className="text-[10px] font-bold uppercase tracking-wide text-zinc-400">
+                    Propunerea noastră
+                  </div>
+                  <div className="mt-0.5 text-sm font-bold text-blue-950">
+                    {p.propunere.nume}
+                    {propus ? (
+                      <span className="ml-1.5 font-normal text-zinc-500">
+                        · {partidPrincipal(propus.partid)} ·{" "}
+                        <span className="font-bold text-blue-900">
+                          {propus.punctaj.total}/100
+                        </span>
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap gap-1">
+                    {p.candidati
+                      .filter((c) => c.nume !== p.propunere.nume)
+                      .map((c) => (
+                        <span
+                          key={c.nume}
+                          className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-600"
+                        >
+                          {c.nume}
+                        </span>
+                      ))}
+                  </div>
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+
       <section className="rounded-xl border border-blue-200 bg-blue-50/50 p-5">
         <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-blue-950">
           Grila de punctare (max. 100)
@@ -110,57 +161,6 @@ export default function GuvernPage() {
           ))}
         </div>
       </section>
-
-      <div className="grid gap-4 sm:grid-cols-2">
-        {pozitiiGuvern.map((p) => {
-          const propus = p.candidati.find((c) => c.nume === p.propunere.nume);
-          return (
-            <Link
-              key={p.slug}
-              href={`/guvern/${p.slug}`}
-              className="block rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition hover:border-blue-300 hover:shadow-md"
-            >
-              <h2 className="font-serif text-lg font-bold leading-snug text-zinc-900">
-                {p.minister}
-              </h2>
-              <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-zinc-600">
-                {p.misiune}
-              </p>
-              <div className="mt-3 flex items-start gap-3 border-t border-zinc-100 pt-3">
-                <Portret nume={p.propunere.nume} marime={48} />
-                <div className="min-w-0">
-                  <div className="text-[10px] font-bold uppercase tracking-wide text-zinc-400">
-                    Propunerea noastră
-                  </div>
-                  <div className="mt-0.5 text-sm font-bold text-blue-950">
-                    {p.propunere.nume}
-                    {propus ? (
-                      <span className="ml-1.5 font-normal text-zinc-500">
-                        · {partidPrincipal(propus.partid)} ·{" "}
-                        <span className="font-bold text-blue-900">
-                          {propus.punctaj.total}/100
-                        </span>
-                      </span>
-                    ) : null}
-                  </div>
-                  <div className="mt-1.5 flex flex-wrap gap-1">
-                    {p.candidati
-                      .filter((c) => c.nume !== p.propunere.nume)
-                      .map((c) => (
-                        <span
-                          key={c.nume}
-                          className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-600"
-                        >
-                          {c.nume}
-                        </span>
-                      ))}
-                  </div>
-                </div>
-              </div>
-            </Link>
-          );
-        })}
-      </div>
 
       <p className="max-w-3xl border-t border-zinc-200 pt-4 text-xs leading-relaxed text-zinc-500">
         Acesta este un exercițiu civic, nu o listă de partid: nu susținem și nu atacăm pe nimeni.
