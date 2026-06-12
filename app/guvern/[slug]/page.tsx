@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { pozitiiGuvern, getPozitie } from "@/data/guvern";
 import { SectionTitle, Surse } from "@/components/ui";
 import { Portret } from "@/components/portret";
-import type { CandidatGuvern } from "@/lib/types";
+import type { CandidatGuvern, PunctajCandidat } from "@/lib/types";
 
 export function generateStaticParams() {
   return pozitiiGuvern.map((p) => ({ slug: p.slug }));
@@ -23,6 +23,47 @@ export async function generateMetadata({
         description: `5 candidați pentru poziția de ${p.minister}, cu argumente pro și contra: ${p.candidati.map((c) => c.nume).join(", ")}.`,
       }
     : {};
+}
+
+function PunctajGrila({ p }: { p: PunctajCandidat }) {
+  const randuri = [
+    { eticheta: "Competență în domeniu", val: p.competenta, max: 40 },
+    { eticheta: "Activitate verificabilă", val: p.activitate, max: 30 },
+    { eticheta: "Integritate", val: p.integritate, max: 30 },
+  ];
+  return (
+    <div className="mt-4 rounded-lg border border-zinc-200 bg-zinc-50 p-3.5">
+      <div className="mb-2.5 flex items-center justify-between">
+        <span className="text-[10px] font-bold uppercase tracking-wide text-zinc-500">
+          Punctaj pe grila publică
+        </span>
+        <span className="rounded bg-blue-950 px-2 py-0.5 text-sm font-black tabular-nums text-yellow-400">
+          {p.total}/100
+        </span>
+      </div>
+      <div className="space-y-1.5">
+        {randuri.map((r) => (
+          <div key={r.eticheta} className="flex items-center gap-2 text-xs">
+            <span className="w-44 shrink-0 text-zinc-600">{r.eticheta}</span>
+            <div className="h-2.5 flex-1 overflow-hidden rounded-sm bg-zinc-200">
+              <div
+                className="h-full rounded-sm bg-blue-800"
+                style={{ width: `${(r.val / r.max) * 100}%` }}
+              />
+            </div>
+            <span className="w-12 shrink-0 text-right font-bold tabular-nums text-zinc-800">
+              {r.val}/{r.max}
+            </span>
+          </div>
+        ))}
+      </div>
+      {p.penalizari && (
+        <p className="mt-2.5 text-[11px] leading-relaxed text-red-700">
+          Penalizări de integritate: {p.penalizari}
+        </p>
+      )}
+    </div>
+  );
 }
 
 function CardCandidat({ c, propus }: { c: CandidatGuvern; propus: boolean }) {
@@ -88,6 +129,8 @@ function CardCandidat({ c, propus }: { c: CandidatGuvern; propus: boolean }) {
         </div>
       </div>
 
+      <PunctajGrila p={c.punctaj} />
+
       <details className="group mt-3">
         <summary className="cursor-pointer select-none text-xs font-semibold text-blue-800 hover:underline">
           Sursele acestei fișe ({c.surse.length})
@@ -141,11 +184,13 @@ export default async function PozitiePage({
       </section>
 
       <section>
-        <SectionTitle>Cei 5 candidați, cu argumente pro și contra</SectionTitle>
+        <SectionTitle>Cei 5 candidați, în ordinea punctajului</SectionTitle>
         <div className="space-y-5">
-          {p.candidati.map((c) => (
-            <CardCandidat key={c.nume} c={c} propus={c.nume === p.propunere.nume} />
-          ))}
+          {[...p.candidati]
+            .sort((a, b) => b.punctaj.total - a.punctaj.total)
+            .map((c) => (
+              <CardCandidat key={c.nume} c={c} propus={c.nume === p.propunere.nume} />
+            ))}
         </div>
       </section>
 

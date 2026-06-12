@@ -23,14 +23,45 @@ export default function GuvernPage() {
         <p className="text-[15px] leading-relaxed text-zinc-700">
           România nu are guvern cu puteri depline din 5 mai 2026. Guvernul paralel propune o
           componență completă: pentru fiecare dintre cele {pozitiiGuvern.length} poziții,{" "}
-          <strong>5 candidați reali</strong> — ideal membri actuali ai Parlamentului — analizați
-          pe criterii publice: competență dovedită în domeniu, activitate parlamentară
-          verificabilă (comisii, interpelări, propuneri legislative — cdep.ro / senat.ro),
-          notorietate și încredere publică, plus echilibrul față de voturile cetățenilor din
-          decembrie 2024. Fiecare candidat are argumente pro <em>și</em> contra. Etichetele
-          („progresist", „suveranist") nu sunt criteriu: doar faptele.
+          <strong>5 candidați reali</strong> — din Parlament și din afara lui — punctați pe o
+          grilă publică, aplicată identic tuturor. Fiecare candidat are argumente pro{" "}
+          <em>și</em> contra, activitate verificabilă (cdep.ro, senat.ro sau echivalentul
+          instituțional) și surse. Etichetele nu sunt criteriu: doar faptele.
         </p>
       </header>
+
+      <section className="rounded-xl border border-blue-200 bg-blue-50/50 p-5">
+        <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-blue-950">
+          Grila de punctare (max. 100)
+        </h2>
+        <div className="grid gap-3 text-sm leading-relaxed text-zinc-700 sm:grid-cols-3">
+          <div>
+            <span className="font-bold text-blue-950">Competență în domeniu · 0–40</span>
+            <br />
+            pregătire (10) + carieră și realizări (20) + livrări verificabile la vârf (10)
+          </div>
+          <div>
+            <span className="font-bold text-blue-950">Activitate verificabilă · 0–30</span>
+            <br />
+            funcții în comisii/instituții (10) + producție legislativă sau echivalent (10) +
+            control și expertiză publică (10)
+          </div>
+          <div>
+            <span className="font-bold text-blue-950">Integritate · 0–30</span>
+            <br />
+            pornește de la 30; scad doar penalizările documentate: anchetă penală −20, plagiat
+            constatat −15, extremism −12, conflict de interese −5…−10, suspiciuni nevalidate −6,
+            traseism −5, demisie la ordin de partid −3
+          </div>
+        </div>
+        <p className="mt-3 text-xs leading-relaxed text-zinc-500">
+          Propunerea fiecărei poziții = punctajul maxim. Diferențele de 1–3 puncte sunt în marja
+          grilei și sunt semnalate explicit în motivare. Absența unei funcții anterioare nu se
+          penalizează nicăieri: cine nu a condus încă pornește de la zero doar la „livrări", nu
+          cu minus. Aceeași grilă se aplică identic candidaților din Parlament și celor din
+          afara lui.
+        </p>
+      </section>
 
       <section className="rounded-xl border border-zinc-200 bg-zinc-50 p-5">
         <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
@@ -63,19 +94,6 @@ export default function GuvernPage() {
             </span>
           ))}
         </div>
-        <p className="mt-4 text-xs leading-relaxed text-zinc-500">
-          Trecutul la guvernare <strong>nu este criteriu</strong>: un partid care nu a guvernat
-          încă nu pornește cu handicap, așa cum unul care a guvernat nu pornește cu bonus — și
-          USR, și UDMR, și oricare altul au fost cândva „neîncercați". Propunerea finală merge
-          la candidatul cu cel mai bun raport pro/contra pe criteriile publice: competență în
-          domeniu, activitate parlamentară, integritate. Acolo unde un partid nu are nicio
-          propunere finală, motivul este individual și documentat în fișa fiecărui candidat al
-          său (de ex. anchete DNA, conflicte de interese, lipsa oricărei activități pe domeniu)
-          — nu eticheta partidului. Spune-ne unde greșim:{" "}
-          <a href="mailto:tavi@pukka.ro" className="font-semibold text-blue-800 hover:underline">
-            tavi@pukka.ro
-          </a>
-        </p>
       </section>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -103,7 +121,10 @@ export default function GuvernPage() {
                     {p.propunere.nume}
                     {propus ? (
                       <span className="ml-1.5 font-normal text-zinc-500">
-                        · {partidPrincipal(propus.partid)}
+                        · {partidPrincipal(propus.partid)} ·{" "}
+                        <span className="font-bold text-blue-900">
+                          {propus.punctaj.total}/100
+                        </span>
                       </span>
                     ) : null}
                   </div>

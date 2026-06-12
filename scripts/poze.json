@@ -139,11 +139,6 @@
     "foto": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Daniel_David_-_February_3rd%2C_2025.jpg",
     "sursa": "https://ro.wikipedia.org/wiki/Daniel_David"
   },
-  "marilen-gabriel-pirtea": {
-    "nume": "Marilen-Gabriel Pirtea",
-    "foto": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Marilen-Gabriel_Pirtea_portret_2017.jpg",
-    "sursa": "https://ro.wikipedia.org/wiki/Marilen-Gabriel_Pirtea"
-  },
   "mohammad-murad": {
     "nume": "Mohammad Murad",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/4/49/Mohammad_Murad_21.12.2024_%282%29.jpg",
@@ -249,12 +244,6 @@
     "foto": "https://upload.wikimedia.org/wikipedia/commons/2/24/Noua_Dreapt%C4%83_leader_Tudor_Ionescu.png",
     "sursa": "https://ro.wikipedia.org/wiki/Tudor_Ionescu"
   },
-  "adrian-caciu": {
-    "nume": "Adrian Câciu",
-    "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Briefing_de_pres%C4%83_la_finalul_%C8%99edin%C8%9Bei_de_guvern_sus%C8%9Binut_de_ministrul_Investi%C8%9Biilor_si_Proiectelor_Europene%2C_Adrian_C%C3%A2ciu%2C_ministrul_Dezvolt%C4%83rii.jpg/1280px-Briefing_de_pres%C4%83_la_finalul_%C8%99edin%C8%9Bei_de_guvern_sus%C8%9Binut_de_ministrul_Investi%C8%9Biilor_si_Proiectelor_Europene%2C_Adrian_C%C3%A2ciu%2C_ministrul_Dezvolt%C4%83rii.jpg",
-    "sursa": "https://commons.wikimedia.org/wiki/File%3ABriefing_de_pres%C4%83_la_finalul_%C8%99edin%C8%9Bei_de_guvern_sus%C8%9Binut_de_ministrul_Investi%C8%9Biilor_si_Proiectelor_Europene%2C_Adrian_C%C3%A2ciu%2C_ministrul_Dezvolt%C4%83rii.jpg",
-    "fisier": "File:Briefing de presă la finalul ședinței de guvern susținut de ministrul Investițiilor si Proiectelor Europene, Adrian Câciu, ministrul Dezvoltării.jpg"
-  },
   "dumitrina-mitrea": {
     "nume": "Dumitrina Mitrea",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mitrea_Dumitrina_deputat_AUR_Neam%C8%9B_1.jpg/1280px-Mitrea_Dumitrina_deputat_AUR_Neam%C8%9B_1.jpg",
@@ -343,5 +332,20 @@
     "nume": "bogdan-despescu",
     "foto": "https://www.mai.gov.ro/wp-content/uploads/2020/01/Bogdan-Despescu.jpg",
     "sursa": "https://www.mai.gov.ro/chestor-general-de-politie-bogdan-despescu-secretar-de-stat/"
+  },
+  "daniel-daianu": {
+    "nume": "Daniel Dăianu",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Daniel_D%C4%83ianu_2019.jpg/3840px-Daniel_D%C4%83ianu_2019.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Daniel_Dăianu"
+  },
+  "valeriu-stoica": {
+    "nume": "Valeriu Stoica",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Valeriu_Stoica.JPG",
+    "sursa": "https://ro.wikipedia.org/wiki/Valeriu_Stoica"
+  },
+  "raed-arafat": {
+    "nume": "Raed Arafat",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Raed_Arafat_-_2025_%28cropped%29.jpg",
+    "sursa": "https://ro.wikipedia.org/wiki/Raed_Arafat"
   }
 }

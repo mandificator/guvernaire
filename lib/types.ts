@@ -53,6 +53,23 @@ export interface Decizie {
 
 export type CameraParlament = "Camera Deputaților" | "Senat" | "neparlamentar";
 
+/**
+ * Grila de punctare a candidaților (max. 100), aplicată identic tuturor.
+ * Absența unei funcții anterioare nu se penalizează nicăieri — cine nu a condus încă
+ * pornește de la zero doar la „livrări", nu cu minus.
+ */
+export interface PunctajCandidat {
+  /** Competență în domeniu: pregătire (10) + carieră și realizări (20) + livrări verificabile la vârf (10). Max 40. */
+  competenta: number;
+  /** Activitate verificabilă: funcții în comisii/instituții (10) + producție legislativă sau echivalent (10) + control/expertiză publică (10). Max 30. */
+  activitate: number;
+  /** Integritate: pornește de la 30; scad doar penalizările documentate. Max 30. */
+  integritate: number;
+  total: number;
+  /** Penalizările semnificative de integritate (afișate când integritate ≤ 24) */
+  penalizari?: string;
+}
+
 export interface CandidatGuvern {
   nume: string;
   /** Partidul pe ale cărui liste a fost ales / afilierea actuală — doar fapt, nu etichetă */
@@ -61,10 +78,11 @@ export interface CandidatGuvern {
   functieActuala: string;
   /** Background profesional: studii, carieră, realizări în domeniu */
   profil: string;
-  /** Activitate parlamentară concretă: comisii, interpelări, propuneri legislative */
+  /** Activitate concretă: comisii, interpelări, propuneri legislative — sau echivalentul din afara Parlamentului */
   activitate: string;
   pro: string[];
   contra: string[];
+  punctaj: PunctajCandidat;
   surse: Sursa[];
 }
 
@@ -73,9 +91,9 @@ export interface PozitieGuvern {
   minister: string;
   /** Mizele portofoliului în contextul actual */
   misiune: string;
-  /** Exact 5 candidați, din tot spectrul politic */
+  /** 5 candidați, din Parlament și din afara lui */
   candidati: CandidatGuvern[];
-  /** Alegerea guvernului paralel, strict pe criterii — cu motivare publică */
+  /** Alegerea guvernului paralel = punctajul maxim pe grilă, cu motivare publică */
   propunere: { nume: string; motivare: string };
 }
 

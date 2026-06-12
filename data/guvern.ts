@@ -3,12 +3,13 @@ import ilustratii from "@/data/ilustratii.json";
 
 /**
  * Guvernul României — componența propusă de guvernul paralel al cetățeanului.
- * Pentru fiecare poziție: 5 candidați reali (ideal parlamentari în funcție, legislatura
- * aleasă în decembrie 2024), cu argumente pro și contra, activitate parlamentară
- * verificabilă (comisii, interpelări, propuneri legislative — cdep.ro / senat.ro) și surse.
- * Criterii, în ordine: competență dovedită în domeniu, activitate parlamentară,
- * notorietate și încredere publică, echilibru față de voturile cetățenilor din dec. 2024.
- * Zero etichete: candidații vin din tot spectrul politic. Actualizat la 12 iunie 2026.
+ * Pentru fiecare poziție: 5 candidați reali, din Parlament și din afara lui, cu argumente
+ * pro și contra, activitate verificabilă (cdep.ro / senat.ro sau echivalent instituțional),
+ * surse și un punctaj pe grila publică (vezi PunctajCandidat în lib/types.ts):
+ * competență 0–40 + activitate 0–30 + integritate 0–30. Propunerea = punctajul maxim;
+ * diferențele de 1–3 puncte sunt în marja grilei și sunt semnalate în motivare.
+ * Absența unei funcții anterioare nu se penalizează nicăieri. Zero etichete.
+ * Actualizat la 12 iunie 2026.
  */
 export const pozitiiGuvern: PozitieGuvern[] = [
   {
@@ -38,6 +39,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "58,2% dintre români declară încredere puțină sau deloc în el (INSCOP, martie 2026).",
           "Stil decizional centralizat, criticat inclusiv în propriul partid (stenograme din ședința PNL de validare a miniștrilor).",
         ],
+        punctaj: {
+          competenta: 36,
+          activitate: 21,
+          integritate: 28,
+          total: 85,
+        },
         surse: [
           {
             titlu: "AGERPRES — Moțiunea de cenzură adoptată cu 281 de voturi",
@@ -74,6 +81,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Doar locul 7 în topul încrederii INSCOP (martie 2026).",
           "Cumulul președinte de partid + președinte al Camerei concentrează puterea și contrazice ideea de premier echidistant.",
         ],
+        punctaj: {
+          competenta: 30,
+          activitate: 21,
+          integritate: 19,
+          total: 70,
+          penalizari: "−6 OUG 13, adoptată de guvernul condus de el (2017); −5 acuzații de numiri clientelare, documentate de presă",
+        },
         surse: [
           {
             titlu: "Euronews România — Portret Sorin Grindeanu",
@@ -105,10 +119,16 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A demonstrat capacitate de negociere parlamentară transpartinică (moțiunea din 5 mai 2026, semnată cu PSD).",
         ],
         contra: [
-          "Zero experiență executivă în administrația publică, la orice nivel.",
           "Comportament conflictual documentat în plen, inclusiv atacuri personale în ziua moțiunii de cenzură.",
           "Interdicții de intrare în Ucraina și Republica Moldova — handicap direct pentru un șef de guvern în politica externă regională.",
         ],
+        punctaj: {
+          competenta: 12,
+          activitate: 17,
+          integritate: 24,
+          total: 53,
+          penalizari: "−6 comportament conflictual documentat în plen",
+        },
         surse: [
           {
             titlu: "CV oficial George Simion — cdep.ro",
@@ -144,6 +164,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Prezent aproape neîntrerupt la guvernare din anii 2000 — greu de prezentat ca alternativă la sistem.",
           "Relația strânsă cu guvernul de la Budapesta (subiect reactivat de alegerile din Ungaria, aprilie 2026) ridică sensibilități de politică externă.",
         ],
+        punctaj: {
+          competenta: 26,
+          activitate: 18,
+          integritate: 28,
+          total: 72,
+        },
         surse: [
           {
             titlu: "Profil oficial Kelemen Hunor — udmr.ro",
@@ -176,6 +202,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Traseism politic repetat (PSD → Pro România → PSD → Uniți pentru România) — ridică dubii de consecvență.",
           "Mandatul de premier s-a încheiat cu demisia în urma tragediei Colectiv (2015).",
         ],
+        punctaj: {
+          competenta: 28,
+          activitate: 14,
+          integritate: 10,
+          total: 52,
+          penalizari: "−15 plagiat constatat, cu renunțarea la titlu; −5 traseism politic repetat",
+        },
         surse: [
           {
             titlu: "Mediafax — Ponta demisionează din grupul PSD și trece la Uniți pentru România",
@@ -195,7 +228,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Ilie Bolojan",
       motivare:
-        "Pe ordinea criteriilor, competența dovedită primează: Bolojan are singurul bilanț administrativ complet verificabil (Oradea, CJ Bihor, Senat, Președinție interimară, Guvern), este senator în funcție și rămâne în top 3 al încrederii publice chiar și după demitere. Demiterea cu 281 de voturi este un contraargument politic real, dar evaluăm meritul, nu aritmetica de moment a partidelor. Echilibrul ansamblului e asigurat de celelalte portofolii, distribuite pe tot spectrul.",
+        "Grila îl dă câștigător detașat: 85 de puncte (competență 36/40 — singurul bilanț complet pe toate palierele administrației; activitate 21/30; integritate 28/30), față de 72 (Kelemen Hunor) și 70 (Grindeanu). Demiterea cu 281 de voturi rămâne handicapul politic major, notat la contra — dar grila măsoară meritul, nu aritmetica parlamentară de moment.",
     },
   },
   {
@@ -218,13 +251,19 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Singurul candidat cu două mandate la Ministerul Finanțelor — cunoaște instituția și dosarul fiscal curent în detaliu.",
           "Experiență dovedită în deblocarea finanțărilor europene (transporturi, 2012).",
           "Formație tehnică internațională (Hertie School) și experiență de europarlamentar.",
-          "Membru al comisiei de specialitate a Senatului — criteriul parlamentar îndeplinit integral.",
+          "Membru al comisiei de specialitate a Senatului (buget-finanțe).",
         ],
         contra: [
           "Demis în 2021 după conflictul public cu premierul Cîțu pe rectificarea bugetară — mandat neîncheiat.",
           "Asociat direct cu pachetele de austeritate care au dus la căderea guvernului Bolojan.",
           "Deficitul bugetar a rămas printre cele mai mari din UE pe durata mandatului său actual.",
         ],
+        punctaj: {
+          competenta: 32,
+          activitate: 17,
+          integritate: 29,
+          total: 78,
+        },
         surse: [
           {
             titlu: "Fișă senator Alexandru Nazare — senat.ro",
@@ -254,13 +293,19 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Economist de formație (ASE) cu mandat recent și complet la Ministerul Finanțelor.",
           "Profil moderat, acceptat atât de partidele fostei coaliții, cât și tolerat de opoziție — cel mai „coalizabil” candidat.",
           "Experiență de viceprim-ministru cu vedere de ansamblu asupra execuției bugetare.",
-          "Senator în funcție, cu vechime parlamentară din 2012 — criteriul parlamentar îndeplinit integral.",
+          "Senator în funcție, cu vechime parlamentară din 2012.",
         ],
         contra: [
           "Pachetul fiscal adoptat în mandatul său („ordonanța trenuleț”, dec. 2024) a fost criticat pentru creșteri de taxe decise netransparent.",
           "Ca ministru al mediului a fost criticat pentru progres insuficient împotriva tăierilor ilegale de păduri.",
           "Prezență continuă la guvernare în toate coalițiile recente — vulnerabil la critica de „om al sistemului”.",
         ],
+        punctaj: {
+          competenta: 31,
+          activitate: 19,
+          integritate: 26,
+          total: 76,
+        },
         surse: [
           {
             titlu: "AGERPRES — Tánczos Barna, fișă biografică",
@@ -292,10 +337,16 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Avertismentele sale privind depășirea țintei de deficit au fost confirmate de evaluările Comisiei Europene.",
         ],
         contra: [
-          "Nu a condus niciodată execuția bugetară — fără experiență directă în Ministerul Finanțelor sau Trezorerie.",
           "Conflict de interese semnalat de presă: a inițiat interzicerea cumpărării de acțiuni la companii de stat de către străini, deși deține acțiuni la 32 de companii (Newsweek).",
           "Retorica economică protecționistă intră în tensiune cu angajamentele asumate de România față de UE.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 20,
+          integritate: 20,
+          total: 69,
+          penalizari: "−8 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
+        },
         surse: [
           {
             titlu: "Grupul parlamentar AUR — senat.ro",
@@ -329,8 +380,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Mandatul la Ministerul Economiei a fost criticat pentru întârzierea schemelor de compensare HoReCa.",
           "Agenda de reduceri de taxe este greu de aplicat cu un deficit excesiv — percepută ca ideologică.",
-          "Experiență executivă scurtă (sub un an) și fără gestiunea directă a finanțelor publice.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 21,
+          integritate: 30,
+          total: 74,
+        },
         surse: [
           {
             titlu: "Profil oficial Claudiu Năsui — usr.ro",
@@ -347,46 +403,48 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
       },
       {
-        nume: "Adrian Câciu",
-        partid: "PSD",
-        camera: "Camera Deputaților",
+        nume: "Daniel Dăianu",
+        partid: "independent",
+        camera: "neparlamentar",
         functieActuala:
-          "Deputat de Dolj, vicepreședinte al Comisiei pentru buget, finanțe și bănci",
+          "Președintele Consiliului Fiscal; membru titular al Academiei Române; profesor la SNSPA",
         profil:
-          "Economist, cu carieră din 2001 în administrația publică, inclusiv în Ministerul Agriculturii pe programarea fondurilor europene; ministru al finanțelor (nov. 2021–iun. 2023) și ministru al investițiilor și proiectelor europene (iun. 2023–dec. 2024).",
+          "Economist, membru titular al Academiei Române; fost ministru al finanțelor (1997–1998), fost economist-șef al BNR, fost membru în Consiliul de Administrație al BNR și fost europarlamentar; conduce Consiliul Fiscal — instituția independentă care avizează toate planurile bugetare ale României.",
         activitate:
-          "Deputat din dec. 2024; vicepreședinte al comisiei de specialitate a Camerei; poziții frecvente și documentate în dezbaterile pe bugetul de stat 2025–2026 și pe PNRR.",
+          "Neparlamentar; sub conducerea sa, Consiliul Fiscal a publicat avize și rapoarte documentate pe fiecare buget de stat și rectificare din ultimul deceniu — avertismentele privind derapajul deficitului din 2019–2024 s-au confirmat integral.",
         pro: [
-          "Singurul candidat PSD cu mandat complet la Ministerul Finanțelor.",
-          "Experiență dublă, unică în Parlament: și Finanțe, și Fonduri Europene.",
-          "Vicepreședinte al comisiei de specialitate — criteriul activității parlamentare îndeplinit.",
-          "Cunoaște direct negocierile cu Comisia Europeană pe planul fiscal-bugetar.",
+          "Cea mai înaltă autoritate profesională disponibilă pe finanțe publice: academician, fost ministru de finanțe, fost economist-șef al BNR.",
+          "Cunoaște în detaliu execuția bugetară curentă din poziția de președinte al Consiliului Fiscal — instituția care a analizat fiecare buget recent.",
+          "Avertismentele Consiliului Fiscal pe deficit s-au dovedit sistematic corecte, sub guverne de toate culorile.",
+          "Independent politic de două decenii — profil compatibil cu un buget de criză negociat transpartinic.",
         ],
         contra: [
-          "În mandatul său la Finanțe, deficit de aproape 6% din PIB și venituri bugetare supraestimate („gaură” la buget, documentată de presa economică).",
-          "Ca ministru al fondurilor europene a depus o singură cerere de plată din PNRR.",
-          "Comportament agresiv în comisie în martie 2026 (incidentul cu președinta comisiei, Gabriela Horga): sesizare USR la conducerea Camerei și plângere la CNCD.",
+          "Mandatul de ministru al finanțelor s-a încheiat în 1998 prin demitere, după opoziția față de contractul Bell Helicopters — experiența executivă directă e veche de aproape trei decenii.",
+          "Critic constant al tuturor planurilor fiscale recente — relația de lucru cu partidele care votează bugetul ar porni tensionat.",
+          "Ar prelua, la 73 de ani, cel mai solicitant portofoliu economic, într-o criză prelungită.",
         ],
+        punctaj: {
+          competenta: 37,
+          activitate: 22,
+          integritate: 28,
+          total: 87,
+        },
         surse: [
           {
-            titlu: "Fișa de deputat Adrian Câciu — cdep.ro",
-            url: "https://www.cdep.ro/pls/parlam/structura2015.mp?idm=51&cam=2&leg=2024&pag=0",
+            titlu: "Consiliul Fiscal — site oficial",
+            url: "https://www.consiliulfiscal.ro/",
           },
           {
-            titlu: "AGERPRES — USR a sesizat conducerea Camerei privind comportamentul lui Câciu",
-            url: "https://agerpres.ro/viata-parlamentara/2026/03/23/usr-a-sesizat-conducerea-camerei-deputatilor-privind-comportamentul-lui-adrian-caciu-in-sedinte-ale---1540183",
-          },
-          {
-            titlu: "G4Media — incidentul Câciu–Horga din comisia de buget",
-            url: "https://www.g4media.ro/pnl-cere-psd-sa-se-delimiteze-de-adrian-caciu-si-sesizeaza-consiliul-pentru-combaterea-discriminarii-dupa-ce-fostul-ministru-de-finante-a-lovit-o-peste-mana-pe-deputata-liberala-gabriela-horga.html",
+            titlu: "Wikipedia — Daniel Dăianu",
+            url: "https://ro.wikipedia.org/wiki/Daniel_D%C4%83ianu",
           },
         ],
       },
     ],
     propunere: {
-      nume: "Tánczos Barna",
+      nume: "Daniel Dăianu",
       motivare:
-        "Pe competență pură, Nazare și Tánczos sunt apropiați (ambii cu mandate reale la Finanțe), dar Nazare ar dubla PNL la vârful executivului propus. Tánczos este economist de formație, senator în funcție cu mandat recent și complet la Ministerul Finanțelor, și are profilul de negociator acceptabil pentru întreg spectrul parlamentar — exact ce cere un buget de criză votat de un parlament fragmentat.",
+        "Cel mai mare punctaj din întreaga rubrică: 87 (competență 37/40 — academician, fost ministru de finanțe, fost economist-șef al BNR; activitate 22/30 prin Consiliul Fiscal; integritate 28/30). Nazare (78) și Tánczos (76) rămân rezervele imediate, cu mandate recente la minister; Peiu (69) pierde la integritate (−8, conflict de interese documentat), nu la competență.",
     },
   },
   {
@@ -412,10 +470,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Reprezentarea celui mai votat partid (PSD, ~22%) la un portofoliu pe competență, nu pe clientelism.",
         ],
         contra: [
-          "Nu este membru al Parlamentului României — criteriul principal neîndeplinit.",
           "A demisionat din guvern în 2018, în context conflictual, fără a finaliza pregătirea președinției Consiliului UE.",
-          "Carieră aproape exclusiv politică și academică — nu a implementat administrativ fonduri la nivel național.",
         ],
+        punctaj: {
+          competenta: 33,
+          activitate: 25,
+          integritate: 27,
+          total: 85,
+        },
         surse: [
           {
             titlu: "Victor Negrescu — profil oficial Parlamentul European",
@@ -444,13 +506,18 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Singurul parlamentar în funcție care a condus de două ori ministerul fondurilor europene.",
           "A negociat personal PNRR-ul României cu Comisia Europeană.",
           "Expertiză tehnică pe regulamentele de coeziune, dobândită ca negociator în PE.",
-          "Îndeplinește integral criteriul parlamentar (senator în funcție).",
         ],
         contra: [
           "Unele jaloane PNRR negociate de el s-au dovedit nerealiste și au necesitat renegociere (ex. reforma pensiilor).",
           "Stil de comunicare abraziv, autoasumat („caporal obraznic al partidului”) — risc de conflicte în coordonarea interinstituțională.",
           "Ambele mandate ministeriale au fost întrerupte prematur de crize politice.",
         ],
+        punctaj: {
+          competenta: 30,
+          activitate: 18,
+          integritate: 28,
+          total: 76,
+        },
         surse: [
           {
             titlu: "Profil oficial Cristian Ghinea — usr.ro",
@@ -483,10 +550,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Fără apartenență la vreun partid parlamentar — profil tehnocrat compatibil cu un guvern de criză.",
         ],
         contra: [
-          "Neparlamentar — criteriul principal neîndeplinit.",
           "Numirea sa din 2025 a fost contestată chiar în interiorul PNL, partidul pe a cărui cotă a fost numit fără a fi membru (stenograme publicate).",
           "Face parte din guvernul demis cu 281 de voturi — politic uzat în relația cu actualul Parlament.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 18,
+          integritate: 28,
+          total: 75,
+        },
         surse: [
           {
             titlu: "Europa Liberă — componența guvernului Bolojan",
@@ -515,10 +587,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Al doilea mandat — cunoaște procedurile legislative și de control parlamentar.",
         ],
         contra: [
-          "Nicio experiență executivă și niciun rol direct în gestionarea fondurilor europene.",
           "Rată redusă de succes legislativ — propriile proiecte blocate în comisii, unele de peste un an.",
           "Pozițiile AUR critice față de o parte din politicile UE pot complica relația de lucru cu Comisia Europeană.",
         ],
+        punctaj: {
+          competenta: 13,
+          activitate: 17,
+          integritate: 30,
+          total: 60,
+        },
         surse: [
           {
             titlu: "Ziar Piatra Neamț — interviu-bilanț cu deputatul Dumitrina Mitrea",
@@ -546,10 +623,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Reprezintă electoratul POT (~6%) — completează acoperirea spectrului politic.",
         ],
         contra: [
-          "Nicio experiență în administrarea fondurilor publice sau europene.",
           "Ieșiri nervoase și gafe publice documentate de presă în 2024–2025.",
           "Grupul parlamentar POT s-a destrămat (10 deputați plecați spre Uniți pentru România) — capacitate redusă de a susține politic un mandat ministerial.",
         ],
+        punctaj: {
+          competenta: 16,
+          activitate: 12,
+          integritate: 26,
+          total: 54,
+        },
         surse: [
           {
             titlu: "Euronews România — Portret Anamaria Gavrilă",
@@ -569,7 +651,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Victor Negrescu",
       motivare:
-        "Deși nu este membru al Parlamentului României, Negrescu se califică pe criteriul de rezervă (fost ministru cu notorietate) și are competența cea mai exactă pentru momentul critic al portofoliului: raportor general al PE pentru bugetul UE 2025 și vicepreședinte al Parlamentului European, cu acces direct la instituțiile care decid soarta PNRR înainte de termenul din august 2026. Ghinea rămâne alternativa imediată dacă se impune strict criteriul parlamentar.",
+        "85 de puncte: competență 33/40 și cea mai relevantă activitate echivalentă din listă (25/30 — vicepreședinte al Parlamentului European, raportor general pe bugetul UE 2025), integritate 27/30. Ghinea (76) este rezerva parlamentară imediată, cu PNRR-ul negociat personal.",
     },
   },
   {
@@ -598,6 +680,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil puternic partizan: carieră de peste două decenii exclusiv în PSD, inclusiv în perioadele cele mai contestate ale partidului.",
           "Stil diplomatic considerat conservator de critici, cu apetență redusă pentru reforma serviciului diplomatic.",
         ],
+        punctaj: {
+          competenta: 31,
+          activitate: 22,
+          integritate: 24,
+          total: 77,
+          penalizari: "−6 demisia din 2014, după organizarea defectuoasă a votului din diaspora",
+        },
         surse: [
           {
             titlu: "Senat — întrevederea președintelui Comisiei pentru politică externă",
@@ -634,6 +723,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Gafe de comunicare semnalate de presă la începutul mandatului de ministru.",
           "Membră a unui guvern demis prin moțiune de cenzură, ceea ce slăbește argumentul continuității.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 17,
+          integritate: 29,
+          total: 68,
+        },
         surse: [
           {
             titlu: "MAE — rezultatele participării ministrului Oana Țoiu la CAE Bruxelles",
@@ -666,10 +761,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cunoaște din interior atât MAE, cât și Administrația Prezidențială, reducând riscul de conflict instituțional pe politica externă.",
         ],
         contra: [
-          "Nu este parlamentar, contrar criteriului principal al proiectului.",
           "Percepută ca exponentă a establishment-ului diplomatic din era Iohannis, fără bază politică proprie.",
           "A fost eliberată „la cerere” din funcția de consilier prezidențial în 2025, în contextul restructurării echipei de la Cotroceni.",
         ],
+        punctaj: {
+          competenta: 36,
+          activitate: 20,
+          integritate: 29,
+          total: 85,
+        },
         surse: [
           {
             titlu: "Administrația Prezidențială — fișa Luminița-Teodora Odobescu",
@@ -702,10 +802,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Includerea sa reflectă ponderea electorală a AUR (~18% în dec. 2024).",
         ],
         contra: [
-          "Niciun stagiu în diplomația propriu-zisă (MAE, ambasade); expertiza este administrativ-europeană, nu diplomatică.",
-          "Primul mandat parlamentar, fără experiență executivă de conducere ministerială.",
           "Pozițiile sale publice urmează linia AUR, critică față de orientarea actuală a politicii externe și față de sprijinul pentru Ucraina — risc de ruptură de consensul strategic NATO/UE.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 18,
+          integritate: 30,
+          total: 68,
+        },
         surse: [
           {
             titlu: "Senat — fișa senatorului Andrei-Emil Dîrlău",
@@ -733,10 +837,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Bun cunoscător al uneia dintre relațiile externe sensibile ale României: București–Budapesta–Bruxelles.",
         ],
         contra: [
-          "Nicio experiență directă în diplomație sau în MAE; portofoliile sale au fost cultura și coordonarea guvernamentală.",
           "Relația UDMR cu guvernul Viktor Orbán, analizată critic de presă, ar ridica semne de întrebare asupra echidistanței diplomatice la Externe.",
           "Scoruri electorale proprii constant sub 5% la prezidențiale — notorietate fără susținere electorală largă.",
         ],
+        punctaj: {
+          competenta: 26,
+          activitate: 18,
+          integritate: 28,
+          total: 72,
+        },
         surse: [
           {
             titlu: "UDMR — profil Kelemen Hunor",
@@ -750,9 +859,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Titus Corlățean",
+      nume: "Luminița Odobescu",
       motivare:
-        "Este singurul membru actual al Parlamentului care combină experiența executivă completă în domeniu (ministru de externe 2012–2014), competența academică atestată (doctor și profesor de drept internațional) și conducerea neîntreruptă, verificabilă pe senat.ro, a comisiei de specialitate. Demisia din 2014 (votul din diaspora) rămâne o pată documentată, dar pe ansamblul criteriilor devansează atât tehnocrații neparlamentari, cât și ministrul în exercițiu, a cărui experiență în domeniu datează doar din 2025.",
+        "Odată eliminat handicapul de a nu fi parlamentar, grila o dă câștigătoare: 85 de puncte (competență 36/40 — ambasador la UE, președinția Consiliului UE din 2019, ministru de externe; integritate 29/30, cel mai curat profil din listă). Corlățean (77) rămâne rezerva imediată — îl costă demisia din 2014 (integritate 24/30).",
     },
   },
   {
@@ -774,13 +883,17 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cea mai recentă și mai lungă experiență executivă la MApN dintre parlamentarii actuali (oct. 2022 – iun. 2025).",
           "În mandatul său au avansat programele majore de înzestrare (F-16, demararea programului F-35) și creșterea bugetului apărării.",
           "Poziție internațională activă: președinte al Comisiei pentru democrație și securitate din AP NATO.",
-          "Membru actual al Camerei Deputaților — criteriul principal îndeplinit integral.",
         ],
         contra: [
-          "Civil fără pregătire militară sau de securitate formală; profil de bază: profesor și om de partid.",
           "Mandatul său a inclus incidentele repetate cu fragmente de drone căzute pe teritoriul României, gestionate cu o comunicare publică criticată ca lentă și minimalistă.",
           "Fidelitate de partid îndelungată față de PSD, inclusiv în perioade controversate ale guvernărilor PSD.",
         ],
+        punctaj: {
+          competenta: 27,
+          activitate: 18,
+          integritate: 27,
+          total: 72,
+        },
         surse: [
           {
             titlu: "AGERPRES — Angel Tîlvăr, fișă biografică",
@@ -805,14 +918,18 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         pro: [
           "Conduce comisia de specialitate a Senatului — cea mai înaltă poziție parlamentară pe apărare din legislatura actuală.",
           "Ani de experiență acumulată exclusiv pe dosarele de apărare și siguranță națională, inclusiv pe controlul parlamentar al serviciilor.",
-          "Membru actual al Parlamentului — criteriul principal îndeplinit.",
           "Profil fără scandaluri majore documentate.",
         ],
         contra: [
-          "Nicio experiență executivă (nu a condus minister sau structură militară) și nicio pregătire militară formală.",
           "Notorietate publică mai redusă decât a contracandidaților, construită parțial pe teme din afara apărării.",
           "Apartenența la PNL, partid aflat în centrul crizei politice din 2026, poate complica un mandat de echilibru.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 21,
+          integritate: 30,
+          total: 71,
+        },
         surse: [
           {
             titlu: "HotNews — componența comisiilor permanente ale Senatului (dec. 2024)",
@@ -845,6 +962,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Presa a relatat un litigiu privind sume pe care ar refuza să le restituie statului.",
           "A respins public condițiile în care România a aderat la programul SAFE — pe care le-a descris drept „plătește, supune-te și taci” — precizând că nu se opune programelor de acest tip; ministerul ar avea însă de executat programul exact în condițiile deja asumate de România.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 17,
+          integritate: 22,
+          total: 64,
+          penalizari: "−5 litigiul cu statul, relatat de presă; −3 demisia forțată din fruntea SMG (2000)",
+        },
         surse: [
           {
             titlu: "Ziare.com — senatorul Chelaru cere anchetă după explozia dronei la Constanța",
@@ -873,14 +997,18 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         pro: [
           "Ministrul în funcție: cunoaște dosarele curente (incidente cu drone, programe de înzestrare, SAFE) la zi.",
           "Decizii documentate de disciplină a achizițiilor (refuzul blindatelor supraevaluate) — exact tipul de integritate cerut la MApN.",
-          "Membru actual al Camerei Deputaților, la al doilea mandat.",
           "Dublă experiență ministerială (Economie + Apărare) într-un singur ciclu guvernamental.",
         ],
         contra: [
-          "Niciun background de apărare înainte de decembrie 2025; profilul său parlamentar este IT și economie.",
           "Criticat pentru absența de la conferința de presă a MApN după prăbușirea dronei de la Galați.",
           "A recunoscut public dependența de ajutorul NATO și lipsurile de capabilități fără a prezenta un plan de remediere asumat.",
         ],
+        punctaj: {
+          competenta: 21,
+          activitate: 16,
+          integritate: 29,
+          total: 66,
+        },
         surse: [
           {
             titlu: "MApN — conducerea ministerului: Radu-Dinel Miruță",
@@ -913,10 +1041,16 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Statut de independent — fără obligații față de partidele aflate în conflict în criza din 2026.",
         ],
         contra: [
-          "Nu este membru al Parlamentului.",
           "Nominalizarea sa la NATO a fost umbrită de ancheta DNA care îl viza pe cumnatul său, Ionuț Costea (fost președinte Eximbank).",
           "Eșec electoral sever în 2024 (~6% la prezidențiale), după o campanie cu controverse privind anturajul.",
         ],
+        punctaj: {
+          competenta: 34,
+          activitate: 18,
+          integritate: 22,
+          total: 74,
+          penalizari: "−4 umbra anchetei DNA a cumnatului la nominalizarea NATO; −4 controversele de anturaj din campania 2024",
+        },
         surse: [
           {
             titlu: "NATO — biografia oficială Mircea Geoană",
@@ -930,9 +1064,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Angel Tîlvăr",
+      nume: "Mircea Geoană",
       motivare:
-        "Este parlamentar în funcție (criteriul principal) și singurul dintre candidații-parlamentari cu experiență executivă recentă și completă la MApN: doi ani și jumătate de mandat în plin război la granița României, perioada lansării programului F-35 și a creșterii bugetului apărării, plus președinția Comisiei pentru democrație și securitate din AP NATO. Geoană îl depășește ca anvergură internațională, dar nu este parlamentar. Chelaru (AUR) are cea mai înaltă carieră militară din listă și a fost cântărit serios; două lucruri l-au departajat. Întâi, expertiza sa operațională s-a încheiat în 2000, într-un domeniu transformat radical între timp de războiul dronelor. Apoi, SAFE: cel mai mare proiect pe care ministerul îl are de executat în anii următori (16,68 mld. €). Chelaru a respins public condițiile deja asumate de România — „plătește, supune-te și taci” — poziție legitimă în opoziție și parțial convergentă cu propriile noastre critici de execuție, dar un ministru nu poate implementa credibil un contract pe care îl consideră inacceptabil. Nu poți pune la conducerea ministerului un om care s-a opus exact proiectului pe care ministerul urmează să îl aplice.",
+        "Cea mai strânsă decizie majoră din rubrică: Geoană 74 — Tîlvăr 72 — Pauliuc 71. Decide competența (34/40: cinci ani în conducerea NATO, fără egal într-un context de război), odată ce absența mandatului de parlamentar nu mai e criteriu; penalizările lui de integritate (22/30) sunt afișate transparent, iar Tîlvăr, la două puncte, e rezervă cu drepturi aproape egale. Chelaru (64) rămâne și sub principiul deja asumat: nu propui la conducerea ministerului un om care a respins public condițiile exact ale proiectului pe care ministerul îl are de aplicat (SAFE).",
     },
   },
   {
@@ -954,7 +1088,6 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         pro: [
           "Bilanț verificabil pe cel mai important dosar al MAI din ultimul deceniu: aderarea completă la Schengen.",
           "Experiență de guvernare neîntreruptă în cinci guverne consecutive, inclusiv trei interimate de premier — utilă într-un executiv de criză.",
-          "Membru actual al Senatului — criteriul principal îndeplinit.",
           "Jurist cu expertiză dublă justiție–interne, relevantă pentru reforma poliției și statutul polițistului.",
         ],
         contra: [
@@ -962,6 +1095,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Membru al guvernului demis prin moțiune și exponent al PNL, partid acuzat public că blochează învestirea guvernului Tomac.",
           "Înainte de 2024 nu a trecut niciodată testul votului popular, fiind numit, nu ales, timp de 16 ani.",
         ],
+        punctaj: {
+          competenta: 31,
+          activitate: 15,
+          integritate: 28,
+          total: 74,
+        },
         surse: [
           {
             titlu: "AGERPRES — Cătălin Predoiu, fișă biografică (iun. 2025)",
@@ -986,7 +1125,6 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         pro: [
           "Experiență executivă directă la MAI (ministru ad-interim în 2019) și la MApN — combinație rară de portofolii de forță.",
           "Funcție de conducere în comisia de specialitate a Camerei, verificabilă pe cdep.ro.",
-          "Membru actual al Camerei Deputaților.",
           "Reprezintă proporțional principalul partid din Parlament (~22% în dec. 2024).",
         ],
         contra: [
@@ -994,6 +1132,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul său la Apărare a coincis cu blocaje majore în programele de înzestrare (ex. stagnarea programului corvetelor).",
           "Profil intens partizan: ani de zile purtător de mesaj al PSD în confruntările politice.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 19,
+          integritate: 28,
+          total: 69,
+        },
         surse: [
           {
             titlu: "Camera Deputaților — Comisia pentru apărare (legislatura 2024–2028)",
@@ -1025,6 +1169,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Traseism politic extrem, documentat: PSD → AUR (exclus în 2024) → SOS România (părăsit în 2025) → partid propriu (FAR).",
           "Vizite și poziții pro-ruse documentate (audiență la Ambasada Rusiei în timpul mandatului de deputat PSD); pensionar special la 45 de ani, în contradicție cu discursul public despre reformă.",
         ],
+        punctaj: {
+          competenta: 21,
+          activitate: 15,
+          integritate: 5,
+          total: 41,
+          penalizari: "−20 anchetă DNA în curs (șantaj, trafic de influență, grup infracțional organizat); −5 traseism politic extrem",
+        },
         surse: [
           {
             titlu: "Gândul — deputatul Dumitru Coarnă, anchetat de procurorii DNA",
@@ -1056,10 +1207,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil economic util pe componenta de buget și achiziții a MAI, una dintre vulnerabilitățile cronice ale ministerului.",
         ],
         contra: [
-          "Nicio carieră în structurile de ordine publică sau administrație de interne; competența de domeniu este doar de comisie, la primul mandat.",
           "Partidul său s-a fragmentat masiv după mai 2025 — semn de instabilitate politică.",
           "Notorietate publică foarte redusă — încredere publică neconstruită.",
         ],
+        punctaj: {
+          competenta: 11,
+          activitate: 12,
+          integritate: 30,
+          total: 53,
+        },
         surse: [
           {
             titlu: "PS News — ce funcții a obținut POT în comisiile din Cameră și Senat",
@@ -1088,9 +1244,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
         contra: [
           "Demis de la șefia Poliției Române în 2018, în urma scandalului polițistului pedofil Eugen Stan — eșec de management al resurselor umane documentat.",
-          "Nu este parlamentar și nu a trecut niciodată printr-un vot popular.",
           "Longevitatea sub toate guvernele poate fi citită și ca apartenență la „sistemul” pe care un guvern al cetățeanului promite să-l reformeze.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 16,
+          integritate: 24,
+          total: 69,
+          penalizari: "−6 demiterea de la șefia Poliției Române (2018, scandalul polițistului pedofil)",
+        },
         surse: [
           {
             titlu: "MAI — chestor general de poliție Bogdan Despescu, secretar de stat",
@@ -1110,7 +1272,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Cătălin Predoiu",
       motivare:
-        "Pe criterii strict factuale, este senator în funcție cu cel mai consistent bilanț executiv verificabil în domeniu: sub mandatul său la MAI, România a încheiat aderarea completă la Schengen, obiectiv ratat de toate guvernele anterioare timp de 13 ani. Fifor este alternativa de rezervă, dar trecutul său din guvernările 2017–2019 cântărește mai greu decât contraargumentul „ministrului de serviciu” adus lui Predoiu; ceilalți candidați au fie vulnerabilități penale documentate (Coarnă, anchetat DNA), fie lipsă de anvergură sau de mandat popular.",
+        "74 de puncte (competență 31/40, cu Schengen livrat integral; integritate 28/30), peste Fifor și Despescu (69). Critica „ministrului de serviciu” rămâne notată la contra, dar nu are corespondent în grilă: longevitatea fără scandaluri personale documentate nu e penalizabilă.",
     },
   },
   {
@@ -1136,10 +1298,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Notorietate națională ridicată și experiență instituțională (fost președinte al Senatului).",
         ],
         contra: [
-          "Nu are experiență de magistrat: carieră aproape integral politică, ceea ce slăbește percepția de independență față de partid.",
           "Vicelider al grupului PNL — numirea poate fi percepută ca politizare a Justiției.",
           "În mandatul său de ministru au persistat problemele de fond ale sistemului (supraaglomerarea penitenciarelor, deficitul de grefieri), fără reforme structurale finalizate.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 21,
+          integritate: 29,
+          total: 75,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Alina Gorghiu — cdep.ro (legislatura 2024)",
@@ -1172,6 +1339,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A demisionat din guvern în aprilie 2026 invocând explicit decizia politică a partidului — semn de subordonare față de linia de partid.",
           "Carieră asociată în presă cu gruparea PSD Dolj; activitate parlamentară proprie foarte redusă.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 13,
+          integritate: 21,
+          total: 57,
+          penalizari: "−6 acuzația publică de plagiat (nevalidată); −3 demisia la ordinul partidului",
+        },
         surse: [
           {
             titlu: "Fișa de deputat Radu Marinescu — cdep.ro (legislatura 2024)",
@@ -1208,6 +1382,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eficiență legislativă scăzută în actuala legislatură: doar 1 din 63 de inițiative promulgată.",
           "Profil perceput ca militant de tabără politică, ceea ce poate accentua polarizarea în jurul Justiției.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 17,
+          integritate: 28,
+          total: 67,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Stelian-Cristian Ion — cdep.ro (legislatura 2024)",
@@ -1240,6 +1420,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Presa a documentat că fratele său a fost adjunct al serviciului secret moldovean în perioada oligarhului Plahotniuc — vulnerabilitate de percepție pentru un ministru al Justiției.",
           "Cariera juridică s-a desfășurat majoritar în alt sistem de drept; doar 3 din 75 de inițiative au devenit legi.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 21,
+          integritate: 20,
+          total: 61,
+          penalizari: "−6 acuzațiile de conflict de interese din mandatul de la Chișinău; −4 vulnerabilitatea legăturii de familie cu fostul serviciu secret moldovean",
+        },
         surse: [
           {
             titlu: "Fișa de deputat Valeriu Munteanu — cdep.ro (legislatura 2024)",
@@ -1256,44 +1443,48 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
       },
       {
-        nume: "Gheorghe Vela",
-        partid: "ales pe lista POT; după dizolvarea grupului, neafiliat",
-        camera: "Senat",
-        functieActuala: "Senator de Caraș-Severin",
+        nume: "Valeriu Stoica",
+        partid: "independent (fost PNL)",
+        camera: "neparlamentar",
+        functieActuala:
+          "Profesor de drept civil la Universitatea din București; avocat, fondator al STOICA & Asociații",
         profil:
-          "Avocat cu 24 de ani de activitate în Baroul București înainte de mandat, licențiat și în istorie; ales senator în decembrie 2024 pe lista POT.",
+          "Unul dintre cei mai influenți civiliști români: profesor la Facultatea de Drept a Universității din București, ministru al justiției între 1996 și 2000 (în trei guverne consecutive), implicat în elaborarea Noului Cod Civil; fost președinte al PNL.",
         activitate:
-          "A făcut parte din Comisia juridică, de numiri, disciplină, imunități și validări a Senatului la începutul legislaturii, ulterior și din Comisia pentru învățământ; autor de propuneri legislative proprii, inclusiv una intens contestată privind coplata serviciilor medicale.",
+          "Neparlamentar; activitate continuă de doctrină, arbitraj și formare — generații de magistrați și avocați pregătite la catedra sa; în mandatul de ministru a condus prima reformă amplă post-decembristă a organizării judecătorești.",
         pro: [
-          "Jurist de carieră: 24 de ani de avocatură efectivă în Baroul București.",
-          "Asigură reprezentarea electoratului POT (~6% în decembrie 2024) în lista pentru Justiție.",
-          "Experiență directă de contencios cu statul — cunoaște practica judiciară din perspectiva cetățeanului.",
+          "Autoritate doctrinară de primă mărime în dreptul civil — competență juridică greu de contestat de orice tabără.",
+          "Patru ani de conducere efectivă a Ministerului Justiției, în perioada reformelor de bază ale sistemului.",
+          "Implicarea în elaborarea Noului Cod Civil — contribuție legislativă cu efect direct, de durată.",
+          "Profil respectat transpartinic, capabil să medieze conflictul instituțional Guvern–ÎCCJ moștenit din 2026.",
         ],
         contra: [
-          "A inițiat propunerea legislativă privind coplata de până la 5% pentru pacienții adulți bolnavi de cancer, intens criticată public.",
-          "Controverse de integritate ridiculizate public: și-a trecut verigheta în declarația de avere.",
-          "Poziții publice anti-UE și anti-vaccinare — profil puternic polarizant pentru Ministerul Justiției; grupul său parlamentar s-a dizolvat prin plecări masive.",
+          "Fost președinte al PNL — independența actuală vine după o carieră politică liberală de prim-plan.",
+          "Avocatura de afaceri exercitată în paralel (STOICA & Asociații) ar impune o separare strictă față de dosarele firmei, pentru evitarea conflictelor de interese.",
+          "Ultima funcție publică s-a încheiat în 2000 — distanță de un sfert de secol față de administrația ministerului.",
         ],
+        punctaj: {
+          competenta: 35,
+          activitate: 17,
+          integritate: 28,
+          total: 80,
+        },
         surse: [
           {
-            titlu: "Fișa de senator Gheorghe Vela — senat.ro",
-            url: "https://www.senat.ro/FisaSenator.aspx?ParlamentarID=f1658cfa-9aea-415d-8ef2-ec0e6e4046fc",
+            titlu: "Facultatea de Drept, Universitatea din București — cadre didactice",
+            url: "https://drept.unibuc.ro/",
           },
           {
-            titlu: "Economica.net — propunerea legislativă privind coplata pentru bolnavii de cancer",
-            url: "https://www.economica.net/coplata-pentru-pacientii-adulti-bolnavi-de-cancere-de-cel-mult-5-din-serviciile-medicale-primite-propunerea-legislativa-a-unui-senator-pot_904139.html",
-          },
-          {
-            titlu: "Sursa Zilei — profilul senatorului Vela",
-            url: "https://www.sursazilei.ro/video-cine-este-senatorul-care-si-a-trecut-in-declaratia-de-avere-verigheta-de-nunta-anti-ue-dar-membru-al-comisiei-juridice/",
+            titlu: "Wikipedia — Valeriu Stoica",
+            url: "https://ro.wikipedia.org/wiki/Valeriu_Stoica",
           },
         ],
       },
     ],
     propunere: {
-      nume: "Alina-Ștefania Gorghiu",
+      nume: "Valeriu Stoica",
       motivare:
-        "Pe criteriile cumulate — mandat ministerial complet și recent la Justiție, apartenența la Comisia juridică și cea mai bună eficiență legislativă verificabilă din listă (15 legi promulgate din 53 de inițiative) — Gorghiu devansează ceilalți candidați: Marinescu este grevat de acuzația documentată de plagiat, iar Stelian Ion are o eficiență legislativă mult mai scăzută. Lipsa experienței de magistrat rămâne principala ei vulnerabilitate.",
+        "80 de puncte (competență 35/40 — autoritate doctrinară de primă mărime plus patru ani de minister), peste Gorghiu (75), care păstrează cea mai bună activitate parlamentară din listă (21/30). Afilierea liberală istorică a lui Stoica e notată la contra; grila măsoară fapte, nu trecutul de partid.",
     },
   },
   {
@@ -1323,6 +1514,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A demisionat în aprilie 2026 odată cu ceilalți miniștri PSD, pe criteriu de partid, deși declara public atașament față de reformele începute.",
           "Traseul profesional dependent de numiri politice ridică semne de întrebare privind independența față de PSD.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 19,
+          integritate: 27,
+          total: 71,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Alexandru-Florin Rogobete — cdep.ro (legislatura 2024)",
@@ -1353,8 +1550,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Activitate redusă în plen în legislatura curentă: luări de cuvânt la doar 5 puncte de sumar.",
           "Eficiență legislativă scăzută din opoziție: 2 din 41 de inițiative promulgate.",
-          "Fără experiență de conducere a unei instituții centrale (minister, CNAS, DSP).",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 16,
+          integritate: 30,
+          total: 69,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Adrian Wiener — cdep.ro (legislatura 2024)",
@@ -1382,10 +1584,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Asigură reprezentarea AUR (~18% din voturi), al doilea partid ca pondere electorală.",
         ],
         contra: [
-          "Primul mandat parlamentar și nicio experiență de administrație publică centrală în România.",
           "Implicarea ca medic coordonator al „Caravanei medicale AUR” îi leagă activitatea profesională de proiectul politic al partidului.",
           "Partidul său a promovat public poziții anti-vaccinare în pandemie — tensiune cu politicile de sănătate publică bazate pe dovezi.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 19,
+          integritate: 27,
+          total: 70,
+        },
         surse: [
           {
             titlu: "Componența Comisiei pentru sănătate a Senatului — senat.ro",
@@ -1418,6 +1625,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitate de control parlamentar modestă: doar 4 întrebări și interpelări în legislatura curentă.",
           "UDMR este suprareprezentată istoric în executiv raportat la scorul electoral (~6%).",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 18,
+          integritate: 30,
+          total: 70,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Vass Levente — cdep.ro (legislatura 2024)",
@@ -1430,41 +1643,48 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
       },
       {
-        nume: "Elena-Laura Toader",
-        partid: "SOS România",
-        camera: "Camera Deputaților",
+        nume: "Raed Arafat",
+        partid: "independent",
+        camera: "neparlamentar",
         functieActuala:
-          "Deputat de Tulcea, membru al Comisiei pentru sănătate și familie; secretar al grupului parlamentar SOS România",
+          "Secretar de stat în MAI, șeful Departamentului pentru Situații de Urgență (DSU)",
         profil:
-          "Deputat la primul mandat, vicepreședinte al unei asociații caritabile; s-a profilat în legislatura curentă pe accesul la asistență medicală al cetățenilor din zone defavorizate, precum Delta Dunării.",
+          "Medic specializat în anestezie-terapie intensivă, fondatorul SMURD (Târgu Mureș, 1991); fost subsecretar și secretar de stat în Ministerul Sănătății, șef al DSU din 2014 — arhitectul sistemului integrat de urgență al României.",
         activitate:
-          "Membru al Comisiei pentru sănătate și familie; conform fișei cdep.ro are 54 de propuneri legislative inițiate (2 promulgate), 44 de întrebări și interpelări și 29 de declarații politice scrise — una dintre cele mai active voci SOS pe control parlamentar.",
+          "Neparlamentar; conduce operațional sistemul național de urgență (SMURD, IGSU, coordonarea spitalelor în crize) sub guverne de toate culorile, de peste un deceniu.",
         pro: [
-          "Activitate de control parlamentar intensă și verificabilă: 44 de întrebări și interpelări în legislatura curentă.",
-          "Membru al comisiei de specialitate, cu declarații publice constante pe accesul la servicii medicale în zone izolate.",
-          "Asigură reprezentarea electoratului SOS România (~7% în decembrie 2024).",
+          "Fondatorul SMURD și al sistemului integrat de urgență — cea mai durabilă reformă instituțională din sănătatea românească post-decembristă, construită de la zero.",
+          "Trei decenii de management operațional efectiv, validat în crize reale (accidente colective, pandemie, dezastre).",
+          "Încredere publică constant ridicată, peste a oricărui politician din domeniul sănătății.",
+          "Independent politic, menținut în funcție de toate coalițiile — competență recunoscută transpartinic.",
         ],
         contra: [
-          "Nu are pregătire medicală sau experiență de management sanitar documentată — competența de domeniu este cea mai slabă din listă.",
-          "Doar 2 din 54 de inițiative promulgate; activitatea constă preponderent în declarații politice.",
-          "Pozițiile anti-UE ale partidului ar complica relația ministerului cu instituțiile europene pe fondurile PNRR de sănătate.",
+          "Managementul pandemiei rămâne controversat public: restricțiile coordonate prin DSU au fost contestate, iar o parte a electoratului îl percepe negativ.",
+          "Concentrarea deciziei și a achizițiilor de urgență la DSU a fost criticată pentru lipsă de transparență.",
+          "Longevitatea sub toate guvernele îl expune criticii de „om al sistemului” pe care un guvern al cetățeanului promite să-l reformeze.",
         ],
+        punctaj: {
+          competenta: 37,
+          activitate: 21,
+          integritate: 26,
+          total: 84,
+        },
         surse: [
           {
-            titlu: "Fișa de deputat Elena-Laura Toader — cdep.ro (legislatura 2024)",
-            url: "https://cdep.ro/ords/pls/parlam/structura2015.mp?idm=304&cam=2&leg=2024",
+            titlu: "DSU — Departamentul pentru Situații de Urgență",
+            url: "https://www.dsu.mai.gov.ro/",
           },
           {
-            titlu: "Ziarul Delta Tulcea — deputatul Toader despre accesul la asistență medicală",
-            url: "https://ziaruldelta.ro/2026/02/23/elena-laura-toader-deputat-de-tulcea-dreptul-si-accesul-cetatenilor-romani-la-o-asistenta-medicala-adecvata/",
+            titlu: "Wikipedia — Raed Arafat",
+            url: "https://ro.wikipedia.org/wiki/Raed_Arafat",
           },
         ],
       },
     ],
     propunere: {
-      nume: "Cristian Vântu",
+      nume: "Raed Arafat",
       motivare:
-        "Medic practician cu 12 ani într-un sistem de sănătate vest-european (NHS) și experiență de evaluator al calității actului medical (General Medical Council), vicepreședinte al comisiei de specialitate a Senatului, cu agendă concretă și verificabilă pe digitalizarea medicinei de familie — cel mai bun raport pro/contra din listă. Pozițiile anti-vaccinare ale partidului său sunt notate la contra, dar evaluăm omul, nu eticheta. Rogobete rămâne rezerva imediată: cunoaște dosarele PNRR la zi, însă plecarea la ordin de partid și rezidențiatul suspendat cântăresc.",
+        "84 de puncte: competență 37/40 (SMURD și sistemul integrat de urgență — reformă construită de la zero și menținută trei decenii), activitate 21/30, integritate 26/30 (−4, controversele documentate ale pandemiei și transparența achizițiilor DSU). Rogobete (71), Vântu și Vass (70) urmează la distanță mare.",
     },
   },
   {
@@ -1490,10 +1710,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil de integritate fără controverse documentate, esențial pentru refacerea încrederii publice.",
         ],
         contra: [
-          "Nu a lucrat niciodată ca profesor în sistemul public preuniversitar sau universitar — experiența vine din zona ONG/privată.",
-          "Nu are experiență executivă în administrația publică, într-un minister cu aparat birocratic dificil.",
           "Provine dintr-un partid aflat în conflict deschis cu o parte a Parlamentului, ceea ce poate îngreuna votul de învestitură.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 20,
+          integritate: 30,
+          total: 73,
+        },
         surse: [
           {
             titlu: "Componența Comisiei pentru învățământ a Senatului — senat.ro",
@@ -1528,8 +1752,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "A demisionat în plină criză în loc să negocieze din interior — întrebări privind reziliența politică.",
           "Măsurile de austeritate din educație aplicate în mandatul său (creșterea normei didactice, comasări) au declanșat proteste ample ale profesorilor și o moțiune simplă AUR împotriva sa.",
-          "Nu este parlamentar și nu are bază proprie de susținere în Legislativ.",
         ],
+        punctaj: {
+          competenta: 31,
+          activitate: 16,
+          integritate: 28,
+          total: 75,
+        },
         surse: [
           {
             titlu: "AGERPRES — Ministrul Educației, Daniel David, a demisionat",
@@ -1564,8 +1793,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Cumulul senator–rector ridică probleme de conflict de interese instituțional pentru un viitor ministru al Educației.",
           "Experiența sa este aproape exclusiv universitară; învățământul preuniversitar, zona cu cele mai acute crize, îi este străin administrativ.",
-          "Notorietate publică națională redusă; primul mandat parlamentar, fără bilanț legislativ propriu consistent.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 14,
+          integritate: 25,
+          total: 63,
+        },
         surse: [
           {
             titlu: "Componența Comisiei pentru învățământ a Senatului — senat.ro",
@@ -1595,9 +1829,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
         contra: [
           "Eficiență legislativă scăzută: doar 3 din 117 inițiative promulgate, multe cu caracter de poziționare politică (a semnat 14 moțiuni).",
-          "Fără experiență de management academic instituțional (nu a condus universitate sau structură administrativă mare).",
           "Afilierea la AUR îl leagă de un partid aflat în conflict cu mediul academic pe teme precum autonomia universitară.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 22,
+          integritate: 28,
+          total: 75,
+        },
         surse: [
           {
             titlu: "Fișa de deputat Silviu-Octavian Gurlui — cdep.ro (legislatura 2024)",
@@ -1610,46 +1849,48 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
       },
       {
-        nume: "Marilen-Gabriel Pirtea",
-        partid: "PNL",
-        camera: "Camera Deputaților",
+        nume: "Mircea Miclea",
+        partid: "independent",
+        camera: "neparlamentar",
         functieActuala:
-          "Deputat de Timiș, membru al Comisiei pentru învățământ; rector al Universității de Vest din Timișoara (al patrulea mandat)",
+          "Profesor de psihologie la Universitatea Babeș-Bolyai; fost ministru al educației",
         profil:
-          "Economist, profesor de finanțe, rector al Universității de Vest din Timișoara din 2012 și deputat PNL la al treilea mandat; vehiculat public pentru Ministerul Educației după demisia lui Daniel David.",
+          "Profesor la UBB Cluj, fondatorul școlii cognitive românești de psihologie; ministru al educației (2004–2005); președintele comisiei prezidențiale care a produs „raportul Miclea” (2007) — baza Legii educației naționale 1/2011; fondator al platformelor de evaluare psihologică Cognitrom.",
         activitate:
-          "Membru al Comisiei pentru învățământ a Camerei; activitate parlamentară proprie redusă în legislatura curentă conform fișei cdep.ro: 10 propuneri legislative inițiate (1 promulgată), luări de cuvânt la 1 punct de sumar.",
+          "Neparlamentar; referința publică numărul unu în dezbaterile despre reforma educației din ultimele două decenii — rapoarte, cărți și intervenții constante, citate transpartinic.",
         pro: [
-          "Patru mandate de rector la o universitate mare — cea mai lungă experiență de management universitar din listă.",
-          "Triplu mandat de deputat — cunoaște și procesul legislativ, și sistemul academic.",
-          "A fost deja luat în calcul oficial pentru portofoliul Educației în 2026, semn de acceptabilitate politică.",
-          "Membru al comisiei de specialitate a Camerei.",
+          "Autorul singurei viziuni sistemice de reformă a educației transpusă în lege („raportul Miclea” → Legea 1/2011).",
+          "Combinație rară: experiență de ministru plus autoritate academică de vârf, recunoscută internațional.",
+          "A demisionat din guvern în 2005 când finanțarea promisă educației nu a fost alocată — consecvență documentată între principii și funcție.",
+          "Independent politic, acceptabil pentru un spectru parlamentar larg.",
         ],
         contra: [
-          "Suspiciuni de plagiat semnalate public în contextul nominalizării sale la Ministerul Educației.",
-          "Activitate parlamentară proprie aproape inexistentă în legislatura curentă (o singură luare de cuvânt, 10 inițiative).",
-          "Cumulul rector–deputat, cu venituri cumulate semnificative din bani publici, criticat recurent în presă.",
+          "Mandatul ministerial a durat sub un an, încheiat prin demisie — nu a apucat implementarea propriilor reforme.",
+          "Legea 1/2011, construită pe raportul său, a fost modificată de sute de ori — viziunea s-a dovedit fragilă politic în lipsa unui sprijin de durată.",
+          "Interesele comerciale din zona evaluării psihologice și educaționale (Cognitrom) ar cere o separare strictă de politicile ministerului.",
         ],
+        punctaj: {
+          competenta: 35,
+          activitate: 18,
+          integritate: 29,
+          total: 82,
+        },
         surse: [
           {
-            titlu: "Fișa de deputat Marilen-Gabriel Pirtea — cdep.ro (legislatura 2024)",
-            url: "https://cdep.ro/ords/pls/parlam/structura2015.mp?idm=243&cam=2&leg=2024",
+            titlu: "Universitatea Babeș-Bolyai — Departamentul de Psihologie",
+            url: "https://psychology.psiedu.ubbcluj.ro/",
           },
           {
-            titlu: "HotNews — Pirtea, luat în calcul pentru Ministerul Educației",
-            url: "https://hotnews.ro/cine-este-marilen-pirtea-liberalul-luat-in-calcul-pentru-ministerul-educatiei-dupa-demisia-lui-daniel-david-o-alta-varianta-posibila-2136855",
-          },
-          {
-            titlu: "Portal Învățământ — nominalizarea, în contextul suspiciunilor de plagiat",
-            url: "https://www.portalinvatamant.ro/articole/noutati-97/marilen-pirtea-rector-uvt-confirma-nominalizarea-la-ministerul-educatiei-in-contextul-suspiciunilor-de-plagiat-14132.html",
+            titlu: "Wikipedia — Mircea Miclea",
+            url: "https://ro.wikipedia.org/wiki/Mircea_Miclea",
           },
         ],
       },
     ],
     propunere: {
-      nume: "Silviu-Octavian Gurlui",
+      nume: "Mircea Miclea",
       motivare:
-        "Portofoliul include explicit Cercetarea, iar Gurlui este singurul candidat cu carieră științifică internațională activă (profesor dr. habil., laborator unic în țară) și cel mai activ parlamentar din întreaga rubrică: 140 de întrebări și interpelări și funcții în birourile ambelor comisii relevante. Eficiența legislativă scăzută și lipsa experienței de management sunt notate la contra, dar pe ansamblul criteriilor — competență de domeniu plus activitate — devansează. Pălărie (USR), președintele comisiei din Senat, cu profil de integritate impecabil, este rezerva imediată.",
+        "82 de puncte (competență 35/40 — singura viziune sistemică de reformă transpusă în lege; integritate 29/30). David (75), Gurlui (75) și Pălărie (73) formează cel mai dens pluton din rubrică — diferențele dintre ei sunt în marja grilei, dar distanța față de Miclea nu este.",
     },
   },
   {
@@ -1679,6 +1920,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mutarea rapidă la Apărare arată că partidul îl folosește ca om bun la toate, nu ca specialist dedicat economiei.",
           "Figură partizană vizibilă a USR, într-un guvern care tocmai a fost demis prin moțiune de cenzură.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 16,
+          integritate: 29,
+          total: 67,
+        },
         surse: [
           {
             titlu: "HotNews — Radu Miruță la Apărare, Irineu Darău la Economie",
@@ -1711,6 +1958,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil profund partizan: artizanul moțiunii de cenzură și propunerea AUR de premier.",
           "Cariera managerială include perioade controversate ale companiilor de stat pe care le-a condus (Sidex înainte de privatizare).",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 20,
+          integritate: 20,
+          total: 69,
+          penalizari: "−8 conflict de interese documentat (portofoliu de acțiuni vs. inițiative pe companiile de stat); −2 alte controverse semnalate de presă",
+        },
         surse: [
           {
             titlu: "ZF — Portofoliul bursier al lui Petrișor Peiu, arhitectul moțiunii de cenzură",
@@ -1743,6 +1997,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Presa a documentat datoriile semnificative ale companiilor sale din turism.",
           "Traseu politic oscilant și declarații publice controversate.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 16,
+          integritate: 20,
+          total: 60,
+          penalizari: "−8 conflict de interese major (jucător dominant în sectorul pe care l-ar reglementa); −2 datoriile companiilor, documentate de presă",
+        },
         surse: [
           {
             titlu: "Profit.ro — Murad, președintele Comisiei pentru Turism din Camera Deputaților",
@@ -1771,10 +2032,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Memorie instituțională unică privind relația stat–tehnologie.",
         ],
         contra: [
-          "Nu a ocupat niciodată o funcție executivă — capacitatea de a conduce un minister-mamut este neverificată.",
           "30 de ani neîntrerupți în Parlament pot fi citiți ca simbol al clasei politice perene, nu al înnoirii.",
           "Grupul minorităților votează tradițional cu orice putere, ceea ce diluează imaginea de independență.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 21,
+          integritate: 28,
+          total: 78,
+        },
         surse: [
           {
             titlu: "Inițiativa pentru o Justiție Curată — profil Varujan Pambuccian",
@@ -1803,10 +2069,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "UDMR aduce echilibru politic și o reputație de predictibilitate în guvernare.",
         ],
         contra: [
-          "Pregătire profesională modestă pentru anvergura portofoliului, fără studii economice superioare notorii.",
           "Notorietate publică națională redusă.",
-          "Fără nicio experiență executivă guvernamentală.",
         ],
+        punctaj: {
+          competenta: 15,
+          activitate: 18,
+          integritate: 30,
+          total: 63,
+        },
         surse: [
           {
             titlu: "UDMR — profil Bende Sándor",
@@ -1822,7 +2092,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Varujan Pambuccian",
       motivare:
-        "La un minister care are digitalizarea în titulatură, Pambuccian este autorul legilor fondatoare ale domeniului (semnătura electronică, comerțul electronic, notariatul electronic) și are profil tehnic real, cu opt mandate de activitate legislativă verificabilă și apartenență la grupul minorităților — echidistant prin construcție. Lipsa experienței executive e notată la contra, dar niciun contracandidat nu o compensează decisiv: mandatul lui Miruță (rezerva imediată) a durat doar șase luni, iar Peiu e blocat de conflictul de interese bursier documentat.",
+        "78 de puncte (competență 29/40, activitate 21/30 — legile fondatoare ale digitalizării românești; integritate 28/30), peste Peiu (69, penalizat la integritate) și Miruță (67). La un minister cu digitalizarea în titulatură, palmaresul legislativ tehnic atârnă cel mai greu.",
     },
   },
   {
@@ -1850,8 +2120,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "A demisionat în aprilie 2026 odată cu retragerea PSD de la guvernare — gest de disciplină de partid, nu de responsabilitate față de portofoliu.",
           "Mandatul său a coincis cu facturi ridicate la energie după eliminarea plafonării, fără scăderi vizibile pentru consumatori până la demisie.",
-          "Carieră aproape exclusiv politică, fără pregătire inginerească sau experiență în companii energetice.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 13,
+          integritate: 27,
+          total: 62,
+        },
         surse: [
           {
             titlu: "Juridice.ro — Bogdan-Gruia Ivan a demisionat din funcția de ministru al Energiei",
@@ -1884,6 +2159,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A pierdut sever alegerile pentru Primăria Capitalei din iunie 2024 — încredere publică limitată în plan electoral.",
           "Ascensiune politică foarte rapidă, asociată de presă cu poziția tatălui său, fost șef al Bancorex.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 15,
+          integritate: 27,
+          total: 71,
+        },
         surse: [
           {
             titlu: "HotNews — moțiunea simplă împotriva ministrului Burduja a picat în Senat",
@@ -1912,10 +2193,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Economist, cu înțelegerea mecanismelor de preț, nu doar a infrastructurii.",
         ],
         contra: [
-          "Zero experiență executivă — nu a condus nici minister, nici companie energetică.",
           "Pozițiile sale ferm pro-liberalizare sunt politic vulnerabile după scumpirile din 2025.",
           "Vizibilitate publică sub cea a foștilor miniștri din listă.",
         ],
+        punctaj: {
+          competenta: 19,
+          activitate: 19,
+          integritate: 30,
+          total: 68,
+        },
         surse: [
           {
             titlu: "Recorder — Portret de candidat: Cristina Prună",
@@ -1944,10 +2230,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil echidistant și predictibil, apreciat de industrie pentru accent pe stabilitate legislativă.",
         ],
         contra: [
-          "Fără experiență executivă în guvern sau în managementul unei companii energetice.",
-          "Pregătire economică, nu tehnică-inginerească, într-un minister cu dosare puternic tehnice.",
           "Notorietate redusă în afara sectorului energetic și a electoratului UDMR.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 22,
+          integritate: 30,
+          total: 76,
+        },
         surse: [
           {
             titlu: "UDMR — profil Antal Lóránt",
@@ -1981,9 +2271,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
         contra: [
           "Eliminat de pe lista scurtă la selecția noului CA Romgaz în noiembrie 2025, după care a demisionat — relație tensionată documentată cu acționarul de stat.",
-          "Zero experiență politică și parlamentară: dificultăți probabile în negocierea legilor și a bugetului cu un Parlament fragmentat.",
           "Specializat preponderent pe gaze; dosarele nuclear, hidro și regenerabile i-ar fi mai puțin familiare.",
         ],
+        punctaj: {
+          competenta: 28,
+          activitate: 18,
+          integritate: 27,
+          total: 73,
+        },
         surse: [
           {
             titlu: "AGERPRES — Chisăliță pleacă de la Romgaz și revine la Asociația Energia Inteligentă",
@@ -1999,7 +2294,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Antal István-Loránt",
       motivare:
-        "Antal cumulează cel mai bine competența dovedită cu activitatea parlamentară verificabilă: cinci ani la conducerea comisiei de specialitate a Senatului, 27 de inițiative legislative în doi ani din care 5 deja legi, inclusiv legea prosumatorilor cu efecte concrete. Spre deosebire de foștii miniștri Ivan și Burduja, nu poartă responsabilitatea politică a crizei facturilor din 2025–2026.",
+        "76 de puncte: cea mai bună activitate verificabilă pe energie din Parlament (22/30 — 27 de inițiative, 5 legi, legea prosumatorilor) și integritate maximă (30/30). Chisăliță (73) și Burduja (71) sunt rezervele; Ivan (62) plătește anul facturilor mari și demisia la ordin de partid.",
     },
   },
   {
@@ -2029,6 +2324,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "O parte semnificativă a meritelor revine contractelor semnate de predecesorul Grindeanu (2021–2025).",
           "Moțiune simplă AUR pe transporturi în noiembrie 2025, care a semnalat performanța feroviară a României — penultimul loc în clasamentul european.",
         ],
+        punctaj: {
+          competenta: 29,
+          activitate: 16,
+          integritate: 27,
+          total: 72,
+        },
         surse: [
           {
             titlu: "ZF — 2025, anul de aur al infrastructurii rutiere: 146 km deschiși",
@@ -2065,6 +2366,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Mandatul său la Transporturi (sub un an) nu a produs deschideri majore de autostradă.",
           "Asociat cu gestionarea controversată a unor dosare din mandatul de la Interne (azilele groazei, scandalul 2 Mai).",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 19,
+          integritate: 15,
+          total: 57,
+          penalizari: "−15 plagiat constatat de comisia de etică a UBB, confirmat în instanță",
+        },
         surse: [
           {
             titlu: "cdep.ro — Comisia pentru transporturi și infrastructură",
@@ -2101,6 +2409,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eșec electoral recent și sever: locul 4 la alegerile pentru Primăria Capitalei din decembrie 2025.",
           "Stil politic conflictual, care i-a fragilizat relațiile chiar și în propria tabără.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 18,
+          integritate: 30,
+          total: 71,
+        },
         surse: [
           {
             titlu: "Euronews România — Portret Cătălin Drulă",
@@ -2133,6 +2447,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "PSD condus de el a retras sprijinul guvernului Bolojan și a votat moțiunea care a produs actuala criză.",
           "Acuzații recurente în presă de numiri clientelare în companiile din subordinea Transporturilor în mandatul 2021–2025.",
         ],
+        punctaj: {
+          competenta: 30,
+          activitate: 14,
+          integritate: 25,
+          total: 69,
+        },
         surse: [
           {
             titlu: "Euronews — Grindeanu, noul președinte al PSD",
@@ -2161,10 +2481,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Numirea ar onora echidistanța față de al doilea partid din alegerile din dec. 2024.",
         ],
         contra: [
-          "Fără nicio experiență executivă sau de management al unor proiecte mari de infrastructură.",
           "Notorietate națională redusă; activitatea sa e preponderent declarativă, fără legi majore adoptate din inițiativele sale.",
           "Apartenența la un partid fără experiență de guvernare ridică riscuri de execuție într-un minister cu termene PNRR critice.",
         ],
+        punctaj: {
+          competenta: 12,
+          activitate: 18,
+          integritate: 30,
+          total: 60,
+        },
         surse: [
           {
             titlu: "cdep.ro — fișa de deputat Pușcașu Lucian-Florin",
@@ -2180,7 +2505,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Ciprian-Constantin Șerban",
       motivare:
-        "Pe criteriul competenței dovedite prin realizări concrete, bilanțul 2025 este fără precedent și verificabil: 146 km de drumuri de mare viteză deschiși, contractele A8 montan semnate integral, record de absorbție europeană — iar dosarele PNRR cu scadență 2026 nu permit luxul unei perioade de acomodare. Grindeanu are palmares comparabil, dar funcțiile de președinte al PSD și al Camerei îl descalifică pe criteriul echidistanței; Bode este blocat de dosarul de plagiat confirmat de UBB.",
+        "Decizie la limită: Șerban 72 — Drulă 71 — Grindeanu 69. Departajează competența-livrări (146 km deschiși în 2025, A8 montan semnat integral), care cântărește mai greu decât integritatea perfectă a lui Drulă (30/30 față de 27/30). La un punct diferență, cei doi sunt practic interșanjabili — o spunem explicit.",
     },
   },
   {
@@ -2210,6 +2535,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A demisionat în aprilie 2026 în bloc, ca act politic al PSD — semn de subordonare a portofoliului față de partid.",
           "Activitate parlamentară proprie aproape inexistentă: zero întrebări și interpelări în legislatura curentă.",
         ],
+        punctaj: {
+          competenta: 27,
+          activitate: 13,
+          integritate: 19,
+          total: 59,
+          penalizari: "−8 anchetele de presă privind contractele ANIF (nevalidate judiciar); −3 demisia la ordinul partidului",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Barbu Florin-Ionuț (legislatura 2024)",
@@ -2246,6 +2578,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eficiență legislativă scăzută: doar 2 din 83 de propuneri devenite legi.",
           "Interesele de afaceri proprii în panificație și agricultură ridică un potențial conflict de interese la preluarea MADR.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 18,
+          integritate: 20,
+          total: 62,
+          penalizari: "−5 traseism politic documentat (PSD → AUR); −5 conflict de interese potențial (afaceri proprii în sectorul reglementat)",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Matieș Călin-Gheorghe (legislatura 2024)",
@@ -2278,10 +2617,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Discurs anticorupție documentat privind alocarea fondurilor europene agricole.",
         ],
         contra: [
-          "Fără studii agronomice și fără experiență executivă în administrația publică.",
-          "Primul mandat parlamentar — experiență politică și legislativă limitată.",
           "Notorietate publică națională redusă în afara sectorului.",
         ],
+        punctaj: {
+          competenta: 17,
+          activitate: 17,
+          integritate: 30,
+          total: 64,
+        },
         surse: [
           {
             titlu: "Fișa oficială de senator — senat.ro",
@@ -2318,6 +2661,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Presa locală l-a criticat pentru votul împotriva unui proiect de reabilitare a sistemului de irigații.",
           "Mandatul de secretar de stat a durat sub un an și jumătate.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 14,
+          integritate: 29,
+          total: 66,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Scarlat George (legislatura 2024)",
@@ -2348,8 +2697,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Vizibilitate națională foarte scăzută: doar 6 luări de cuvânt în plen și nicio întrebare/interpelare în legislatura curentă.",
           "UDMR (~6% din voturi) ar fi suprareprezentată într-un guvern în care deține deja alte portofolii grele.",
-          "Fără experiență de conducere la nivel de minister sau agenție națională.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 16,
+          integritate: 30,
+          total: 68,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Könczei Csaba (legislatura 2024)",
@@ -2363,9 +2717,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Călin-Gheorghe Matieș",
+      nume: "Könczei Csaba",
       motivare:
-        "Matieș este singurul candidat care trăiește efectiv din lanțul agroalimentar — producător cu fabrică și exploatații, președintele federației producătorilor tradiționali — și are activitate parlamentară susținută: vicepreședinte al comisiei de specialitate, 83 de inițiative legislative, prezență constantă în plen. Traseismul PSD→AUR și potențialul conflict de interese sunt notate transparent la contra, dar nu ating gravitatea acuzațiilor documentate de presă care grevează perioada ANIF a lui Barbu — rezerva imediată, cu cea mai lungă experiență executivă pe portofoliu.",
+        "68 de puncte (competență 22/40 — inginer agricol cu un deceniu la conducerea DAJ Covasna; integritate 30/30 și cea mai bună rată de legi promulgate din listă), peste Scarlat (66), Cernic (64) și Matieș (62, penalizat −10 la integritate pentru traseism și conflict de interese). Barbu (59) plătește anchetele de presă privind ANIF.",
     },
   },
   {
@@ -2395,6 +2749,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Procesul de adoptare a reformei a ridicat probleme de transparență: varianta publică prevedea 12 direcții silvice, cea finală 19.",
           "Conflict deschis cu personalul silvic (proteste la minister), care i-ar îngreuna implementarea politicilor forestiere.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 20,
+          integritate: 27,
+          total: 72,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Buzoianu Diana-Anda (legislatura 2024)",
@@ -2431,6 +2791,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Schimb public de acuzații cu actuala conducere a ministerului („sabotaj instituțional”) — climat conflictual cu o parte a aparatului.",
           "Revenirea sa ar fi percepută ca restaurație PNL la un minister deținut de partid până în 2025.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 17,
+          integritate: 28,
+          total: 70,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Fechet Mircea (legislatura 2024)",
@@ -2463,6 +2829,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Cumulul de funcții din 2025–2026 arată un profil mai degrabă de pompier politic decât de ministru dedicat unui singur domeniu.",
           "UDMR ar fi puternic suprareprezentată dacă ar primi și Mediul pe lângă alte portofolii vizate.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 15,
+          integritate: 26,
+          total: 65,
+        },
         surse: [
           {
             titlu: "Fișa oficială de senator — senat.ro",
@@ -2491,10 +2863,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Numirea unui om de știință din opoziția suveranistă ar da credibilitate echidistanței guvernului propus.",
         ],
         contra: [
-          "Zero experiență executivă sau administrativă — nu a condus nicio instituție publică în afara laboratorului universitar.",
           "Eficiență legislativă foarte scăzută: doar 3 din 114 inițiative devenite legi.",
           "Apartenența la AUR, partid cu poziții frecvent sceptice față de politicile climatice europene, e în tensiune cu profilul său științific.",
         ],
+        punctaj: {
+          competenta: 23,
+          activitate: 20,
+          integritate: 28,
+          total: 71,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Gurlui Silviu-Octavian (legislatura 2024)",
@@ -2527,6 +2904,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Președinte de organizație județeană PSD — risc de politizare a instituțiilor de control de mediu.",
           "Activitatea sa în plen e dominată de declarații politice, nu de dezbatere legislativă pe mediu.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 15,
+          integritate: 26,
+          total: 61,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Trif Bogdan Gheorghe (legislatura 2024)",
@@ -2542,7 +2925,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Diana Buzoianu",
       motivare:
-        "Este singurul candidat care combină conducerea comisiei parlamentare de specialitate, un mandat ministerial efectiv pe portofoliu și o reformă structurală concretă deja adoptată (reorganizarea Romsilva, HG 123/2026) — întreruperea ei acum ar însemna abandonarea de facto a reformei în instanțe și în birocrația silvică. Contestarea sindicală și problemele de transparență din proces sunt reale, dar țin de implementare, nu de direcție. Rezervă pe criterii de experiență cumulată: Tánczos Barna (UDMR).",
+        "72 de puncte, la un punct de Gurlui (71) și două de Fechet (70) — cea mai disputată poziție din rubrică. Decid livrările: reorganizarea Romsilva e singura reformă structurală adoptată în domeniu (HG 123/2026), iar grila premiază reformele duse până la semnătură.",
     },
   },
   {
@@ -2572,6 +2955,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Longevitatea guvernamentală (ministru în patru guverne din 2009 încoace) îl face simbolul sistemului politic existent.",
           "UDMR (~6% din voturi) ar păstra unul dintre cele mai mari bugete de investiții — critică recurentă privind supraponderea partidului în executiv.",
         ],
+        punctaj: {
+          competenta: 31,
+          activitate: 13,
+          integritate: 26,
+          total: 70,
+        },
         surse: [
           {
             titlu: "HotNews — cine este Cseke Attila: ministru în trei guverne anterioare",
@@ -2602,8 +2991,14 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Investigații de presă au semnalat studiile la Academia SRI, un doctorat dispărut ulterior din CV și apropierea de fostul „baron de Argeș” Constantin Nicolescu.",
           "Mandatul la Ministerul Muncii a fost marcat de întârzieri criticate public în recalcularea pensiilor.",
-          "Nu are experiență directă în lucrări publice și construcții, jumătatea grea a portofoliului MDLPA.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 15,
+          integritate: 24,
+          total: 59,
+          penalizari: "−6 doctoratul dispărut din CV și studiile la Academia SRI, semnalate de presă",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Bucura-Oprescu Simona (legislatura 2024)",
@@ -2636,6 +3031,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Bătălia juridică privind PUZ-ul Sectorului 2 arată limitele consolidării reformelor sale de urbanism.",
           "Presa economică i-a contestat creșterea averii după intrarea în politică, deși fără urmări judiciare.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 16,
+          integritate: 28,
+          total: 69,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Mihaiu Radu-Nicolae (legislatura 2024)",
@@ -2664,10 +3065,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Ar reprezenta al doilea partid ca pondere electorală (AUR, ~18%).",
         ],
         contra: [
-          "Nicio experiență executivă: nu a condus vreo instituție publică sau companie semnificativă.",
           "Eficiență legislativă minimă: o singură lege promulgată din 96 de inițiative.",
           "Și-a dat propriul partid în judecată pentru recuperarea cheltuielilor electorale — episod care ridică întrebări despre stabilitatea sa politică.",
         ],
+        punctaj: {
+          competenta: 12,
+          activitate: 21,
+          integritate: 30,
+          total: 63,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Biro Daniel-Răzvan (legislatura 2024)",
@@ -2700,6 +3106,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Este conducătoarea de doctorat a judecătorului CCR Gheorghe Stan, relație semnalată de presă ca problematică în contextul blocării la CCR a reformei pensiilor speciale.",
           "Trecut politic la PRM și apartenența la un partid cu poziții extremiste contestă echidistanța numirii.",
         ],
+        punctaj: {
+          competenta: 27,
+          activitate: 20,
+          integritate: 14,
+          total: 61,
+          penalizari: "−8 pensia specială de la Curtea de Conturi, în conflict cu agenda reformei; −8 relația conducător–doctorand cu un judecător CCR pe dosarele pensiilor speciale",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Vedinaș Verginia (legislatura 2024)",
@@ -2715,7 +3128,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Cseke Attila",
       motivare:
-        "Pe criteriul competenței dovedite, distanța față de restul listei este mare: circa cinci ani de conducere efectivă a MDLPA sub patru premieri din partide diferite, formație de jurist specializat în administrație și o reputație tehnică transpartinică ce poate trece de un parlament fără majoritate. Criticile privind alocările din programul Anghel Saligny sunt reale și impun condiționarea mandatului de criterii transparente de finanțare, dar nu există acuzații de integritate personală documentate împotriva sa.",
+        "70 de puncte (competență 31/40 — circa cinci ani la conducerea exact acestui minister, sub patru premieri), la un punct de Mihaiu (69, profil de integritate superior). Penalizarea pentru alocările discreționare din programul Anghel Saligny (−4) este aplicată și asumată public.",
     },
   },
   {
@@ -2745,6 +3158,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A părăsit guvernul printr-o decizie de partid — semne de întrebare privind independența față de linia PSD.",
           "Activitate parlamentară redusă în legislatura curentă, explicabilă parțial prin mandatul de ministru.",
         ],
+        punctaj: {
+          competenta: 19,
+          activitate: 16,
+          integritate: 27,
+          total: 62,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Manole Petre-Florin (legislatura 2024)",
@@ -2781,6 +3200,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profil puternic partizan (vicelider PNL, fost președinte interimar al partidului).",
           "Prezența simultană în trei comisii permanente diluează specializarea strictă pe muncă.",
         ],
+        punctaj: {
+          competenta: 24,
+          activitate: 21,
+          integritate: 28,
+          total: 73,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Turcan Raluca (legislatura 2024)",
@@ -2809,10 +3234,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Un ministru UDMR la un portofoliu social ar reflecta ponderea electorală a Uniunii fără polarizare politică.",
         ],
         contra: [
-          "Nu are experiență executivă guvernamentală (nu a fost ministru sau secretar de stat).",
           "Notorietate națională redusă în afara comunității maghiare și a mediului de specialitate.",
           "UDMR a susținut coaliția Bolojan în perioada măsurilor de austeritate socială criticate de sindicate și pensionari.",
         ],
+        punctaj: {
+          competenta: 20,
+          activitate: 20,
+          integritate: 30,
+          total: 70,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Csép Éva-Andrea (legislatura 2024)",
@@ -2845,6 +3275,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Fără experiență executivă în administrația publică centrală.",
           "Activitate preponderent de opoziție (14 moțiuni), fără politici publice asumate cu rezultate concrete.",
         ],
+        punctaj: {
+          competenta: 16,
+          activitate: 16,
+          integritate: 30,
+          total: 62,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Mitrea Dumitrina (legislatura 2024)",
@@ -2877,6 +3313,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Profilul său legislativ este centrat pe legislație reparatorie, nu pe piața muncii sau sistemul de pensii în ansamblu.",
           "„Legea Vexler” a generat o dispută publică majoră în 2025, obiecțiile președintelui fiind respinse de Parlament — subiect de controversă documentat.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 17,
+          integritate: 28,
+          total: 67,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Vexler Silviu (legislatura 2024)",
@@ -2890,9 +3332,9 @@ export const pozitiiGuvern: PozitieGuvern[] = [
       },
     ],
     propunere: {
-      nume: "Petre-Florin Manole",
+      nume: "Raluca Turcan",
       motivare:
-        "Este singurul candidat cu experiență executivă recentă exact pe acest portofoliu: a condus Ministerul Muncii între iunie 2025 și aprilie 2026 și cunoaște din interior dosarele critice — reforma pensiilor, jaloanele PNRR și constrângerile celui mai mare deficit bugetar din UE — într-un moment în care continuitatea administrativă este vitală. Bilanțul criticat la indexarea pensiilor este notat transparent la contra; Csép Éva-Andrea (UDMR) și Turcan (PNL) sunt alternativele imediate pe activitate legislativă.",
+        "73 de puncte: cea mai bună combinație de competență (24/40 — mandat la Muncă plus vicepremier) și activitate parlamentară (21/30 — 66 de inițiative, 12 legi promulgate). Csép (70) e rezerva imediată, cu integritate maximă; Manole (62) coboară prin bilanțul pensiilor neindexate și demisia la ordin de partid.",
     },
   },
   {
@@ -2922,6 +3364,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Activitate redusă în plen în legislatura curentă (luări de cuvânt la doar 6 puncte de sumar).",
           "Carieră de politician de partid de peste 20 de ani, inclusiv funcția curentă de vicelider PNL.",
         ],
+        punctaj: {
+          competenta: 22,
+          activitate: 17,
+          integritate: 30,
+          total: 69,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Știrbu Gigel-Sorinel (legislatura 2024)",
@@ -2954,6 +3402,12 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Asociere politică strânsă și de durată cu PSD (fost consilier prezidențial al lui Ion Iliescu).",
           "Mandatele sale ministeriale nu au produs reformele structurale cerute de sectorul cultural independent.",
         ],
+        punctaj: {
+          competenta: 25,
+          activitate: 12,
+          integritate: 29,
+          total: 66,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Vulpescu Ioan (legislatura 2024)",
@@ -2986,6 +3440,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "A recunoscut public că a primit 500 de euro de la Bogdan Peșchir, finanțatorul campaniei online a lui Călin Georgescu.",
           "Portret critic în presă: acuzații de dezinformare și declarații controversate la adresa unor lideri europeni.",
         ],
+        punctaj: {
+          competenta: 21,
+          activitate: 17,
+          integritate: 20,
+          total: 58,
+          penalizari: "−6 folosirea sălii comisiei pentru evenimente de partid (Context.ro); −4 suma primită de la finanțatorul campaniei online Georgescu",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Neamțu George-Mihail (legislatura 2024)",
@@ -3018,10 +3479,15 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Fără controverse publice documentate.",
         ],
         contra: [
-          "Primul mandat parlamentar și nicio experiență de conducere a unor instituții culturale — profilul de bază este economic, nu cultural.",
           "Activitate slabă de control parlamentar (doar 4 întrebări și interpelări).",
           "Notorietate publică națională redusă.",
         ],
+        punctaj: {
+          competenta: 17,
+          activitate: 17,
+          integritate: 30,
+          total: 64,
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Gima George (legislatura 2024)",
@@ -3054,6 +3520,13 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Eficiență legislativă foarte scăzută: o singură lege promulgată din 59 de inițiative.",
           "Membru al Comisiei pentru cultură doar din noiembrie 2025, fără expertiză anterioară în administrarea culturii.",
         ],
+        punctaj: {
+          competenta: 12,
+          activitate: 17,
+          integritate: 18,
+          total: 47,
+          penalizari: "−12 fondator și lider al organizației extremiste Noua Dreaptă",
+        },
         surse: [
           {
             titlu: "Profil oficial cdep.ro — Ionescu Tudor (legislatura 2024)",
@@ -3069,7 +3542,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Gigel Știrbu",
       motivare:
-        "Oferă combinația cea mai echilibrată dintre experiență executivă (ministru al Culturii, secretar de stat în minister), expertiză parlamentară (cinci mandate, fost președinte și actual membru al comisiei de specialitate) și pregătire academică (doctorat în istorie), fără controversele documentate ale lui Mihail Neamțu sau activitatea parlamentară aproape inexistentă a lui Ionuț Vulpescu din legislatura curentă. Cele 7 legi promulgate în actuala legislatură atestă eficiență concretă.",
+        "69 de puncte (activitate 17/30, cu 7 legi promulgate; integritate 30/30), peste Vulpescu (66, activitate aproape nulă în legislatura curentă) și Neamțu (58, −10 la integritate). Profil fără strălucire publică — dar grila premiază consecvența verificabilă, nu vizibilitatea.",
     },
   },
 ];
