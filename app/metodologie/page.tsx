@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { SectionTitle } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Metodologie",
+  title: "Metodologie — cum analizăm",
   description:
-    "Cum analizează guvernul paralel fiecare decizie: surse, criterii, garanții anti-bias.",
+    "Cum analizează guvernul paralel fiecare decizie: surse oficiale, criterii publice, garanții anti-bias aplicate identic tuturor.",
 };
 
 export default function MetodologiePage() {

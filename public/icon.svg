@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#172554"/>
-  <text x="256" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="280" font-weight="700" fill="#ffffff" text-anchor="middle">G</text>
-  <rect x="116" y="392" width="280" height="26" rx="13" fill="#facc15"/>
+  <clipPath id="r"><rect width="512" height="512" rx="96"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="171" height="512" fill="#002B7F"/>
+    <rect x="171" width="170" height="512" fill="#FCD116"/>
+    <rect x="341" width="171" height="512" fill="#CE1126"/>
+  </g>
 </svg>

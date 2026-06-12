@@ -3,8 +3,9 @@ import Link from "next/link";
 import { SectionTitle } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Despre",
-  description: "Ce este guvernare.online și de ce există.",
+  title: "Despre proiect",
+  description:
+    "Ce este guvernare.online, cine îl face și de ce există: un guvern paralel civic, fără partid, fără sponsor, fără simpatii.",
 };
 
 export default function DesprePage() {

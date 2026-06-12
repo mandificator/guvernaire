@@ -19,8 +19,8 @@ export async function generateMetadata({
   const p = getPozitie(slug);
   return p
     ? {
-        title: `${p.minister} — Guvernul României`,
-        description: `5 candidați pentru poziția de ${p.minister}, cu argumente pro și contra: ${p.candidati.map((c) => c.nume).join(", ")}.`,
+        title: `${p.minister}: propunerea noastră — ${p.propunere.nume}`,
+        description: `5 candidați pentru poziția de ${p.minister}, punctați pe aceeași grilă publică, cu argumente pro și contra: ${p.candidati.map((c) => c.nume).join(", ")}.`,
       }
     : {};
 }

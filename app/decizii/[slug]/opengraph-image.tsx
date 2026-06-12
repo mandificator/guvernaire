@@ -1,8 +1,10 @@
 import { ImageResponse } from "next/og";
 import { decizii, getDecizie } from "@/data/decizii";
+import { OG_SIZE, BrandOg, Tricolor } from "@/lib/og";
 
-export const size = { width: 1200, height: 630 };
+export const size = OG_SIZE;
 export const contentType = "image/png";
+export const alt = "Analiza guvernului paralel pentru decizia din titlu";
 
 export function generateStaticParams() {
   return decizii.map((d) => ({ slug: d.slug }));
@@ -39,26 +41,10 @@ export default async function OgImage({
           justifyContent: "space-between",
           backgroundColor: "#172554",
           padding: 60,
+          paddingBottom: 48,
         }}
       >
-        <div style={{ display: "flex", alignItems: "baseline", gap: 4 }}>
-          <span style={{ color: "white", fontSize: 40, fontWeight: 800 }}>guvernare</span>
-          <span
-            style={{
-              backgroundColor: "#facc15",
-              color: "#172554",
-              fontSize: 30,
-              fontWeight: 900,
-              padding: "2px 10px",
-              borderRadius: 8,
-            }}
-          >
-            .online
-          </span>
-          <span style={{ color: "#93c5fd", fontSize: 22, marginLeft: 20 }}>
-            guvernul paralel al cetățeanului
-          </span>
-        </div>
+        <BrandOg />
         <div
           style={{
             color: "white",
@@ -88,6 +74,7 @@ export default async function OgImage({
           )}
           <span style={{ color: "#facc15", fontSize: 24 }}>{aliniere}</span>
         </div>
+        <Tricolor />
       </div>
     ),
     size

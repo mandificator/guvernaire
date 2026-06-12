@@ -17,7 +17,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const a = getActor(slug);
-  return a ? { title: a.nume, description: a.rezumat } : {};
+  return a
+    ? {
+        title: `${a.nume} — fapte, promisiuni, controverse`,
+        description: a.rezumat,
+      }
+    : {};
 }
 
 function StatusBadge({ status }: { status: StatusPromisiune }) {

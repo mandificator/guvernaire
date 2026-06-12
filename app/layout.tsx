@@ -39,20 +39,16 @@ export const metadata: Metadata = {
   alternates: {
     types: { "application/rss+xml": "/feed.xml" },
   },
+  // titlul și descrierea OG/Twitter se moștenesc din title/description al fiecărei pagini —
+  // nu le fixăm aici, altfel toate paginile ar share-ui cu titlul site-ului
   openGraph: {
     type: "website",
     locale: "ro_RO",
     url: "https://guvernare.online",
     siteName: "guvernare.online",
-    title: "guvernare.online — Guvernul paralel al cetățeanului",
-    description:
-      "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
   },
   twitter: {
-    card: "summary",
-    title: "guvernare.online — Guvernul paralel al cetățeanului",
-    description:
-      "Fiecare lege, explicată și votată în interesul tău — apoi comparată cu votul real din Parlament.",
+    card: "summary_large_image",
   },
   robots: { index: true, follow: true },
 };
