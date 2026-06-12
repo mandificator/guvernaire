@@ -842,7 +842,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Cariera militară activă s-a încheiat în 2000, printr-o demisie forțată după declarații publice considerate incompatibile cu statutul de șef al SMG; expertiza operațională este veche de peste 25 de ani.",
           "Presa a relatat un litigiu privind sume pe care ar refuza să le restituie statului.",
-          "Pozițiile sale și ale AUR contra unor instrumente europene de apărare (ex. programul SAFE) contrazic actuala direcție strategică a României.",
+          "A respins public condițiile în care România a aderat la programul SAFE — pe care le-a descris drept „plătește, supune-te și taci” — precizând că nu se opune programelor de acest tip; ministerul ar avea însă de executat programul exact în condițiile deja asumate de România.",
         ],
         surse: [
           {
@@ -931,7 +931,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     propunere: {
       nume: "Angel Tîlvăr",
       motivare:
-        "Este parlamentar în funcție (criteriul principal) și singurul dintre candidații-parlamentari cu experiență executivă recentă și completă la MApN: doi ani și jumătate de mandat în plin război la granița României, perioada lansării programului F-35 și a creșterii bugetului apărării, plus președinția Comisiei pentru democrație și securitate din AP NATO. Geoană îl depășește ca anvergură internațională, dar nu este parlamentar. Chelaru (AUR) are cea mai înaltă carieră militară din listă și a fost cântărit serios, dar expertiza sa operațională s-a încheiat în 2000, iar pozițiile sale contra programului SAFE — pe care guvernul paralel l-a susținut pe fond — ar pune ministrul în contradicție cu propria linie de apărare.",
+        "Este parlamentar în funcție (criteriul principal) și singurul dintre candidații-parlamentari cu experiență executivă recentă și completă la MApN: doi ani și jumătate de mandat în plin război la granița României, perioada lansării programului F-35 și a creșterii bugetului apărării, plus președinția Comisiei pentru democrație și securitate din AP NATO. Geoană îl depășește ca anvergură internațională, dar nu este parlamentar. Chelaru (AUR) are cea mai înaltă carieră militară din listă și a fost cântărit serios; două lucruri l-au departajat. Întâi, expertiza sa operațională s-a încheiat în 2000, într-un domeniu transformat radical între timp de războiul dronelor. Apoi, SAFE: cel mai mare proiect pe care ministerul îl are de executat în anii următori (16,68 mld. €). Chelaru a respins public condițiile deja asumate de România — „plătește, supune-te și taci” — poziție legitimă în opoziție și parțial convergentă cu propriile noastre critici de execuție, dar un ministru nu poate implementa credibil un contract pe care îl consideră inacceptabil. Nu poți pune la conducerea ministerului un om care s-a opus exact proiectului pe care ministerul urmează să îl aplice.",
     },
   },
   {
