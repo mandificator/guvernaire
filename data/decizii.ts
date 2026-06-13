@@ -3,7 +3,7 @@ import type { Decizie } from "@/lib/types";
 /**
  * Deciziile analizate de guvernul paralel.
  * Fiecare intrare e construită din surse oficiale și presă citată în `surse`.
- * Populat la lansare cu deciziile majore din perioada mai–iunie 2026; se actualizează continuu.
+ * Populat cu deciziile și legile majore din perioada martie–iunie 2026; se actualizează continuu.
  */
 export const decizii: Decizie[] = [
   {
@@ -715,6 +715,364 @@ export const decizii: Decizie[] = [
       {
         titlu: "Stiripesurse — NATO se întrunește de urgență la cererea României după cazul dronei de la Constanța",
         url: "https://www.stiripesurse.ro/nato-se-intruneste-de-urgenta-la-cererea-romaniei-dupa-cazul-dronei-de-la-constanta_3893713",
+      },
+    ],
+  },
+  {
+    slug: "bugetul-de-stat-2026",
+    titlu: "Bugetul de stat pe 2026: deficit țintit 6,2%, adoptat după luni de așteptare",
+    data: "2026-03-20",
+    institutie: "Parlament",
+    domenii: ["buget", "fiscal", "economie"],
+    rezumat:
+      "După luni de amânări, Parlamentul a adoptat bugetul pe 2026 în ședință comună, cu 319 voturi pentru și 104 contra. Deficitul țintit scade la 6,2% din PIB (de la 7,6% în 2025), cu investiții record finanțate preponderent din fonduri europene — dar construit pe o creștere economică de 1% pe care prognoza oficială a tăiat-o ulterior la 0,1%.",
+    explicatie:
+      "Pe 20 martie 2026, plenul reunit al Camerei Deputaților și Senatului a votat Legea bugetului de stat pe 2026 (Legea 43/2026, PL-x 184/2026) și Legea bugetului asigurărilor sociale (Legea 44/2026). Bugetul a fost adoptat de cabinetul Ilie Bolojan — același guvern care avea să cadă la moțiunea de cenzură din 5 mai. Președintele Nicușor Dan le-a promulgat pe 27 martie (Decretul 192/2026), după ce CCR respinsese, în unanimitate, sesizările AUR; publicate în Monitorul Oficial nr. 242/27 martie.\n\nCifrele-cheie (Ministerul Finanțelor): deficit cash de 6,2% din PIB (6,0% ESA), în scădere de la 7,6% cash / 7,8% ESA în 2025; investiții publice de ~163,8 miliarde lei (peste 8% din PIB), aproximativ două treimi din fonduri europene; apărare la ~2,45% din PIB; punctul de pensie înghețat la 81 lei, fără indexare; fără majorare de TVA. Construcția se sprijină pe o creștere economică asumată de 1% — pe care Comisia Națională de Strategie și Prognoză a revizuit-o ulterior, în primăvară, la doar 0,1%.",
+    pro: [
+      "Țara primește un buget după luni de incertitudine — alternativa (funcționare pe douăsprezecimi) bloca investițiile și absorbția de fonduri europene.",
+      "Deficitul intră pe traiectorie descendentă (de la 7,8% ESA la 6,0%), pasul minim cerut de procedura de deficit excesiv și de evitarea retrogradării ratingului la „junk”.",
+      "Investiții publice la nivel record (~163,8 mld lei), cu accent pe fondurile europene — singura sursă de creștere sustenabilă în condiții de consolidare fiscală.",
+      "Fără majorare de TVA și fără tăieri nominale de pensii sau salarii, în pofida presiunii bugetare.",
+    ],
+    contra: [
+      "Creșterea de 1% pe care e construit bugetul a fost tăiată la 0,1% de propria prognoză oficială (CNSP) — dacă PIB-ul real e mai mic, veniturile estimate nu se realizează și deficitul derapează.",
+      "Corecția se bazează preponderent pe partea de cheltuieli, istoric greu de ținut în an electoral și de instabilitate politică.",
+      "Punctul de pensie înghețat și salariile bugetare blocate, cu inflație de două cifre, înseamnă pierdere reală de putere de cumpărare pentru milioane de oameni.",
+      "Un deficit de 6,2% rămâne printre cele mai mari din UE; Consiliul Fiscal a avizat bugetul, dar l-a numit fragil și a avertizat asupra colectării slabe a veniturilor.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "mixt",
+      scor: 3,
+      motivare:
+        "Guvernul paralel votează PENTRU, dar fără entuziasm. Un buget care există e mai bun decât niciunul, iar traiectoria descendentă a deficitului (de la 7,8% spre 6%) e exact corecția pe care România trebuie s-o facă pentru a nu plăti dobânzi de criză și a nu fi retrogradată. Investițiile finanțate european sunt singurul motor real de creștere. DAR votul nostru ar fi fost condiționat de realism: bugetul e clădit pe o creștere de 1% pe care chiar prognoza oficială a coborât-o la 0,1% — adică pe venituri care riscă să nu apară. O construcție onestă ar fi pornit de la scenariul prudent al CNSP și ar fi protejat veniturile mici (punctul de pensie înghețat lovește exact gospodăriile vulnerabile). Scor +3: direcție corectă, ipoteze optimiste; testul e execuția, nu adoptarea.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptat în ședință comună a Parlamentului pe 20 martie 2026; promulgat pe 27 martie (Decretul 192/2026), publicat în Monitorul Oficial nr. 242/27 martie. Bugetul asigurărilor sociale (Legea 44/2026) a fost votat în aceeași ședință.",
+      detalii:
+        "Bugetul de stat: 319 pentru / 104 contra / 1 abținere. Bugetul asigurărilor sociale: 314 / 105 / 12. CCR a respins în unanimitate sesizările AUR (26 martie).",
+      cifre: { pentru: 319, contra: 104, abtineri: 1 },
+      pePartide:
+        "Coaliția de guvernare (PNL, PSD, USR, UDMR, minorități) a votat pentru; AUR, POT și SOS au votat contra. Defalcarea nominală nu e disponibilă public.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere între votul real și cel paralel pe necesitatea unui buget cu deficit descendent — divergență pe realismul ipotezelor. Bugetul a fost adoptat de guvernul Bolojan cu șase săptămâni înainte să cadă; execuția lui revine acum unui guvern interimar și, ulterior, unuia nou. Testul nu e cifra de pe hârtie (6,2%), ci dacă veniturile țin când creșterea reală e de 0,1%, nu de 1%. De urmărit rectificarea de la mijlocul anului.",
+    controverse: [
+      "AUR a sesizat CCR pe ambele legi ale bugetului, invocând procedura de urgență și ipoteze macroeconomice optimiste; sesizările au fost respinse în unanimitate pe 26 martie 2026.",
+      "Consiliul Fiscal a avizat bugetul, dar cu avertismente: construcție fragilă, colectare slabă a veniturilor, dependență de corecția pe cheltuieli.",
+      "CNSP a revizuit ulterior creșterea economică reală pentru 2026 de la 1% la ~0,1%, sub ipoteza pe care a fost clădit bugetul.",
+    ],
+    surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 184/2026 (bugetul de stat pe 2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=23109",
+      },
+      {
+        titlu: "ANAF — textul oficial al Legii 43/2026 (bugetul de stat pe 2026, PDF)",
+        url: "https://static.anaf.ro/static/10/Anaf/legislatie/L_43_2026.pdf",
+      },
+      {
+        titlu: "Ministerul Finanțelor — Bugetul de stat pe 2026 (indicatori oficiali)",
+        url: "https://mfinante.gov.ro/buget-2026",
+      },
+      {
+        titlu: "CCR — comunicat: legile bugetului pe 2026, constituționale (26 martie 2026)",
+        url: "https://www.ccr.ro/comunicat-de-presa-i-26-martie-2026/",
+      },
+      {
+        titlu: "Mediafax — Bugetul de stat, adoptat cu 319 voturi pentru / 104 contra",
+        url: "https://www.mediafax.ro/politic/news-alert-romania-are-buget-dupa-luni-de-asteptare-bugetul-de-stat-a-fost-votat-de-parlament-cu-319-voturi-pentru-104-impotriva-23706671",
+      },
+      {
+        titlu: "Digi24 — Nicușor Dan a promulgat legea bugetului și pe cea a asigurărilor sociale pentru 2026",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-a-promulgat-legea-bugetului-si-cea-a-bugetului-asigurarilor-sociale-pentru-2026-3698767",
+      },
+      {
+        titlu: "CursDeGuvernare — CNSP a revizuit în scădere creșterea economică pe 2026",
+        url: "https://cursdeguvernare.ro/cnsp-prognoza-primvara-crestere-pib-real-inflatie-revizuire-negativa.html",
+      },
+    ],
+  },
+  {
+    slug: "cadrul-fiscal-bugetar-plafoane-2026",
+    titlu: "Noul cadru fiscal-bugetar: plafoane de cheltuieli și alinierea la regulile UE",
+    data: "2026-03-19",
+    institutie: "Parlament",
+    domenii: ["fiscal", "buget", "UE"],
+    rezumat:
+      "Odată cu bugetul, Parlamentul a adoptat două legi care îi stabilesc cadrul: plafoanele fiscal-bugetare pe 2026 (Legea 42/2026) și modificarea Legii responsabilității fiscal-bugetare (Legea 45/2026), care aliniază regulile interne la cadrul de guvernanță economică al UE. Tehnic, dar acestea sunt gardurile de protecție ale finanțelor publice.",
+    explicatie:
+      "Pe 19 martie 2026, Camera Deputaților (for decizional) a adoptat două acte care însoțesc bugetul. Legea 42/2026 (plafoane, M.Of. 239/27 martie) fixează limitele anuale: sold bugetar de −6,2% din PIB în 2026 (−5,1% în 2027), cheltuieli de personal de 8,1% din PIB, datorie publică de ~62,5% din PIB la finalul anului — peste pragul de referință de 60%. Legea 45/2026 (M.Of. 248/30 martie, Decretul 194/2026) modifică Legea responsabilității fiscal-bugetare nr. 69/2010, transpunând Directiva (UE) 2024/1265 și raportarea la cadrul european revizuit: standarde de raportare ESA, regula datoriei peste 60%, regula cheltuielilor nete și un rol consolidat al Consiliului Fiscal (mecanism „comply or explain”).\n\nContext: România e în procedură de deficit excesiv din 2020, cu termen de corectare a deficitului în 2030, și a depus la Bruxelles un plan bugetar-structural pe termen mediu. Aceste două legi sunt pasul intern de aliniere (L69/2010) și de stabilire a plafoanelor anuale (L42/2026) în acest cadru.",
+    pro: [
+      "Aliniază România la regulile fiscale revizuite ale UE — condiție pentru credibilitate, acces la fonduri și ieșirea din procedura de deficit excesiv.",
+      "Transformă în lege plafoane explicite (deficit, cheltuieli de personal, datorie), nu doar ținte declarative.",
+      "Întărește rolul și transparența Consiliului Fiscal prin mecanismul „comply or explain”.",
+    ],
+    contra: [
+      "Plafoanele consfințesc un deficit încă foarte mare (6,2%) și o datorie peste pragul de 60% din PIB — gardurile sunt așezate departe.",
+      "Regulile contează doar dacă sunt respectate: România are un istoric de plafoane depășite și rectificate ulterior.",
+      "Complexitatea tehnică reduce scrutinul public; dezbaterea parlamentară a fost limitată, votate în pachet cu bugetul.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "mixt",
+      scor: 2,
+      motivare:
+        "Guvernul paralel votează PENTRU. Alinierea la cadrul de guvernanță economică al UE și plafoanele legale explicite sunt, în principiu, guvernare fiscală responsabilă — o ancoră de care România are nevoie. Dar valoarea unei reguli stă în aplicarea ei, nu în adoptare: am mai avut plafoane, depășite an de an și rectificate „tehnic”. Votul nostru e pentru arhitectură, cu rezerva că adevăratul test e dacă mecanismul „comply or explain” al Consiliului Fiscal va avea dinți sau va rămâne formal. Scor +2: cadru corect, credibilitate de demonstrat.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptate de Camera Deputaților (for decizional) pe 19 martie 2026 și promulgate: Legea 42/2026 (plafoane, M.Of. 239/27 martie) și Legea 45/2026 (responsabilitate fiscal-bugetară, M.Of. 248/30 martie, Decretul 194/2026).",
+      detalii:
+        "Adoptate odată cu pachetul bugetar. Cifrele exacte ale votului nu sunt disponibile public din fișa oficială și nu le prezentăm până la confirmare.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere pe necesitatea unui cadru fiscal-bugetar coerent cu regulile UE. Divergența nu e pe text, ci pe încredere: plafoanele și regula cheltuielilor nete vor conta doar dacă vor fi respectate la rectificări și de către guvernele care urmează. De urmărit primul moment în care un guvern va fi tentat să le depășească — atunci se va vedea dacă legea e ancoră sau decor.",
+    surse: [
+      {
+        titlu: "Guvernul României — actele adoptate în ședința din 5 martie 2026 (modificarea L69/2010)",
+        url: "https://gov.ro/ro/guvernul/sedinte-guvern/informatie-de-presa-privind-actele-normative-adoptate-in-edinta-guvernului-romaniei-din-5-martie-2026",
+      },
+      {
+        titlu: "Guvernul României — ședința extraordinară din 12 martie 2026 (plafoanele fiscal-bugetare)",
+        url: "https://gov.ro/ro/guvernul/sedinte-guvern/informatie-de-presa-privind-actele-normative-adoptate-in-edinta-extraordinara-a-guvernului-romaniei-din-12-martie-2026",
+      },
+      {
+        titlu: "AGERPRES — Camera Deputaților a adoptat plafoanele indicatorilor fiscal-bugetari (19 martie 2026)",
+        url: "https://agerpres.ro/politic/2026/03/19/camera-deputatilor-au-fost-adoptate-plafoanele-unor-indicatori-specificati-in-cadrul-fiscal-bugetar---1539270",
+      },
+      {
+        titlu: "Portal Legislativ — Legea responsabilității fiscal-bugetare nr. 69/2010 (acte modificatoare)",
+        url: "https://legislatie.just.ro/Public/DetaliiDocument/118059",
+      },
+      {
+        titlu: "Consiliul UE — revizuirea traiectoriei corective pentru România (procedura de deficit excesiv)",
+        url: "https://www.consilium.europa.eu/en/press/press-releases/2025/07/08/stability-and-growth-pact-council-opens-new-excessive-deficit-procedure-for-austria-and-revises-the-corrective-path-for-romania/",
+      },
+    ],
+  },
+  {
+    slug: "legea-femicidului-53-2026",
+    titlu: "Legea femicidului: definiție în Codul penal și pedepse pentru omorul pe criteriu de gen",
+    data: "2026-03-25",
+    institutie: "Parlament",
+    domenii: ["justiție", "drepturi", "social"],
+    rezumat:
+      "Parlamentul a adoptat, cu sprijin cvasi-unanim, prima lege care definește femicidul în legislația românească și completează Codul penal cu circumstanțe agravante pentru omorul comis pe criteriu de gen. Legea introduce și obligații de colectare standardizată a datelor. Promulgată pe 23 aprilie, în vigoare din 26 aprilie 2026.",
+    explicatie:
+      "Legea 53/2026 (Senat 2 februarie, Camera Deputaților ca for decizional pe 25 martie, promulgată 23 aprilie, M.Of. nr. 323) definește pentru prima dată femicidul — uciderea unei femei pe criteriu de gen — cu tipurile intim, non-intim și indirect. Concret, completează art. 189 din Codul penal (omor calificat) cu circumstanțe noi: omorul săvârșit pe criteriu de gen, ca urmare a refuzului victimei de a continua sau relua o relație, ori în context de control și dominație. Pedeapsa se situează pe palierul omorului calificat (15–25 de ani sau detențiune pe viață).\n\nDincolo de Codul penal, legea obligă poliția, parchetele și institutele medico-legale să colecteze și să raporteze anual date standardizate despre aceste crime, atribuie analiza lor unui mecanism de prevenție și prevede educație pentru egalitate de gen în școli. România a avut zeci de femei ucise anual de parteneri sau foști parteneri, fără ca fenomenul să fie numit ori măsurat unitar.",
+    pro: [
+      "Numește și măsoară un fenomen real și letal, până acum invizibil statistic — fără date standardizate, nicio politică de prevenție nu poate fi evaluată.",
+      "Obligația de raportare anuală (poliție, parchete, INML) creează, prima dată, o bază de date publică pe care se pot construi măsuri.",
+      "Consens transpartinic rar pe o temă de justiție penală — semn că problema e recunoscută dincolo de tabere.",
+    ],
+    contra: [
+      "Omorul comis în aceste circumstanțe era deja, în multe cazuri, încadrabil la omor calificat — o parte dintre juriști atrag atenția asupra riscului de normă simbolică, suprapusă peste cea existentă.",
+      "Eficacitatea reală depinde de resurse (ordine de protecție aplicate, adăposturi, psihologi, poliție instruită), nu de textul penal — iar acestea nu sunt garantate prin lege.",
+      "Definițiile noi (femicid „indirect”) pot ridica probleme de aplicare și probatoriu în instanță.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "favorabil",
+      scor: 6,
+      motivare:
+        "Guvernul paralel votează PENTRU. O lege care numește o crimă reală și obligă statul să o măsoare e un câștig net: nu poți preveni ce nu numești și nu numeri. Componenta de date — raportare anuală standardizată de la poliție, parchete și medicină legală — e, de fapt, partea cea mai valoroasă, fiindcă pe ea se pot construi politici verificabile. Rezerva noastră nu e împotriva legii, ci o condiție pentru ca ea să nu rămână pe hârtie: protecția reală a victimelor se face cu ordine de protecție aplicate pe loc, adăposturi și psihologi, nu doar cu un articol în plus în Codul penal. Scor +6: direcție clar pozitivă, cu testul în implementare.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată de Senat pe 2 februarie 2026 și de Camera Deputaților (for decizional) pe 25 martie 2026; promulgată de președintele Nicușor Dan pe 23 aprilie 2026, publicată în Monitorul Oficial nr. 323; în vigoare din 26 aprilie 2026.",
+      detalii:
+        "Vot final cvasi-unanim în Camera Deputaților (relatări de presă: 284 pentru / 1 contra / 2 abțineri); cifrele oficiale pe camere rămân de confirmat în fișa cdep.ro (PL-x 42/2026).",
+      cifre: { pentru: 284, contra: 1, abtineri: 2 },
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere între votul real și cel paralel, pe o temă unde consensul a fost aproape total. Valoarea legii nu se va vedea în textul ei, ci în statistica pe care o va produce și în resursele de protecție pe care le va atrage. Dacă peste un an vom avea date publice despre femicid dar nu și mai multe ordine de protecție aplicate și adăposturi, legea va fi rămas un gest, nu o soluție.",
+    surse: [
+      {
+        titlu: "Juridice.ro — Legea nr. 53/2026 privind femicidul (text și conținut)",
+        url: "https://www.juridice.ro/804794/legea-nr-53-2026-privind-femicidul.html",
+      },
+      {
+        titlu: "G4Media — Legea pentru prevenirea și combaterea femicidului, publicată în Monitorul Oficial",
+        url: "https://www.g4media.ro/legea-pentru-prevenirea-si-combaterea-femicidului-publicata-in-monitorul-oficial.html",
+      },
+      {
+        titlu: "Europa FM — Legea femicidului, promulgată: definiție și pedepse",
+        url: "https://www.europafm.ro/legea-femicidului-promulgata-definitie-pedepse-romania/",
+      },
+      {
+        titlu: "Camera Deputaților — urmărirea procesului legislativ (PL-x 42/2026)",
+        url: "https://www.cdep.ro/pls/proiecte/upl_pck2015.home",
+      },
+    ],
+  },
+  {
+    slug: "legea-deseurilor-78-2026",
+    titlu: "Legea deșeurilor: răspunderea extinsă a producătorului și țintele de reciclare, confirmate",
+    data: "2026-04-29",
+    institutie: "Parlament",
+    domenii: ["mediu", "economie"],
+    rezumat:
+      "Camera Deputaților a aprobat, cu 215 voturi pentru și niciunul contra, legea care confirmă modificările la regimul deșeurilor: răspundere extinsă a producătorului, indicatori de prevenție și țintele europene de reciclare (55%/60%/65%). Modificări utile, dar preponderent procedurale — fără ambiție nouă pe fond. Promulgată pe 26 mai 2026.",
+    explicatie:
+      "Legea 78/2026 (PL-x 32/2024) aprobă OUG 114/2023, care modifică regimul deșeurilor (OUG 92/2021). Senatul o adoptase încă din februarie 2024; Camera Deputaților, for decizional, a votat-o pe 29 aprilie 2026, iar președintele a promulgat-o pe 26 mai (Decretul 293/2026, M.Of. nr. 445).\n\nConcret: introduce un dialog periodic obligatoriu în cadrul răspunderii extinse a producătorului (producători, distribuitori, operatori, autorități locale, ONG-uri, rețele de reparare și reutilizare); adaugă „pregătirea pentru reutilizare” ca operațiune; prevede că deșeurile trimise în alte state UE contează la țintele naționale doar dacă au fost colectate de pe teritoriul României (anti-eludare); și introduce indicatori de prevenție (Anexa 4¹). Țintele de reciclare a deșeurilor municipale — 55% în 2025, 60% în 2030, 65% în 2035 — sunt reafirmate, nu modificate. Sistemul Garanție-Returnare (RetuRO) nu e atins de această lege.",
+    pro: [
+      "Aliniază România la obligațiile europene de economie circulară și consolidează răspunderea producătorilor pentru ambalajele puse pe piață.",
+      "Clauza care contează deșeurile exportate la țintele naționale doar dacă au fost colectate intern descurajează „umflarea” statistică a reciclării.",
+      "Recunoaște explicit rețelele de reparare și reutilizare — veriga ieftină și ignorată a economiei circulare.",
+    ],
+    contra: [
+      "Modificări preponderent procedurale: nu ridică țintele și nu schimbă sancțiunile — ambiție nouă redusă, într-o țară codașă la reciclarea municipală.",
+      "Legea nu adaugă mecanisme reale de aplicare; problema României nu e textul, ci execuția — rata de reciclare stagnează sub țintă.",
+      "Întârziere mare: o ordonanță din 2023 aprobată de Parlament abia în 2026.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "favorabil",
+      scor: 3,
+      motivare:
+        "Guvernul paralel votează PENTRU. E o lege fără controverse, care aliniază România la regulile europene de mediu și întărește răspunderea producătorului — corect și necesar. Dar e și o ocazie ratată: aprobă, cu trei ani întârziere, o ordonanță care reafirmă țintele fără să adauge ambiție sau dinți de aplicare. Problema reciclării în România nu e că lipsește legea, ci că rata reală stagnează mult sub țintă. Scor +3: pas înainte, dar mic, când era nevoie de un salt.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată de Senat pe 12 februarie 2024 și de Camera Deputaților (for decizional) pe 29 aprilie 2026; promulgată pe 26 mai 2026 (Decretul 293/2026), publicată în Monitorul Oficial nr. 445.",
+      detalii:
+        "Camera Deputaților: 215 pentru / 0 contra / 20 abțineri (fișa oficială cdep.ro, PL-x 32/2024).",
+      cifre: { pentru: 215, contra: 0, abtineri: 20 },
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere între votul real și cel paralel — votul cvasi-unanim (215–0) confirmă că legea e necontroversată. Tocmai de aceea verdictul e temperat: alinierea la regulile UE e bună, dar adevăratul indicator nu e legea, ci rata de reciclare. De urmărit dacă România se apropie de ținta de 60% pentru 2030 sau rămâne, ca până acum, sub prag.",
+    surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 32/2024 (vot 215–0–20, 29 aprilie 2026)",
+        url: "https://cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21494",
+      },
+      {
+        titlu: "Portal Legislativ — OUG 114/2023 pentru modificarea regimului deșeurilor (OUG 92/2021)",
+        url: "https://legislatie.just.ro/Public/DetaliiDocument/277397",
+      },
+      {
+        titlu: "Juridice.ro — Decrete semnate de Președinte pe 26 mai 2026 (promulgarea legii deșeurilor)",
+        url: "https://www.juridice.ro/831129/decrete-semnate-26-mai-2026.html",
+      },
+      {
+        titlu: "AGERPRES — comunicat Administrația Prezidențială, 26 mai 2026",
+        url: "https://agerpres.ro/comunicate/2026/05/26/comunicate-de-presa---administratia-prezidentiala--1560118",
+      },
+    ],
+  },
+  {
+    slug: "legea-fondului-pentru-mediu-79-2026",
+    titlu: "Fondul pentru mediu: mai puțină birocrație pentru primării — și finanțare pentru rețele de gaze",
+    data: "2026-04-29",
+    institutie: "Parlament",
+    domenii: ["mediu", "buget", "administrație"],
+    rezumat:
+      "Camera Deputaților a aprobat, cu 219 voturi pentru și niciunul contra, modificările la Fondul pentru mediu: scheme de ajutor de stat prin AFM, prefinanțare într-o singură tranșă pentru primării și — punctul discutabil — finanțarea unor proiecte de rețele de gaze. Modificări procedurale, fără taxe noi. Promulgată pe 26 mai 2026, după o sesizare de neconstituționalitate.",
+    explicatie:
+      "Legea 79/2026 (PL-x 496/2024) aprobă OUG 104/2024, care modifică OUG 196/2005 privind Fondul pentru mediu și art. 22 din OUG 60/2022 (Fondul pentru modernizare). Senatul o adoptase în septembrie 2024; Camera Deputaților, for decizional, a votat-o pe 29 aprilie 2026; promulgată pe 26 mai (Decretul 294/2026, M.Of. nr. 445).\n\nModificările sunt administrative, nu fiscale — nu se introduc, modifică sau elimină taxe ori contribuții. Concret: Administrația Fondului pentru Mediu poate institui scheme de ajutor de stat sau de minimis pentru finanțarea programelor; beneficiarii publici (primării, instituții publice) pot primi prefinanțare într-o singură tranșă de până la 30% din valoarea contractului — reducere de birocrație; și se permite finanțarea din Fondul pentru mediu a proiectelor de extindere, conversie sau modernizare a rețelelor de gaze, pentru integrarea gazelor cu emisii reduse.",
+    pro: [
+      "Reduce birocrația pentru primării: prefinanțarea într-o singură tranșă (până la 30%) deblochează proiectele de mediu ale comunităților fără capacitate de cofinanțare.",
+      "Permite AFM să folosească scheme de ajutor de stat — instrument care accelerează deconcentrarea banilor către beneficiari.",
+      "Nu introduce taxe noi; modificările sunt de procedură și de eficiență administrativă.",
+    ],
+    contra: [
+      "Finanțarea rețelelor de gaze din Fondul pentru mediu e discutabilă climatic: gazul rămâne combustibil fosil, chiar „cu emisii reduse”, iar un fond de mediu ar trebui să prioritizeze alternativele curate.",
+      "O sesizare de neconstituționalitate a fost depusă pe 6 mai 2026; legea a fost totuși trimisă la promulgare două zile mai târziu.",
+      "Lege cu vizibilitate publică redusă, deși mișcă bani publici de mediu — scrutinul a fost minim.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "mixt",
+      scor: 2,
+      motivare:
+        "Guvernul paralel votează PENTRU, cu un semnal de alarmă. Partea de debirocratizare — prefinanțare într-o singură tranșă pentru primării — e exact genul de reformă administrativă care deblochează proiecte reale de mediu în comunități fără bani de cofinanțare; o susținem. Steagul galben e finanțarea rețelelor de gaze din chiar Fondul pentru mediu: gazul „cu emisii reduse” e tot fosil, iar un fond de mediu ar trebui să tragă banii spre alternative curate, nu spre infrastructură pe care o vom amortiza decenii. Votăm pentru fiindcă debirocratizarea atârnă mai greu decât rezerva, dar marcăm finanțarea gazelor ca punct de urmărit. Scor +2.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată de Senat pe 23 septembrie 2024 și de Camera Deputaților (for decizional) pe 29 aprilie 2026; promulgată pe 26 mai 2026 (Decretul 294/2026), publicată în Monitorul Oficial nr. 445.",
+      detalii:
+        "Camera Deputaților: 219 pentru / 0 contra / 15 abțineri (fișa oficială cdep.ro, PL-x 496/2024). O sesizare de neconstituționalitate a fost depusă pe 6 mai 2026, înainte de promulgare.",
+      cifre: { pentru: 219, contra: 0, abtineri: 15 },
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere pe votul de fond — debirocratizarea accesului primăriilor la banii de mediu e necontroversată și utilă. Rezerva guvernului paralel privește direcția: cât din Fondul pentru mediu va merge spre rețele de gaze și cât spre alternative curate. De urmărit rezultatul sesizării de neconstituționalitate și, mai ales, structura cheltuielilor pe care AFM le va finanța efectiv.",
+    controverse: [
+      "Sesizare de neconstituționalitate depusă pe 6 mai 2026 (consemnată în fișa cdep.ro); legea a fost totuși trimisă la promulgare pe 8 mai și promulgată pe 26 mai. Autorii și soluția sesizării rămân de confirmat.",
+    ],
+    surse: [
+      {
+        titlu: "Camera Deputaților — fișa oficială PL-x 496/2024 (vot 219–0–15, 29 aprilie 2026)",
+        url: "https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=21973",
+      },
+      {
+        titlu: "Portal Legislativ — OUG 196/2005 privind Fondul pentru mediu (acte modificatoare)",
+        url: "https://legislatie.just.ro/Public/DetaliiDocument/67529",
+      },
+      {
+        titlu: "Juridice.ro — OUG 104/2024: finanțarea proiectelor pentru diminuarea emisiilor de gaze cu efect de seră",
+        url: "https://www.juridice.ro/749145/se-asigura-finantarea-pentru-proiectele-care-vor-contribui-la-diminuarea-emisiilor-de-gaze-cu-efect-de-sera.html",
+      },
+      {
+        titlu: "Juridice.ro — Decrete semnate de Președinte pe 26 mai 2026",
+        url: "https://www.juridice.ro/831129/decrete-semnate-26-mai-2026.html",
+      },
+    ],
+  },
+  {
+    slug: "consiliere-psihologica-parinti-autism-down",
+    titlu: "Consiliere psihologică gratuită pentru părinții copiilor cu autism sau sindrom Down",
+    data: "2026-04-08",
+    institutie: "Parlament",
+    domenii: ["sănătate", "social", "drepturi"],
+    rezumat:
+      "Parlamentul a adoptat, cvasi-unanim, o lege care include în programele naționale de sănătate consilierea psihologică gratuită, decontată integral de stat, pentru părinții și tutorii copiilor cu tulburare de spectru autist sau sindrom Down. Cost mic, nevoie reală — dar prevederile intră în vigoare abia în 2027.",
+    explicatie:
+      "Legea 61/2026 modifică Legea 95/2006 privind reforma în sănătate și introduce consilierea psihologică a părinților sau tutorilor copiilor cu tulburare de spectru autist (TSA) ori sindrom Down în programele naționale de sănătate curative, decontată integral din Fondul național unic de asigurări sociale de sănătate (FNUASS). Inițiativa a aparținut deputatei Raluca Turcan. Camera Deputaților, for decizional, a adoptat-o pe 8 aprilie 2026, cu cvasi-unanimitate (relatări: două abțineri).\n\nPrevederile intră în vigoare în 2027 (la 30 de zile de la legea bugetului pe 2027), pentru a fi acoperite bugetar. Povara psihologică asupra îngrijitorilor unui copil cu dizabilitate severă e documentată, dar până acum sprijinul de specialitate pentru părinți nu era decontat de stat.",
+    pro: [
+      "Recunoaște o nevoie reală și documentată: epuizarea și depresia îngrijitorilor unui copil cu TSA sau sindrom Down, ignorate de sistem până acum.",
+      "Cost bugetar mic raportat la impactul uman; un părinte funcțional e și cel mai bun terapeut al copilului.",
+      "Consens parlamentar aproape total — semn că măsura nu e contestată politic.",
+    ],
+    contra: [
+      "Intrarea în vigoare amânată la 2027 — niciun efect imediat pentru familiile care au nevoie acum.",
+      "Eficacitatea depinde de existența psihologilor în sistemul public, deja subdimensionat — dreptul pe hârtie nu garantează accesul în practică.",
+      "Sfera îngustă (două afecțiuni) ridică o întrebare de echitate față de părinții copiilor cu alte dizabilități severe.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "favorabil",
+      scor: 5,
+      motivare:
+        "Guvernul paralel votează PENTRU. E o lege ieftină, umană și corect direcționată: sprijină îngrijitorul, nu doar pacientul — iar un părinte care nu cedează psihic e prima linie de îngrijire a copilului. Rezervele țin de aplicare, nu de principiu: amânarea la 2027 lasă familiile fără sprijin încă un an, iar dreptul e real doar dacă există psihologi în sistemul public care să-l ofere. Am fi cerut și o foaie de parcurs pentru extinderea treptată către alte dizabilități severe, ca să nu rămână o măsură de nișă. Scor +5: nevoie reală, cost mic, testul e în implementare și în calendar.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată de Camera Deputaților (for decizional) pe 8 aprilie 2026 cu cvasi-unanimitate; Legea 61/2026, publicată în Monitorul Oficial în aprilie 2026. Prevederile intră în vigoare în 2027.",
+      detalii:
+        "Vot final cvasi-unanim (relatări de presă: două abțineri); cifrele complete pe camere rămân de confirmat în fișa cdep.ro.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Aliniere între votul real și cel paralel, pe o măsură consensuală și umană. Valoarea ei se va vedea în 2027, când intră în vigoare: dacă vor exista psihologi în sistemul public care să ofere efectiv consilierea decontată, legea își atinge scopul; dacă nu, rămâne un drept pe hârtie. De urmărit și dacă va fi extinsă către părinții copiilor cu alte dizabilități severe.",
+    surse: [
+      {
+        titlu: "Juridice.ro — Consiliere psihologică gratuită pentru părinții copiilor cu autism sau sindrom Down",
+        url: "https://www.juridice.ro/823759/consiliere-psihologica-gratuita-pentru-parintii-copiilor-cu-autism-sau-sindrom-down.html",
+      },
+      {
+        titlu: "Edupedu — Lege adoptată de Parlament: consiliere psihologică gratuită, decontată integral de stat",
+        url: "https://www.edupedu.ro/parintii-copiilor-cu-tulburare-de-spectru-autist-sau-sindrom-down-vor-primi-consiliere-psihologica-gratuita-decontata-integral-de-stat-lege-adoptata-de-parlament/",
+      },
+      {
+        titlu: "Observatorul Prahovean — Legea 61/2026",
+        url: "https://www.observatorulph.ro/social/2786937",
       },
     ],
   },
