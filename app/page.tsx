@@ -128,9 +128,9 @@ export default function Home() {
               Nou · Guvernul României
             </h2>
             <p className="text-sm leading-relaxed text-blue-100">
-              Țara nu are guvern cu puteri depline. Noi propunem unul: 17 poziții, câte 5
-              candidați reali pentru fiecare — cu argumente pro și contra, activitate
-              parlamentară verificabilă și zero etichete.
+              Țara nu are guvern cu puteri depline. Inteligența artificială propune unul: 17
+              poziții, câte 5 candidați reali pentru fiecare — cu argumente pro și contra,
+              activitate parlamentară verificabilă și zero etichete.
             </p>
             <Link
               href="/guvern"

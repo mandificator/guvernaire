@@ -31,7 +31,7 @@ export function BrandOg() {
         .online
       </span>
       <span style={{ color: "#93c5fd", fontSize: 22, marginLeft: 20 }}>
-        guvernul paralel al cetățeanului
+        guvern paralel propus de inteligența artificială
       </span>
     </div>
   );

@@ -2,7 +2,7 @@ import type { PozitieGuvern } from "@/lib/types";
 import ilustratii from "@/data/ilustratii.json";
 
 /**
- * Guvernul României — componența propusă de guvernul paralel al cetățeanului.
+ * Guvernul României — componența propusă de inteligența artificială (guvernul paralel).
  * Pentru fiecare poziție: 5 candidați reali, din Parlament și din afara lui, cu argumente
  * pro și contra, activitate verificabilă (cdep.ro / senat.ro sau echivalent instituțional),
  * surse și un punctaj pe grila publică (vezi PunctajCandidat în lib/types.ts):
@@ -1116,7 +1116,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
           "Jurist cu expertiză dublă justiție–interne, relevantă pentru reforma poliției și statutul polițistului.",
         ],
         contra: [
-          "Simbol al „ministrului de serviciu” care supraviețuiește oricărei coaliții — exact opusul înnoirii promise de un guvern al cetățeanului.",
+          "Simbol al „ministrului de serviciu” care supraviețuiește oricărei coaliții — exact opusul înnoirii pe care o caută acest exercițiu.",
           "Membru al guvernului demis prin moțiune și exponent al PNL, partid acuzat public că blochează învestirea guvernului Tomac.",
           "Înainte de 2024 nu a trecut niciodată testul votului popular, fiind numit, nu ales, timp de 16 ani.",
         ],
@@ -1273,7 +1273,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         ],
         contra: [
           "Demis de la șefia Poliției Române în 2018, în urma scandalului polițistului pedofil Eugen Stan — eșec de management al resurselor umane documentat.",
-          "Longevitatea sub toate guvernele poate fi citită și ca apartenență la „sistemul” pe care un guvern al cetățeanului promite să-l reformeze.",
+          "Longevitatea sub toate guvernele poate fi citită și ca apartenență la „sistemul” pe care un guvern reformator promite să-l schimbe.",
         ],
         punctaj: {
           sustinere: 0,
@@ -1700,7 +1700,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
         contra: [
           "Managementul pandemiei rămâne controversat public: restricțiile coordonate prin DSU au fost contestate, iar o parte a electoratului îl percepe negativ.",
           "Concentrarea deciziei și a achizițiilor de urgență la DSU a fost criticată pentru lipsă de transparență.",
-          "Longevitatea sub toate guvernele îl expune criticii de „om al sistemului” pe care un guvern al cetățeanului promite să-l reformeze.",
+          "Longevitatea sub toate guvernele îl expune criticii de „om al sistemului” pe care un guvern reformator promite să-l schimbe.",
         ],
         punctaj: {
           sustinere: 3,

@@ -20,11 +20,11 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   metadataBase: new URL("https://guvernare.online"),
   title: {
-    default: "guvernare.online — Guvernul paralel al cetățeanului",
+    default: "guvernare.online — Guvernul paralel propus de inteligența artificială",
     template: "%s · guvernare.online",
   },
   description:
-    "Fiecare lege din România, explicată pe înțelesul tău: argumente pro și contra, votul guvernului paralel și comparația cu votul real din Parlament. Fapte din surse oficiale, zero simpatii politice.",
+    "Un guvern paralel propus de inteligența artificială: fiecare lege din România explicată pe înțelesul tău, cu argumente pro și contra, un vot transparent și comparația cu votul real din Parlament. Fapte din surse oficiale, zero simpatii politice.",
   keywords: [
     "legi România",
     "Parlament",
@@ -96,7 +96,7 @@ export default function RootLayout({
                 </span>
               </Link>
               <p className="text-[11px] font-medium uppercase tracking-[0.25em] text-zinc-500 sm:text-xs">
-                Guvernul paralel al cetățeanului
+                Guvernul paralel propus de inteligența artificială
               </p>
             </div>
             <nav className="-mx-4 flex justify-start gap-0 overflow-x-auto border-t border-zinc-200 px-4 sm:justify-center">

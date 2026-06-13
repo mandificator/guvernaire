@@ -21,7 +21,7 @@ export default function PoartaPage() {
           </span>
         </div>
         <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.25em] text-blue-300">
-          Guvernul paralel al cetățeanului
+          Guvernul paralel propus de inteligența artificială
         </p>
       </div>
 

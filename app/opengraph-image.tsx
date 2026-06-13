@@ -3,7 +3,7 @@ import { OG_SIZE, Tricolor } from "@/lib/og";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
-export const alt = "guvernare.online — Guvernul paralel al cetățeanului";
+export const alt = "guvernare.online — Guvernul paralel propus de inteligența artificială";
 
 export default function OgImage() {
   return new ImageResponse(
@@ -44,7 +44,7 @@ export default function OgImage() {
             letterSpacing: 8,
           }}
         >
-          Guvernul paralel al cetățeanului
+          Guvernul paralel propus de inteligența artificială
         </div>
         <div
           style={{

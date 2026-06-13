@@ -5,7 +5,7 @@ import { SectionTitle } from "@/components/ui";
 export const metadata: Metadata = {
   title: "Despre proiect",
   description:
-    "Ce este guvernare.online, cine îl face și de ce există: un guvern paralel civic, fără partid, fără sponsor, fără simpatii.",
+    "Ce este guvernare.online, cine îl face și de ce există: un guvern paralel propus de inteligența artificială, fără partid, fără sponsor, fără simpatii.",
 };
 
 export default function DesprePage() {
@@ -17,10 +17,11 @@ export default function DesprePage() {
 
       <section className="space-y-3 text-[15px] leading-relaxed text-zinc-700">
         <p>
-          <strong>guvernare.online</strong> este un guvern paralel: nu guvernează nimic, dar judecă tot.
-          Pentru fiecare lege, ordonanță sau decizie majoră din România, citim sursele oficiale ale
-          statului, punem în balanță ce câștigă și ce pierde țara și cetățeanul, și votăm
-          transparent. Apoi comparăm votul nostru cu ce au decis în realitate Parlamentul, Guvernul
+          <strong>guvernare.online</strong> este un guvern paralel propus de inteligența
+          artificială: nu guvernează nimic, dar judecă tot. Pentru fiecare lege, ordonanță sau
+          decizie majoră din România, un model de inteligență artificială citește sursele oficiale
+          ale statului, pune în balanță ce câștigă și ce pierde țara și cetățeanul, și votează
+          transparent. Apoi comparăm acest vot cu ce au decis în realitate Parlamentul, Guvernul
           sau Președinția. Presa, indiferent de orientare, e folosită doar pentru informație —
           niciodată pentru interpretări.
         </p>
@@ -56,8 +57,11 @@ export default function DesprePage() {
       <section>
         <SectionTitle>Transparență</SectionTitle>
         <p className="text-[15px] leading-relaxed text-zinc-700">
-          Proiectul e construit cu asistență AI, e open-source și fiecare analiză citează sursele.
-          Nu primim bani de la partide, instituții sau grupuri de interese. Dacă găsești o eroare
+          Analizele, voturile și componența de guvern propusă sunt generate de inteligența
+          artificială pe baza surselor oficiale citate — nu sunt opinia unui partid, a unui grup
+          de cetățeni sau a redacției vreunui ziar. Pot conține erori: fiecare analiză citează
+          sursele tocmai ca oricine să poată verifica și contrazice. Proiectul e open-source și nu
+          primește bani de la partide, instituții sau grupuri de interese. Dacă găsești o eroare
           factuală, semnaleaz-o — corectăm public.
         </p>
       </section>

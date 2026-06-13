@@ -6,7 +6,7 @@ import { Portret } from "@/components/portret";
 export const metadata: Metadata = {
   title: "Guvernul României",
   description:
-    "Componența de guvern propusă de guvernul paralel al cetățeanului: 5 candidați reali pentru fiecare poziție, cu argumente pro și contra, activitate parlamentară verificabilă și surse. Din tot spectrul politic, fără etichete.",
+    "Componența de guvern propusă de inteligența artificială: 5 candidați reali pentru fiecare poziție, cu argumente pro și contra, activitate parlamentară verificabilă și surse. Din tot spectrul politic, fără etichete.",
 };
 
 export default function GuvernPage() {
@@ -18,11 +18,11 @@ export default function GuvernPage() {
     <div className="space-y-8">
       <header className="max-w-3xl space-y-3">
         <h1 className="font-serif text-3xl font-bold tracking-tight">
-          Guvernul României, propus de cetățeni
+          Guvernul României, propus de inteligența artificială
         </h1>
         <p className="text-[15px] leading-relaxed text-zinc-700">
-          România nu are guvern cu puteri depline din 5 mai 2026. Guvernul paralel propune o
-          componență completă: pentru fiecare dintre cele {pozitiiGuvern.length} poziții,{" "}
+          România nu are guvern cu puteri depline din 5 mai 2026. Inteligența artificială propune
+          o componență completă: pentru fiecare dintre cele {pozitiiGuvern.length} poziții,{" "}
           <strong>5 candidați reali</strong> — din Parlament și din afara lui — punctați pe o
           grilă publică, aplicată identic tuturor. Fiecare candidat are argumente pro{" "}
           <em>și</em> contra, activitate verificabilă (cdep.ro, senat.ro sau echivalentul

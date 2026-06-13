@@ -35,9 +35,9 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>guvernare.online — Guvernul paralel al cetățeanului</title>
+    <title>guvernare.online — Guvernul paralel propus de inteligența artificială</title>
     <link>${BASE}</link>
-    <description>Fiecare lege din România, explicată și votată în interesul cetățeanului — apoi comparată cu votul real din Parlament.</description>
+    <description>Un guvern paralel propus de inteligența artificială: fiecare lege din România explicată și votată în interesul cetățeanului — apoi comparată cu votul real din Parlament.</description>
     <language>ro</language>
 ${items}
   </channel>
