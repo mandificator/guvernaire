@@ -123,23 +123,6 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="border-t-4 border-yellow-400 bg-blue-950 p-5 text-white">
-            <h2 className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-yellow-400">
-              Nou · Guvernul României
-            </h2>
-            <p className="text-sm leading-relaxed text-blue-100">
-              Țara nu are guvern cu puteri depline. Inteligența artificială propune unul: 17
-              poziții, câte 5 candidați reali pentru fiecare — cu argumente pro și contra,
-              activitate parlamentară verificabilă și zero etichete.
-            </p>
-            <Link
-              href="/guvern"
-              className="mt-3 inline-block rounded bg-yellow-400 px-3 py-1.5 text-xs font-black uppercase tracking-wide text-blue-950 hover:bg-yellow-300"
-            >
-              Vezi guvernul propus →
-            </Link>
-          </div>
-
           <div className="border-t-4 border-zinc-900 p-0">
             <h2 className="mb-3 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
               Actorii politici, sub lupă

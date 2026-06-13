@@ -60,7 +60,6 @@ export const viewport: Viewport = {
 const nav = [
   { href: "/decizii", label: "Decizii & legi" },
   { href: "/actori", label: "Actori politici" },
-  { href: "/guvern", label: "Guvernul României" },
   { href: "/metodologie", label: "Metodologie" },
   { href: "/despre", label: "Despre" },
 ];
