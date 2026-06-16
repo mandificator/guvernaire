@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
-import { Invitatie } from "@/components/invitatie";
 import { DataOra } from "@/components/data-ora";
 import "./globals.css";
 
@@ -114,7 +113,6 @@ export default function RootLayout({
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:py-8">{children}</main>
         <footer className="mt-8 border-t-2 border-zinc-900 bg-zinc-50">
           <div className="mx-auto max-w-6xl space-y-2 px-4 py-6 text-xs leading-relaxed text-zinc-500">
-            <Invitatie />
             <p className="text-sm font-extrabold tracking-tight text-blue-950">
               guvernare.online <span className="font-normal text-zinc-400">·</span>{" "}
               <span className="font-normal text-zinc-500">
