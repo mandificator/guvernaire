@@ -16,7 +16,7 @@ export const pozitiiGuvern: PozitieGuvern[] = [
     slug: "prim-ministru",
     minister: "Prim-ministru",
     misiune:
-      "România nu are guvern cu puteri depline din 5 mai 2026: cabinetul Bolojan a fost demis prin moțiune de cenzură cu 281 de voturi, iar premierul desemnat Eugen Tomac nu are majoritate. Premierul propus aici ar trebui să treacă un buget de criză printr-un parlament fragmentat și să țină deficitul (7,65% din PIB) pe traiectoria convenită cu Comisia Europeană.",
+      "România nu are guvern cu puteri depline din 5 mai 2026: cabinetul Bolojan a fost demis prin moțiune de cenzură cu 281 de voturi. Prima tentativă de desemnare — Eugen Tomac — s-a epuizat pe 14 iunie 2026, când Tomac a renunțat la mandat fără a ajunge la vot. A doua tentativă este Adrian Veștea (PNL), desemnat pe 14 iunie fără consultarea conducerii PNL — Bolojan a calificat decizia drept \"act ostil, evidentă încercare de rupere a PNL\", iar BPN PNL a votat să nu susțină investitura. La 16 iunie Veștea refuza să-și depună mandatul și desfășura negocieri cu POT, UDMR și PSD. Premierul propus de guvernul paralel trebuie să treacă un buget de criză printr-un parlament fragmentat și să țină deficitul (7,65% din PIB) pe traiectoria convenită cu Comisia Europeană.",
     candidati: [
       {
         nume: "Ilie Bolojan",

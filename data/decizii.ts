@@ -7,6 +7,102 @@ import type { Decizie } from "@/lib/types";
  */
 export const decizii: Decizie[] = [
   {
+    slug: "desemnarea-adrian-vestea-criza-pnl",
+    titlu:
+      "Desemnarea lui Adrian Veștea: a doua tentativă și criza din PNL",
+    data: "2026-06-14",
+    institutie: "Președinție",
+    domenii: ["guvernare", "criză politică"],
+    rezumat:
+      "La 40 de zile de la căderea guvernului Bolojan, Nicușor Dan l-a desemnat premier pe liberalul Adrian Veștea — fără să consulte conducerea PNL. Bolojan a calificat decizia drept „act ostil, evidentă încercare de rupere a PNL\". Veștea refuză să-și depună mandatul în ciuda ultimatumului propriului partid și desfășoară negocieri cu POT, UDMR și PSD.",
+    explicatie:
+      "Pe 14 iunie 2026, Eugen Tomac a renunțat la mandat de premier desemnat înainte de votul de învestitură — consacrând eșecul primei tentative fără a ajunge la vot. Motivul: aritmetica parlamentară era ireversibilă (PNL, USR și UDMR refuzaseră investitura, suma maximă disponibilă era 224, sub pragul de 233).\n\nImediat, Nicușor Dan l-a desemnat premier pe Adrian Veștea: economist (ASE București, expert contabil), fost primar al Râșnovului (2004–2016), fostul președinte al Consiliului Județean Brașov (2016–2023, perioadă în care a construit Aeroportul Internațional Brașov-Ghimbav, primul aeroport nou din România de la 1989), ulterior ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). La momentul desemnării era prim-vicepreședintele PNL, din gruparea considerată pro-PSD a partidului.\n\nProblema: Nicușor Dan nu a consultat conducerea PNL înainte de desemnare. Ilie Bolojan a reacționat imediat: „Nici conducerea PNL și nici eu, personal, nu am fost informați anterior de președinte. Un act ostil, o evidentă încercare de rupere a PNL.\" BPN PNL a votat să nu susțină guvernul Veștea și i-a dat lui Veștea un ultimatum să-și depună mandatul până marți dimineața la ora 10 (16 iunie). Veștea a refuzat: „Vreau să fie foarte clar: nu îmi depun mandatul.\" PNL a amenințat cu excluderi din partid.\n\nÎntre timp, PSD a mandatat pe Grindeanu să negocieze cu Veștea — dar cu condiția explicită a excluderii USR din orice formulă de guvernare. Pe 16 iunie (la data acestei analize), ultimatumul PNL expirase. Veștea a început negocieri cu POT (Anamaria Gavrilă), urma să se întâlnească cu UDMR și PSD. Aritmetica e la fel de incertă ca la Tomac.",
+    pro: [
+      "Profil administrativ verificabil: aeroportul Brașov e un proiect livrat, concret și atipic pentru politica românească.",
+      "Veștea declară că dorește un guvern politic, nu tehnocrat — mai coerent cu cererile exprimate de USR (Fritz propusese PNL+USR+UDMR) și cu principiul responsabilității politice.",
+      "PSD a dat mandat de negociere lui Grindeanu, deschizând posibilitatea unui acord cu cel mai mare partid din Parlament.",
+      "A doua desemnare consumă ultima șansă constituțională — crește presiunea pe toți actorii să ajungă la un acord și să evite dizolvarea Parlamentului și alegerile anticipate.",
+    ],
+    contra: [
+      "Desemnarea s-a făcut fără consultarea PNL — care e principalul rezervor de voturi pentru un eventual guvern al lui Veștea. S-a repetat exact greșeala Tomac: premier desemnat fără majoritate asigurată în prealabil.",
+      "Bolojan și conducerea PNL se opun, iar amenințarea cu excluderea transformă criza guvernamentală într-o criză internă PNL — daună adițională față de tentativa Tomac.",
+      "PSD condiționează sprijinul de excluderea USR — o formulă PSD+minorități+POT ar fi sub 233 de voturi; fără USR sau PNL, matematica nu funcționează.",
+      "Dacă și a doua tentativă eșuează (vot negativ sau retragere forțată), Constituția prevede dizolvarea Parlamentului și alegeri anticipate, prelungind paralizia cu alte 3–4 luni.",
+    ],
+    votParalel: {
+      vot: "abținere",
+      verdict: "mixt",
+      scor: -2,
+      motivare:
+        "Guvernul paralel se abține din nou — și din aceleași motive structurale ca la Tomac, cu un punct în minus suplimentar pentru escaladarea daunelor. Profilul lui Veștea e mai bun decât al lui Tomac: are experiență administrativă concretă și un aeroport ca dovadă. Și intenția de guvern politic e mai sănătoasă decât formula tehnocrată. Dar metoda e la fel de greșită: o desemnare fără majoritate negociată în prealabil, care a creat și o criză internă în cel mai mare partid de centru-dreapta. Dacă tentativa Tomac a costat o lună de vid guvernamental, tentativa Veștea poate costa fie alegeri anticipate, fie un guvern PSD fără USR, fără PNL și fără legitimitate electorală reală. Abținerea vine cu o cerință nenegociabilă: majoritate confirmată înainte de vot, nu după. Scorul -2 (față de -1 la Tomac) reflectă escaladarea — criza internă PNL e o daună adițională față de tentativa anterioară.",
+    },
+    votReal: {
+      rezultat:
+        "Desemnare oficializată prin decret pe 14 iunie 2026. La 16 iunie, ultimatumul PNL expirase și Veștea refuza să-și depună mandatul. Negocieri în curs cu POT, UDMR și PSD. Rezultatul votului de învestitură în așteptare.",
+      pePartide:
+        "PNL — refuz oficial (BPN); Bolojan amenință cu excluderi; Veștea ignoră ultimatumul. PSD — mandat de negociere dat lui Grindeanu, cu condiția excluderii USR. Grindeanu: „Exclus USR din guvernarea Veștea.\" USR — poziție față de noul premier desemnat în curs de formulare. AUR — cere alegeri anticipate. UDMR — negocieri programate. POT — prima întâlnire cu Veștea (Anamaria Gavrilă), deschisă la dialog.",
+    },
+    aliniere: "fără-vot",
+    verdictFinal:
+      "La 16 iunie — data acestei analize — Veștea se află în aceeași capcană ca Tomac: desemnat fără majoritate asigurată, cu opoziția liderului propriului partid și cu PSD care vrea să excludă USR din orice formulă. Diferența față de Tomac: există mai multă flexibilitate politică declarată — Veștea vrea un guvern politic, PSD e la masă, UDMR negociază. Dar și mai multă instabilitate: o criză internă PNL suprapusă crizei constituționale. Verdictul rămâne deschis: dacă se naște o majoritate reală, costul acestei a doua desemnări haotice se va fi plătit; dacă nu, România merge spre anticipate — singurul scenariu pe care toți actorii l-au declarat că îl vor evita, dar spre care deciziile lor colective converg.",
+    controverse: [
+      "Desemnarea fără consultarea conducerii PNL a fost calificată de Bolojan drept „act ostil, evidentă încercare de rupere a PNL\" — tensiune internă fără precedent recent în PNL.",
+      "Veștea face parte din gruparea liberalilor considerați pro-PSD, ceea ce a alimentat suspiciunea că desemnarea urmărește fragmentarea PNL în interesul PSD.",
+      "Ultimatumul dat de Bolojan lui Veștea — propriul coleg de partid, premier desemnat de un președinte ales democratic — e o situație politică fără precedent în România postcomunistă.",
+    ],
+    surse: [
+      {
+        titlu:
+          "Stiripesurse — Nicușor Dan a semnat decretele: desemnarea Tomac, revocată; Adrian Veștea, desemnat oficial",
+        url: "https://www.stiripesurse.ro/nicusor-dan-a-semnat-decretele-desemnarea-lui-eugen-tomac-revocata-adrian-vestea-desemnat-oficial_3894862",
+      },
+      {
+        titlu:
+          "HotNews — Nicușor Dan l-a desemnat pe Adrian Veștea premier (14 iunie 2026)",
+        url: "https://hotnews.ro/nicusor-dan-a-semnat-decretul-adrian-vestea-este-noul-premier-desemnat-2273107",
+      },
+      {
+        titlu:
+          "G4Media — Cine este Adrian Veștea, premierul desemnat de Nicușor Dan",
+        url: "https://www.g4media.ro/cine-este-adrian-vestea-premierul-desemnat-de-nicusor-dan-prim-vicepresedinte-pnl-din-gruparea-pro-psd-presedinte-al-consiliului-judetean-brasov-fost-primar-la-rasnov-si-fost-ministru-al-dezvoltar.html",
+      },
+      {
+        titlu:
+          "TVR Info — Bolojan: desemnarea Veștea, „un act ostil, o evidentă încercare de rupere a PNL\"",
+        url: "https://tvrinfo.ro/ilie-bolojan-reactie-la-nominalizarea-lui-adrian-vestea-un-act-ostil-o-evidenta-incercare-de-rupere-a-pnl/",
+      },
+      {
+        titlu:
+          "CursDeGuvernare — Bolojan: PNL nu a fost consultat; Veștea somat să renunțe",
+        url: "https://cursdeguvernare.ro/desemnarea-lui-adrian-vestea-pentru-functia-de-premier-facuta-fara-consultarea-conducerii-pnl-ilie-bolojan-un-act-ostil-o-evidenta-incercare-de-rupere-a-pnl.html",
+      },
+      {
+        titlu:
+          "Ziare.com — Ultimatumul PNL a expirat; Veștea nu și-a depus mandatul",
+        url: "https://ziare.com/adrian-vestea-desemnat-premier/ultimatum-pnl-bolojan-expirat-2018817",
+      },
+      {
+        titlu:
+          "Ziare.com — Veștea: „Vreau să fie foarte clar: nu îmi depun mandatul\"",
+        url: "https://www.national.ro/politica/adrian-vestea-l-a-infruntat-pe-ilie-bolojan-dupa-ce-i-a-dat-ultimatum-vreau-sa-fie-foarte-clar-nu-imi-depun-mandatul-874815.html/",
+      },
+      {
+        titlu:
+          "Mediafax — PNL retrage sprijinul pentru Veștea și amenință cu excluderi",
+        url: "https://www.mediafax.ro/politic/pnl-retrage-sprijinul-pentru-premierul-desemnat-adrian-vestea-si-ameninta-cu-excluderi-23755990",
+      },
+      {
+        titlu:
+          "Ziare.com — Veștea a început negocierile cu POT; urmează UDMR și PSD",
+        url: "https://ziare.com/formare-guvern/adrian-vestea-negocieri-formare-guvern-anamaria-gavrila-2018840",
+      },
+      {
+        titlu: "Ziare.com — Grindeanu: „Exclus USR din guvernarea Veștea\"",
+        url: "https://ziare.com/sorin-grindeanu/sedinta-psd-exclus-usr-guvern-vestea-2018688",
+      },
+    ],
+  },
+  {
     slug: "programul-safe-imprumutul-de-16-miliarde",
     titlu:
       "Programul SAFE: împrumutul de 16,68 miliarde € pentru apărare și Autostrada Moldovei",
@@ -281,7 +377,7 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; audieri în comisii pe 11 iunie. Votul de învestitură, programat inițial pe 12 iunie, a fost amânat la aproximativ 16 iunie 2026. Pe 12 iunie, Comitetul Politic al USR a votat cu peste 90% să nu susțină investitura. PSD urmează să decidă în weekendul 14–15 iunie. Matematic, Tomac nu poate aduna 233 de voturi (maximum disponibil: 224) — în așteptare, rezultat previzibil: respins.",
+        "Decret de desemnare semnat pe 5 iunie; lista cabinetului depusă pe 10 iunie; audieri în comisii pe 11 iunie. Votul de învestitură, programat inițial pe 12 iunie, a fost amânat. Matematic, Tomac nu putea aduna 233 de voturi (maximum disponibil: 224 — PNL, USR și UDMR refuzaseră cu toții). Pe 14 iunie 2026, Tomac a renunțat la mandat înainte de votul de învestitură — prima din cele două tentative constituționale s-a consumat fără a ajunge la vot.",
       pePartide:
         "PNL — refuz unanim (BPN, 11 iunie): Bolojan a calificat formula drept „o formulă de paravan pentru a scuti PSD de răspundere”. USR — refuz oficial (Comitet Politic, 12 iunie, >90% majoritate): Fritz a declarat că un guvern tehnocrat ar fi „nefuncțional, pentru că nimeni nu răspunde cu adevărat de decizii” și a propus un guvern politic minoritar PNL+USR+UDMR. PSD — susținere condiționată (9 condiții), dar Grindeanu menține că PSD nu votează dacă PNL și USR nu o fac; decizie finală așteptată în weekend. AUR — refuz, cere anticipate. UDMR — nu susține, nu participă la vot. Scenariu post-Tomac discutat în PNL: guvern minoritar PNL+USR+UDMR la o a doua desemnare.",
     },
@@ -292,7 +388,7 @@ export const decizii: Decizie[] = [
       "Pe 10 iunie, chiar în ziua depunerii listei, mandatele celor 6 miniștri interimari numiți de Bolojan în locul miniștrilor PSD au expirat (art. 107 din Constituție — maximum 45 de zile), creând o lacună de conducere la 6 ministere. Fostul judecător CCR Petre Lăzăroiu a declarat că Bolojan poate numi noi interimari; PSD contestă această interpretare. (Surse: Digi24, Stiripesurse, Adevarul, Ziare.com — 10 iunie 2026.)",
     ],
     verdictFinal:
-      "Actualizare 11 iunie: PNL a votat unanim în BPN să nu susțină investitura, UDMR nu participă la vot, PSD nu votează fără PNL și USR — suma maximă a voturilor disponibile este de 224 față de 233 necesare. Costul desemnării fără majoritate asigurată — timp pierdut, presiune pe rating, paralizie administrativă — confirmă exact evaluarea guvernului paralel de la momentul desemnării. Mandatele a 6 miniștri interimari expiraseră pe 10 iunie, adâncind starea de limbo constituțional.\n\nActualizare 12 iunie: USR a votat oficial în Comitetul Politic (>90% majoritate) să nu susțină învestirea. Fritz a propus explicit un guvern politic minoritar PNL+USR+UDMR drept alternativă, ceea ce transformă eșecul Tomac dintr-o probabilitate într-o certitudine matematică. Votul de învestitură a fost amânat la aproximativ 16 iunie; PSD urmează să decidă în weekend, dar condiția proprie — „nu votăm fără PNL și USR” — e automat neîndeplinită. Prima din cele două încercări constituționale se consumă. A doua desemnare, cu o formulă mai credibilă aritmetic (PNL+USR+UDMR), devine scenariul cel mai probabil — cu prețul altor câteva săptămâni de vid guvernamental.",
+      "Actualizare 11 iunie: PNL a votat unanim în BPN să nu susțină investitura, UDMR nu participă la vot, PSD nu votează fără PNL și USR — suma maximă a voturilor disponibile este de 224 față de 233 necesare. Costul desemnării fără majoritate asigurată — timp pierdut, presiune pe rating, paralizie administrativă — confirmă exact evaluarea guvernului paralel de la momentul desemnării. Mandatele a 6 miniștri interimari expiraseră pe 10 iunie, adâncind starea de limbo constituțional.\n\nActualizare 12 iunie: USR a votat oficial în Comitetul Politic (>90% majoritate) să nu susțină învestirea. Fritz a propus explicit un guvern politic minoritar PNL+USR+UDMR drept alternativă, ceea ce transforma eșecul Tomac dintr-o probabilitate într-o certitudine matematică.\n\nActualizare 14 iunie: Tomac a renunțat la mandat pe 14 iunie 2026, înainte de votul de învestitură, consumând prima tentativă constituțională fără a ajunge la vot. Nicușor Dan l-a desemnat imediat pe Adrian Veștea (PNL, economist, fost primar Râșnov, fostul președinte al CJ Brașov, fost ministru al Dezvoltării în gov. Ciolacu) — din nou fără să consulte conducerea PNL. Bolojan a calificat decizia drept „un act ostil, o evidentă încercare de rupere a PNL”. Veștea refuză să-și depună mandatul în ciuda ultimatumului propriului partid. Criza guvernamentală s-a adâncit cu o criză internă PNL. Analiza desemnării Veștea, în intrarea separată.",
     surse: [
       {
         titlu: "Presidency.ro — decretul de desemnare a lui Eugen Tomac (comunicat oficial, 5 iunie 2026)",
