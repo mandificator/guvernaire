@@ -17,6 +17,14 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-16",
+        text: "L-a primit pe Adrian Veștea la Cotroceni; potrivit declarațiilor lui Veștea, i-a transmis că există o majoritate în jurul său și nu i-a solicitat retragerea mandatului.",
+      },
+      {
+        data: "2026-06-14",
+        text: "L-a desemnat premier pe Adrian Veștea (PNL, economist, fostul președinte al CJ Brașov, fost ministru al Dezvoltării), fără să consulte în prealabil conducerea PNL — decizie calificată de Ilie Bolojan drept „act ostil, evidentă încercare de rupere a PNL\". A semnat decretul de revocare a mandatului lui Tomac și decretul de desemnare a lui Veștea în aceeași zi.",
+      },
+      {
         data: "2026-06-10",
         text: "A participat la reuniunea Consiliului Nord-Atlantic de la Bruxelles, convocată la cererea României, dedicată securității Mării Negre. S-a convenit accelerarea proiectelor NATO de răspuns la amenințările cu drone; noi măsuri urmează să fie aprobate la Summit-ul de la Ankara (7–8 iulie 2026). A afirmat că securitatea Mării Negre este esențială și că aliații au exprimat solidaritate fermă cu România.",
       },
@@ -213,12 +221,16 @@ export const actori: Actor[] = [
   {
     slug: "eugen-tomac",
     nume: "Eugen Tomac",
-    functie: "Premier desemnat",
+    functie: "Lider PMP (mandat de premier desemnat renunțat pe 14 iunie 2026)",
     partid: "PMP (demisionat de la șefia partidului)",
-    dinCand: "desemnat 4 iunie 2026",
+    dinCand: "desemnat 4 iunie 2026; mandat renunțat 14 iunie 2026",
     rezumat:
-      "Desemnat premier pe 4 iunie 2026 pentru un guvern tehnocrat; lider al unui partid neparlamentar (PMP), de la a cărui șefie a demisionat. Lista de miniștri a fost depusă pe 10 iunie, cu vot de învestitură estimat pe 12 iunie; PNL, USR, PSD și AUR au declarat că nu o susțin.",
+      "Desemnat premier pe 4 iunie 2026 pentru un guvern tehnocrat; lider al unui partid neparlamentar (PMP), de la a cărui șefie a demisionat. Lista de miniștri a fost depusă pe 10 iunie; PNL, USR, PSD și AUR au declarat că nu susțin învestirea. Pe 14 iunie, a renunțat la mandat înainte de votul de învestitură, constatând că suma maximă a voturilor disponibile (224) nu putea atinge pragul constituțional de 233.",
     actiuniRecente: [
+      {
+        data: "2026-06-14",
+        text: "A renunțat la mandatul de premier desemnat înainte de votul de învestitură, după ce suma maximă a voturilor disponibile (224) rămânea sub pragul de 233. Aceasta a consumat prima din cele două tentative constituționale permise de Constituție.",
+      },
       {
         data: "2026-06-12",
         text: "USR a votat oficial în Comitetul Politic (>90% majoritate) să nu susțină învestirea. Votul de învestitură, programat inițial pe 12 iunie, a fost amânat la aproximativ 16 iunie. Matematic, Tomac nu poate atinge pragul de 233 de voturi (maximum disponibil: 224).",
@@ -243,7 +255,7 @@ export const actori: Actor[] = [
     promisiuniVsFapte: [
       {
         promisiune: "Formarea unui guvern tehnocrat care să deblocheze criza",
-        status: "în curs",
+        status: "nelivrat",
         detalii:
           "Lista depusă pe 10 iunie, audieri pe 11 iunie, vot amânat la ~16 iunie. PNL refuză unanim, USR a decis oficial pe 12 iunie (CP, >90%) să nu voteze, PSD condiționat dar nu votează fără PNL/USR — maximum 224 voturi disponibile față de 233 necesare. Eșecul primei încercări constituționale este previzibil.",
       },
@@ -512,6 +524,10 @@ export const actori: Actor[] = [
       "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
       {
+        data: "2026-06-16",
+        text: "Consiliul Permanent UDMR a decis să nu intre în Guvernul Veștea și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestițirii. Vicepreședintele Csoma Botond: „Nu vedem cum va putea face o majoritate.”",
+      },
+      {
         data: "2026-06-08",
         text: "Despre guvernul Tomac: „masochism politic să votez un guvern din care nu fac parte” — dar UDMR nu va vota împotrivă.",
       },
@@ -523,7 +539,7 @@ export const actori: Actor[] = [
     promisiuniVsFapte: [
       {
         promisiune: "Stabilitate guvernamentală prin coaliție largă",
-        status: "în curs",
+        status: "nelivrat",
         detalii:
           "Singura propunere concretă de pe masă; blocată deocamdată de refuzul reciproc PSD–USR/PNL.",
       },
@@ -549,6 +565,14 @@ export const actori: Actor[] = [
       {
         titlu: "Ziare.com — Kelemen despre votul pe guvernul Tomac",
         url: "https://ziare.com/guvernul-tomac/kelemen-hunor-vot-2017661",
+      },
+      {
+        titlu: "HotNews — UDMR a decis să nu intre la guvernare și a recomandat parlamentarilor să nu voteze Cabinetul Veștea (16 iunie 2026)",
+        url: "https://hotnews.ro/udmr-a-decis-privind-vestea-nu-intra-la-guvernare-si-parlamentarii-sai-au-fost-indemnati-sa-nu-voteze-acest-guvern-2275053",
+      },
+      {
+        titlu: "Bursa.ro — UDMR decide să rămână în afara executivului și recomandă vot împotriva la învestitură (16 iunie 2026)",
+        url: "https://www.bursa.ro/udmr-decide-sa-ramana-in-afara-executivului-si-recomanda-vot-impotriva-la-investitura-66913953",
       },
     ],
   },
@@ -660,6 +684,73 @@ export const actori: Actor[] = [
       {
         titlu: "Ziare.com — Liderul grupului parlamentar POT, exclus din partid",
         url: "https://ziare.com/anamaria-gavrila-pot/sef-grup-parlamentar-exclus-1991967",
+      },
+    ],
+  },
+  {
+    slug: "adrian-vestea",
+    nume: "Adrian Veștea",
+    functie: "Premier desemnat",
+    partid: "PNL (prim-vicepreședinte)",
+    dinCand: "desemnat 14 iunie 2026",
+    rezumat:
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură.",
+    actiuniRecente: [
+      {
+        data: "2026-06-16",
+        text: "A acceptat voturi individuale de la parlamentari AUR: „Nu mă deranjează că vor fi parlamentari AUR care vor da dovadă de patriotism.\" A continuat negocierile cu PSD, POT și parlamentari PNL dizidenți, după ce UDMR a anunțat că nu intră la guvernare.",
+      },
+      {
+        data: "2026-06-16",
+        text: "PNL (prin Bolojan) a anunțat că parlamentarii care îl vor vota riscă excluderea din partid.",
+      },
+      {
+        data: "2026-06-14",
+        text: "Desemnat premier de Nicușor Dan, fără consultarea prealabilă a conducerii PNL. A primit mandatul și a demarat consultările cu partidele parlamentare.",
+      },
+    ],
+    promisiuniVsFapte: [
+      {
+        promisiune: "Formarea unui guvern politic și obținerea votului de învestitură",
+        status: "în curs",
+        detalii:
+          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pragul: 233 de voturi.",
+      },
+    ],
+    controverse: [
+      "Desemnarea a fost calificată de liderul PNL Ilie Bolojan drept „act ostil, evidentă încercare de rupere a PNL\" — premierul desemnat face parte din partidul care refuză să îl susțină.",
+      "Acceptarea voturilor de la parlamentari AUR (decizie individuală, nu de bloc) a declanșat critici că guvernul ar urma să depindă de formațiuni cu care PNL declarase anterior că nu va colabora.",
+      "Proximitatea față de PSD în negocieri — condiția PSD de a exclude USR din guvernare ridică întrebări despre independența cabinetului față de cel mai mare partid din opoziție.",
+    ],
+    pozitionare: [
+      { tema: "Criza politică", pozitie: "Intenționează să formeze un guvern politic fără PNL oficial, fără USR și fără UDMR, bazat pe PSD, POT, minorități și dizidenți." },
+      { tema: "PNRR / fiscal", pozitie: "Nu a comunicat public un program fiscal detaliat; negocierile au vizat compoziția politică, nu platforma programatică." },
+      { tema: "UE / NATO", pozitie: "Fără declarații publice specifice în calitate de premier desemnat; angajamentele internaționale ale României nu sunt contestate." },
+    ],
+    surse: [
+      {
+        titlu: "HotNews — Nicușor Dan l-a desemnat premier pe Adrian Veștea (14 iunie 2026)",
+        url: "https://hotnews.ro/nicusor-dan-l-a-desemnat-premier-pe-adrian-vestea-pnl-2274317",
+      },
+      {
+        titlu: "HotNews — UDMR a decis să nu intre la guvernare și a recomandat parlamentarilor să nu voteze Cabinetul Veștea (16 iunie 2026)",
+        url: "https://hotnews.ro/udmr-a-decis-privind-vestea-nu-intra-la-guvernare-si-parlamentarii-sai-au-fost-indemnati-sa-nu-voteze-acest-guvern-2275053",
+      },
+      {
+        titlu: "Ziare.com — Veștea acceptă voturi de la AUR (16 iunie 2026)",
+        url: "https://ziare.com/adrian-vestea/premierul-desemnat-ajuns-ceara-voturi-suveranisti-2018999",
+      },
+      {
+        titlu: "HotNews — Ce șanse are Guvernul Veștea după decizia UDMR (16 iunie 2026)",
+        url: "https://hotnews.ro/ce-sanse-are-vestea-sa-treaca-de-votul-parlamentului-dupa-decizia-udmr-ultimele-calcule-2275118",
+      },
+      {
+        titlu: "Ziare.com — Bolojan amenință cu excluderea parlamentarilor PNL care votează Veștea",
+        url: "https://ziare.com/ilie-bolojan/bolojan-parlamentari-pnl-excludere-vot-vestea-2019003",
+      },
+      {
+        titlu: "Bursa.ro — UDMR decide să rămână în afara executivului și recomandă vot împotriva la învestitură (16 iunie 2026)",
+        url: "https://www.bursa.ro/udmr-decide-sa-ramana-in-afara-executivului-si-recomanda-vot-impotriva-la-investitura-66913953",
       },
     ],
   },

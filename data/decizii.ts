@@ -14,7 +14,7 @@ export const decizii: Decizie[] = [
     institutie: "Președinție",
     domenii: ["guvernare", "criză politică"],
     rezumat:
-      "La 40 de zile de la căderea guvernului Bolojan, Nicușor Dan l-a desemnat premier pe liberalul Adrian Veștea — fără să consulte conducerea PNL. Bolojan a calificat decizia drept „act ostil, evidentă încercare de rupere a PNL\". Veștea refuză să-și depună mandatul în ciuda ultimatumului propriului partid și desfășoară negocieri cu POT, UDMR și PSD.",
+      "La 40 de zile de la căderea guvernului Bolojan, Nicușor Dan l-a desemnat premier pe liberalul Adrian Veștea — fără să consulte conducerea PNL. Bolojan a calificat decizia drept „act ostil, evidentă încercare de rupere a PNL\". Veștea refuză să-și depună mandatul. Pe 16 iunie, UDMR a recomandat parlamentarilor săi vot CONTRA învestiturii. Veștea acceptă voturi AUR și caută majoritate cu PSD, dizidenți PNL, POT și minorități.",
     explicatie:
       "Pe 14 iunie 2026, Eugen Tomac a renunțat la mandat de premier desemnat înainte de votul de învestitură — consacrând eșecul primei tentative fără a ajunge la vot. Motivul: aritmetica parlamentară era ireversibilă (PNL, USR și UDMR refuzaseră investitura, suma maximă disponibilă era 224, sub pragul de 233).\n\nImediat, Nicușor Dan l-a desemnat premier pe Adrian Veștea: economist (ASE București, expert contabil), fost primar al Râșnovului (2004–2016), fostul președinte al Consiliului Județean Brașov (2016–2023, perioadă în care a construit Aeroportul Internațional Brașov-Ghimbav, primul aeroport nou din România de la 1989), ulterior ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). La momentul desemnării era prim-vicepreședintele PNL, din gruparea considerată pro-PSD a partidului.\n\nProblema: Nicușor Dan nu a consultat conducerea PNL înainte de desemnare. Ilie Bolojan a reacționat imediat: „Nici conducerea PNL și nici eu, personal, nu am fost informați anterior de președinte. Un act ostil, o evidentă încercare de rupere a PNL.\" BPN PNL a votat să nu susțină guvernul Veștea și i-a dat lui Veștea un ultimatum să-și depună mandatul până marți dimineața la ora 10 (16 iunie). Veștea a refuzat: „Vreau să fie foarte clar: nu îmi depun mandatul.\" PNL a amenințat cu excluderi din partid.\n\nÎntre timp, PSD a mandatat pe Grindeanu să negocieze cu Veștea — dar cu condiția explicită a excluderii USR din orice formulă de guvernare. Pe 16 iunie (la data acestei analize), ultimatumul PNL expirase. Veștea a început negocieri cu POT (Anamaria Gavrilă), urma să se întâlnească cu UDMR și PSD. Aritmetica e la fel de incertă ca la Tomac.",
     pro: [
@@ -38,13 +38,13 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Desemnare oficializată prin decret pe 14 iunie 2026. La 16 iunie, ultimatumul PNL expirase și Veștea refuza să-și depună mandatul. Negocieri în curs cu POT, UDMR și PSD. Rezultatul votului de învestitură în așteptare.",
+        "Desemnare oficializată prin decret pe 14 iunie 2026. Ultimatumul PNL a expirat; Veștea a refuzat să-și depună mandatul. Pe 16 iunie, UDMR a decis să nu intre în guvern și a recomandat parlamentarilor săi să voteze CONTRA învestiturii. Veștea negociază voturi de la AUR și parlamentari PNL dizidenți. Votul de învestitură în așteptare.",
       pePartide:
-        "PNL — refuz oficial (BPN); Bolojan amenință cu excluderi; Veștea ignoră ultimatumul. PSD — mandat de negociere dat lui Grindeanu, cu condiția excluderii USR. Grindeanu: „Exclus USR din guvernarea Veștea.\" USR — poziție față de noul premier desemnat în curs de formulare. AUR — cere alegeri anticipate. UDMR — negocieri programate. POT — prima întâlnire cu Veștea (Anamaria Gavrilă), deschisă la dialog.",
+        "PNL — refuz oficial (BPN); Bolojan amenință cu excluderi; Veștea ignoră ultimatumul și caută ~25 de parlamentari PNL dizidenți. PSD — mandat de negociere dat lui Grindeanu, cu condiția excluderii USR; Grindeanu: „Exclus USR din guvernarea Veștea.\" USR — a declarat că nu susține învestirea Cabinetului Veștea. AUR — cere alegeri anticipate, dar conducerea nu impune vot de bloc; Veștea acceptă voturi individuale: „Nu mă deranjează că vor fi parlamentari AUR care vor da dovadă de patriotism.\" UDMR — pe 16 iunie, Consiliul Permanent a decis să nu intre în guvern și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestiturii; Csoma Botond: „Nu vedem cum va putea face o majoritate.\" POT — deschisă dialogului; negocieri în curs.",
     },
     aliniere: "fără-vot",
     verdictFinal:
-      "La 16 iunie — data acestei analize — Veștea se află în aceeași capcană ca Tomac: desemnat fără majoritate asigurată, cu opoziția liderului propriului partid și cu PSD care vrea să excludă USR din orice formulă. Diferența față de Tomac: există mai multă flexibilitate politică declarată — Veștea vrea un guvern politic, PSD e la masă, UDMR negociază. Dar și mai multă instabilitate: o criză internă PNL suprapusă crizei constituționale. Verdictul rămâne deschis: dacă se naște o majoritate reală, costul acestei a doua desemnări haotice se va fi plătit; dacă nu, România merge spre anticipate — singurul scenariu pe care toți actorii l-au declarat că îl vor evita, dar spre care deciziile lor colective converg.",
+      "La 16 iunie — data acestei analize — Veștea se află în aceeași capcană ca Tomac: desemnat fără majoritate asigurată, cu opoziția liderului propriului partid și cu PSD care vrea să excludă USR din orice formulă. Diferența față de Tomac: există mai multă flexibilitate politică declarată — Veștea vrea un guvern politic, PSD e la masă. Dar și mai multă instabilitate: o criză internă PNL suprapusă crizei constituționale. Verdictul rămâne deschis: dacă se naște o majoritate reală, costul acestei a doua desemnări haotice se va fi plătit; dacă nu, România merge spre anticipate.\n\nActualizare 16 iunie (după-amiaza): Consiliul Permanent UDMR a decis să nu intre în Guvernul Veștea și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestiturii. Fără UDMR, Veștea ar trebui să compenseze cu voturi AUR și PNL dizidenți — ceea ce a și anunțat că acceptă. Matematic, dacă PSD (~129), POT (~14), PACE (~8), minorități (~18) și aproximativ 25 de parlamentari PNL dizidenți plus voturi AUR individuale ajung la pragul de 233, investitura rămâne teoretic posibilă — dar un guvern fără PNL oficial, fără USR și fără UDMR ar fi cel mai slab legitimat executiv din istoria recentă a României. CCR urmează să judece pe 18 iunie sesizarea Avocatului Poporului și a lui Grindeanu pe OUG 38/2026; ÎCCJ urmează să se pronunțe pe 19 iunie dacă procesul Georgescu-Potra poate începe pe fond.",
     controverse: [
       "Desemnarea fără consultarea conducerii PNL a fost calificată de Bolojan drept „act ostil, evidentă încercare de rupere a PNL\" — tensiune internă fără precedent recent în PNL.",
       "Veștea face parte din gruparea liberalilor considerați pro-PSD, ceea ce a alimentat suspiciunea că desemnarea urmărește fragmentarea PNL în interesul PSD.",
@@ -99,6 +99,22 @@ export const decizii: Decizie[] = [
       {
         titlu: "Ziare.com — Grindeanu: „Exclus USR din guvernarea Veștea\"",
         url: "https://ziare.com/sorin-grindeanu/sedinta-psd-exclus-usr-guvern-vestea-2018688",
+      },
+      {
+        titlu: "HotNews — UDMR a decis să nu intre la guvernare și a recomandat parlamentarilor să nu voteze Cabinetul Veștea (16 iunie 2026)",
+        url: "https://hotnews.ro/udmr-a-decis-privind-vestea-nu-intra-la-guvernare-si-parlamentarii-sai-au-fost-indemnati-sa-nu-voteze-acest-guvern-2275053",
+      },
+      {
+        titlu: "Bursa.ro — UDMR decide să rămână în afara executivului și recomandă vot împotriva la învestitură (16 iunie 2026)",
+        url: "https://www.bursa.ro/udmr-decide-sa-ramana-in-afara-executivului-si-recomanda-vot-impotriva-la-investitura-66913953",
+      },
+      {
+        titlu: "Ziare.com — Veștea acceptă voturi de la AUR (16 iunie 2026)",
+        url: "https://ziare.com/adrian-vestea/premierul-desemnat-ajuns-ceara-voturi-suveranisti-2018999",
+      },
+      {
+        titlu: "HotNews — Ce șanse are Guvernul Veștea după decizia UDMR (16 iunie 2026)",
+        url: "https://hotnews.ro/ce-sanse-are-vestea-sa-treaca-de-votul-parlamentului-dupa-decizia-udmr-ultimele-calcule-2275118",
       },
     ],
   },
