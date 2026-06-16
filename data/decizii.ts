@@ -1172,6 +1172,69 @@ export const decizii: Decizie[] = [
       },
     ],
   },
+  {
+    slug: "legea-93-2026-ziua-memoriei-mineriadei",
+    titlu:
+      "Legea 93/2026: 15 iunie devine Ziua Națională a Memoriei Victimelor Mineriadei",
+    data: "2026-06-10",
+    institutie: "Parlament",
+    domenii: ["stat de drept", "justiție", "drepturi"],
+    rezumat:
+      "Nicușor Dan a promulgat, pe 10 iunie 2026, legea care instituie 15 iunie ca Ziua Națională a Memoriei Victimelor Mineriadei din 13-15 iunie 1990 și a Represiunii Antidemocratice — prima recunoaștere legală oficială a represiunii, la 36 de ani de la evenimentele care au umbrit prima vară a democrației românești. Adoptată cu 271 de voturi pentru și un singur vot contra în Camera Deputaților.",
+    explicatie:
+      "Pe 13-15 iunie 1990, minerii convocați la București au reprimat violent manifestanții din Piața Universității (zeci de morți și răniți) și au devastat sediile partidelor de opoziție și ale unor instituții. Evenimentele au marcat Europa la mai puțin de un an după căderea comunismului; o parte din vinovați au fost judecați — inclusiv Ion Iliescu, trimis în judecată pentru crime împotriva umanității —, dar procesul penal a progresat extrem de lent, iar o zi oficială a memoriei a lipsit timp de 36 de ani.\n\nLegea 93/2026 (PL-x 108/2026), inițiată de deputații PNL Gabriel Andronache și Florin Roman în decembrie 2025, a fost adoptată de Senat pe 26 februarie 2026 (87 voturi pentru / 3 abțineri) și de Camera Deputaților — for decizional — pe 13 mai 2026, cu 271 voturi pentru, 1 contra și 6 abțineri. Promulgată prin Decretul 322/2026 pe 10 iunie 2026. Prima observare a zilei comemorative a avut loc pe 15 iunie 2026, cu momente de reculegere la Camera Deputaților și cu depunere de coroane de flori de către Nicușor Dan la Monumentul dedicat memoriei victimelor Mineriadei.\n\nLegea prevede organizarea de evenimente culturale, educative și comemorative dedicate memoriei victimelor și consolidarea educației civice privind evenimentele din 1990. Nu include mecanisme de reparație pentru victime sau familii și nu stabilește sancțiuni.",
+    pro: [
+      "Recunoaștere oficială, cu 36 de ani întârziere, a unui eveniment care a marcat profund democrația română — un stat de drept are obligația să nominalizeze victimele represiunii.",
+      "Componenta educativă introduce în calendarul civic un moment anual de reflecție și documentare, combătând tendințele de relativizare a evenimentelor din 1990.",
+      "Consens parlamentar larg (271–1) — evaluarea evenimentelor din 1990 ca represiune antidemocratică este împărtășită de toate marile forțe politice.",
+    ],
+    contra: [
+      "Lege simbolică fără mecanism de reparație: victimele și familiile lor nu primesc nicio compensație sau recunoaștere personală prin acest act.",
+      "Lipsa unui proces penal finalizat — dosarul Iliescu a tergiversat decenii — face ca ziua comemorativă să fie percepută, de o parte a victimelor, ca substitut fără substanță al dreptății.",
+      "Formularea amplă a componentei educative lasă la latitudinea autorităților locale forma și conținutul evenimentelor — fără standarde minime obligatorii, impactul în școli poate fi nul.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "favorabil",
+      scor: 5,
+      motivare:
+        "Guvernul paralel votează PENTRU. O zi a memoriei nu înlocuiește justiția tranzițională, dar recunoașterea oficială a victimelor represiunii din 1990 e un act moral pe care un stat de drept nu trebuia să-l amâne 36 de ani. Votul este pentru principiu — memoria colectivă contează —, cu o condiție pentru ca legea să nu rămână pe hârtie: programe educative cu standarde clare și, mai ales, finalizarea proceselor penale. Scor +5: câștig net, cu testul în implementare.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată de Senat pe 26 februarie 2026 și de Camera Deputaților (for decizional) pe 13 mai 2026; promulgată prin Decretul 322/2026 pe 10 iunie 2026.",
+      detalii:
+        "Camera Deputaților: 271 pentru / 1 contra / 6 abțineri. Senat: 87 pentru / 3 abțineri.",
+      cifre: { pentru: 271, contra: 1, abtineri: 6 },
+      pePartide:
+        "Susținere transpartinică largă (271–1); inițiativă PNL (Gabriel Andronache, Florin Roman).",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Vot real și vot paralel pe aceeași pagină. Testul acestei legi va fi vizibil pe termen mediu: câte ore de educație despre Mineriada intră efectiv în programele școlare și dacă evenimentele comemorative au substanță sau rămân gesturi formale. Dosarul Iliescu — proces pentru crime împotriva umanității, unul dintre cele mai lungi din România postdecembristă — rămâne singura cale de reparație judiciară autentică, pe care o zi comemorativă nu o poate înlocui.",
+    surse: [
+      {
+        titlu:
+          "AGERPRES — Lege promulgată: 15 iunie — Ziua Națională a Memoriei Victimelor Mineriadei (10 iunie 2026)",
+        url: "https://agerpres.ro/politic/2026/06/10/lege-promulgata-15-iunie---ziua-nationala-a-memoriei-victimelor-mineriadei--1565045",
+      },
+      {
+        titlu:
+          "AGERPRES — Comunicat Administrația Prezidențială: Decretul 322/2026 (promulgare, 10 iunie 2026)",
+        url: "https://agerpres.ro/comunicate/2026/06/10/comunicat-de-presa---administratia-prezidentiala--1565031",
+      },
+      {
+        titlu:
+          "AGERPRES — 15 iunie: Ziua Memoriei Victimelor Mineriadei marcată pentru prima dată în România (15 iunie 2026)",
+        url: "https://agerpres.ro/documentare/2026/06/15/15-iunie---ziua-nationala-a-memoriei-victimelor-mineriadei-din-13-15-iunie-1990-si-a-represiunii-ant--1566261",
+      },
+      {
+        titlu:
+          "Stiripesurse — Nicușor Dan a promulgat legea: 15 iunie, Ziua Memoriei Victimelor Mineriadei",
+        url: "https://www.stiripesurse.ro/decizie-cu-puternica-incarcatura-istorica-15-iunie-devine-ziua-nationala-a-memoriei-victimelor-mineriadei-legea-a-fost-promulgata_3893924",
+      },
+    ],
+  },
 ];
 
 export function getDecizie(slug: string): Decizie | undefined {

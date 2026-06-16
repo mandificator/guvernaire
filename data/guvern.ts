@@ -9,7 +9,7 @@ import ilustratii from "@/data/ilustratii.json";
  * competență 0–40 + activitate 0–30 + integritate 0–30. Propunerea = punctajul maxim;
  * diferențele de 1–3 puncte sunt în marja grilei și sunt semnalate în motivare.
  * Absența unei funcții anterioare nu se penalizează nicăieri. Zero etichete.
- * Actualizat la 12 iunie 2026.
+ * Actualizat la 16 iunie 2026.
  */
 export const pozitiiGuvern: PozitieGuvern[] = [
   {
