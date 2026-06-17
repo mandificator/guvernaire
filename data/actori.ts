@@ -120,6 +120,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-17",
+        text: "La inițiativa sa, PNL a convocat Consiliul Național Extraordinar (19 iunie, online) și un Congres extraordinar (21 iunie, Romexpo) cu excluderea din partid a lui Adrian Veștea pe ordinea de zi, în urma desemnării acestuia ca premier fără consultarea conducerii PNL.",
+      },
+      {
         data: "2026-06-11",
         text: "A prezidat ședința BPN PNL care a decis unanim să nu voteze investitura Guvernului Tomac. A declarat că formula este „o formulă de paravan pentru a scuti PSD de răspundere” și că „un guvern fără susținere politică nu poate spera decât la supraviețuire”.",
       },
@@ -177,6 +181,7 @@ export const actori: Actor[] = [
       "OUG 38/2026 adoptată/publicată după demitere, în varianta avizată negativ de Consiliul Legislativ — viciul procedural central al finalului său de mandat.",
       "Conflict cu CSM și ÎCCJ pe pensiile magistraților; șefa ÎCCJ i-a calificat scrisoarea către CCR drept „ingerință incompatibilă cu separația puterilor”.",
       "Acuzat de PSD/AUR de guvernare „autoritară” și de sărăcirea populației prin pachetul fiscal.",
+      "Convocarea unui Congres extraordinar pentru a exclude propriul premier desemnat (Veștea) a fost interpretată drept o luptă internă pentru controlul PNL, nu doar o sancțiune pentru lipsa de consultare.",
     ],
     pozitionare: [
       {
@@ -215,6 +220,14 @@ export const actori: Actor[] = [
       {
         titlu: "HotNews — PNL a decis în unanimitate să nu susțină Guvernul Tomac (11 iunie 2026)",
         url: "https://hotnews.ro/sedinta-la-pnl-pentru-guvernul-tomac-liberalii-decid-daca-voteaza-guvernul-propus-2270450",
+      },
+      {
+        titlu: "HotNews — Congres extraordinar la PNL duminică, 21 iunie",
+        url: "https://hotnews.ro/congres-extraordinar-la-pnl-duminica-2276227",
+      },
+      {
+        titlu: "HotNews — Cătălin Predoiu a demisionat din conducerea PNL",
+        url: "https://hotnews.ro/catalin-predoiu-a-demisionat-din-conducerea-pnl-2276186",
       },
     ],
   },
@@ -294,6 +307,10 @@ export const actori: Actor[] = [
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
       {
+        data: "2026-06-17",
+        text: "PSD a cerut audierea miniștrilor propuși de Veștea și votul de învestitură până vineri, în timp ce PNL, USR, UDMR și AUR cer amânarea pentru săptămâna viitoare prin Birourile Permanente Reunite. Surse de presă, neconfirmate oficial de partid, au relatat reticența a circa 6 parlamentari PSD față de votul pentru Veștea.",
+      },
+      {
         data: "2026-06-11",
         text: "PSD l-a acuzat pe Bolojan că „blochează toată România” după decizia PNL de a nu vota Guvernul Tomac. Grindeanu a reiterat că PSD nu va vota investitura dacă nici PNL și nici USR nu o fac.",
       },
@@ -358,6 +375,10 @@ export const actori: Actor[] = [
         url: "https://www.mediafax.ro/politic/sorin-grindeanu-despre-viitorul-coalitiei-psd-ul-nu-va-vota-un-guvern-minoritar-si-psd-nu-va-face-alianta-cu-aur-23706946",
       },
       {
+        titlu: "Adevărul — Blocaj pe formarea guvernului Veștea: PSD vrea vot rapid, restul partidelor cer amânare",
+        url: "https://adevarul.ro/politica/blocaj-pe-formarea-guvernului-vestea-psd-vrea-vot-2537131.html",
+      },
+      {
         titlu: "Antena3 — Grindeanu acuză lipsa de transparență în programul SAFE",
         url: "https://www.antena3.ro/politica/grindeanu-acuza-lipsa-de-transparenta-in-programul-safe-am-aflat-de-el-luni-decizia-s-a-luat-la-nivelul-cancelariei-786474.html",
       },
@@ -380,6 +401,10 @@ export const actori: Actor[] = [
     rezumat:
       "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
+      {
+        data: "2026-06-17",
+        text: "AUR a reconfirmat oficial, prin liderul Petrișor Peiu, refuzul de a vota Guvernul Veștea: „Nu în viața asta”. Deputatul AUR Mohammad Murad a indicat susținere individuală pentru Veștea, contrar liniei partidului.",
+      },
       {
         data: "2026-06-05",
         text: "A anunțat că AUR nu susține guvernul Tomac și a repetat cererea de alegeri anticipate.",
@@ -433,6 +458,11 @@ export const actori: Actor[] = [
       {
         titlu: "HotNews — Motivele interdicției lui Simion în Ucraina (document SBU)",
         url: "https://hotnews.ro/document-motivele-pentru-care-george-simion-a-primit-interdictie-in-ucraina-activitati-antiucrainene-sistematice-neaga-legitimitatea-frontierei-1836339",
+      },
+      {
+        titlu:
+          "HotNews — Un lider AUR exclude ca parlamentari ai partidului să voteze Guvernul Veștea: „Nu în viața asta”",
+        url: "https://hotnews.ro/un-lider-aur-exclude-ca-parlamentari-ai-partidului-sa-voteze-guvernul-vestea-e-o-informatie-fabricata-nu-in-viata-asta-2275465",
       },
     ],
   },
@@ -524,6 +554,10 @@ export const actori: Actor[] = [
       "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
       {
+        data: "2026-06-17",
+        text: "A clarificat poziția anunțată cu o zi înainte: cei 31 de parlamentari UDMR nu vor vota CONTRA, ci vor ieși din sală la momentul votului de învestitură: „Noi am luat decizia să ieșim din sală în momentul votului.”",
+      },
+      {
         data: "2026-06-16",
         text: "Consiliul Permanent UDMR a decis să nu intre în Guvernul Veștea și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestițirii. Vicepreședintele Csoma Botond: „Nu vedem cum va putea face o majoritate.”",
       },
@@ -573,6 +607,11 @@ export const actori: Actor[] = [
       {
         titlu: "Bursa.ro — UDMR decide să rămână în afara executivului și recomandă vot împotriva la învestitură (16 iunie 2026)",
         url: "https://www.bursa.ro/udmr-decide-sa-ramana-in-afara-executivului-si-recomanda-vot-impotriva-la-investitura-66913953",
+      },
+      {
+        titlu:
+          "Capital.ro — Kelemen Hunor: „Noi am luat decizia să ieșim din sală în momentul votului” (17 iunie 2026)",
+        url: "https://www.capital.ro/udmr-nu-va-vota-guvernul-vestea-kelemen-hunor-noi-am-luat-decizia-sa-iesim-din-sala-in-momentul-votului.html",
       },
     ],
   },
@@ -694,8 +733,12 @@ export const actori: Actor[] = [
     partid: "PNL (prim-vicepreședinte)",
     dinCand: "desemnat 14 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 17 iunie, depunerea listei de miniștri a fost pusă pe pauză din cauza negocierilor neîncheiate, în timp ce propriul partid a convocat un Congres extraordinar pentru a discuta excluderea sa.",
     actiuniRecente: [
+      {
+        data: "2026-06-17",
+        text: "Depunerea programului de guvernare și a listei de miniștri, anunțată pentru aceeași zi, a fost pusă pe pauză din cauza fragmentării negocierilor; disputa dintre PSD (vot rapid) și restul partidelor (amânare) privind data votului de învestitură rămâne nerezolvată.",
+      },
       {
         data: "2026-06-16",
         text: "A acceptat voturi individuale de la parlamentari AUR: „Nu mă deranjează că vor fi parlamentari AUR care vor da dovadă de patriotism.\" A continuat negocierile cu PSD, POT și parlamentari PNL dizidenți, după ce UDMR a anunțat că nu intră la guvernare.",
@@ -714,13 +757,14 @@ export const actori: Actor[] = [
         promisiune: "Formarea unui guvern politic și obținerea votului de învestitură",
         status: "în curs",
         detalii:
-          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pragul: 233 de voturi.",
+          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere.",
       },
     ],
     controverse: [
       "Desemnarea a fost calificată de liderul PNL Ilie Bolojan drept „act ostil, evidentă încercare de rupere a PNL\" — premierul desemnat face parte din partidul care refuză să îl susțină.",
       "Acceptarea voturilor de la parlamentari AUR (decizie individuală, nu de bloc) a declanșat critici că guvernul ar urma să depindă de formațiuni cu care PNL declarase anterior că nu va colabora.",
       "Proximitatea față de PSD în negocieri — condiția PSD de a exclude USR din guvernare ridică întrebări despre independența cabinetului față de cel mai mare partid din opoziție.",
+      "PNL a convocat un Congres extraordinar pentru 21 iunie cu excluderea sa din partid pe ordinea de zi.",
     ],
     pozitionare: [
       { tema: "Criza politică", pozitie: "Intenționează să formeze un guvern politic fără PNL oficial, fără USR și fără UDMR, bazat pe PSD, POT, minorități și dizidenți." },
