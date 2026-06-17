@@ -38,17 +38,18 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "Desemnare oficializată prin decret pe 14 iunie 2026. Ultimatumul PNL a expirat; Veștea a refuzat să-și depună mandatul. Pe 16 iunie, UDMR a decis să nu intre în guvern și a recomandat parlamentarilor săi să voteze CONTRA învestiturii. Veștea negociază voturi de la AUR și parlamentari PNL dizidenți. Votul de învestitură în așteptare.",
+        "Desemnare oficializată prin decret pe 14 iunie 2026. Ultimatumul PNL a expirat; Veștea a refuzat să-și depună mandatul. Pe 16 iunie, UDMR a decis să nu intre în guvern și a recomandat parlamentarilor săi să voteze CONTRA învestiturii. Pe 17 iunie, depunerea programului de guvernare și a listei de miniștri — anunțată pentru aceeași zi — a fost pusă pe pauză din cauza fragmentării negocierilor; în Birourile permanente reunite ale Parlamentului, PSD cere audieri și vot rapid, iar PNL, USR, UDMR și AUR susțin amânarea calendarului pentru începutul săptămânii viitoare. Votul de învestitură în așteptare.",
       pePartide:
         "PNL — refuz oficial (BPN); Bolojan amenință cu excluderi; Veștea ignoră ultimatumul și caută ~25 de parlamentari PNL dizidenți. PSD — mandat de negociere dat lui Grindeanu, cu condiția excluderii USR; Grindeanu: „Exclus USR din guvernarea Veștea.\" USR — a declarat că nu susține învestirea Cabinetului Veștea. AUR — cere alegeri anticipate, dar conducerea nu impune vot de bloc; Veștea acceptă voturi individuale: „Nu mă deranjează că vor fi parlamentari AUR care vor da dovadă de patriotism.\" UDMR — pe 16 iunie, Consiliul Permanent a decis să nu intre în guvern și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestiturii; Csoma Botond: „Nu vedem cum va putea face o majoritate.\" POT — deschisă dialogului; negocieri în curs.",
     },
     aliniere: "fără-vot",
     verdictFinal:
-      "La 16 iunie — data acestei analize — Veștea se află în aceeași capcană ca Tomac: desemnat fără majoritate asigurată, cu opoziția liderului propriului partid și cu PSD care vrea să excludă USR din orice formulă. Diferența față de Tomac: există mai multă flexibilitate politică declarată — Veștea vrea un guvern politic, PSD e la masă. Dar și mai multă instabilitate: o criză internă PNL suprapusă crizei constituționale. Verdictul rămâne deschis: dacă se naște o majoritate reală, costul acestei a doua desemnări haotice se va fi plătit; dacă nu, România merge spre anticipate.\n\nActualizare 16 iunie (după-amiaza): Consiliul Permanent UDMR a decis să nu intre în Guvernul Veștea și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestiturii. Fără UDMR, Veștea ar trebui să compenseze cu voturi AUR și PNL dizidenți — ceea ce a și anunțat că acceptă. Matematic, dacă PSD (~129), POT (~14), PACE (~8), minorități (~18) și aproximativ 25 de parlamentari PNL dizidenți plus voturi AUR individuale ajung la pragul de 233, investitura rămâne teoretic posibilă — dar un guvern fără PNL oficial, fără USR și fără UDMR ar fi cel mai slab legitimat executiv din istoria recentă a României. CCR urmează să judece pe 18 iunie sesizarea Avocatului Poporului și a lui Grindeanu pe OUG 38/2026; ÎCCJ urmează să se pronunțe pe 19 iunie dacă procesul Georgescu-Potra poate începe pe fond.",
+      "La 16 iunie — data acestei analize — Veștea se află în aceeași capcană ca Tomac: desemnat fără majoritate asigurată, cu opoziția liderului propriului partid și cu PSD care vrea să excludă USR din orice formulă. Diferența față de Tomac: există mai multă flexibilitate politică declarată — Veștea vrea un guvern politic, PSD e la masă. Dar și mai multă instabilitate: o criză internă PNL suprapusă crizei constituționale. Verdictul rămâne deschis: dacă se naște o majoritate reală, costul acestei a doua desemnări haotice se va fi plătit; dacă nu, România merge spre anticipate.\n\nActualizare 16 iunie (după-amiaza): Consiliul Permanent UDMR a decis să nu intre în Guvernul Veștea și a recomandat parlamentarilor UDMR (31 mandate) să voteze CONTRA învestiturii. Fără UDMR, Veștea ar trebui să compenseze cu voturi AUR și PNL dizidenți — ceea ce a și anunțat că acceptă. Matematic, dacă PSD (~129), POT (~14), PACE (~8), minorități (~18) și aproximativ 25 de parlamentari PNL dizidenți plus voturi AUR individuale ajung la pragul de 233, investitura rămâne teoretic posibilă — dar un guvern fără PNL oficial, fără USR și fără UDMR ar fi cel mai slab legitimat executiv din istoria recentă a României. CCR urmează să judece pe 18 iunie sesizarea Avocatului Poporului și a lui Grindeanu pe OUG 38/2026; ÎCCJ urmează să se pronunțe pe 19 iunie dacă procesul Georgescu-Potra poate începe pe fond.\n\nActualizare 17 iunie: criza s-a extins în interiorul PNL. Cătălin Predoiu — susținător declarat al lui Veștea — a demisionat din funcția de prim-vicepreședinte al partidului (rămânând membru PNL), după ce conducerea Bolojan a anunțat că pregătește excluderea lui Veștea. PNL a convocat Consiliul Național Extraordinar pentru 19 iunie (format online) și Congresul Extraordinar pentru 21 iunie la Romexpo (circa 2.500 de delegați), cu excluderea lui Veștea pe ordinea de zi. În paralel, depunerea programului de guvernare și a listei de miniștri — anunțată inițial pentru 17 iunie — a fost pusă pe pauză, semn al unor negocieri încă neîncheiate între partenerii de dialog (PNL, PSD, tehnocrați). Bătălia s-a mutat și pe procedură: în Birourile permanente reunite, PSD cere audieri și vot de învestitură rapide, în timp ce PNL, USR, UDMR și AUR susțin amânarea calendarului pentru începutul săptămânii viitoare — o majoritate conjuncturală formată exact din partidele care refuză investitura, cu scopul declarat de a câștiga timp.",
     controverse: [
       "Desemnarea fără consultarea conducerii PNL a fost calificată de Bolojan drept „act ostil, evidentă încercare de rupere a PNL\" — tensiune internă fără precedent recent în PNL.",
       "Veștea face parte din gruparea liberalilor considerați pro-PSD, ceea ce a alimentat suspiciunea că desemnarea urmărește fragmentarea PNL în interesul PSD.",
       "Ultimatumul dat de Bolojan lui Veștea — propriul coleg de partid, premier desemnat de un președinte ales democratic — e o situație politică fără precedent în România postcomunistă.",
+      "PNL a ajuns să-și convoace propriul Congres Extraordinar pentru a exclude din partid un prim-vicepreședinte în exercițiu, devenit premier desemnat — rupere internă fără precedent în istoria recentă a partidului.",
     ],
     surse: [
       {
@@ -115,6 +116,22 @@ export const decizii: Decizie[] = [
       {
         titlu: "HotNews — Ce șanse are Guvernul Veștea după decizia UDMR (16 iunie 2026)",
         url: "https://hotnews.ro/ce-sanse-are-vestea-sa-treaca-de-votul-parlamentului-dupa-decizia-udmr-ultimele-calcule-2275118",
+      },
+      {
+        titlu: "Antena3 CNN — Cătălin Predoiu și-a dat demisia din funcția de prim-vicepreședinte PNL; Congresul partidului, convocat pentru duminică (17 iunie 2026)",
+        url: "https://www.antena3.ro/politica/catalin-predoiu-si-a-dat-demisia-din-functia-de-primvicepresedinte-pnl-congresul-partidului-convocat-pentru-duminica-792444.html",
+      },
+      {
+        titlu: "Adevărul — Mobilizare în PNL: Consiliu Național Extraordinar pe 19 iunie și Congres pe 21 iunie (17 iunie 2026)",
+        url: "https://adevarul.ro/politica/sedinta-la-pnl-se-discuta-excluderea-premierului-2537162.html",
+      },
+      {
+        titlu: "Ziare.com — Votul pentru Guvernul Veștea ar putea fi amânat: ce încearcă să facă PNL, USR și UDMR (17 iunie 2026)",
+        url: "https://m.ziare.com/amp/adrian-vestea/votul-pentru-guvernul-vestea-putea-fi-amanat-2019170",
+      },
+      {
+        titlu: "MonitorulCJ — Premierul desemnat Adrian Veștea: depunerea listei de miniștri și a programului de guvernare, pusă pe pauză (17 iunie 2026)",
+        url: "https://www.monitorulcj.ro/politica-administratie/138238-adrian-vestea-nu-isi-depune-mandatul-ministri-parlament",
       },
     ],
   },

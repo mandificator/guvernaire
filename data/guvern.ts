@@ -9,14 +9,14 @@ import ilustratii from "@/data/ilustratii.json";
  * competență 0–40 + activitate 0–30 + integritate 0–30. Propunerea = punctajul maxim;
  * diferențele de 1–3 puncte sunt în marja grilei și sunt semnalate în motivare.
  * Absența unei funcții anterioare nu se penalizează nicăieri. Zero etichete.
- * Actualizat la 16 iunie 2026.
+ * Actualizat la 17 iunie 2026.
  */
 export const pozitiiGuvern: PozitieGuvern[] = [
   {
     slug: "prim-ministru",
     minister: "Prim-ministru",
     misiune:
-      "România nu are guvern cu puteri depline din 5 mai 2026: cabinetul Bolojan a fost demis prin moțiune de cenzură cu 281 de voturi. Prima tentativă de desemnare — Eugen Tomac — s-a epuizat pe 14 iunie 2026, când Tomac a renunțat la mandat fără a ajunge la vot. A doua tentativă este Adrian Veștea (PNL), desemnat pe 14 iunie fără consultarea conducerii PNL — Bolojan a calificat decizia drept \"act ostil, evidentă încercare de rupere a PNL\", iar BPN PNL a votat să nu susțină investitura. La 16 iunie Veștea refuza să-și depună mandatul și desfășura negocieri cu POT, UDMR și PSD. Premierul propus de guvernul paralel trebuie să treacă un buget de criză printr-un parlament fragmentat și să țină deficitul (7,65% din PIB) pe traiectoria convenită cu Comisia Europeană.",
+      "România nu are guvern cu puteri depline din 5 mai 2026: cabinetul Bolojan a fost demis prin moțiune de cenzură cu 281 de voturi. Prima tentativă de desemnare — Eugen Tomac — s-a epuizat pe 14 iunie 2026, când Tomac a renunțat la mandat fără a ajunge la vot. A doua tentativă este Adrian Veștea (PNL), desemnat pe 14 iunie fără consultarea conducerii PNL — Bolojan a calificat decizia drept \"act ostil, evidentă încercare de rupere a PNL\", iar BPN PNL a votat să nu susțină investitura. Pe 17 iunie criza s-a adâncit în interiorul PNL: Cătălin Predoiu, susținător al lui Veștea, a demisionat din funcția de prim-vicepreședinte al partidului, iar conducerea Bolojan a convocat Consiliul Național Extraordinar (19 iunie) și Congresul Extraordinar (21 iunie, Romexpo) pentru a formaliza excluderea lui Veștea din PNL. Depunerea programului de guvernare și a listei de miniștri, anunțată pentru 17 iunie, a fost pusă pe pauză din cauza fragmentării negocierilor; în Birourile permanente reunite, PSD cere audieri și vot rapid, în timp ce PNL, USR, UDMR și AUR susțin amânarea calendarului pentru începutul săptămânii viitoare. Premierul propus de guvernul paralel trebuie să treacă un buget de criză printr-un parlament fragmentat și să țină deficitul (7,65% din PIB) pe traiectoria convenită cu Comisia Europeană.",
     candidati: [
       {
         nume: "Ilie Bolojan",
