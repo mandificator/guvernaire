@@ -307,6 +307,10 @@ export const actori: Actor[] = [
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
       {
+        data: "2026-06-18",
+        text: "CCR a amânat pentru a doua oară sesizarea sa privind conflictul constituțional dintre Guvern și Parlament pe OUG 38/2026, cu noul termen fixat la 15 iulie 2026.",
+      },
+      {
         data: "2026-06-17",
         text: "PSD a cerut audierea miniștrilor propuși de Veștea și votul de învestitură până vineri, în timp ce PNL, USR, UDMR și AUR cer amânarea pentru săptămâna viitoare prin Birourile Permanente Reunite. Surse de presă, neconfirmate oficial de partid, au relatat reticența a circa 6 parlamentari PSD față de votul pentru Veștea.",
       },
@@ -320,7 +324,7 @@ export const actori: Actor[] = [
       },
       {
         data: "2026-05-20",
-        text: "A sesizat CCR pe OUG 38/2026, acuzând guvernul demis că a legiferat după retragerea încrederii (art. 110(4) din Constituție) — termen amânat pentru 18 iunie.",
+        text: "A sesizat CCR pe OUG 38/2026, acuzând guvernul demis că a legiferat după retragerea încrederii (art. 110(4) din Constituție) — termen amânat de două ori, ultima dată pentru 15 iulie 2026.",
       },
       {
         data: "2026-05-05",
@@ -389,6 +393,11 @@ export const actori: Actor[] = [
       {
         titlu: "Mediafax — PSD îl acuză pe Bolojan că „blochează toată România” după decizia PNL de a nu vota Guvernul Tomac",
         url: "https://www.mediafax.ro/politic/psd-il-acuza-pe-bolojan-ca-blocheaza-toata-romania-dupa-decizia-pnl-de-a-nu-vota-guvernul-tomac-23753435",
+      },
+      {
+        titlu:
+          "Radio România — CCR a amânat pentru 15 iulie sesizarea lui Sorin Grindeanu pe OUG privind Programul SAFE (18 iunie 2026)",
+        url: "https://www.radioromania.ro/Actualitate/ccr-a-amanat-pentru-iulie-sesizarea-lui-sorin-grindeanu-pe-oug-privind-programul-safe-id191333.html",
       },
     ],
   },
@@ -476,6 +485,10 @@ export const actori: Actor[] = [
       "Președinte USR din iunie 2025, primar al Timișoarei din 2020. A susținut corecția fiscală a guvernului Bolojan, a exclus refacerea coaliției cu PSD și a respins guvernul tehnocrat Tomac, pe care l-a calificat drept „paravan pentru ca PSD să exercite puterea”.",
     actiuniRecente: [
       {
+        data: "2026-06-17",
+        text: "Comitetul Politic al USR a decis în unanimitate să nu susțină Cabinetul Veștea. Fritz: „Peste PSD, Guvernul Veștea ar avea nevoie să adune voturi de la peste 100 de traseiști. Un Guvern de pe Temu: de proastă calitate și care ar costa românii scump.”",
+      },
+      {
         data: "2026-06-12",
         text: "Comitetul Politic al USR a votat cu peste 90% să nu susțină învestirea Guvernului Tomac. Fritz a declarat că un guvern tehnocrat ar fi „nefuncțional, pentru că nimeni nu răspunde cu adevărat de decizii” și a propus ca alternativă un guvern politic minoritar PNL+USR+UDMR.",
       },
@@ -541,6 +554,11 @@ export const actori: Actor[] = [
       {
         titlu: "ProTV — USR a anunțat oficial că nu votează guvernul Tomac; alternativa propusă",
         url: "https://stirileprotv.ro/stiri/politic/usr-a-decis-oficial-sa-nu-voteze-guvernul-lui-eugen-tomac-alternativa-pe-care-o-propune.html",
+      },
+      {
+        titlu:
+          "AGERPRES — Comitetul Politic al USR a decis să nu susțină Cabinetul Veștea; Dominic Fritz: „un Guvern de pe Temu” (17 iunie 2026)",
+        url: "https://agerpres.ro/politic/2026/06/17/comitetul-politic-al-usr-a-decis-sa-nu-sustina-cabinetul-vestea-dominic-fritz-un-guvern-de-pe-temu--1567459",
       },
     ],
   },
@@ -733,8 +751,12 @@ export const actori: Actor[] = [
     partid: "PNL (prim-vicepreședinte)",
     dinCand: "desemnat 14 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 17 iunie, depunerea listei de miniștri a fost pusă pe pauză din cauza negocierilor neîncheiate, în timp ce propriul partid a convocat un Congres extraordinar pentru a discuta excluderea sa.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; votul de învestitură a fost amânat pentru 22 iunie 2026.",
     actiuniRecente: [
+      {
+        data: "2026-06-18",
+        text: "A depus la Parlament programul de guvernare (68 de pagini, priorități: SAFE, aderarea la OCDE, finalizarea PNRR, absorbția fondurilor europene) și lista miniștrilor propuși. Votul de învestitură a fost amânat pentru 22 iunie 2026, ora 11:00; calculul voturilor disponibile la această dată indica circa 211–217 din cele 233 necesare.",
+      },
       {
         data: "2026-06-17",
         text: "Depunerea programului de guvernare și a listei de miniștri, anunțată pentru aceeași zi, a fost pusă pe pauză din cauza fragmentării negocierilor; disputa dintre PSD (vot rapid) și restul partidelor (amânare) privind data votului de învestitură rămâne nerezolvată.",
@@ -757,7 +779,7 @@ export const actori: Actor[] = [
         promisiune: "Formarea unui guvern politic și obținerea votului de învestitură",
         status: "în curs",
         detalii:
-          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere.",
+          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere. Pe 18 iunie a depus programul de guvernare și lista miniștrilor, dar calculul voturilor disponibile (~211–217) rămânea sub pragul de 233; vot stabilit pentru 22 iunie 2026.",
       },
     ],
     controverse: [
@@ -795,6 +817,14 @@ export const actori: Actor[] = [
       {
         titlu: "Bursa.ro — UDMR decide să rămână în afara executivului și recomandă vot împotriva la învestitură (16 iunie 2026)",
         url: "https://www.bursa.ro/udmr-decide-sa-ramana-in-afara-executivului-si-recomanda-vot-impotriva-la-investitura-66913953",
+      },
+      {
+        titlu: "BURSA — Adrian Veștea depune la Parlament programul de guvernare și lista miniștrilor (18 iunie 2026)",
+        url: "https://www.bursa.ro/adrian-vestea-depune-la-parlament-programul-de-guvernare-si-lista-ministrilor-60833958",
+      },
+      {
+        titlu: "Economica.net — Votul pentru învestirea Guvernului Veștea se amână pentru luni, 22 iunie",
+        url: "https://www.economica.net/votul-pentru-investirea-guvernului-vestea-se-amana-pentru-luni_951525.html",
       },
     ],
   },
