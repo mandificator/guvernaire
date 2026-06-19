@@ -120,6 +120,14 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-19",
+        text: "Consiliul Național Extraordinar al PNL (online) a votat, la inițiativa sa, convocarea Congresului Extraordinar din 21 iunie (566 pentru, 97 contra, 19 abțineri) și modificări de statut (551 pentru, 128 contra, 3 abțineri) — pași premergători excluderii lui Adrian Veștea din partid.",
+      },
+      {
+        data: "2026-06-18",
+        text: "Tribunalul Ilfov a admis cererea celor 16 parlamentari pro-Veștea și a suspendat cele două decizii BPN din 15 iunie prin care gruparea sa obliga parlamentarii PNL să nu voteze Guvernul Veștea; PNL a anunțat că atacă decizia, contestând competența teritorială a instanței.",
+      },
+      {
         data: "2026-06-17",
         text: "La inițiativa sa, PNL a convocat Consiliul Național Extraordinar (19 iunie, online) și un Congres extraordinar (21 iunie, Romexpo) cu excluderea din partid a lui Adrian Veștea pe ordinea de zi, în urma desemnării acestuia ca premier fără consultarea conducerii PNL.",
       },
@@ -182,6 +190,7 @@ export const actori: Actor[] = [
       "Conflict cu CSM și ÎCCJ pe pensiile magistraților; șefa ÎCCJ i-a calificat scrisoarea către CCR drept „ingerință incompatibilă cu separația puterilor”.",
       "Acuzat de PSD/AUR de guvernare „autoritară” și de sărăcirea populației prin pachetul fiscal.",
       "Convocarea unui Congres extraordinar pentru a exclude propriul premier desemnat (Veștea) a fost interpretată drept o luptă internă pentru controlul PNL, nu doar o sancțiune pentru lipsa de consultare.",
+      "Tribunalul Ilfov a suspendat, pe 18 iunie, deciziile BPN prin care gruparea sa obliga parlamentarii PNL să nu voteze Guvernul Veștea — o instanță a intervenit direct într-un proces decizional intern al partidului pe care îl conduce.",
     ],
     pozitionare: [
       {
@@ -228,6 +237,18 @@ export const actori: Actor[] = [
       {
         titlu: "HotNews — Cătălin Predoiu a demisionat din conducerea PNL",
         url: "https://hotnews.ro/catalin-predoiu-a-demisionat-din-conducerea-pnl-2276186",
+      },
+      {
+        titlu: "Digi24 — Instanța a suspendat decizia BPN al PNL de excludere a liberalilor care votează cu Veștea (18 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/contestatarii-lui-bolojan-au-atacat-in-instanta-decizia-pnl-de-a-i-exclude-pe-cei-care-voteaza-guvernul-vestea-surse-3821731",
+      },
+      {
+        titlu: "HotNews — PNL va ataca decizia Tribunalului Ilfov care a suspendat hotărârile privind votul pentru Guvernul Veștea (19 iunie 2026)",
+        url: "https://hotnews.ro/pnl-va-ataca-decizia-tribunalului-ilfov-care-a-suspendat-hotararile-privind-votul-pentru-guvernul-vestea-nu-afecteaza-in-niciun-fel-optiunile-poltice-ale-partidului-2277517",
+      },
+      {
+        titlu: "Stiripesurse — Consiliul Național al PNL a aprobat convocarea Congresului Extraordinar pentru 21 iunie (19 iunie 2026)",
+        url: "https://www.stiripesurse.ro/consiliul-national-al-pnl-a-aprobat-convocarea-congresului-extraordinar_3896513",
       },
     ],
   },
@@ -712,7 +733,7 @@ export const actori: Actor[] = [
         promisiune: "Reprezentarea „poporului” împotriva sistemului",
         status: "nelivrat",
         detalii:
-          "Activitate parlamentară dominată de apărarea lui Călin Georgescu (inculpat pentru acțiuni contra ordinii constituționale; ÎCCJ decide pe 19 iunie dacă procesul începe), nu de inițiative pentru cetățean.",
+          "Activitate parlamentară dominată de apărarea lui Călin Georgescu (inculpat pentru acțiuni contra ordinii constituționale; ÎCCJ urmează să decidă legalitatea rechizitoriului în camera preliminară pe 29 iunie, după ce termenul din 19 iunie a fost amânat ca urmare a unei cereri de abținere formulate de unul dintre judecători), nu de inițiative pentru cetățean.",
       },
     ],
     controverse: [
@@ -742,6 +763,10 @@ export const actori: Actor[] = [
         titlu: "Ziare.com — Liderul grupului parlamentar POT, exclus din partid",
         url: "https://ziare.com/anamaria-gavrila-pot/sef-grup-parlamentar-exclus-1991967",
       },
+      {
+        titlu: "Stiripesurse — ÎCCJ reia dezbaterile în dosarul Georgescu–Potra; decizia privind legalitatea rechizitoriului, amânată după schimbarea completului (19 iunie 2026)",
+        url: "https://www.stiripesurse.ro/iccj-reia-dezbaterile-in-dosarul-georgescu-potra-decizia-privind-legalitatea-rechizitoriului-a-fost-amanata-dupa-schimbarea-completului_3896442",
+      },
     ],
   },
   {
@@ -751,11 +776,15 @@ export const actori: Actor[] = [
     partid: "PNL (prim-vicepreședinte)",
     dinCand: "desemnat 14 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; votul de învestitură a fost amânat pentru 22 iunie 2026.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026.",
     actiuniRecente: [
       {
+        data: "2026-06-19",
+        text: "Sorin Grindeanu a anunțat în ședința grupurilor parlamentare PSD că partidul are voturile necesare pentru a vota investitura sa, condiționat de decizia Consiliului Politic Național PSD din 21 iunie. Calendarul comunicat fixează audierile în comisii pentru 22 iunie și votul de învestitură în plen pentru 23 iunie 2026.",
+      },
+      {
         data: "2026-06-18",
-        text: "A depus la Parlament programul de guvernare (68 de pagini, priorități: SAFE, aderarea la OCDE, finalizarea PNRR, absorbția fondurilor europene) și lista miniștrilor propuși. Votul de învestitură a fost amânat pentru 22 iunie 2026, ora 11:00; calculul voturilor disponibile la această dată indica circa 211–217 din cele 233 necesare.",
+        text: "A depus la Parlament programul de guvernare (68 de pagini, priorități: SAFE, aderarea la OCDE, finalizarea PNRR, absorbția fondurilor europene) și lista miniștrilor propuși. Calculul voturilor disponibile la această dată indica circa 211–217 din cele 233 necesare. Tot pe 18 iunie, Tribunalul Ilfov a suspendat deciziile BPN PNL care obligau parlamentarii partidului să nu îl voteze; PNL a anunțat că face apel.",
       },
       {
         data: "2026-06-17",
@@ -825,6 +854,18 @@ export const actori: Actor[] = [
       {
         titlu: "Economica.net — Votul pentru învestirea Guvernului Veștea se amână pentru luni, 22 iunie",
         url: "https://www.economica.net/votul-pentru-investirea-guvernului-vestea-se-amana-pentru-luni_951525.html",
+      },
+      {
+        titlu: "Digi24 — Instanța a suspendat decizia BPN al PNL de excludere a liberalilor care votează cu Veștea (18 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/contestatarii-lui-bolojan-au-atacat-in-instanta-decizia-pnl-de-a-i-exclude-pe-cei-care-voteaza-guvernul-vestea-surse-3821731",
+      },
+      {
+        titlu: "Replica Online — Grindeanu, mesaj în ședința PSD: „Vă anunț că avem voturile pentru a trece acest Guvern” (19 iunie 2026)",
+        url: "https://www.replicaonline.ro/grindeanu-mesaj-in-sedinta-psd-va-anunt-ca-avem-voturile-pentru-a-trece-acest-guvern-660642",
+      },
+      {
+        titlu: "Replica Online — Votul pentru Guvernul Veștea se amână pentru săptămâna viitoare: Grindeanu a făcut anunțul în ședința PSD (19 iunie 2026)",
+        url: "https://www.replicaonline.ro/votul-pentru-guvernul-vestea-se-amana-pentru-saptamana-viitoare-grindeanu-a-facut-anuntul-in-sedinta-psd-660643",
       },
     ],
   },
