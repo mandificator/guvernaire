@@ -120,6 +120,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-20",
+        text: "A depus candidatura pentru un nou mandat de președinte PNL, cu moțiunea „Modernizare cu Rădăcini” și o echipă propusă (Dan Motreanu — prim-vicepreședinte, Robert Sighiartău — secretar general, 8 vicepreședinți, între care Dragoș Pîslaru și Oana Gheorghiu). A rămas singurul candidat după ce Adrian Veștea, care anunțase cu o seară înainte intenția de a-l contracandida, și-a retras candidatura.",
+      },
+      {
         data: "2026-06-19",
         text: "Consiliul Național Extraordinar al PNL (online) a votat, la inițiativa sa, convocarea Congresului Extraordinar din 21 iunie (566 pentru, 97 contra, 19 abțineri) și modificări de statut (551 pentru, 128 contra, 3 abțineri) — pași premergători excluderii lui Adrian Veștea din partid.",
       },
@@ -249,6 +253,10 @@ export const actori: Actor[] = [
       {
         titlu: "Stiripesurse — Consiliul Național al PNL a aprobat convocarea Congresului Extraordinar pentru 21 iunie (19 iunie 2026)",
         url: "https://www.stiripesurse.ro/consiliul-national-al-pnl-a-aprobat-convocarea-congresului-extraordinar_3896513",
+      },
+      {
+        titlu: "Agerpres — PNL: Ilie Bolojan și-a depus candidatura pentru funcția de președinte al partidului (20 iunie 2026)",
+        url: "https://agerpres.ro/politic/2026/06/20/pnl-ilie-bolojan-si-a-depus-candidatura-pentru-functia-de-presedinte-al-partidului--1568427",
       },
     ],
   },
@@ -776,8 +784,12 @@ export const actori: Actor[] = [
     partid: "PNL (prim-vicepreședinte)",
     dinCand: "desemnat 14 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026. În seara de 19 iunie a anunțat și retras, în câteva ore, o candidatură la șefia PNL împotriva lui Bolojan, pe care apoi a calificat-o drept un „simulacru democratic”.",
     actiuniRecente: [
+      {
+        data: "2026-06-19",
+        text: "A anunțat candidatura la șefia PNL și a cerut amânarea Congresului din 21 iunie cu o săptămână, pentru 28 iunie; câteva ore mai târziu a renunțat la candidatură, calificând Congresul drept „acest simulacru democratic prin care se instalează dictatura în partid” și anunțând că îl va contesta în instanță, fără să cheme în discuție data votului de învestitură (23 iunie).",
+      },
       {
         data: "2026-06-19",
         text: "Sorin Grindeanu a anunțat în ședința grupurilor parlamentare PSD că partidul are voturile necesare pentru a vota investitura sa, condiționat de decizia Consiliului Politic Național PSD din 21 iunie. Calendarul comunicat fixează audierile în comisii pentru 22 iunie și votul de învestitură în plen pentru 23 iunie 2026.",
@@ -816,6 +828,7 @@ export const actori: Actor[] = [
       "Acceptarea voturilor de la parlamentari AUR (decizie individuală, nu de bloc) a declanșat critici că guvernul ar urma să depindă de formațiuni cu care PNL declarase anterior că nu va colabora.",
       "Proximitatea față de PSD în negocieri — condiția PSD de a exclude USR din guvernare ridică întrebări despre independența cabinetului față de cel mai mare partid din opoziție.",
       "PNL a convocat un Congres extraordinar pentru 21 iunie cu excluderea sa din partid pe ordinea de zi.",
+      "Pe 19 iunie seara și-a anunțat candidatura la șefia PNL împotriva lui Bolojan, cerând amânarea Congresului, pentru ca în aceeași seară să renunțe și să califice respectivul Congres drept „simulacru democratic” — schimbare de poziție în decurs de câteva ore.",
     ],
     pozitionare: [
       { tema: "Criza politică", pozitie: "Intenționează să formeze un guvern politic fără PNL oficial, fără USR și fără UDMR, bazat pe PSD, POT, minorități și dizidenți." },
@@ -866,6 +879,14 @@ export const actori: Actor[] = [
       {
         titlu: "Replica Online — Votul pentru Guvernul Veștea se amână pentru săptămâna viitoare: Grindeanu a făcut anunțul în ședința PSD (19 iunie 2026)",
         url: "https://www.replicaonline.ro/votul-pentru-guvernul-vestea-se-amana-pentru-saptamana-viitoare-grindeanu-a-facut-anuntul-in-sedinta-psd-660643",
+      },
+      {
+        titlu: "HotNews — Adrian Veștea anunță că nu mai candidează la șefia PNL la congresul de duminică, pe care îl voia amânat cu o săptămână (19 iunie 2026)",
+        url: "https://hotnews.ro/adrian-vestea-anunta-ca-nu-mai-candideaza-la-sefia-pnl-la-congresul-de-duminica-pe-care-il-voia-amanat-cu-o-saptamana-cum-motiveaza-2278789",
+      },
+      {
+        titlu: "Antena 3 CNN — Adrian Veștea îi cere lui Bolojan să amâne Congresul cu o săptămână și îl anunță că-l va contracandida (19 iunie 2026)",
+        url: "https://www.antena3.ro/politica/adrian-vestea-ii-cere-lui-bolojan-sa-amane-congresul-cu-o-saptamana-si-il-anunta-ca-l-va-contracandida-sunt-convins-ca-nu-va-refuza-792605.html",
       },
     ],
   },
