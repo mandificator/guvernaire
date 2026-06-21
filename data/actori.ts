@@ -120,6 +120,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-21",
+        text: "Reales președinte PNL la Congresul Extraordinar, cu 1.769 din 1.842 de voturi exprimate (96%), pe moțiunea „Modernizare cu Rădăcini”. Congresul a adoptat în unanimitate două rezoluții — reconfirmarea interdicției de coaliție cu PSD, cu excludere automată pentru membrii care ar vota un guvern cu PSD, și un ultimatum de demisie din partid, până luni, 22 iunie, ora 12:00, pentru Lucian Bode, Rareș Bogdan, Adrian Veștea, Hubert Thuma și Alina Gorghiu. A anunțat că va propune președintelui Nicușor Dan un guvern minoritar PNL–USR–UDMR, ca alternativă la Cabinetul Veștea.",
+      },
+      {
         data: "2026-06-20",
         text: "A depus candidatura pentru un nou mandat de președinte PNL, cu moțiunea „Modernizare cu Rădăcini” și o echipă propusă (Dan Motreanu — prim-vicepreședinte, Robert Sighiartău — secretar general, 8 vicepreședinți, între care Dragoș Pîslaru și Oana Gheorghiu). A rămas singurul candidat după ce Adrian Veștea, care anunțase cu o seară înainte intenția de a-l contracandida, și-a retras candidatura.",
       },
@@ -195,6 +199,7 @@ export const actori: Actor[] = [
       "Acuzat de PSD/AUR de guvernare „autoritară” și de sărăcirea populației prin pachetul fiscal.",
       "Convocarea unui Congres extraordinar pentru a exclude propriul premier desemnat (Veștea) a fost interpretată drept o luptă internă pentru controlul PNL, nu doar o sancțiune pentru lipsa de consultare.",
       "Tribunalul Ilfov a suspendat, pe 18 iunie, deciziile BPN prin care gruparea sa obliga parlamentarii PNL să nu voteze Guvernul Veștea — o instanță a intervenit direct într-un proces decizional intern al partidului pe care îl conduce.",
+      "Congresul pe care l-a convocat a cerut, pe 21 iunie, sub sancțiunea excluderii, demisia a cinci lideri liberali — Bode, Bogdan, Veștea, Thuma și Gorghiu — invocând decizii BPN deja suspendate de Tribunalul Ilfov; tabăra Veștea a anunțat că va contesta excluderile în instanță.",
     ],
     pozitionare: [
       {
@@ -257,6 +262,18 @@ export const actori: Actor[] = [
       {
         titlu: "Agerpres — PNL: Ilie Bolojan și-a depus candidatura pentru funcția de președinte al partidului (20 iunie 2026)",
         url: "https://agerpres.ro/politic/2026/06/20/pnl-ilie-bolojan-si-a-depus-candidatura-pentru-functia-de-presedinte-al-partidului--1568427",
+      },
+      {
+        titlu: "Adevărul — LIVE TEXT Congresul PNL: Bolojan reales președinte cu 1.769 de voturi (21 iunie 2026)",
+        url: "https://adevarul.ro/politica/congres-tensionat-in-pnl-ilie-bolojan-candideaza-2537914.html",
+      },
+      {
+        titlu: "TVR Info — Au fost adoptate două rezoluții la Congresul PNL: fără coaliție cu PSD; demisiile lui Veștea, Bode, Bogdan, Thuma și Gorghiu (21 iunie 2026)",
+        url: "https://tvrinfo.ro/au-fost-adoptate-doua-rezolutii-la-congresul-pnl-partidul-reconfirma-ca-nu-mai-face-coalitie-cu-psd-se-cer-demisiile-lui-vestea-bode-bogdan-thuma-si-gorghiu/",
+      },
+      {
+        titlu: "Ziare.com — Bolojan, după realegere: îi va propune lui Nicușor Dan un guvern minoritar PNL-USR-UDMR (21 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/ilie-bolojan-guvern-minoritar-pnl-usr-udmr-2019931",
       },
     ],
   },
@@ -336,6 +353,10 @@ export const actori: Actor[] = [
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
       {
+        data: "2026-06-21",
+        text: "Consiliul Politic Național PSD, convocat la Vila Lac, a decis în unanimitate să susțină votul de învestitură al Guvernului Veștea și să intre la guvernare cu opt-nouă ministere (Interne și funcția de vicepremier — Marian Neacșu; Justiție — Radu Marinescu; Sănătate — Alexandru Rogobete; Energie — Bogdan Ivan; Muncă — Florin Manole; Agricultură — Florin Barbu; Mediu — Mihai Ghigiu; Dezvoltare — Romeo Lungu; Cultură — Ionuț Vulpescu), condiționat de includerea în programul de guvernare a unui pachet de măsuri împotriva majorării taxelor pentru veniturile mici și mijlocii și pentru micii întreprinzători.",
+      },
+      {
         data: "2026-06-18",
         text: "CCR a amânat pentru a doua oară sesizarea sa privind conflictul constituțional dintre Guvern și Parlament pe OUG 38/2026, cu noul termen fixat la 15 iulie 2026.",
       },
@@ -386,6 +407,7 @@ export const actori: Actor[] = [
       "Bolojan și lideri USR l-au acuzat public că a declanșat criza pentru a opri reforma companiilor de stat — acuzație pe care o respinge.",
       "A acuzat lipsa de transparență a programului SAFE („am aflat de el luni”), deși PSD era la guvernare când programul a fost construit.",
       "Nu au fost identificate anchete penale pe numele său în perioada analizată.",
+      "Susținerea condiționată de un pachet de măsuri economico-sociale a fost anunțată pe 21 iunie, la trei zile după ce Veștea depusese la Parlament programul de guvernare (18 iunie), fără ca renegocierea textului să fi fost făcută public.",
     ],
     pozitionare: [
       { tema: "Austeritate / deficit", pozitie: "Anti-austeritate: „România nu poate fi guvernată doar prin aroganță”." },
@@ -427,6 +449,18 @@ export const actori: Actor[] = [
         titlu:
           "Radio România — CCR a amânat pentru 15 iulie sesizarea lui Sorin Grindeanu pe OUG privind Programul SAFE (18 iunie 2026)",
         url: "https://www.radioromania.ro/Actualitate/ccr-a-amanat-pentru-iulie-sesizarea-lui-sorin-grindeanu-pe-oug-privind-programul-safe-id191333.html",
+      },
+      {
+        titlu: "RomaniaTV.net — SURSE: PSD a votat în unanimitate intrarea în Guvernul Veștea; lista miniștrilor propuși (21 iunie 2026)",
+        url: "https://www.romaniatv.net/surse-psd-a-votat-in-unanimitate-intrarea-in-guvernul-vestea-lista-ministrilor-propusi-de-social-democrati_9647011.html",
+      },
+      {
+        titlu: "G4Media — Surse: PSD a decis să intre în Guvernul Veștea; Marian Neacșu — ministru de Interne, Radu Marinescu — Justiție (21 iunie 2026)",
+        url: "https://www.g4media.ro/surse-psd-a-decis-sa-intre-in-guvernul-vestea-marian-neacsu-ministru-de-interne-radu-marinescu-la-justitie.html",
+      },
+      {
+        titlu: "DCNews — PSD a decis printr-un vot în unanimitate să intre la guvernare. Portofoliile și viitorii miniștri ai PSD (21 iunie 2026)",
+        url: "https://www.dcnews.ro/psd-a-decis-printr-un-vot-in-unanimitate-sa-intre-la-guvernare_1063529.html",
       },
     ],
   },
@@ -784,8 +818,12 @@ export const actori: Actor[] = [
     partid: "PNL (prim-vicepreședinte)",
     dinCand: "desemnat 14 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026. În seara de 19 iunie a anunțat și retras, în câteva ore, o candidatură la șefia PNL împotriva lui Bolojan, pe care apoi a calificat-o drept un „simulacru democratic”.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026. În seara de 19 iunie a anunțat și retras, în câteva ore, o candidatură la șefia PNL împotriva lui Bolojan, pe care apoi a calificat-o drept un „simulacru democratic”. Pe 21 iunie, Congresul PNL i-a cerut, sub sancțiunea excluderii, să demisioneze din partid până luni, 22 iunie, ora 12:00, alături de alți patru lideri liberali; în aceeași zi, Consiliul Politic Național al PSD a decis în unanimitate să-i susțină investitura și să intre la guvernare cu opt-nouă ministere.",
     actiuniRecente: [
+      {
+        data: "2026-06-21",
+        text: "PNL i-a cerut, sub sancțiunea excluderii, să demisioneze din partid până luni, 22 iunie, ora 12:00, alături de Lucian Bode, Rareș Bogdan, Hubert Thuma și Alina Gorghiu. Tabăra sa a anunțat că va contesta excluderile în instanță, invocând suspendarea judecătorească a deciziilor BPN din 15 iunie. În aceeași zi, Consiliul Politic Național al PSD a decis în unanimitate să susțină votul său de învestitură și să intre la guvernare cu opt-nouă ministere.",
+      },
       {
         data: "2026-06-19",
         text: "A anunțat candidatura la șefia PNL și a cerut amânarea Congresului din 21 iunie cu o săptămână, pentru 28 iunie; câteva ore mai târziu a renunțat la candidatură, calificând Congresul drept „acest simulacru democratic prin care se instalează dictatura în partid” și anunțând că îl va contesta în instanță, fără să cheme în discuție data votului de învestitură (23 iunie).",
@@ -820,7 +858,7 @@ export const actori: Actor[] = [
         promisiune: "Formarea unui guvern politic și obținerea votului de învestitură",
         status: "în curs",
         detalii:
-          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere. Pe 18 iunie a depus programul de guvernare și lista miniștrilor, dar calculul voturilor disponibile (~211–217) rămânea sub pragul de 233; vot stabilit pentru 22 iunie 2026.",
+          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere. Pe 18 iunie a depus programul de guvernare și lista miniștrilor, dar calculul voturilor disponibile (~211–217) rămânea sub pragul de 233. Pe 21 iunie, PSD a confirmat formal susținerea și intrarea la guvernare cu opt-nouă ministere, dar condiționat de un pachet de măsuri sociale suplimentar; în aceeași zi, Bolojan a anunțat o alternativă (guvern minoritar PNL-USR-UDMR) și PNL i-a cerut demisia sub sancțiunea excluderii. Vot stabilit pentru 23 iunie 2026.",
       },
     ],
     controverse: [
@@ -829,6 +867,7 @@ export const actori: Actor[] = [
       "Proximitatea față de PSD în negocieri — condiția PSD de a exclude USR din guvernare ridică întrebări despre independența cabinetului față de cel mai mare partid din opoziție.",
       "PNL a convocat un Congres extraordinar pentru 21 iunie cu excluderea sa din partid pe ordinea de zi.",
       "Pe 19 iunie seara și-a anunțat candidatura la șefia PNL împotriva lui Bolojan, cerând amânarea Congresului, pentru ca în aceeași seară să renunțe și să califice respectivul Congres drept „simulacru democratic” — schimbare de poziție în decurs de câteva ore.",
+      "Ultimatumul PNL din 21 iunie (demisie până la 22 iunie, ora 12:00, sub sancțiunea excluderii) a fost calificat de tabăra sa drept nelegal, întrucât se bazează pe decizii ale BPN deja suspendate de Tribunalul Ilfov.",
     ],
     pozitionare: [
       { tema: "Criza politică", pozitie: "Intenționează să formeze un guvern politic fără PNL oficial, fără USR și fără UDMR, bazat pe PSD, POT, minorități și dizidenți." },
@@ -887,6 +926,18 @@ export const actori: Actor[] = [
       {
         titlu: "Antena 3 CNN — Adrian Veștea îi cere lui Bolojan să amâne Congresul cu o săptămână și îl anunță că-l va contracandida (19 iunie 2026)",
         url: "https://www.antena3.ro/politica/adrian-vestea-ii-cere-lui-bolojan-sa-amane-congresul-cu-o-saptamana-si-il-anunta-ca-l-va-contracandida-sunt-convins-ca-nu-va-refuza-792605.html",
+      },
+      {
+        titlu: "TVR Info — Au fost adoptate două rezoluții la Congresul PNL: fără coaliție cu PSD; demisiile lui Veștea, Bode, Bogdan, Thuma și Gorghiu (21 iunie 2026)",
+        url: "https://tvrinfo.ro/au-fost-adoptate-doua-rezolutii-la-congresul-pnl-partidul-reconfirma-ca-nu-mai-face-coalitie-cu-psd-se-cer-demisiile-lui-vestea-bode-bogdan-thuma-si-gorghiu/",
+      },
+      {
+        titlu: "Știrile ProTV — Tabăra Veștea contraatacă după Congresul PNL: „Excluderile nu produc efecte și pot fi anulate în instanță” (21 iunie 2026)",
+        url: "https://stirileprotv.ro/stiri/politic/tabara-vestea-contraataca-dupa-congresul-pnl-excluderile-nu-produc-efecte-si-pot-fi-anulate-in-instanta.html",
+      },
+      {
+        titlu: "RomaniaTV.net — SURSE: PSD a votat în unanimitate intrarea în Guvernul Veștea; lista miniștrilor propuși (21 iunie 2026)",
+        url: "https://www.romaniatv.net/surse-psd-a-votat-in-unanimitate-intrarea-in-guvernul-vestea-lista-ministrilor-propusi-de-social-democrati_9647011.html",
       },
     ],
   },
