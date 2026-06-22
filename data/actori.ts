@@ -17,6 +17,14 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-22",
+        text: "Guvernul Veștea, pe care l-a desemnat, a picat la votul de învestitură din Parlament (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. L-a convocat la Cotroceni, împreună cu liderul PSD Sorin Grindeanu, pentru o nouă rundă de consultări — procedura de desemnare a unui premier se reia de la zero.",
+      },
+      {
+        data: "2026-06-19",
+        text: "Întrebat la Bruxelles dacă e de acord ca Guvernul Veștea să primească voturi de la AUR, a răspuns: „Când l-am desemnat, l-am desemnat să facă o majoritate” — plasând responsabilitatea negocierii exact pe umerii premierului desemnat, nu pe ai săi.",
+      },
+      {
         data: "2026-06-16",
         text: "L-a primit pe Adrian Veștea la Cotroceni; potrivit declarațiilor lui Veștea, i-a transmis că există o majoritate în jurul său și nu i-a solicitat retragerea mandatului.",
       },
@@ -108,6 +116,14 @@ export const actori: Actor[] = [
         titlu: "Recorder — Tomac premier desemnat",
         url: "https://recorder.ro/stirile-zilei/4-iunie-2026-guvernul-meu-varianta-nicusor-dan-tomac-premier-desemnat/",
       },
+      {
+        titlu: "Ziare.com — Nicușor Dan: „Când l-am desemnat, l-am desemnat ca să facă o majoritate” (19 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/nicusor-dan-declaratii-criza-guvernamentala-2019430",
+      },
+      {
+        titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
+        url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
+      },
     ],
   },
   {
@@ -119,6 +135,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-22",
+        text: "Guvernul Veștea — pe care PNL nu l-a susținut — a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), confirmând riscul pe care îl semnalase. Alternativa propusă de el, un guvern minoritar PNL–USR–UDMR, rămâne pe masă în consultările repornite de la Cotroceni.",
+      },
       {
         data: "2026-06-21",
         text: "Reales președinte PNL la Congresul Extraordinar, cu 1.769 din 1.842 de voturi exprimate (96%), pe moțiunea „Modernizare cu Rădăcini”. Congresul a adoptat în unanimitate două rezoluții — reconfirmarea interdicției de coaliție cu PSD, cu excludere automată pentru membrii care ar vota un guvern cu PSD, și un ultimatum de demisie din partid, până luni, 22 iunie, ora 12:00, pentru Lucian Bode, Rareș Bogdan, Adrian Veștea, Hubert Thuma și Alina Gorghiu. A anunțat că va propune președintelui Nicușor Dan un guvern minoritar PNL–USR–UDMR, ca alternativă la Cabinetul Veștea.",
@@ -275,6 +295,10 @@ export const actori: Actor[] = [
         titlu: "Ziare.com — Bolojan, după realegere: îi va propune lui Nicușor Dan un guvern minoritar PNL-USR-UDMR (21 iunie 2026)",
         url: "https://ziare.com/criza-guvernamentala/ilie-bolojan-guvern-minoritar-pnl-usr-udmr-2019931",
       },
+      {
+        titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
+      },
     ],
   },
   {
@@ -352,6 +376,10 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
+      {
+        data: "2026-06-22",
+        text: "Guvernul Veștea, pe care PSD îl susținuse formal de la Consiliul Politic Național din 21 iunie, a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. A fost convocat la Cotroceni, alături de Veștea, pentru o nouă rundă de consultări cu președintele Nicușor Dan; surse din presă l-au indicat drept posibilă variantă următoare de premier desemnat.",
+      },
       {
         data: "2026-06-21",
         text: "Consiliul Politic Național PSD, convocat la Vila Lac, a decis în unanimitate să susțină votul de învestitură al Guvernului Veștea și să intre la guvernare cu opt-nouă ministere (Interne și funcția de vicepremier — Marian Neacșu; Justiție — Radu Marinescu; Sănătate — Alexandru Rogobete; Energie — Bogdan Ivan; Muncă — Florin Manole; Agricultură — Florin Barbu; Mediu — Mihai Ghigiu; Dezvoltare — Romeo Lungu; Cultură — Ionuț Vulpescu), condiționat de includerea în programul de guvernare a unui pachet de măsuri împotriva majorării taxelor pentru veniturile mici și mijlocii și pentru micii întreprinzători.",
@@ -462,6 +490,14 @@ export const actori: Actor[] = [
         titlu: "DCNews — PSD a decis printr-un vot în unanimitate să intre la guvernare. Portofoliile și viitorii miniștri ai PSD (21 iunie 2026)",
         url: "https://www.dcnews.ro/psd-a-decis-printr-un-vot-in-unanimitate-sa-intre-la-guvernare_1063529.html",
       },
+      {
+        titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
+        url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
+      },
+      {
+        titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
+      },
     ],
   },
   {
@@ -473,6 +509,10 @@ export const actori: Actor[] = [
     rezumat:
       "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
+      {
+        data: "2026-06-22",
+        text: "În timpul dezbaterilor de învestitură, a anunțat retragerea parlamentarilor AUR din sala de plen, calificând drept „trădător” pe orice parlamentar care ar vota Cabinetul Veștea: „Noi toți care nu suntem trădători părăsim această sală.” Decizia a anulat varianta de susținere individuală pe care o cultivase Veștea și a contribuit decisiv la eșecul votului (207 voturi exprimate, sub pragul de 233).",
+      },
       {
         data: "2026-06-17",
         text: "AUR a reconfirmat oficial, prin liderul Petrișor Peiu, refuzul de a vota Guvernul Veștea: „Nu în viața asta”. Deputatul AUR Mohammad Murad a indicat susținere individuală pentru Veștea, contrar liniei partidului.",
@@ -506,6 +546,7 @@ export const actori: Actor[] = [
     ],
     controverse: [
       "Interdicție de intrare în Ucraina, motivată printr-un document al autorităților ucrainene (SBU) prin „activități anti-ucrainene sistematice”; Simion respinge acuzațiile.",
+      "A calificat drept „trădător” pe orice parlamentar AUR care ar fi votat Cabinetul Veștea, chiar înainte de votul din 22 iunie — presiune publică asupra propriilor parlamentari, în contradicție cu susținerile individuale pe care chiar premierul desemnat le invocase ca posibile.",
     ],
     pozitionare: [
       { tema: "UE / NATO", pozitie: "Promovează conceptul „Europa națiunilor”; critică frecvent deciziile instituțiilor UE." },
@@ -535,6 +576,14 @@ export const actori: Actor[] = [
         titlu:
           "HotNews — Un lider AUR exclude ca parlamentari ai partidului să voteze Guvernul Veștea: „Nu în viața asta”",
         url: "https://hotnews.ro/un-lider-aur-exclude-ca-parlamentari-ai-partidului-sa-voteze-guvernul-vestea-e-o-informatie-fabricata-nu-in-viata-asta-2275465",
+      },
+      {
+        titlu: "Mediafax — A început ședința Parlamentului pentru votul de învestire: Simion — „Noi toți care nu suntem trădători părăsim această sală” (22 iunie 2026)",
+        url: "https://www.mediafax.ro/politic/a-inceput-sedinta-parlamentului-pentru-votul-de-investire-a-guvernului-vestea-simion-noi-toti-care-nu-suntem-tradatori-parasim-aceasta-sala-premierul-desemnat-cere-stabilitate-s-23759285",
+      },
+      {
+        titlu: "Recorder — 22 iunie 2026: Guvernul Veștea-Nicușor, la mila AUR",
+        url: "https://recorder.ro/stirile-zilei/22-iunie-2026-guvernul-vestea-nicusor-la-mila-aur/",
       },
     ],
   },
@@ -635,6 +684,10 @@ export const actori: Actor[] = [
       "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
       {
+        data: "2026-06-22",
+        text: "Cei 31 de parlamentari UDMR au părăsit sala la votul de învestitură, conform deciziei anunțate pe 17 iunie. De la tribuna Parlamentului, după anunțul lui George Simion că AUR se retrage din sală, l-a felicitat ironic: „Există un singur om care astăzi a câștigat. Nu este în sală, dar talentul trebuie recunoscut. Felicitări, George Simion, ai dat șah și mat!” Guvernul Veștea a picat (207 voturi exprimate, sub pragul de 233).",
+      },
+      {
         data: "2026-06-17",
         text: "A clarificat poziția anunțată cu o zi înainte: cei 31 de parlamentari UDMR nu vor vota CONTRA, ci vor ieși din sală la momentul votului de învestitură: „Noi am luat decizia să ieșim din sală în momentul votului.”",
       },
@@ -693,6 +746,14 @@ export const actori: Actor[] = [
         titlu:
           "Capital.ro — Kelemen Hunor: „Noi am luat decizia să ieșim din sală în momentul votului” (17 iunie 2026)",
         url: "https://www.capital.ro/udmr-nu-va-vota-guvernul-vestea-kelemen-hunor-noi-am-luat-decizia-sa-iesim-din-sala-in-momentul-votului.html",
+      },
+      {
+        titlu: "HotNews — Kelemen Hunor, de la tribuna Parlamentului: „Felicitări, George Simion, ai dat șah și mat!” (22 iunie 2026)",
+        url: "https://hotnews.ro/kelemen-hunor-omagiu-pentru-george-simion-de-la-tribuna-parlmanetului-exista-un-singur-om-care-astazi-a-castigat-nu-este-in-sala-dar-talentul-trebuie-recunoscut-felicitari-george-simion-2281430",
+      },
+      {
+        titlu: "Ziare.com — Kelemen Hunor: „Bravo, George Simion, ai dat șah și mat” (22 iunie 2026)",
+        url: "https://ziare.com/guvernul-vestea/kelemen-hunor-sedinta-vot-investire-guvern-vestea-2020192",
       },
     ],
   },
@@ -814,12 +875,16 @@ export const actori: Actor[] = [
   {
     slug: "adrian-vestea",
     nume: "Adrian Veștea",
-    functie: "Premier desemnat",
+    functie: "Fost premier desemnat (mandat picat la votul de învestitură, 22 iunie 2026)",
     partid: "PNL (prim-vicepreședinte)",
-    dinCand: "desemnat 14 iunie 2026",
+    dinCand: "desemnat 14 iunie 2026; vot de învestitură picat 22 iunie 2026",
     rezumat:
-      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 23 iunie 2026. În seara de 19 iunie a anunțat și retras, în câteva ore, o candidatură la șefia PNL împotriva lui Bolojan, pe care apoi a calificat-o drept un „simulacru democratic”. Pe 21 iunie, Congresul PNL i-a cerut, sub sancțiunea excluderii, să demisioneze din partid până luni, 22 iunie, ora 12:00, alături de alți patru lideri liberali; în aceeași zi, Consiliul Politic Național al PSD a decis în unanimitate să-i susțină investitura și să intre la guvernare cu opt-nouă ministere.",
+      "Economist, fost primar al Râșnovului (2004–2016), fost președinte al CJ Brașov (2016–2023, a finalizat Aeroportul Brașov-Ghimbav), ministru al Dezvoltării în guvernul Ciolacu (iun. 2023 – nov. 2024). Desemnat premier pe 14 iunie 2026 fără consultarea conducerii PNL. La 16 iunie, după refuzul UDMR, acceptă voturi individuale de la parlamentari AUR și caută o majoritate de conjunctură. Pe 18 iunie a depus la Parlament programul de guvernare și lista miniștrilor, fără să aibă majoritatea necesară; pe 19 iunie, Grindeanu (PSD) a anunțat că partidul are voturile pentru investitură, iar votul a fost recalendarizat pentru 22 iunie 2026. În seara de 19 iunie a anunțat și retras, în câteva ore, o candidatură la șefia PNL împotriva lui Bolojan, pe care apoi a calificat-o drept un „simulacru democratic”. Pe 21 iunie, Congresul PNL i-a cerut, sub sancțiunea excluderii, să demisioneze din partid până luni, 22 iunie, ora 12:00, alături de alți patru lideri liberali; în aceeași zi, Consiliul Politic Național al PSD a decis în unanimitate să-i susțină investitura și să intre la guvernare cu opt-nouă ministere. Votul de învestitură din 22 iunie a picat (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala; procedura de desemnare a unui premier se reia de la zero.",
     actiuniRecente: [
+      {
+        data: "2026-06-22",
+        text: "Votul de învestitură a picat — 207 voturi exprimate, sub pragul de 233 — după ce George Simion a retras AUR din sală în timpul dezbaterilor, urmat de cei 31 de parlamentari UDMR. A fost convocat, alături de Sorin Grindeanu, la Cotroceni de președintele Nicușor Dan pentru o nouă rundă de consultări; procedura de desemnare a unui premier se reia de la zero.",
+      },
       {
         data: "2026-06-21",
         text: "PNL i-a cerut, sub sancțiunea excluderii, să demisioneze din partid până luni, 22 iunie, ora 12:00, alături de Lucian Bode, Rareș Bogdan, Hubert Thuma și Alina Gorghiu. Tabăra sa a anunțat că va contesta excluderile în instanță, invocând suspendarea judecătorească a deciziilor BPN din 15 iunie. În aceeași zi, Consiliul Politic Național al PSD a decis în unanimitate să susțină votul său de învestitură și să intre la guvernare cu opt-nouă ministere.",
@@ -856,9 +921,9 @@ export const actori: Actor[] = [
     promisiuniVsFapte: [
       {
         promisiune: "Formarea unui guvern politic și obținerea votului de învestitură",
-        status: "în curs",
+        status: "nelivrat",
         detalii:
-          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), caută majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere. Pe 18 iunie a depus programul de guvernare și lista miniștrilor, dar calculul voturilor disponibile (~211–217) rămânea sub pragul de 233. Pe 21 iunie, PSD a confirmat formal susținerea și intrarea la guvernare cu opt-nouă ministere, dar condiționat de un pachet de măsuri sociale suplimentar; în aceeași zi, Bolojan a anunțat o alternativă (guvern minoritar PNL-USR-UDMR) și PNL i-a cerut demisia sub sancțiunea excluderii. Vot stabilit pentru 23 iunie 2026.",
+          "Fără PNL oficial, fără USR și fără UDMR (după 16 iunie), a căutat majoritate de la PSD, POT, minorități, dizidenți PNL și voturi individuale AUR. Pe 17 iunie, Ludovic Orban estima 276 de parlamentari împotrivă, peste pragul de 233 necesar pentru respingere. Pe 18 iunie a depus programul de guvernare și lista miniștrilor, dar calculul voturilor disponibile (~211–217) rămânea sub pragul de 233. Pe 21 iunie, PSD a confirmat formal susținerea și intrarea la guvernare cu opt-nouă ministere, dar condiționat de un pachet de măsuri sociale suplimentar; în aceeași zi, Bolojan a anunțat o alternativă (guvern minoritar PNL-USR-UDMR) și PNL i-a cerut demisia sub sancțiunea excluderii. La votul din 22 iunie, retragerea AUR din sală (anunțată de George Simion în timpul dezbaterilor) și ieșirea celor 31 de parlamentari UDMR au lăsat doar 207 voturi exprimate, sub pragul de 233 — guvernul nu a fost învestit.",
       },
     ],
     controverse: [
@@ -868,6 +933,7 @@ export const actori: Actor[] = [
       "PNL a convocat un Congres extraordinar pentru 21 iunie cu excluderea sa din partid pe ordinea de zi.",
       "Pe 19 iunie seara și-a anunțat candidatura la șefia PNL împotriva lui Bolojan, cerând amânarea Congresului, pentru ca în aceeași seară să renunțe și să califice respectivul Congres drept „simulacru democratic” — schimbare de poziție în decurs de câteva ore.",
       "Ultimatumul PNL din 21 iunie (demisie până la 22 iunie, ora 12:00, sub sancțiunea excluderii) a fost calificat de tabăra sa drept nelegal, întrucât se bazează pe decizii ale BPN deja suspendate de Tribunalul Ilfov.",
+      "Mizase public pe susținere individuală de la parlamentari AUR („Nu mă deranjează că vor fi parlamentari AUR care vor da dovadă de patriotism”); George Simion a anulat exact această variantă, calificând drept „trădător” pe orice parlamentar AUR care ar fi votat Cabinetul.",
     ],
     pozitionare: [
       { tema: "Criza politică", pozitie: "Intenționează să formeze un guvern politic fără PNL oficial, fără USR și fără UDMR, bazat pe PSD, POT, minorități și dizidenți." },
@@ -938,6 +1004,22 @@ export const actori: Actor[] = [
       {
         titlu: "RomaniaTV.net — SURSE: PSD a votat în unanimitate intrarea în Guvernul Veștea; lista miniștrilor propuși (21 iunie 2026)",
         url: "https://www.romaniatv.net/surse-psd-a-votat-in-unanimitate-intrarea-in-guvernul-vestea-lista-ministrilor-propusi-de-social-democrati_9647011.html",
+      },
+      {
+        titlu: "HotNews — Lovitură de forță în Parlament: Kelemen Hunor, George Simion și parlamentarii AUR au părăsit sala; rezultatul votului (22 iunie 2026)",
+        url: "https://hotnews.ro/guvern-adrian-vestea-parlament-ministri-audieri-vot-investitura-birourile-reunite-2280072",
+      },
+      {
+        titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament: decizia AUR a schimbat meciul (22 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
+      },
+      {
+        titlu: "Mediafax — A început ședința Parlamentului pentru votul de învestire: Simion — „Noi toți care nu suntem trădători părăsim această sală” (22 iunie 2026)",
+        url: "https://www.mediafax.ro/politic/a-inceput-sedinta-parlamentului-pentru-votul-de-investire-a-guvernului-vestea-simion-noi-toti-care-nu-suntem-tradatori-parasim-aceasta-sala-premierul-desemnat-cere-stabilitate-s-23759285",
+      },
+      {
+        titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
+        url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
       },
     ],
   },
