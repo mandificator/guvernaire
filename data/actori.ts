@@ -17,6 +17,10 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-23",
+        text: "A convocat la Cotroceni o zi întreagă de consultări cu toate partidele și formațiunile parlamentare pentru desemnarea unui nou premier, cerându-le „înțelegeri pe o majoritate parlamentară”. La final nu a anunțat niciun candidat. George Simion (AUR) l-a amenințat cu suspendarea și demiterea dacă nu desemnează un premier din partea AUR.",
+      },
+      {
         data: "2026-06-22",
         text: "Guvernul Veștea, pe care l-a desemnat, a picat la votul de învestitură din Parlament (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. L-a convocat la Cotroceni, împreună cu liderul PSD Sorin Grindeanu, pentru o nouă rundă de consultări — procedura de desemnare a unui premier se reia de la zero.",
       },
@@ -124,6 +128,14 @@ export const actori: Actor[] = [
         titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
         url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
       },
+      {
+        titlu: "HotNews — Nicușor Dan, peste 6 ore de consultări cu partidele; președintele nu anunță numele premierului desemnat (23 iunie 2026)",
+        url: "https://hotnews.ro/nicusor-dan-convoaca-azi-partidele-la-consultari-anuntul-facut-de-administratia-prezidentiala-2281779",
+      },
+      {
+        titlu: "Realitatea.NET — George Simion, după consultările de la Cotroceni: „Fără AUR nu se poate”. Nicușor Dan, amenințat cu suspendarea și demiterea (23 iunie 2026)",
+        url: "https://www.realitatea.net/stiri/politica/simion-dupa-consultarile-cu-nicusor-dan-fara-aur-nu-se-poate-seful-statului-amenintat-cu-suspendarea-si-demiterea-r0bx4x",
+      },
     ],
   },
   {
@@ -135,6 +147,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-23",
+        text: "La consultările de la Cotroceni, a propus un „pact pentru România”, declarând că o variantă — guvern minoritar în jurul PSD sau guvern minoritar PNL–USR–UDMR — „poate fi convenită într-o zi sau două”.",
+      },
       {
         data: "2026-06-22",
         text: "Guvernul Veștea — pe care PNL nu l-a susținut — a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), confirmând riscul pe care îl semnalase. Alternativa propusă de el, un guvern minoritar PNL–USR–UDMR, rămâne pe masă în consultările repornite de la Cotroceni.",
@@ -299,6 +315,10 @@ export const actori: Actor[] = [
         titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
         url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
       },
+      {
+        titlu: "Ziarul Național — Bolojan, după consultările de la Cotroceni: „Poate fi convenit într-o zi sau două” (23 iunie 2026)",
+        url: "https://www.national.ro/politica/consultari-la-cotroceni-anuntul-facut-de-bolojan-dupa-discutiile-cu-presedintele-poate-fi-convenit-intr-o-zi-sau-doua-video-875271.html/",
+      },
     ],
   },
   {
@@ -376,6 +396,10 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
+      {
+        data: "2026-06-23",
+        text: "La consultările de la Cotroceni — întrevedere de sub 20 de minute cu președintele — a declarat că PSD este „pregătit să își asume guvernarea” cât mai rapid posibil.",
+      },
       {
         data: "2026-06-22",
         text: "Guvernul Veștea, pe care PSD îl susținuse formal de la Consiliul Politic Național din 21 iunie, a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. A fost convocat la Cotroceni, alături de Veștea, pentru o nouă rundă de consultări cu președintele Nicușor Dan; surse din presă l-au indicat drept posibilă variantă următoare de premier desemnat.",
@@ -498,6 +522,10 @@ export const actori: Actor[] = [
         titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
         url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
       },
+      {
+        titlu: "Gandul — Sorin Grindeanu a părăsit sala de plen; PSD e gata să își asume funcția de premier după discuțiile cu Nicușor Dan (23 iunie 2026)",
+        url: "https://www.gandul.ro/politica/sorin-grindeanu-a-parasit-sala-de-plen-inainte-de-finalizarea-votului-anunta-ca-psd-este-gata-sa-si-asume-functia-de-premier-dupa-discutiile-cu-nicusor-dan-20931255",
+      },
     ],
   },
   {
@@ -509,6 +537,10 @@ export const actori: Actor[] = [
     rezumat:
       "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
+      {
+        data: "2026-06-23",
+        text: "La consultările de la Cotroceni, a cerut un premier din partea AUR, invocând statutul de „al doilea partid din țară”, și l-a amenințat pe președintele Nicușor Dan cu suspendarea: „Dacă Nicușor Dan va continua să încalce voința românilor, vom ajunge la suspendarea și demiterea lui.”",
+      },
       {
         data: "2026-06-22",
         text: "În timpul dezbaterilor de învestitură, a anunțat retragerea parlamentarilor AUR din sala de plen, calificând drept „trădător” pe orice parlamentar care ar vota Cabinetul Veștea: „Noi toți care nu suntem trădători părăsim această sală.” Decizia a anulat varianta de susținere individuală pe care o cultivase Veștea și a contribuit decisiv la eșecul votului (207 voturi exprimate, sub pragul de 233).",
@@ -547,6 +579,7 @@ export const actori: Actor[] = [
     controverse: [
       "Interdicție de intrare în Ucraina, motivată printr-un document al autorităților ucrainene (SBU) prin „activități anti-ucrainene sistematice”; Simion respinge acuzațiile.",
       "A calificat drept „trădător” pe orice parlamentar AUR care ar fi votat Cabinetul Veștea, chiar înainte de votul din 22 iunie — presiune publică asupra propriilor parlamentari, în contradicție cu susținerile individuale pe care chiar premierul desemnat le invocase ca posibile.",
+      "L-a amenințat pe președintele Nicușor Dan cu suspendarea și demiterea, la consultările de la Cotroceni din 23 iunie, dacă nu desemnează un premier din partea AUR.",
     ],
     pozitionare: [
       { tema: "UE / NATO", pozitie: "Promovează conceptul „Europa națiunilor”; critică frecvent deciziile instituțiilor UE." },
@@ -584,6 +617,14 @@ export const actori: Actor[] = [
       {
         titlu: "Recorder — 22 iunie 2026: Guvernul Veștea-Nicușor, la mila AUR",
         url: "https://recorder.ro/stirile-zilei/22-iunie-2026-guvernul-vestea-nicusor-la-mila-aur/",
+      },
+      {
+        titlu: "RomaniaTV — George Simion, prima declarație după consultările de la Cotroceni: „vom ajunge la suspendarea și demiterea lui” (23 iunie 2026)",
+        url: "https://www.romaniatv.net/george-simion-primele-declaratii-dupa-consultarile-de-la-cotroceni-daca-nicusor-dan-va-continua-sa-incalce-vointa-romanilor-vom-ajunge-la-suspendarea-si-demiterea-lui_9651727.html",
+      },
+      {
+        titlu: "Stiripesurse — George Simion îl amenință pe Nicușor Dan chiar de la Cotroceni: „concluzia logică este suspendarea” (23 iunie 2026)",
+        url: "https://www.stiripesurse.ro/george-simion-il-ameninta-pe-nicusor-dan-chiar-de-la-cotroceni-daca-va-continua-sa-incalce-vointa-romanilor-concluzia-logica-este-suspendarea_3897495",
       },
     ],
   },
