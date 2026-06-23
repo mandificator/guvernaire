@@ -343,9 +343,9 @@ export const decizii: Decizie[] = [
     institutie: "Parlament",
     domenii: ["guvernare", "criză politică"],
     rezumat:
-      "Votul de învestitură al Cabinetului Veștea a picat în plenul reunit al Parlamentului, în seara de 22 iunie 2026: doar 207 voturi exprimate, sub pragul de 233. George Simion a anunțat, chiar din timpul dezbaterilor, retragerea AUR din sală, calificând drept „trădător” orice parlamentar care ar fi votat Cabinetul; UDMR și-a confirmat ieșirea anunțată încă pe 17 iunie, iar Kelemen Hunor l-a felicitat ironic pe Simion de la tribună: „Ai dat șah și mat!” E a doua tentativă de învestitură respinsă consecutiv, după cea a lui Eugen Tomac. Pe 23 iunie, președintele Nicușor Dan i-a convocat la Cotroceni pe Veștea și pe liderul PSD, Sorin Grindeanu, pentru o nouă rundă de consultări.",
+      "Votul de învestitură al Cabinetului Veștea a picat în plenul reunit al Parlamentului, în seara de 22 iunie 2026: 212 voturi exprimate din 287 de parlamentari prezenți (din 464), cu 189 „pentru” și 23 „contra” — sub pragul de 233. George Simion a anunțat, chiar din timpul dezbaterilor, retragerea AUR din sală, calificând drept „trădător” orice parlamentar care ar fi votat Cabinetul; UDMR și-a confirmat ieșirea anunțată încă pe 17 iunie, iar Kelemen Hunor l-a felicitat ironic pe Simion de la tribună: „Ai dat șah și mat!” E a doua tentativă de învestitură respinsă consecutiv, după cea a lui Eugen Tomac. Pe 23 iunie, președintele Nicușor Dan a convocat la Cotroceni consultări cu toate partidele și grupurile parlamentare pentru desemnarea unui nou premier; la finalul zilei nu a fost anunțat niciun candidat nou, președintele urmând să plece la un summit în Polonia.",
     explicatie:
-      "Adrian Veștea fusese desemnat premier pe 14 iunie, fără consultarea conducerii PNL, declanșând opt zile de criză internă în partid (excluderi, procese, congres extraordinar) în paralel cu negocierile pentru o majoritate parlamentară. Pentru cronologia completă a celor opt zile dintre desemnare și vot — inclusiv poziționarea PSD, UDMR, USR și PNL —, vezi analiza dedicată acestei desemnări.\n\nȘedința de vot din 22 iunie s-a deschis cu o întârziere de câteva ore. George Simion a anunțat, chiar din timpul dezbaterilor, decizia AUR de a părăsi sala, calificând drept „trădător” orice parlamentar care ar fi votat Cabinetul: „Noi toți care nu suntem trădători părăsim această sală.” Parlamentarii AUR au ieșit din sală, urmați de cei 31 de parlamentari UDMR, conform deciziei anunțate încă pe 17 iunie de Kelemen Hunor, care l-a felicitat ironic pe Simion de la tribuna Parlamentului: „Există un singur om care astăzi a câștigat. Nu este în sală, dar talentul trebuie recunoscut. Felicitări, George Simion, ai dat șah și mat!” Liderul Grupului minorităților naționale, Varujan Pambuccian, anunțase anterior susținerea a 15 din cei 17 parlamentari ai grupului. La numărarea finală au fost exprimate 207 voturi în total — sub pragul de 233 necesar —, iar Guvernul Veștea nu a obținut investitura. Sursele de presă citează cifre diferite și neconfirmate oficial pentru defalcarea exactă pe „pentru”/„contra”; fără o cifră unanim confirmată, nu redăm o defalcare exactă pe pentru/contra/abțineri.\n\nEșecul obligă la restartarea integrală a procedurii de desemnare a unui premier. Constituția impune dizolvarea Parlamentului și alegeri anticipate doar după două cereri de învestitură respinse, formulate de președinte în 60 de zile de la prima cerere; rămâne deschisă întrebarea dacă retragerea lui Tomac din 14 iunie — produsă înainte de orice vot — se va considera juridic o „respingere” alături de cea a lui Veștea, sau dacă abia un al doilea vot negativ propriu-zis ar declanșa mecanismul. Pe 23 iunie, președintele Nicușor Dan i-a convocat la Cotroceni pe Veștea și pe Grindeanu pentru o nouă rundă de consultări, iar varianta unui guvern minoritar PNL–USR–UDMR, anunțată de Bolojan pe 21 iunie, rămâne pe masă ca alternativă la o nouă tentativă PSD.",
+      "Adrian Veștea fusese desemnat premier pe 14 iunie, fără consultarea conducerii PNL, declanșând opt zile de criză internă în partid (excluderi, procese, congres extraordinar) în paralel cu negocierile pentru o majoritate parlamentară. Pentru cronologia completă a celor opt zile dintre desemnare și vot — inclusiv poziționarea PSD, UDMR, USR și PNL —, vezi analiza dedicată acestei desemnări.\n\nȘedința de vot din 22 iunie s-a deschis cu o întârziere de câteva ore. George Simion a anunțat, chiar din timpul dezbaterilor, decizia AUR de a părăsi sala, calificând drept „trădător” orice parlamentar care ar fi votat Cabinetul: „Noi toți care nu suntem trădători părăsim această sală.” Parlamentarii AUR au ieșit din sală, urmați de cei 31 de parlamentari UDMR, conform deciziei anunțate încă pe 17 iunie de Kelemen Hunor, care l-a felicitat ironic pe Simion de la tribuna Parlamentului: „Există un singur om care astăzi a câștigat. Nu este în sală, dar talentul trebuie recunoscut. Felicitări, George Simion, ai dat șah și mat!” Liderul Grupului minorităților naționale, Varujan Pambuccian, anunțase anterior susținerea a 15 din cei 17 parlamentari ai grupului. La numărătoarea finală, din cei 287 de parlamentari prezenți (din totalul de 464), au fost exprimate 212 voturi — 189 „pentru” și 23 „contra”, niciun vot nul —, sub pragul de 233 necesar, iar Guvernul Veștea nu a obținut investitura.\n\nEșecul obligă la restartarea integrală a procedurii de desemnare a unui premier. Constituția impune dizolvarea Parlamentului și alegeri anticipate doar după două cereri de învestitură respinse, formulate de președinte în 60 de zile de la prima cerere; rămâne deschisă întrebarea dacă retragerea lui Tomac din 14 iunie — produsă înainte de orice vot — se va considera juridic o „respingere” alături de cea a lui Veștea, sau dacă abia un al doilea vot negativ propriu-zis ar declanșa mecanismul. Pe 23 iunie, președintele Nicușor Dan i-a convocat la Cotroceni pe Veștea și pe Grindeanu pentru o nouă rundă de consultări, iar varianta unui guvern minoritar PNL–USR–UDMR, anunțată de Bolojan pe 21 iunie, rămâne pe masă ca alternativă la o nouă tentativă PSD.",
     pro: [
       "Eșecul confirmă, la prima testare reală în plen, diagnosticul guvernului paralel din 14 și 16 iunie: o desemnare fără majoritate negociată și confirmată în avans nu rezistă la vot, indiferent de profilul candidatului.",
       "Respingerea evită instalarea unui guvern construit, în ultimă instanță, din voturi individuale disparate și disidenți de partid, fără un program negociat public.",
@@ -354,7 +354,7 @@ export const decizii: Decizie[] = [
     contra: [
       "Eșecul prelungește cu cel puțin câteva săptămâni vidul guvernamental, deja la peste 40 de zile de la căderea guvernului Bolojan, cu impact asupra calendarului bugetar și al PNRR.",
       "Decizia lui Simion de a retrage AUR din sală chiar în timpul dezbaterilor, sub presiunea publică a etichetei de „trădător” pentru oricine ar fi votat, a anulat exact varianta de rezervă — voturi individuale AUR — pe care o cultivase Veștea de la desemnare.",
-      "Lipsa unei defalcări oficiale, confirmate, pe pentru/contra/abțineri lasă electoratul fără o evidență clară a modului în care a votat fiecare parlamentar la un moment decisiv.",
+      "Doar 23 de voturi „contra” din 212 exprimate arată că respingerea a fost dată mai puțin de o opoziție parlamentară activă, cât de absența fizică din sală a peste 175 de parlamentari — o formă de blocaj care lasă electoratul fără o evidență clară a poziției fiecăruia.",
     ],
     votParalel: {
       vot: "abținere",
@@ -365,15 +365,17 @@ export const decizii: Decizie[] = [
     },
     votReal: {
       rezultat:
-        "207 voturi exprimate în total în plenul reunit al Camerei Deputaților și Senatului, sub pragul de 233 necesar — Cabinetul Veștea nu a obținut învestitura. Sursele de presă citează cifre diferite și neconfirmate oficial pentru defalcarea exactă pe „pentru”/„contra”; fără o cifră unanim confirmată, nu redăm o defalcare exactă pe pentru/contra/abțineri.",
+        "212 voturi exprimate (189 „pentru”, 23 „contra”, niciun vot nul) din 287 de parlamentari prezenți, din totalul de 464 de deputați și senatori — sub pragul de 233 necesar pentru învestitură. Cabinetul Veștea nu a obținut investitura.",
+      cifre: { pentru: 189, contra: 23, abtineri: 0 },
       pePartide:
         "AUR — prin George Simion — a anunțat în timpul dezbaterilor decizia de a părăsi sala, calificând drept „trădător” pe orice parlamentar care ar fi votat Cabinetul: „Noi toți care nu suntem trădători părăsim această sală.” UDMR a confirmat ieșirea celor 31 de parlamentari din sală, conform deciziei anunțate pe 17 iunie de Kelemen Hunor, care l-a felicitat ironic pe Simion de la tribună: „Există un singur om care astăzi a câștigat. Nu este în sală, dar talentul trebuie recunoscut. Felicitări, George Simion, ai dat șah și mat!” Grupul minorităților naționale (17 mandate), prin Varujan Pambuccian, a anunțat susținerea a 15 dintre cei 17 parlamentari. PNL și USR și-au confirmat poziția de refuz, anunțată cu zile înainte.",
     },
     aliniere: "aliniat",
     verdictFinal:
-      "Rezultatul confirmă, la prima testare reală în plen, exact diagnosticul guvernului paralel din 14 și 16 iunie: o desemnare făcută fără o majoritate negociată și confirmată în avans nu rezistă la votul din plen, indiferent cât de solid e profilul administrativ al candidatului sau cât de coerentă e intenția unui guvern politic. Costul nu mai e teoretic — opt zile de criză internă PNL și o lună și jumătate de vid guvernamental au fost plătite pentru o tentativă care nu a trecut de prima testare aritmetică reală. Verdictul asupra crizei în ansamblu se va da abia când va exista o propunere nouă cu majoritate reală în spate.",
+      "Rezultatul confirmă, la prima testare reală în plen, exact diagnosticul guvernului paralel din 14 și 16 iunie: o desemnare făcută fără o majoritate negociată și confirmată în avans nu rezistă la votul din plen, indiferent cât de solid e profilul administrativ al candidatului sau cât de coerentă e intenția unui guvern politic. Costul nu mai e teoretic — opt zile de criză internă PNL și o lună și jumătate de vid guvernamental au fost plătite pentru o tentativă care nu a trecut de prima testare aritmetică reală. Verdictul asupra crizei în ansamblu se va da abia când va exista o propunere nouă cu majoritate reală în spate.\n\nActualizare 23 iunie: președintele Nicușor Dan a convocat la Cotroceni consultări cu toate partidele și grupurile parlamentare, în aceeași zi în care fuseseră anunțate oficial cifrele exacte ale eșecului din seara precedentă. Sorin Grindeanu (PSD) a declarat că partidul „își asumă guvernarea”, inclusiv funcția de premier. Ilie Bolojan (PNL) a propus ca liberalii să voteze fie un guvern minoritar PSD, fie o variantă PNL–USR–UDMR, condiționat de un „Pact pentru România” cu angajamente pe reducerea deficitului, reformele asumate prin PNRR și evitarea moțiunilor de cenzură pe temele acoperite de pact, până la finalul anului. Dominic Fritz (USR) a respins explicit varianta unui guvern cu PSD. Kelemen Hunor (UDMR) a propus trei variante de guvernare minoritară, declarând că „nu există nicio speranță pentru vechea coaliție”. George Simion (AUR) a venit cu propunere proprie de premier și de program de guvernare, susținând că fără AUR „nu se poate” forma un guvern. Grupul Uniți pentru România a propus pentru funcția de premier pe Victor Ponta. La finalul zilei, președintele nu a desemnat niciun candidat, surse politice indicând că decizia ar putea fi amânată, întrucât președintele urma să plece joi la un summit în Polonia. Scorul guvernului paralel rămâne neschimbat: abținere, cu cerința nenegociabilă a unei majorități confirmate înainte de orice nouă desemnare.",
     controverse: [
       "George Simion a anunțat retragerea AUR din sală chiar în timpul dezbaterilor de învestitură, calificând drept „trădător” pe orice parlamentar care ar fi votat Cabinetul Veștea — o presiune publică asupra propriilor parlamentari, în contradicție cu susținerile individuale pe care chiar Veștea le invocase ca posibile.",
+      "La doar două zile după ce Congresul PNL din 21 iunie a adoptat în unanimitate o rezoluție care interzice orice coaliție cu PSD, cu excludere automată pentru membrii care ar vota un guvern PSD, Ilie Bolojan a propus chiar el, la consultările de la Cotroceni din 23 iunie, ca PNL să voteze un guvern minoritar PSD — o contradicție directă, documentată, între rezoluția propriului congres și propunerea președintelui partidului trei zile mai târziu.",
     ],
     surse: [
       {
@@ -403,6 +405,38 @@ export const decizii: Decizie[] = [
       {
         titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
         url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
+      },
+      {
+        titlu: "Mediafax — Oficial. Guvernul Veștea a picat cu 189 voturi „pentru” și 23 „împotrivă” (22 iunie 2026)",
+        url: "https://www.mediafax.ro/politic/oficial-guvernul-vestea-a-picat-cu-189-voturi-pentru-si-23-impotriva-23759832",
+      },
+      {
+        titlu: "TVR Info — Guvernul Adrian Veștea a picat la vot cu 189 de voturi pentru și 23 contra (22 iunie 2026)",
+        url: "https://tvrinfo.ro/guvernul-adrian-vestea-a-picat-la-vot-cu-189-de-voturi-pentru-si-23-contra-vestea-eu-consider-ca-mi-am-facut-datoria/",
+      },
+      {
+        titlu: "G4Media — BREAKING: Guvernul Veștea-PSD-Nicușor Dan a fost respins de Parlament; PNL și USR propun un guvern minoritar (22 iunie 2026)",
+        url: "https://www.g4media.ro/sedinta-pentru-votul-de-investitura-a-guvernului-vestea-a-inceput-dupa-ce-initial-a-fost-suspendata-executivul-are-nevoie-de-voturile-aur-bolojan-propune-fie-guvern-minoritar-psd-fie-guvern-pnl.html",
+      },
+      {
+        titlu: "Mediafax — Consultări la Palatul Cotroceni: Grindeanu — PSD își asumă guvernarea; Simion — fără AUR nu se poate; propunerea PNL e un pact național (23 iunie 2026)",
+        url: "https://www.mediafax.ro/politic/consultari-la-palatul-cotroceni-nicusor-dan-cere-intelegeri-pe-o-majoritate-parlamentara-grindeanu-spune-ca-psd-este-gata-sa-isi-asume-guvernarea-simion-fara-aur-nu-se-poate-23759973",
+      },
+      {
+        titlu: "Antena3 CNN — PNL a propus un pact pe șase luni; Bolojan: „Putem vota un Guvern minoritar PSD”; Fritz: „USR nu va susține un guvern PSD” (23 iunie 2026)",
+        url: "https://www.antena3.ro/politica/incep-consultarile-de-urgenta-la-cotroceni-pentru-desemnarea-celui-de-al-treilea-premier-favorit-sorin-grindeanu-793053.html",
+      },
+      {
+        titlu: "Digi24 — Kelemen Hunor i-a propus lui Nicușor Dan trei variante pentru viitorul Guvern: „Nicio speranță pentru vechea coaliție” (23 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/kelemen-hunor-i-a-propus-lui-nicusor-dan-trei-variante-pentru-viitorul-guvern-nicio-speranta-pentru-vechea-coalitie-3828847",
+      },
+      {
+        titlu: "HotNews — Nicușor Dan, peste 6 ore de consultări cu partidele; președintele nu anunță azi numele premierului desemnat (23 iunie 2026)",
+        url: "https://hotnews.ro/nicusor-dan-convoaca-azi-partidele-la-consultari-anuntul-facut-de-administratia-prezidentiala-2281779",
+      },
+      {
+        titlu: "Mediafax — Președintele Nicușor Dan alege procedura Vatican: nu va face o desemnare marți (23 iunie 2026)",
+        url: "https://www.mediafax.ro/breaking-news/presedintele-nicusor-dan-alege-procedura-vatican-nu-va-face-o-desemnare-marti-surse-23760314",
       },
     ],
   },
