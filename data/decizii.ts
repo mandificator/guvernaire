@@ -441,6 +441,156 @@ export const decizii: Decizie[] = [
     ],
   },
   {
+    slug: "ccr-valideaza-cotele-dublate-de-extractie-a-ursilor",
+    titlu: "CCR validează dublarea cotelor de extracție a urșilor pentru 2026",
+    data: "2026-06-24",
+    institutie: "CCR",
+    domenii: ["mediu", "siguranță publică"],
+    rezumat:
+      "Curtea Constituțională a respins, pe 24 iunie 2026, cu majoritate de voturi, obiecția de neconstituționalitate a președintelui Nicușor Dan împotriva legii care dublează cotele de extracție a ursului brun pentru 2026: de la 426 la 859 de exemplare la nivel de prevenție și de la 55 la 110 la nivel de intervenție. Legea rămâne constituțională și își poate produce efectele.",
+    explicatie:
+      "Legea pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 81/2021 — care reglementează metodele de intervenție imediată pentru prevenirea și combaterea atacurilor exemplarelor de urs brun asupra persoanelor și bunurilor acestora — a fost transmisă Parlamentului spre promulgare pe 4 mai 2026 (PL-x 218/2026). Actul modifică art. 31 alin. (1) și (2) din OUG 81/2021, stabilind pentru 2026 un nivel de prevenție de 859 de exemplare (față de 426 anterior) și un nivel de intervenție de 110 exemplare (față de 55 anterior) — practic o dublare a cotelor de recoltare a ursului brun, motivată de creșterea documentată a atacurilor asupra oamenilor și bunurilor.\n\nPreședintele Nicușor Dan a sesizat CCR cu o obiecție de neconstituționalitate, criticând faptul că interdicția împușcării femelelor cu pui nu e dublată de o sancțiune expresă, că legea nu stabilește clar procedura prin care se determină vârsta puilor, cine face determinarea și care sunt consecințele unei erori, precum și absența unui sistem digital de monitorizare în timp real a cotelor, care ar preveni depășirea plafonului aprobat.\n\nCCR a respins obiecția pe 24 iunie 2026, cu majoritate de voturi, constatând că actul normativ se bazează pe date științifice detaliate din care rezultă că populația de urși bruni este „excesiv de numeroasă” și că soluțiile alternative destinate protejării siguranței publice nu sunt suficiente. Decizia validează dublarea cotelor și permite aplicarea lor pentru 2026.",
+    pro: [
+      "Cotele mai mari răspund unei creșteri documentate a atacurilor ursului brun asupra oamenilor și animalelor, mai ales în zonele de munte și la marginea localităților.",
+      "CCR a confirmat existența unei baze științifice („date detaliate”) care justifică nivelul cotelor, nu o decizie arbitrară a Guvernului sau a Parlamentului.",
+      "Decizia oferă predictibilitate autorităților locale și silvice chiar în sezonul cu cele mai multe incidente, evitând un blocaj juridic prelungit.",
+    ],
+    contra: [
+      "Dublarea cotelor nu e acompaniată de un mecanism digital de monitorizare în timp real, susține președintele Nicușor Dan, ceea ce face dificilă verificarea respectării plafonului aprobat o dată atins.",
+      "Procedura de determinare a vârstei puilor de urs — relevantă pentru interdicția împușcării femelelor cu pui — rămâne neclară: legea nu spune cine face determinarea, cum, și ce se întâmplă în caz de eroare.",
+      "CCR s-a pronunțat doar pe conformitatea constituțională a criticilor punctuale formulate de președinte, nu pe fondul politicii cinegetice — întrebarea dacă dublarea cotelor e proporțională cu riscul real rămâne deschisă.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "mixt",
+      scor: 2,
+      motivare:
+        "Guvernul paralel votează PENTRU dublarea cotelor, pe fond: presiunea reală a atacurilor de urs asupra oamenilor și gospodăriilor justifică o ajustare, iar CCR a confirmat existența unei baze științifice pentru decizie. Dar votul rămâne condiționat de exact lacunele semnalate de președinte și nerezolvate de Curte: fără un sistem de monitorizare în timp real al cotelor și fără o procedură clară de determinare a vârstei puilor, riscul de aplicare inconsecventă sau de depășire necontrolată a plafonului rămâne real. Scor moderat: +2, nu mai mult, până când aceste lacune administrative sunt acoperite prin norme de aplicare.",
+    },
+    votReal: {
+      rezultat:
+        "CCR a respins, pe 24 iunie 2026, cu majoritate de voturi, obiecția de neconstituționalitate a președintelui Nicușor Dan și a constatat că legea pentru modificarea OUG 81/2021 (PL-x 218/2026) este constituțională. Legea își produce efectele: cotele de extracție a ursului brun pentru 2026 sunt 859 de exemplare la nivel de prevenție și 110 la nivel de intervenție.",
+      detalii:
+        "Vot CCR cu majoritate, nu unanimitate; defalcarea exactă pe judecători nu a fost făcută publică în sursele consultate.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "CCR a confirmat constituționalitatea legii, validând pe fond aceeași direcție pe care ar fi votat-o guvernul paralel: cotele de extracție trebuiau ajustate la realitatea de teren. Dar validarea Curții se limitează la conformitatea cu Constituția a criticilor punctuale formulate de președinte — nu înlocuiește nevoia unor norme de aplicare clare (monitorizare în timp real a cotelor, procedură de determinare a vârstei puilor) care să transforme cifrele aprobate într-o politică aplicabilă și verificabilă pe teren, nu doar într-un plafon teoretic.",
+    controverse: [
+      "Decizia dublează cotele de extracție a ursului brun (prevenție 426→859, intervenție 55→110) fără un mecanism de monitorizare în timp real care să blocheze automat recoltarea după atingerea plafonului.",
+    ],
+    surse: [
+      {
+        titlu:
+          "Administrația Prezidențială — Sesizare de neconstituționalitate asupra Legii pentru modificarea și completarea OUG nr. 81/2021",
+        url: "https://www.presidency.ro/ro/media/comunicate-de-presa/sesizare-de-neconstitutionalitate-asupra-legii-pentru-modificarea-si-completarea-ordonantei-de-urgenta-a-guvernului-nr-81-2021-privind-aprobarea-metodelor-de-interventie-imediata-pentru-prevenirea-si-combaterea-atacurilor-exemplarelor-de-urs-brun-asupra-persoanelor-si-bunurilor-acestora-precum-si-pentru-modificarea-si-completarea-unor-acte-normative",
+      },
+      {
+        titlu:
+          "Digi24 — CCR a respins sesizarea președintelui Nicușor Dan pe Legea privind prevenirea și combaterea atacurilor de urs brun (24 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/justitie/ccr-a-respins-sesizarea-presedintelui-nicusor-dan-pe-legea-privind-prevenirea-si-combaterea-atacurilor-de-urs-brun-3830243",
+      },
+      {
+        titlu:
+          "Stiripesurse — CCR anunță că a respins sesizarea lui Nicușor Dan pe legea urșilor: cotele de extracție pentru ursul brun rămân constituționale (24 iunie 2026)",
+        url: "https://www.stiripesurse.ro/ccr-anunta-ca-a-respins-sesizarea-lui-nicusor-dan-pe-legea-ursilor-cotele-de-extractie-pentru-ursul-brun-raman-constitutionale_3897846",
+      },
+      {
+        titlu:
+          "Mediafax — Nicușor Dan pierde la CCR pe tema urșilor și regimului ariilor naturale protejate (24 iunie 2026)",
+        url: "https://www.mediafax.ro/stirile-zilei/nicusor-dan-pierde-la-ccr-pe-tema-ursilor-si-regimului-ariilor-naturale-protejate-unde-a-gresit-presedintele-romaniei-23760836",
+      },
+      {
+        titlu:
+          "Antena3 — CCR a respins sesizarea președintelui Nicușor Dan privind legea care dublează numărul urșilor ce pot fi împușcați (24 iunie 2026)",
+        url: "https://www.antena3.ro/politica/ccr-a-respins-sesizarea-presedintelui-nicusor-dan-privind-legea-care-dubleaza-numarul-ursilor-ce-pot-fi-impuscati-793279.html",
+      },
+      {
+        titlu:
+          "JURIDICE.ro — Obiecție de neconstituționalitate respinsă privind modificarea regimului intervențiilor asupra ursului brun",
+        url: "https://www.juridice.ro/830509/obiectie-de-neconstitutionalitate-respinsa-privind-modificarea-regimului-interventiilor-asupra-ursului-brun.html",
+      },
+    ],
+  },
+  {
+    slug: "lege-interzicere-vanzare-actiuni-stat-sesizata-la-ccr",
+    titlu:
+      "Legea care interzice vânzarea acțiunilor statului la companii naționale până în 2027, atacată la CCR",
+    data: "2026-05-27",
+    institutie: "Parlament",
+    domenii: ["economie", "companii de stat", "guvernanță corporativă"],
+    rezumat:
+      "Parlamentul a adoptat, prin votul Camerei Deputaților din 27 mai 2026 (178 pentru, 103 contra, 8 abțineri), o lege inițiată de senatori PSD care interzice, până la 31 decembrie 2027, vânzarea acțiunilor deținute de stat la companii și societăți naționale, instituții de credit și orice altă societate în care statul e acționar. Pe 24 iunie 2026, președintele Nicușor Dan a sesizat CCR cu o obiecție de neconstituționalitate.",
+    explicatie:
+      "Un grup de senatori PSD, condus de Daniel Zamfir, a depus la Senat, pe 20 aprilie 2026, proiectul „privind unele măsuri pentru protejarea intereselor naționale în activitatea economică” (PL-x 376/2026), ca reacție directă la planul vicepremierului Oana Gheorghiu de reformă a 22 de companii de stat, care includea posibila listare la bursă a unor pachete minoritare de acțiuni, în linie cu angajamente din PNRR. Senatul a aprobat proiectul în procedură de urgență; Camera Deputaților, cameră decizională, l-a adoptat pe 27 mai 2026 cu 178 de voturi pentru, 103 contra și 8 abțineri, cu sprijinul PSD și AUR.\n\nLegea interzice, până la 31 decembrie 2027, înstrăinarea acțiunilor deținute de stat la companii și societăți naționale, la instituții de credit, precum și la orice altă societate unde statul are calitatea de acționar, indiferent de cota de capital deținută — cu excepția companiilor cu pierderi 5 ani consecutivi sau aflate în insolvență prin hotărâre judecătorească definitivă, și a pachetelor cu valoare totală sub 5 milioane de lei. Legea a fost transmisă președintelui spre promulgare pe 8 iunie 2026.\n\nActualizare 24 iunie: președintele Nicușor Dan a sesizat CCR cu o obiecție de neconstituționalitate, susținând că legea contravine unei direcții legislative recente și coerente a statului român — inclusiv Legii 48/2025 privind politica publică a proprietății private a statului — care încurajează listarea companiilor de stat pe piața de capital și participarea fondurilor de pensii. Sesizarea semnalează și efecte asupra investitorilor privați aflați în proceduri suspendate (câștigători declarați ai unor licitații, participanți care au depus garanții sau au plătit avansuri), pentru care legea nu prevede nimic explicit, precum și posibile incompatibilități cu obligațiile asumate de România față de Uniunea Europeană.",
+    pro: [
+      "Protejează pe termen scurt activele strategice ale statului de vânzări sub presiune politică sau de piață, într-un moment de instabilitate guvernamentală prelungită.",
+      "Exceptările pentru companii cu pierderi cronice sau insolvență evită blocarea restructurărilor inevitabile la firme nefuncționale.",
+      "Vine ca reacție la un plan de listare anunțat unilateral de un vicepremier, fără un cadru parlamentar prealabil — un contrasemnal care forțează o discuție publică despre ce companii de stat ar trebui sau nu vândute.",
+    ],
+    contra: [
+      "Contrazice direct Legea 48/2025 și direcția legislativă recentă privind politica publică a proprietății private a statului, ale cărei obiective explicite includ stimularea listărilor la bursă și atragerea fondurilor de pensii ca investitori.",
+      "Lege adoptată în procedură de urgență, în câteva săptămâni, fără un studiu de impact public asupra companiilor afectate sau a investitorilor aflați deja în proceduri de privatizare în curs.",
+      "Nu reglementează explicit soarta garanțiilor depuse, avansurilor plătite sau răspunderii statului față de câștigătorii unor licitații aflate în plină desfășurare la momentul interzicerii — un vid care poate genera litigii costisitoare.",
+      "Blochează generic, pe doi ani, orice vânzare de acțiuni ale statului, indiferent de companie sau context economic — o interdicție rigidă, nu o evaluare caz cu caz.",
+    ],
+    votParalel: {
+      vot: "contra",
+      verdict: "defavorabil",
+      scor: -3,
+      motivare:
+        "Guvernul paralel votează CONTRA: o interdicție generală, de doi ani, pe toate companiile de stat — indiferent de performanța sau relevanța strategică a fiecăreia — e o soluție disproporționată la o problemă reală (decizii de privatizare anunțate fără consultare parlamentară). Forma corectă de a proteja interesul național nu e blocarea oricărei tranzacții pe doi ani, ci o evaluare individuală, transparentă, companie cu companie, cu criterii publice. Legea contrazice o direcție legislativă recentă (Legea 48/2025) fără să o abroge explicit, creează incertitudine pentru investitorii deja angajați în proceduri și nu rezolvă cauza reală a conflictului — coordonarea, sau lipsa ei, între Guvern și Parlament pe planul de reformă a companiilor de stat. Scor -3: dauna e mai degrabă de claritate legislativă și predictibilitate decât una bugetară imediată.",
+    },
+    votReal: {
+      rezultat:
+        "Adoptată. Camera Deputaților (cameră decizională) a votat legea pe 27 mai 2026 cu 178 de voturi pentru, 103 contra și 8 abțineri. Transmisă președintelui spre promulgare pe 8 iunie 2026. Pe 24 iunie 2026, președintele Nicușor Dan a sesizat CCR cu o obiecție de neconstituționalitate; promulgarea rămâne suspendată până la soluționarea sesizării — rezultat final în așteptare.",
+      detalii:
+        "Inițiată de senatori PSD (Daniel Zamfir); votată și de AUR. PNL și USR s-au opus.",
+      cifre: { pentru: 178, contra: 103, abtineri: 8 },
+      pePartide:
+        "PSD și AUR — pentru. PNL și USR — contra. Pozițiile UDMR și ale celorlalte formațiuni nu sunt documentate exact pe acest vot în sursele consultate.",
+    },
+    aliniere: "divergent",
+    verdictFinal:
+      "Parlamentul a ales o interdicție generală în locul unei evaluări companie cu companie — exact opusul direcției pe care ar fi votat-o guvernul paralel. Sesizarea președintelui la CCR, depusă pe 24 iunie, pune punctul central pe masă: o lege adoptată în procedură de urgență, în câteva săptămâni, poate contrazice un cadru legislativ mai amplu construit anterior (Legea 48/2025) și poate lăsa fără soluție investitori aflați deja în proceduri suspendate. Verdictul rămâne deschis până la decizia CCR; dacă Curtea admite sesizarea, poziția guvernului paralel va fi confirmată juridic — dacă o respinge, rămâne confirmată politic, ca un exemplu de legiferare reactivă, în regim de urgență, fără coordonare reală cu Executivul pe planul de reformă a companiilor de stat.",
+    controverse: [
+      "Legea a fost depusă de PSD la doar câteva zile după ce vicepremierul Oana Gheorghiu a anunțat planul de listare a unor pachete minoritare la 22 de companii de stat — un conflict direct, nemediat politic, între un proiect de guvern și o inițiativă parlamentară a unui partid din afara guvernului.",
+      "Președintele Nicușor Dan susține că legea contravine direct Legii 48/2025, adoptată recent, fără ca Parlamentul să fi abrogat-o explicit sau să fi explicat public contradicția.",
+    ],
+    surse: [
+      {
+        titlu:
+          "Agerpres — Camera Deputaților: Acțiunile statului la companiile și societățile naționale nu pot fi înstrăinate până la 31 decembrie 2027 (27 mai 2026)",
+        url: "https://agerpres.ro/politic/2026/05/27/camera-deputatilor-actiunile-statului-la-companiile-si-societatile-nationale-nu-pot-fi-instrainate-p--1560352",
+      },
+      {
+        titlu:
+          "Digi24 — Proiectul care interzice vânzarea activelor statului până în 2027 a fost adoptat de Senat",
+        url: "https://www.digi24.ro/stiri/economie/proiectul-care-interzice-vanzarea-activelor-statului-pana-in-2027-a-fost-adoptat-de-senat-3755921",
+      },
+      {
+        titlu:
+          "Capital.ro — Proiectul PSD privind interzicerea vânzării companiilor de stat, votat în regim de urgență",
+        url: "https://www.capital.ro/proiectul-psd-privind-interzicerea-vanzarii-companiilor-de-stat-votat-in-regim-de-urgenta-ciprian-serban-despre-tarom-nu-se-inchide.html",
+      },
+      {
+        titlu:
+          "Agerpres — Nicușor Dan sesizează CCR în legătură cu legea privind protejarea intereselor naționale în activitatea economică (24 iunie 2026)",
+        url: "https://agerpres.ro/politic/2026/06/24/nicusor-dan-sesizeaza-ccr-in-legatura-cu-legea-privind-protejarea-intereselor-nationale-in-activitat--1569954",
+      },
+      {
+        titlu:
+          "G4Media — Nicușor Dan sesizează Curtea Constituțională în legătură cu legea ce privește protejarea intereselor naționale în activitatea economică (24 iunie 2026)",
+        url: "https://www.g4media.ro/nicusor-dan-sesizeaza-curtea-constitutionala-in-legatura-cu-legea-ce-priveste-protejarea-intereselor-nationale-in-activitatea-economica-parlamentul-a-instituit-o-interdictie-pana-pe-31-decembrie-20.html",
+      },
+      {
+        titlu:
+          "Antena3 — Nicușor Dan a atacat la CCR legea PSD-AUR care interzice vânzarea de acțiuni la companii de stat până la finalul lui 2027 (24 iunie 2026)",
+        url: "https://www.antena3.ro/politica/nicusor-dan-a-atacat-la-ccr-legea-psd-aur-care-interzice-vanzarea-de-actiuni-la-companii-de-stat-pana-la-finalul-lui-2027-793312.html",
+      },
+    ],
+  },
+  {
     slug: "programul-safe-imprumutul-de-16-miliarde",
     titlu:
       "Programul SAFE: împrumutul de 16,68 miliarde € pentru apărare și Autostrada Moldovei",
