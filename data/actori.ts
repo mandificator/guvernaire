@@ -17,6 +17,18 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-25",
+        text: "După ce negocierile de la Vila Lac dintre PSD și blocul PNL–USR–UDMR s-au încheiat fără acord, a reacționat: „Suntem în criză pentru că niște lideri nu și-au ținut promisiunea”; a recunoscut că a greșit în gestionarea negocierilor pentru desemnarea premierului, fără să precizeze unde anume, și a cerut din nou partidelor o majoritate pro-occidentală, exprimându-și speranța să existe un Guvern până marți.",
+      },
+      {
+        data: "2026-06-24",
+        text: "Aflat la Cluj-Napoca, a declarat: „Vom avea un guvern minoritar, pro-occidental” și le-a cerut partidelor să vină vineri, 26 iunie, cu concluziile negocierilor, precizând că pe 25 iunie va participa la un summit internațional în Polonia.",
+      },
+      {
+        data: "2026-06-23",
+        text: "A desfășurat la Cotroceni o nouă rundă de consultări, de peste șase ore, cu toate partidele parlamentare, fără să desemneze un nou premier; a indicat drept variantă posibilă un guvern politic minoritar bazat pe un acord parlamentar de sprijin negociat în avans.",
+      },
+      {
         data: "2026-06-22",
         text: "Guvernul Veștea, pe care l-a desemnat, a picat la votul de învestitură din Parlament (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. L-a convocat la Cotroceni, împreună cu liderul PSD Sorin Grindeanu, pentru o nouă rundă de consultări — procedura de desemnare a unui premier se reia de la zero.",
       },
@@ -124,6 +136,18 @@ export const actori: Actor[] = [
         titlu: "Europa FM — Veștea și Grindeanu, convocați de președinte la Cotroceni, după ce negocierile cu partidele nu au dus la niciun rezultat (23 iunie 2026)",
         url: "https://www.europafm.ro/vestea-si-grindeanu-convocati-de-presedinte-la-cotroceni-dupa-ce-negocierile-cu-partidele-nu-au-dus-la-niciun-rezultat-surse/",
       },
+      {
+        titlu: "DCNews — Nicușor Dan a zburat cu Spartan la Cluj! Semnal către liderii partidelor (24 iunie 2026)",
+        url: "https://www.dcnews.ro/nicusor-dan-declaratii-despre-formarea-guvernului-minoritar_1064339.html",
+      },
+      {
+        titlu: "Adevărul — Prima reacție a lui Nicușor Dan, după eșecul de la Vila Lac: „Suntem în criză pentru că niște lideri nu și-au ținut promisiunea” (25 iunie 2026)",
+        url: "https://adevarul.ro/politica/prima-reactie-a-lui-nicusor-dan-dupa-esecul-de-la-2539019.html",
+      },
+      {
+        titlu: "Digi24 — Președintele recunoaște că a greșit în negocierile pentru desemnarea premierului (25 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-recunoaste-ca-a-gresit-in-negocierile-pentru-desemnarea-premierului-ce-spune-despre-o-eventuala-suspendare-3833011",
+      },
     ],
   },
   {
@@ -135,6 +159,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-25",
+        text: "A participat la negocierile de la Vila Lac alături de Sorin Grindeanu, Dominic Fritz și Kelemen Hunor. PNL și UDMR au propus un acord de susținere parlamentară limitat la șase luni pentru un guvern minoritar condus de Grindeanu, fără ca semnatarii să facă parte din el. Întâlnirea s-a încheiat fără acordul tuturor părților, blocată pe cererea unui calendar fix de predare a mandatului de premier.",
+      },
       {
         data: "2026-06-22",
         text: "Guvernul Veștea — pe care PNL nu l-a susținut — a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), confirmând riscul pe care îl semnalase. Alternativa propusă de el, un guvern minoritar PNL–USR–UDMR, rămâne pe masă în consultările repornite de la Cotroceni.",
@@ -299,6 +327,14 @@ export const actori: Actor[] = [
         titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
         url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
       },
+      {
+        titlu: "DCNews — Ședința de la Vila Lac s-a încheiat. S-ar fi ajuns la... blocaj! (25 iunie 2026)",
+        url: "https://www.dcnews.ro/grindeanu-bolojan-si-fritz-intalnire-la-vila-lac-inainte-de-desemnarea-premierului_1064525.html",
+      },
+      {
+        titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
+      },
     ],
   },
   {
@@ -376,6 +412,14 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
+      {
+        data: "2026-06-25",
+        text: "A participat la negocierile de la Vila Lac alături de Ilie Bolojan, Dominic Fritz și Kelemen Hunor; întâlnirea s-a încheiat fără acord. A respins explicit propunerea USR a unui guvern minoritar PNL–USR–UDMR cu rotație ulterioară spre PSD: „PSD nu va vota un guvern minoritar PNL-USR-UDMR! România are nevoie de stabilitate, nu de moraliști care stau pe funcții.”",
+      },
+      {
+        data: "2026-06-24",
+        text: "Biroul Permanent Național al PSD l-a nominalizat în unanimitate ca propunere a partidului pentru funcția de premier.",
+      },
       {
         data: "2026-06-22",
         text: "Guvernul Veștea, pe care PSD îl susținuse formal de la Consiliul Politic Național din 21 iunie, a picat la votul de învestitură (207 voturi exprimate, sub pragul de 233), după ce AUR și UDMR au părăsit sala. A fost convocat la Cotroceni, alături de Veștea, pentru o nouă rundă de consultări cu președintele Nicușor Dan; surse din presă l-au indicat drept posibilă variantă următoare de premier desemnat.",
@@ -498,6 +542,18 @@ export const actori: Actor[] = [
         titlu: "Digi24 — Guvernul Veștea, susținut de PSD și disidenții liberali, a picat la vot în Parlament (22 iunie 2026)",
         url: "https://www.digi24.ro/stiri/actualitate/politica/surse-lista-ministrilor-din-guvernul-vestea-va-fi-depusa-in-aceasta-seara-la-parlament-cine-ar-face-parte-din-cabinetul-propus-3825177",
       },
+      {
+        titlu: "BURSA — Grindeanu: „PSD a decis să-și asume responsabilitatea guvernării” (24 iunie 2026)",
+        url: "https://www.bursa.ro/grindeanu-8221psd-a-decis-sa-si-asume-responsabilitatea-guvernarii8221-44293952",
+      },
+      {
+        titlu: "Realitatea.NET — Sorin Grindeanu: „PSD nu va vota un guvern minoritar PNL-USR-UDMR! România are nevoie de stabilitate, nu de moraliști care stau pe funcții” (25 iunie 2026)",
+        url: "https://www.realitatea.net/stiri/actual/sorin-grindeanu-psd-nu-va-vota-un-guvern-minoritar-pnl-usr-udmr-romania-are-nevoie-de-stabilitate-nu-de-moralisti-care-stau-pe-functii-71oila",
+      },
+      {
+        titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
+      },
     ],
   },
   {
@@ -597,6 +653,10 @@ export const actori: Actor[] = [
       "Președinte USR din iunie 2025, primar al Timișoarei din 2020. A susținut corecția fiscală a guvernului Bolojan, a exclus refacerea coaliției cu PSD și a respins guvernul tehnocrat Tomac, pe care l-a calificat drept „paravan pentru ca PSD să exercite puterea”.",
     actiuniRecente: [
       {
+        data: "2026-06-25",
+        text: "A participat la negocierile de la Vila Lac alături de Ilie Bolojan, Sorin Grindeanu și Kelemen Hunor. USR a refuzat să susțină un guvern condus de PSD și a contrapropus, pentru o perioadă de șase luni, un guvern minoritar PNL–USR–UDMR urmat de o rotație a guvernării în favoarea PSD — propunere respinsă explicit de Grindeanu. Întâlnirea s-a încheiat fără acord.",
+      },
+      {
         data: "2026-06-17",
         text: "Comitetul Politic al USR a decis în unanimitate să nu susțină Cabinetul Veștea. Fritz: „Peste PSD, Guvernul Veștea ar avea nevoie să adune voturi de la peste 100 de traseiști. Un Guvern de pe Temu: de proastă calitate și care ar costa românii scump.”",
       },
@@ -672,6 +732,14 @@ export const actori: Actor[] = [
           "AGERPRES — Comitetul Politic al USR a decis să nu susțină Cabinetul Veștea; Dominic Fritz: „un Guvern de pe Temu” (17 iunie 2026)",
         url: "https://agerpres.ro/politic/2026/06/17/comitetul-politic-al-usr-a-decis-sa-nu-sustina-cabinetul-vestea-dominic-fritz-un-guvern-de-pe-temu--1567459",
       },
+      {
+        titlu: "DCNews — Ședința de la Vila Lac s-a încheiat. S-ar fi ajuns la... blocaj! (25 iunie 2026)",
+        url: "https://www.dcnews.ro/grindeanu-bolojan-si-fritz-intalnire-la-vila-lac-inainte-de-desemnarea-premierului_1064525.html",
+      },
+      {
+        titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
+      },
     ],
   },
   {
@@ -683,6 +751,10 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
+      {
+        data: "2026-06-25",
+        text: "A participat la negocierile de la Vila Lac alături de Ilie Bolojan, Sorin Grindeanu și Dominic Fritz, în cadrul propunerii PNL–UDMR a unui acord de susținere parlamentară limitat la șase luni pentru un guvern minoritar condus de Grindeanu. Întâlnirea s-a încheiat fără acordul tuturor părților.",
+      },
       {
         data: "2026-06-22",
         text: "Cei 31 de parlamentari UDMR au părăsit sala la votul de învestitură, conform deciziei anunțate pe 17 iunie. De la tribuna Parlamentului, după anunțul lui George Simion că AUR se retrage din sală, l-a felicitat ironic: „Există un singur om care astăzi a câștigat. Nu este în sală, dar talentul trebuie recunoscut. Felicitări, George Simion, ai dat șah și mat!” Guvernul Veștea a picat (207 voturi exprimate, sub pragul de 233).",
@@ -754,6 +826,14 @@ export const actori: Actor[] = [
       {
         titlu: "Ziare.com — Kelemen Hunor: „Bravo, George Simion, ai dat șah și mat” (22 iunie 2026)",
         url: "https://ziare.com/guvernul-vestea/kelemen-hunor-sedinta-vot-investire-guvern-vestea-2020192",
+      },
+      {
+        titlu: "DCNews — Ședința de la Vila Lac s-a încheiat. S-ar fi ajuns la... blocaj! (25 iunie 2026)",
+        url: "https://www.dcnews.ro/grindeanu-bolojan-si-fritz-intalnire-la-vila-lac-inainte-de-desemnarea-premierului_1064525.html",
+      },
+      {
+        titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
+        url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
       },
     ],
   },
