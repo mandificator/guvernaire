@@ -123,6 +123,21 @@ export default function Home() {
             </p>
           </div>
 
+          <a
+            href="https://vulpavo.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <img
+              src="/vulpavo.jpg"
+              alt="Vulpavo"
+              width={1024}
+              height={1024}
+              className="w-full"
+            />
+          </a>
+
           <div className="border-t-4 border-zinc-900 p-0">
             <h2 className="mb-3 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-zinc-900">
               Actorii politici, sub lupă
