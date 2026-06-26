@@ -17,6 +17,10 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-26",
+        text: "I-a convocat de la ora 18:00 la Cotroceni pe Sorin Grindeanu (PSD), Ilie Bolojan (PNL), Dominic Fritz (USR), Kelemen Hunor (UDMR) și Varujan Pambuccian, pentru a decide între propunerea PSD (Grindeanu) și propunerea PNL–USR–UDMR (Siegfried Mureșan); întâlnirea s-a încheiat fără acord și fără o nouă desemnare. A declarat: „Am revenit la blocajul politic pe care marți îl credeam depășit. Pe baza pozițiilor partidelor din consultări, exista o singură formulă care părea să asigure susținerea unei majorități parlamentare: guvernul minoritar PSD. Marți, PNL s-a angajat să voteze un guvern minoritar PSD, cu anumite condiții privind programul de guvernare” — acuzând PNL că și-a schimbat poziția.",
+      },
+      {
         data: "2026-06-25",
         text: "După ce negocierile de la Vila Lac dintre PSD și blocul PNL–USR–UDMR s-au încheiat fără acord, a reacționat: „Suntem în criză pentru că niște lideri nu și-au ținut promisiunea”; a recunoscut că a greșit în gestionarea negocierilor pentru desemnarea premierului, fără să precizeze unde anume, și a cerut din nou partidelor o majoritate pro-occidentală, exprimându-și speranța să existe un Guvern până marți.",
       },
@@ -159,6 +163,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-26",
+        text: "PNL, alături de USR și UDMR, a propus oficial pe europarlamentarul Siegfried Mureșan (PNL) ca alternativă de premier la Sorin Grindeanu (PSD), pentru un guvern PNL–USR–UDMR cu rotativă a premieratului către PSD din aprilie 2027. A participat la întâlnirea convocată de președintele Nicușor Dan la Cotroceni, încheiată fără acord.",
+      },
       {
         data: "2026-06-25",
         text: "A participat la negocierile de la Vila Lac alături de Sorin Grindeanu, Dominic Fritz și Kelemen Hunor. PNL și UDMR au propus un acord de susținere parlamentară limitat la șase luni pentru un guvern minoritar condus de Grindeanu, fără ca semnatarii să facă parte din el. Întâlnirea s-a încheiat fără acordul tuturor părților, blocată pe cererea unui calendar fix de predare a mandatului de premier.",
@@ -412,6 +420,10 @@ export const actori: Actor[] = [
     rezumat:
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
+      {
+        data: "2026-06-26",
+        text: "După ce PNL, USR și UDMR au anunțat susținerea lui Siegfried Mureșan ca propunere alternativă de premier, a participat la întâlnirea convocată de președintele Nicușor Dan la Cotroceni alături de Ilie Bolojan, Dominic Fritz, Kelemen Hunor și Varujan Pambuccian; întâlnirea s-a încheiat fără acord și fără o nouă desemnare de premier.",
+      },
       {
         data: "2026-06-25",
         text: "A participat la negocierile de la Vila Lac alături de Ilie Bolojan, Dominic Fritz și Kelemen Hunor; întâlnirea s-a încheiat fără acord. A respins explicit propunerea USR a unui guvern minoritar PNL–USR–UDMR cu rotație ulterioară spre PSD: „PSD nu va vota un guvern minoritar PNL-USR-UDMR! România are nevoie de stabilitate, nu de moraliști care stau pe funcții.”",

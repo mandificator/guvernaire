@@ -446,22 +446,22 @@ export const decizii: Decizie[] = [
       },
       {
         titlu:
-          "Capital — PNL, USR și UDMR îl propun oficial pe Siegfried Mureșan pentru funcția de premier. Ilie Bolojan: „Credem că este o soluție pentru România\" (26 iunie 2026)",
+          "Capital — PNL, USR și UDMR îl propun oficial pe Siegfried Mureșan pentru funcția de premier. Ilie Bolojan: „Credem că este o soluție pentru România” (26 iunie 2026)",
         url: "https://www.capital.ro/siegfried-muresan-propus-pentru-functia-de-premier-pnl-usr-si-udmr-negociaza-o-alternativa-la-candidatul-psd.html",
       },
       {
         titlu:
-          "RomaniaTV — Siegfried Mureșan, primele declarații după ce a fost propus premier de PNL-USR-UDMR: „Oamenii din România vor modernizare, vor reformare\" (26 iunie 2026)",
+          "RomaniaTV — Siegfried Mureșan, primele declarații după ce a fost propus premier de PNL-USR-UDMR: „Oamenii din România vor modernizare, vor reformare” (26 iunie 2026)",
         url: "https://www.romaniatv.net/siegfried-muresan-primele-declaratii-dupa-ce-a-fost-propus-premier-de-catre-pnl-usr-udmr-oamenii-din-romania-vor-modernizare-vor-reformare-iar-dorinta-noastra-este-sa-facem-o-oferta-cinst_9659365.html",
       },
       {
         titlu:
-          "Mediafax — Întâlnirea de la Cotroceni s-a încheiat fără rezultat: „Am revenit la blocajul politic pe care marți îl credeam depășit\" (26 iunie 2026)",
+          "Mediafax — Întâlnirea de la Cotroceni s-a încheiat fără rezultat: „Am revenit la blocajul politic pe care marți îl credeam depășit” (26 iunie 2026)",
         url: "https://www.mediafax.ro/politic/intalnirea-de-la-cotroceni-s-a-incheiat-fara-rezultat-partidele-si-au-pastrat-pozitiile-iar-nicusor-dan-nu-desemneaza-astazi-premierul-am-revenit-la-blocajul-politic-pe-care-marti-il-crede-23761970",
       },
       {
         titlu:
-          "Adevărul — Nicușor Dan le cere partidelor să revină la dialog: „De marți până azi, PNL și-a schimbat poziția\" (26 iunie 2026)",
+          "Adevărul — Nicușor Dan le cere partidelor să revină la dialog: „De marți până azi, PNL și-a schimbat poziția” (26 iunie 2026)",
         url: "https://adevarul.ro/politica/nicusor-dan-ii-primeste-la-cotroceni-pe-liderii-2539267.html",
       },
     ],
@@ -1760,6 +1760,84 @@ export const decizii: Decizie[] = [
         titlu:
           "Stiripesurse — Nicușor Dan a promulgat legea: 15 iunie, Ziua Memoriei Victimelor Mineriadei",
         url: "https://www.stiripesurse.ro/decizie-cu-puternica-incarcatura-istorica-15-iunie-devine-ziua-nationala-a-memoriei-victimelor-mineriadei-legea-a-fost-promulgata_3893924",
+      },
+    ],
+  },
+  {
+    slug: "ccr-respinge-sesizarea-hidrocentrale-arii-protejate",
+    titlu:
+      "CCR respinge sesizarea lui Nicușor Dan: hidrocentralele pre-2007 pot fi finalizate în arii protejate",
+    data: "2026-06-24",
+    institutie: "CCR",
+    domenii: ["mediu", "energie", "stat de drept"],
+    rezumat:
+      "Curtea Constituțională a respins, pe 24 iunie 2026, cu majoritate de voturi, obiecția de neconstituționalitate a președintelui Nicușor Dan împotriva legii inițiate de senatorul PSD Daniel Zamfir care permite reluarea și finalizarea proiectelor hidroenergetice începute înainte de 29 iunie 2007 în interiorul ariilor naturale protejate, prin modificarea limitelor acestora, și scutește de evaluare a impactului asupra mediului proiectele declarate de interes pentru securitatea națională de către CSAT. Decizia CCR este definitivă și general obligatorie.",
+    explicatie:
+      "Proiectul de lege, redepus în 2025 de senatorul PSD Daniel Zamfir (alături de Radu Oprea) după mai multe tentative anterioare începând din 2022, modifică regimul ariilor naturale protejate pentru a permite reluarea unor proiecte hidroenergetice — majoritatea aprobate sau începute în perioada comunistă, prin hotărâri de guvern sau decrete de stat — ale căror amplasamente au fost incluse ulterior, prin legislație de mediu, în arii protejate. Legea (PL-x 14/2023) a fost adoptată de Camera Deputaților, for decizional, pe 15 octombrie 2025, cu 262 de voturi pentru și 33 contra, cu sprijinul PSD, PNL, UDMR și AUR; USR a votat aproape în unanimitate împotrivă. Pe lângă modificarea limitelor ariilor protejate pentru proiectele pre-2007, legea exceptează de la evaluarea impactului asupra mediului proiectele declarate de interes pentru securitatea națională printr-o decizie a Consiliului Suprem de Apărare a Țării (CSAT).\n\nPreședintele Nicușor Dan a sesizat CCR cu o obiecție de neconstituționalitate în noiembrie 2025, susținând că legea contravine obligațiilor României față de Uniunea Europeană în materie de protecție a mediului și ridică probleme privind dreptul constituțional la un mediu sănătos. Ministra Mediului, Diana Buzoianu, s-a opus public legii, susținând că mecanismul exceptărilor generalizate de la evaluarea de mediu pe baza unei decizii CSAT nu are echivalent în alte state membre UE și poate contraveni directivelor europene.\n\nCCR a respins sesizarea pe 24 iunie 2026, cu majoritate de voturi, constatând conformitatea legii cu Constituția în raport cu criticile formulate de președinte. Decizia este definitivă și general obligatorie. Senatorul Daniel Zamfir a salutat decizia, afirmând că aceasta deblochează investiții estimate de el la circa un miliard de euro, și a comentat public, cu adresă la ministra Buzoianu: „Aud că Buzoianu e cu gheață la inimă.” Ministrul Energiei, Bogdan Ivan, a calificat decizia drept „victorie pentru România”, descriind proiectele vizate drept „strategice pentru securitatea energetică”. Organizații de mediu (printre care Agent Green, Declic și Bankwatch România) au criticat decizia, susținând că afectează limitele a 27 de parcuri naționale și naturale, și au anunțat că vor sesiza Comisia Europeană.",
+    pro: [
+      "Legea vizează un set delimitat de proiecte hidroenergetice începute înainte de 2007, multe în stadiu avansat de execuție din perioada comunistă — finalizarea lor valorifică investiții deja făcute, în loc să le lase definitiv blocate.",
+      "Guvernul susține că deblochează investiții estimate la circa un miliard de euro și contribuie la capacitatea de producție a energiei electrice, relevantă pentru securitatea energetică a României.",
+      "CCR a confirmat conformitatea legii cu Constituția în raport cu criticile punctuale formulate de președinte — decizia Curții este definitivă și general obligatorie.",
+    ],
+    contra: [
+      "Scutirea de evaluare a impactului asupra mediului pentru proiectele declarate „de securitate națională” printr-o simplă decizie CSAT — fără criterii publice explicite în lege pentru o astfel de declarare — deschide o portiță care poate fi folosită dincolo de cele câteva hidrocentrale pre-2007 vizate inițial.",
+      "Modificarea limitelor a 27 de parcuri naționale și naturale, potrivit organizațiilor de mediu, afectează un regim de protecție instituit prin legislație ulterioară pentru rațiuni de conservare, nu printr-o eroare administrativă.",
+      "Ministra Mediului a semnalat un risc concret de incompatibilitate cu directivele europene de mediu, pe care decizia CCR nu îl elimină — ea confirmă doar conformitatea cu Constituția română, nu cu dreptul UE; ONG-urile au anunțat sesizarea Comisiei Europene.",
+    ],
+    votParalel: {
+      vot: "contra",
+      verdict: "mixt",
+      scor: -3,
+      motivare:
+        "Guvernul paralel ar fi votat CONTRA acestei legi, cu o distincție clară între cele două componente. Finalizarea unui set delimitat de hidrocentrale pre-2007, deja începute și abandonate decenii la rând, e un argument legitim de valorificare a investiției publice — pe acest punct, singur, scorul ar fi fost pozitiv. Dar legea nu se limitează la atât: scutirea de evaluare de mediu pentru orice proiect declarat „de securitate națională” printr-o decizie CSAT, fără criterii publice de delimitare în text, transformă o excepție punctuală într-un mecanism care poate fi extins discreționar la proiecte viitoare, fără control judiciar sau public asupra deciziei de declarare. Asta cântărește mai mult decât beneficiul energetic imediat: e o problemă de calitate a procesului și de transparență, nu doar de mediu. Scor -3: deficitul de garanții împotriva extinderii necontrolate a excepției depășește beneficiul economic al deblocării proiectelor istorice.",
+    },
+    votReal: {
+      rezultat:
+        "CCR a respins, pe 24 iunie 2026, cu majoritate de voturi, obiecția de neconstituționalitate a președintelui Nicușor Dan. Legea e constituțională și își produce efectele; decizia CCR este definitivă și general obligatorie.",
+      detalii:
+        "Lege adoptată de Camera Deputaților (for decizional) pe 15 octombrie 2025, cu 262 voturi pentru și 33 contra; PSD, PNL, UDMR și AUR au votat pentru, USR aproape în unanimitate împotrivă. Sesizare CCR depusă de președinte în noiembrie 2025; decizie CCR pe 24 iunie 2026. Defalcarea exactă a votului din CCR pe judecători nu a fost făcută publică în sursele consultate.",
+      cifre: { pentru: 262, contra: 33, abtineri: 0 },
+      pePartide:
+        "PSD (inițiator, prin Daniel Zamfir), PNL, UDMR și AUR au votat pentru lege la Camera Deputaților; USR a votat aproape în unanimitate împotrivă.",
+    },
+    aliniere: "divergent",
+    verdictFinal:
+      "CCR a validat legea pe conformitatea ei cu Constituția română, nu pe meritele ei de fond. Guvernul paralel ar fi separat cele două componente ale legii, votate ca pachet unic: finalizarea hidrocentralelor pre-2007 e un argument defendabil de valorificare a investiției, dar scutirea de evaluare de mediu pentru proiecte declarate unilateral „de securitate națională”, fără criterii publice de delimitare, instituie un mecanism cu risc de extindere necontrolată, dincolo de cazurile vizate inițial. Rămân deschise atât sesizarea anunțată de organizațiile de mediu la Comisia Europeană — care va testa legea pe compatibilitatea cu dreptul UE, nu cu Constituția română —, cât și întrebarea practică a câte proiecte vor fi efectiv declarate „de securitate națională” în anii următori.",
+    controverse: [
+      "Legea modifică limitele a 27 de parcuri naționale și naturale, potrivit organizațiilor de mediu (Agent Green, Declic, Bankwatch România), care au anunțat sesizarea Comisiei Europene.",
+      "Scutirea de evaluare a impactului de mediu pentru proiecte declarate „de securitate națională” printr-o decizie CSAT, fără criterii publice explicite de delimitare în text, a fost semnalată ca incompatibilă cu directivele europene de mediu de către ministra Mediului, Diana Buzoianu.",
+      "Senatorul Daniel Zamfir a comentat public, cu adresă la ministra Buzoianu, după decizia CCR: „Aud că Buzoianu e cu gheață la inimă” — declarație atribuită, nu o caracterizare proprie.",
+    ],
+    surse: [
+      {
+        titlu:
+          "Economedia — CCR respinge sesizarea lui Nicușor Dan pe legea hidrocentralelor: proiectele vechi de dinainte de 2007 pot fi scoase din ariile protejate și exceptate de la evaluarea de mediu (24 iunie 2026)",
+        url: "https://economedia.ro/ccr-respinge-sesizarea-lui-nicusor-dan-pe-legea-hidrocentralelor-proiectele-vechi-de-dinainte-de-2007-pot-fi-scoase-din-ariile-protejate-si-exceptate-de-la-evaluarea-de-mediu.html",
+      },
+      {
+        titlu:
+          "News.ro — Activiștii de mediu, indignați de decizia CCR care declară constituțională legea inițiată de senatorul Daniel Zamfir: 27 de parcuri naționale și naturale sunt mutilate (24 iunie 2026)",
+        url: "https://www.news.ro/social/activistii-mediu-indignati-decizia-ccr-declara-constitutionala-lege-initiata-senatorul-daniel-zamfir-27-parcuri-nationale-naturale-mutilate-niste-proiecte-hidroenergetice-ceausiste-1922401824002026061822492742",
+      },
+      {
+        titlu:
+          "DCNews — Înfrângere majoră pentru ONG-urile de mediu după decizia CCR de azi privind hidrocentralele. Daniel Zamfir: se deblochează investiții de 1 miliard de euro (24 iunie 2026)",
+        url: "https://www.dcnews.ro/infrangere-majora-pentru-ong-urile-de-mediu-dupa-decizia-ccr-de-azi-privind-hidrocentralele-daniel-zamfir-se-deblocheaza-investitii-de-1-miliard-de-euro_1064279.html",
+      },
+      {
+        titlu:
+          "Profit.ro — În pofida lui Nicușor Dan, hidrocentralele vor „mușca” din ariile naturale protejate. CCR a dat undă verde legii și scutește de evaluare de mediu proiectele declarate de securitate națională de către CSAT (24 iunie 2026)",
+        url: "https://www.profit.ro/povesti-cu-profit/energie/video-foto-pofida-nicusor-dan-hidrocentralele-vor-musca-ariile-naturale-protejate-ccr-dat-unda-verde-legii-proiecte-istorice-le-scuteste-evaluare-mediu-cele-declarate-securitate-nationala-catre-csat-22492574",
+      },
+      {
+        titlu:
+          "Antena 3 — CCR permite finalizarea hidrocentralelor în arii protejate. Bogdan Ivan: „Proiecte strategice pentru securitate energetică” (24 iunie 2026)",
+        url: "https://www.antena3.ro/politica/ccr-permite-finalizarea-hidrocentralelor-in-arii-protejate-bogdan-ivan-proiecte-strategice-pentru-securitate-energetica-793318.html",
+      },
+      {
+        titlu:
+          "ActiveNews — Ziua și lovitura pentru Nicușor Dan: CCR dă undă verde legii care permite continuarea și finalizarea hidrocentralelor în zone protejate. Sesizarea lui Nicușor Dan a fost respinsă (24 iunie 2026)",
+        url: "https://www.activenews.ro/stiri/Ziua-si-lovitura-pentru-Nicusor-Dan.-CCR-da-unda-verde-legii-care-permite-continuarea-si-finalizarea-hidrocentralelor-in-zone-protejate.-Sesizarea-lui-Nicusor-a-fost-respinsa-206167",
       },
     ],
   },
