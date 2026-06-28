@@ -17,6 +17,10 @@ export const actori: Actor[] = [
       "Un an de mandat: politică externă consecventă pe angajamentele României în UE și NATO și gestionarea crizelor de securitate (dronele de la Constanța), dar restanțe majore la promisiunile proprii — șefii SRI/SIE nenumiți, raportul privind anularea alegerilor din 2024 întârziat — și desemnarea unui premier (Tomac) fără majoritate conturată.",
     actiuniRecente: [
       {
+        data: "2026-06-27",
+        text: "A acuzat public PNL de schimbarea poziției față de 23 iunie, susținând că partidul s-ar fi angajat anterior să voteze un guvern minoritar PSD condus de Sorin Grindeanu; Ilie Bolojan și Siegfried Mureșan i-au contrazis public versiunea, declarând că PNL nu a promis niciodată susținere necondiționată pentru Grindeanu.",
+      },
+      {
         data: "2026-06-26",
         text: "I-a convocat de la ora 18:00 la Cotroceni pe Sorin Grindeanu (PSD), Ilie Bolojan (PNL), Dominic Fritz (USR), Kelemen Hunor (UDMR) și Varujan Pambuccian, pentru a decide între propunerea PSD (Grindeanu) și propunerea PNL–USR–UDMR (Siegfried Mureșan); întâlnirea s-a încheiat fără acord și fără o nouă desemnare. A declarat: „Am revenit la blocajul politic pe care marți îl credeam depășit. Pe baza pozițiilor partidelor din consultări, exista o singură formulă care părea să asigure susținerea unei majorități parlamentare: guvernul minoritar PSD. Marți, PNL s-a angajat să voteze un guvern minoritar PSD, cu anumite condiții privind programul de guvernare” — acuzând PNL că și-a schimbat poziția.",
       },
@@ -152,6 +156,10 @@ export const actori: Actor[] = [
         titlu: "Digi24 — Președintele recunoaște că a greșit în negocierile pentru desemnarea premierului (25 iunie 2026)",
         url: "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-recunoaste-ca-a-gresit-in-negocierile-pentru-desemnarea-premierului-ce-spune-despre-o-eventuala-suspendare-3833011",
       },
+      {
+        titlu: "Digi24 — Nicușor Dan anunță blocaj în rezolvarea crizei politice și acuză PNL că și-a schimbat poziția (27 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-anunta-blocaj-in-rezolvarea-crizei-politice-si-acuza-pnl-ca-si-a-schimbat-pozitia-3835021",
+      },
     ],
   },
   {
@@ -163,6 +171,10 @@ export const actori: Actor[] = [
     rezumat:
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
+      {
+        data: "2026-06-27",
+        text: "A contrazis public versiunea președintelui Nicușor Dan, conform căreia PNL ar fi promis pe 23 iunie să susțină un guvern minoritar PSD condus de Sorin Grindeanu, susținând că partidul nu a făcut niciodată un asemenea angajament necondiționat. PNL a respins public „lecțiile despre responsabilitate” venite din partea președinției.",
+      },
       {
         data: "2026-06-26",
         text: "PNL, alături de USR și UDMR, a propus oficial pe europarlamentarul Siegfried Mureșan (PNL) ca alternativă de premier la Sorin Grindeanu (PSD), pentru un guvern PNL–USR–UDMR cu rotativă a premieratului către PSD din aprilie 2027. A participat la întâlnirea convocată de președintele Nicușor Dan la Cotroceni, încheiată fără acord.",
@@ -342,6 +354,14 @@ export const actori: Actor[] = [
       {
         titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
         url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
+      },
+      {
+        titlu: "Gandul — Ilie Bolojan îl contrazice pe președintele Nicușor Dan și zice că nu l-a mințit. Ce spune despre varianta Mureșan (27 iunie 2026)",
+        url: "https://www.gandul.ro/politica/ilie-bolojan-il-contrazice-pe-presedintele-nicusor-dan-si-zice-ca-nu-l-a-mintit-ce-spune-despre-varianta-muresan-20935744",
+      },
+      {
+        titlu: "Ziarul Profit — PNL, reacție după ce Nicușor Dan a avut o atitudine neașteptată față de Ilie Bolojan: „Nu acceptăm lecții despre responsabilitate de la cei care au aruncat România în criză” (27 iunie 2026)",
+        url: "https://www.ziarulprofit.ro/pnl-reactie-dupa-ce-nicusor-dan-a-avut-o-atitudine-neasteptata-fata-de-ilie-bolojan-nu-acceptam-lectii-despre-responsabilitate-de-la-cei-care-au-aruncat-romania-in-criza/",
       },
     ],
   },
