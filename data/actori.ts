@@ -172,6 +172,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-28",
+        text: "A replicat public acuzațiilor președintelui Nicușor Dan, declarând că „PNL nu blochează, PNL rămâne consecvent” și confirmând că președintele nu a agreat, la discuția de la Cotroceni, varianta de premier Siegfried Mureșan.",
+      },
+      {
         data: "2026-06-27",
         text: "A contrazis public versiunea președintelui Nicușor Dan, conform căreia PNL ar fi promis pe 23 iunie să susțină un guvern minoritar PSD condus de Sorin Grindeanu, susținând că partidul nu a făcut niciodată un asemenea angajament necondiționat. PNL a respins public „lecțiile despre responsabilitate” venite din partea președinției.",
       },
@@ -441,6 +445,14 @@ export const actori: Actor[] = [
       "Președinte PSD din noiembrie 2025. A retras partidul de la guvernare, a inițiat moțiunea de cenzură care a demis guvernul Bolojan — votată împreună cu AUR, SOS și POT — și a refuzat formulele de guvern propuse ulterior. A sesizat CCR pe OUG 38/2026, act emis de guvernul demis.",
     actiuniRecente: [
       {
+        data: "2026-06-29",
+        text: "S-a declarat de acord cu propunerea liderului UDMR Kelemen Hunor de refacere a unei majorități PSD–PNL–UDMR cu un premier acceptabil tuturor părților, spunând că „e nevoie de calmare” în negocierile blocate.",
+      },
+      {
+        data: "2026-06-28",
+        text: "PSD a respins ferm candidatura lui Siegfried Mureșan la funcția de premier, declarând că „sub nicio formă” nu îl va vota, după ce Mureșan l-a criticat dur, numindu-l „premierul OUG 13”.",
+      },
+      {
         data: "2026-06-26",
         text: "După ce PNL, USR și UDMR au anunțat susținerea lui Siegfried Mureșan ca propunere alternativă de premier, a participat la întâlnirea convocată de președintele Nicușor Dan la Cotroceni alături de Ilie Bolojan, Dominic Fritz, Kelemen Hunor și Varujan Pambuccian; întâlnirea s-a încheiat fără acord și fără o nouă desemnare de premier.",
       },
@@ -598,6 +610,10 @@ export const actori: Actor[] = [
       "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
       {
+        data: "2026-06-29",
+        text: "A reluat amenințarea cu suspendarea președintelui Nicușor Dan, declarând despre felul „cum s-a comportat până acum” că „trebuie suspendat”, în contextul în care AUR are doar circa 90 de mandate în Parlament, insuficiente pentru a iniția singur procedura.",
+      },
+      {
         data: "2026-06-22",
         text: "În timpul dezbaterilor de învestitură, a anunțat retragerea parlamentarilor AUR din sala de plen, calificând drept „trădător” pe orice parlamentar care ar vota Cabinetul Veștea: „Noi toți care nu suntem trădători părăsim această sală.” Decizia a anulat varianta de susținere individuală pe care o cultivase Veștea și a contribuit decisiv la eșecul votului (207 voturi exprimate, sub pragul de 233).",
       },
@@ -672,6 +688,10 @@ export const actori: Actor[] = [
       {
         titlu: "Recorder — 22 iunie 2026: Guvernul Veștea-Nicușor, la mila AUR",
         url: "https://recorder.ro/stirile-zilei/22-iunie-2026-guvernul-vestea-nicusor-la-mila-aur/",
+      },
+      {
+        titlu: "Știrile ProTV — George Simion, despre președintele Nicușor Dan: „La cum s-a comportat până acum, trebuie suspendat” (29 iunie 2026)",
+        url: "https://stirileprotv.ro/stiri/politic/george-simion-despre-presedintele-nicusor-dan-la-cum-s-a-comportat-pana-acum-trebuie-suspendat.html",
       },
     ],
   },
@@ -784,6 +804,10 @@ export const actori: Actor[] = [
       "Președinte UDMR din 2011, fost vicepremier în guvernul Bolojan. Singurul lider parlamentar care propune explicit o formulă de ieșire din criză: refacerea coaliției PSD–PNL–USR–UDMR și un „guvern politic până la sfârșitul lunii iunie”. Fără controverse personale identificate în perioada analizată.",
     actiuniRecente: [
       {
+        data: "2026-06-29",
+        text: "A anunțat că termenul de 30 iunie nu va fi respectat și a estimat o soluție posibilă abia spre finalul lunii iulie; a propus reluarea negocierilor pentru o coaliție PSD–PNL–UDMR cu un premier „acceptabil pentru toate părțile”, propunere la care Sorin Grindeanu și-a exprimat acordul.",
+      },
+      {
         data: "2026-06-25",
         text: "A participat la negocierile de la Vila Lac alături de Ilie Bolojan, Sorin Grindeanu și Dominic Fritz, în cadrul propunerii PNL–UDMR a unui acord de susținere parlamentară limitat la șase luni pentru un guvern minoritar condus de Grindeanu. Întâlnirea s-a încheiat fără acordul tuturor părților.",
       },
@@ -866,6 +890,20 @@ export const actori: Actor[] = [
       {
         titlu: "Ziare.com — Eșec total la Vila Lac. Negocierile s-au blocat în orgolii (25 iunie 2026)",
         url: "https://ziare.com/criza-guvernamentala/esec-total-vila-lac-negocieri-blocate-orgolii-2020794",
+      },
+      {
+        titlu:
+          "G4Media — BREAKING: Kelemen Hunor anunță că un nou guvern se poate forma abia spre sfârșitul lunii iulie, „dacă nu are cineva o baghetă magică” (29 iunie 2026)",
+        url: "https://www.g4media.ro/breaking-kelemen-hunor-anunta-ca-un-nou-guvern-se-poate-forma-abia-spre-sfarsitul-lunii-iulie-daca-nu-are-cineva-o-bagheta-magica.html",
+      },
+      {
+        titlu:
+          "HotNews — VIDEO Kelemen Hunor invită la „răcirea temperaturii declarațiilor”. Soluția de guvern pe care o vede încă posibilă (29 iunie 2026)",
+        url: "https://hotnews.ro/video-kelemen-hunor-invita-la-racirea-temperaturii-declaratiilor-solutia-de-guvern-pe-care-o-vede-inca-posibila-2287549",
+      },
+      {
+        titlu: "Adevărul — Kelemen Hunor propune refacerea coaliției (29 iunie 2026)",
+        url: "https://adevarul.ro/politica/kelemen-hunor-propune-refacerea-coalitiei-2539772.html",
       },
     ],
   },
