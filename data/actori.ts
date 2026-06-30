@@ -973,6 +973,10 @@ export const actori: Actor[] = [
       "Președinta POT (~14 deputați). Partidul a co-semnat moțiunea care a demis guvernul Bolojan, iar liderul grupului său parlamentar a fost exclus din partid. Agenda publică a partidului s-a concentrat pe situația juridică a lui Călin Georgescu.",
     actiuniRecente: [
       {
+        data: "2026-06-29",
+        text: "ÎCCJ a amânat la 5 august 2026 dezbaterile din camera preliminară a dosarului în care Călin Georgescu și Horațiu Potra sunt acuzați de acțiuni contra ordinii constituționale, fără a se pronunța asupra legalității rechizitoriului — a doua amânare consecutivă, după cea din 19 iunie, generată de recuzarea unui judecător și recompunerea completului. Procesul pe fond nu poate începe până la decizia din camera preliminară.",
+      },
+      {
         data: "2026-05-05",
         text: "POT (~14 deputați) a co-semnat și votat moțiunea de cenzură care a demis guvernul Bolojan.",
       },
@@ -986,7 +990,7 @@ export const actori: Actor[] = [
         promisiune: "Reprezentarea „poporului” împotriva sistemului",
         status: "nelivrat",
         detalii:
-          "Activitate parlamentară dominată de apărarea lui Călin Georgescu (inculpat pentru acțiuni contra ordinii constituționale; ÎCCJ urmează să decidă legalitatea rechizitoriului în camera preliminară pe 29 iunie, după ce termenul din 19 iunie a fost amânat ca urmare a unei cereri de abținere formulate de unul dintre judecători), nu de inițiative pentru cetățean.",
+          "Activitate parlamentară dominată de apărarea lui Călin Georgescu (inculpat pentru acțiuni contra ordinii constituționale). ÎCCJ a amânat pe 29 iunie 2026 dezbaterile din camera preliminară la 5 august 2026, fără să se pronunțe asupra legalității rechizitoriului — a doua amânare consecutivă după cea din 19 iunie. În paralel, Horațiu Potra, coinculpat în același dosar, a fost trecut de ÎCCJ din arest preventiv în arest la domiciliu pe 17 iunie 2026. Activitate legislativă proprie neglijabilă.",
       },
     ],
     controverse: [
@@ -1019,6 +1023,18 @@ export const actori: Actor[] = [
       {
         titlu: "Stiripesurse — ÎCCJ reia dezbaterile în dosarul Georgescu–Potra; decizia privind legalitatea rechizitoriului, amânată după schimbarea completului (19 iunie 2026)",
         url: "https://www.stiripesurse.ro/iccj-reia-dezbaterile-in-dosarul-georgescu-potra-decizia-privind-legalitatea-rechizitoriului-a-fost-amanata-dupa-schimbarea-completului_3896442",
+      },
+      {
+        titlu: "Digi24 — Dosarul tentativei de lovitură de stat în care sunt vizați Georgescu și Potra, amânat de ÎCCJ; procesul nu poate începe încă (29 iunie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/justitie/dosarul-tentativei-de-lovitura-de-stat-in-care-sunt-vizati-georgescu-si-potra-amanat-de-iccj-procesul-nu-poate-incepe-inca-3839067",
+      },
+      {
+        titlu: "Ziare.com — Călin Georgescu și mercenarul Potra, încă o lună de respiro de la instanța supremă (29 iunie 2026)",
+        url: "https://ziare.com/justitie/calin-georgescu-potra-respiro-instanta-suprema-2021460",
+      },
+      {
+        titlu: "HotNews — Horațiu Potra iese din închisoare; ÎCCJ înlocuiește arestul preventiv cu arest la domiciliu (17 iunie 2026)",
+        url: "https://hotnews.ro/horatiu-potra-iese-din-inchisoare-decizia-luata-de-iccj-2275881",
       },
     ],
   },
