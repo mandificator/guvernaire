@@ -371,7 +371,7 @@ export const decizii: Decizie[] = [
     },
     aliniere: "aliniat",
     verdictFinal:
-      "Rezultatul confirmă, la prima testare reală în plen, exact diagnosticul guvernului paralel din 14 și 16 iunie: o desemnare făcută fără o majoritate negociată și confirmată în avans nu rezistă la votul din plen, indiferent cât de solid e profilul administrativ al candidatului sau cât de coerentă e intenția unui guvern politic. Costul nu mai e teoretic — opt zile de criză internă PNL și o lună și jumătate de vid guvernamental au fost plătite pentru o tentativă care nu a trecut de prima testare aritmetică reală. Verdictul asupra crizei în ansamblu se va da abia când va exista o propunere nouă cu majoritate reală în spate.\n\nActualizare 25 iunie: eșecul negocierilor de la Vila Lac confirmă din nou diagnosticul guvernului paralel — o majoritate negociată „pe hârtie”, fără un acord ferm asupra partajării puterii executive, rămâne blocată la masa discuțiilor, nu doar în plen. Termenul de 30 iunie cerut de președinte adaugă o presiune de calendar reală, dar nu rezolvă divergența de fond dintre tabere asupra mecanismului de sprijin parlamentar; o soluție impusă în grabă, sub presiunea vacanței parlamentare, riscă să repete exact eroarea care a dus la căderea Cabinetului Veștea.\n\nActualizare 26 iunie: apariția unei a treia propuneri de premier — Siegfried Mureșan, susținut de PNL, USR și UDMR, cu o rotativă a guvernării promisă abia pentru aprilie 2027 — confirmă încă o dată diagnosticul guvernului paralel: niciuna dintre formulele puse pe masă până acum nu a fost precedată de o majoritate negociată și confirmată în avans. Declarația președintelui Nicușor Dan, care a semnalat explicit schimbarea de poziție a PNL față de varianta discutată pe 23 iunie, arată că instabilitatea nu vine doar din lipsa de aritmetică, ci și din inconsecvența actorilor implicați. Termenul de 30 iunie cerut de președinte se apropie fără ca vreo formulă să aibă, la această oră, o majoritate confirmată în prealabil.\n\nActualizare 27 iunie: disputa publică dintre președinție și conducerea PNL pe varianta corectă a discuțiilor de la Cotroceni nu schimbă aritmetica — niciuna dintre cele două propuneri (Grindeanu, Mureșan) nu are o majoritate confirmată —, dar adaugă un cost suplimentar, nemăsurat până acum în acest dosar: o ruptură de comunicare la vârful instituțiilor statului, cu președintele și liderul PNL contrazicându-se public pe conținutul unor negocieri private. Cu trei zile rămase până la termenul de 30 iunie și până la intrarea Parlamentului în vacanță, lipsa unui acord ferm pe formula de guvernare — nu doar pe nume — rămâne motivul abținerii guvernului paralel.\n\nActualizare 28 iunie: contrazicerea publică dintre președinție și conducerea PNL, semnalată pe 27 iunie, s-a adâncit — fără ca vreo propunere de premier să se apropie de pragul de 233 de voturi. Schimbul dur de declarații dintre Mureșan și PSD arată că nici varianta Mureșan, nici cea Grindeanu nu beneficiază, la această oră, de minimul de bunăvoință reciprocă necesar pentru o negociere reală — un cost suplimentar, peste cel pur aritmetic, în a opta săptămână de vid guvernamental.\n\nActualizare 29 iunie: declarația liderului UDMR confirmă oficial ce guvernul paralel semnalase încă din 25 iunie — termenul de 30 iunie cerut de președinte nu va fi respectat. Propunerea lui Hunor de a reface o majoritate PSD–PNL–UDMR, cu un premier acceptabil tuturor, e prima variantă de pe masă care recunoaște explicit limita structurală a crizei: nicio formulă care exclude PSD sau UDMR poate ajunge la 233 de voturi fără AUR, iar sprijinul AUR rămâne condiționat de cereri pe care UDMR și restul partidelor democratice nu le pot accepta (guvernare proprie a AUR sau suspendarea președintelui). Scorul guvernului paralel rămâne neschimbat — abținere, până la o majoritate confirmată în avans — dar costul crește cu fiecare săptămână: încă un termen ratat, fără premier desemnat, cu Parlamentul intrând oficial în vacanța de vară.\n\nActualizare 30 iunie: termenul-limită cerut de președinte a expirat fără nicio nouă desemnare. Nicușor Dan a explicat public că nu dorește „să facem un exercițiu de hai să ne jucăm de-a premierul\" — refuzând să desemneze un candidat în absența unei majorități de 233 de voturi confirmate în prealabil, câtă vreme știe cu certitudine că niciuna dintre propunerile existente (Grindeanu sau Mureșan) nu poate trece votul în plen. Sesiunea parlamentară ordinară s-a încheiat pe 30 iunie; din 1 iulie, Parlamentul este în vacanță de vară, cu posibilitatea convocării în sesiune extraordinară de o treime din parlamentari sau de președinții celor două camere. Guvernul Bolojan continuă interimatul cu atribuții limitate cel puțin până la finalul lunii iulie — cel mai optimist termen avansat de Kelemen Hunor. AUR a anunțat pe 30 iunie inițierea demersurilor pentru suspendarea lui Nicușor Dan: George Simion îl somează să desemneze premier „săptămâna aceasta\"; suspendarea necesită minimum 156 de semnături (o treime din Parlament), AUR deținând circa 90 de mandate — insuficient fără aliați. Scorul și verdictul guvernului paralel rămân neschimbate: abținere, cu cerința nenegociabilă a unei majorități confirmate în avans — dar criza a depășit granița aritmetic-parlamentară și a intrat într-o criză de legitimitate instituțională: cu Parlamentul în vacanță, executiv interimar cu atribuții limitate și un președinte refuzând să desemneze, România intră în iulie fără un premier activ și fără un orizont politic confirmat.",
+      "Rezultatul confirmă, la prima testare reală în plen, exact diagnosticul guvernului paralel din 14 și 16 iunie: o desemnare făcută fără o majoritate negociată și confirmată în avans nu rezistă la votul din plen, indiferent cât de solid e profilul administrativ al candidatului sau cât de coerentă e intenția unui guvern politic. Costul nu mai e teoretic — opt zile de criză internă PNL și o lună și jumătate de vid guvernamental au fost plătite pentru o tentativă care nu a trecut de prima testare aritmetică reală. Verdictul asupra crizei în ansamblu se va da abia când va exista o propunere nouă cu majoritate reală în spate.\n\nActualizare 25 iunie: eșecul negocierilor de la Vila Lac confirmă din nou diagnosticul guvernului paralel — o majoritate negociată „pe hârtie”, fără un acord ferm asupra partajării puterii executive, rămâne blocată la masa discuțiilor, nu doar în plen. Termenul de 30 iunie cerut de președinte adaugă o presiune de calendar reală, dar nu rezolvă divergența de fond dintre tabere asupra mecanismului de sprijin parlamentar; o soluție impusă în grabă, sub presiunea vacanței parlamentare, riscă să repete exact eroarea care a dus la căderea Cabinetului Veștea.\n\nActualizare 26 iunie: apariția unei a treia propuneri de premier — Siegfried Mureșan, susținut de PNL, USR și UDMR, cu o rotativă a guvernării promisă abia pentru aprilie 2027 — confirmă încă o dată diagnosticul guvernului paralel: niciuna dintre formulele puse pe masă până acum nu a fost precedată de o majoritate negociată și confirmată în avans. Declarația președintelui Nicușor Dan, care a semnalat explicit schimbarea de poziție a PNL față de varianta discutată pe 23 iunie, arată că instabilitatea nu vine doar din lipsa de aritmetică, ci și din inconsecvența actorilor implicați. Termenul de 30 iunie cerut de președinte se apropie fără ca vreo formulă să aibă, la această oră, o majoritate confirmată în prealabil.\n\nActualizare 27 iunie: disputa publică dintre președinție și conducerea PNL pe varianta corectă a discuțiilor de la Cotroceni nu schimbă aritmetica — niciuna dintre cele două propuneri (Grindeanu, Mureșan) nu are o majoritate confirmată —, dar adaugă un cost suplimentar, nemăsurat până acum în acest dosar: o ruptură de comunicare la vârful instituțiilor statului, cu președintele și liderul PNL contrazicându-se public pe conținutul unor negocieri private. Cu trei zile rămase până la termenul de 30 iunie și până la intrarea Parlamentului în vacanță, lipsa unui acord ferm pe formula de guvernare — nu doar pe nume — rămâne motivul abținerii guvernului paralel.\n\nActualizare 28 iunie: contrazicerea publică dintre președinție și conducerea PNL, semnalată pe 27 iunie, s-a adâncit — fără ca vreo propunere de premier să se apropie de pragul de 233 de voturi. Schimbul dur de declarații dintre Mureșan și PSD arată că nici varianta Mureșan, nici cea Grindeanu nu beneficiază, la această oră, de minimul de bunăvoință reciprocă necesar pentru o negociere reală — un cost suplimentar, peste cel pur aritmetic, în a opta săptămână de vid guvernamental.\n\nActualizare 29 iunie: declarația liderului UDMR confirmă oficial ce guvernul paralel semnalase încă din 25 iunie — termenul de 30 iunie cerut de președinte nu va fi respectat. Propunerea lui Hunor de a reface o majoritate PSD–PNL–UDMR, cu un premier acceptabil tuturor, e prima variantă de pe masă care recunoaște explicit limita structurală a crizei: nicio formulă care exclude PSD sau UDMR poate ajunge la 233 de voturi fără AUR, iar sprijinul AUR rămâne condiționat de cereri pe care UDMR și restul partidelor democratice nu le pot accepta (guvernare proprie a AUR sau suspendarea președintelui). Scorul guvernului paralel rămâne neschimbat — abținere, până la o majoritate confirmată în avans — dar costul crește cu fiecare săptămână: încă un termen ratat, fără premier desemnat, cu Parlamentul intrând oficial în vacanța de vară.\n\nActualizare 30 iunie: termenul-limită cerut de președinte a expirat fără nicio nouă desemnare. Nicușor Dan a explicat public că nu dorește „să facem un exercițiu de hai să ne jucăm de-a premierul\" — refuzând să desemneze un candidat în absența unei majorități de 233 de voturi confirmate în prealabil, câtă vreme știe cu certitudine că niciuna dintre propunerile existente (Grindeanu sau Mureșan) nu poate trece votul în plen. Sesiunea parlamentară ordinară s-a încheiat pe 30 iunie; din 1 iulie, Parlamentul este în vacanță de vară, cu posibilitatea convocării în sesiune extraordinară de o treime din parlamentari sau de președinții celor două camere. Guvernul Bolojan continuă interimatul cu atribuții limitate cel puțin până la finalul lunii iulie — cel mai optimist termen avansat de Kelemen Hunor. AUR a anunțat pe 30 iunie inițierea demersurilor pentru suspendarea lui Nicușor Dan: George Simion îl somează să desemneze premier „săptămâna aceasta\"; suspendarea necesită minimum 156 de semnături (o treime din Parlament), AUR deținând circa 90 de mandate — insuficient fără aliați. Scorul și verdictul guvernului paralel rămân neschimbate: abținere, cu cerința nenegociabilă a unei majorități confirmate în avans — dar criza a depășit granița aritmetic-parlamentară și a intrat într-o criză de legitimitate instituțională: cu Parlamentul în vacanță, executiv interimar cu atribuții limitate și un președinte refuzând să desemneze, România intră în iulie fără un premier activ și fără un orizont politic confirmat.\n\nActualizare 1 iulie: AUR a formalizat demersul de suspendare a președintelui Nicușor Dan. Consiliul Național Coordonator al AUR, întrunit în ședință extraordinară la Alexandria (județul Teleorman), cu 135 de membri prezenți, a votat în unanimitate inițierea procedurii de suspendare, a procedurilor pentru alegeri anticipate și a decis că niciun parlamentar AUR nu va vota vreun guvern de coaliție propus de actualul președinte. Procedura de suspendare, prevăzută la art. 95 din Constituție, necesită cel puțin o treime din numărul total al deputaților și senatorilor — AUR deținând circa 90 de mandate, demersul nu poate fi declanșat fără sprijinul altor formațiuni parlamentare. Scorul și verdictul guvernului paralel rămân neschimbate — abținere, cu cerința nenegociabilă a unei majorități confirmate în avans pentru orice premier desemnat —, dar criza a căpătat o nouă dimensiune: un partid cu reprezentare parlamentară semnificativă a decis formal că nu va sprijini nicio soluție de guvernare și că va acționa pentru înlăturarea șefului statului, fără a deține, singur, mijloacele constituționale pentru nici una dintre cele două acțiuni.",
     controverse: [
       "George Simion a anunțat retragerea AUR din sală chiar în timpul dezbaterilor de învestitură, calificând drept „trădător” pe orice parlamentar care ar fi votat Cabinetul Veștea — o presiune publică asupra propriilor parlamentari, în contradicție cu susținerile individuale pe care chiar Veștea le invocase ca posibile.",
       "Negocierile de la Vila Lac dintre PNL, USR, UDMR și PSD (25 iunie) au eșuat fără un acord asupra formulei de guvernare, prelungind blocajul cu doar câteva zile înainte de începerea vacanței parlamentare de vară.",
@@ -383,6 +383,7 @@ export const decizii: Decizie[] = [
       "Pe 29 iunie, doi senatori din grupul „Pace-Întâi România” au trecut la grupul PNL, cu doar două zile înainte de vacanța parlamentară — o regrupare de forțe în plin calcul al unei eventuale majorități pentru un viitor vot de învestitură.",
       "Pe 30 iunie, Nicușor Dan a anunțat că nu va desemna premier înaintea vacanței parlamentare, invocând absența unei majorități confirmate: nu dorește „să facem un exercițiu de hai să ne jucăm de-a premierul” — o formulare care lasă implicit că propunerile Grindeanu și Mureșan nu au, la această dată, pragul de 233 de voturi.",
       "Pe 30 iunie, AUR a anunțat inițierea demersurilor pentru suspendarea lui Nicușor Dan — un demers constituțional care necesită minimum 156 de semnături de parlamentari (o treime din total), AUR deținând circa 90 de mandate și neputând declanșa procedura fără sprijinul altor formațiuni.",
+      "Pe 1 iulie, Consiliul Național Coordonator al AUR (135 de membri prezenți, vot în unanimitate) a adoptat formal decizia de inițiere a procedurii de suspendare a președintelui Nicușor Dan, a procedurilor pentru alegeri anticipate și a stabilit că niciun parlamentar AUR nu va vota vreun guvern de coaliție propus de acesta — confirmând că AUR nu va sprijini nicio soluție de ieșire din criză în absența alegerilor anticipate.",
     ],
     surse: [
       {
@@ -562,6 +563,22 @@ export const decizii: Decizie[] = [
       {
         titlu: "BURSA — George Simion anunță că AUR începe demersurile pentru suspendarea lui Nicușor Dan (30 iunie 2026)",
         url: "https://www.bursa.ro/george-simion-anunta-ca-aur-incepe-demersurile-pentru-suspendarea-presedintelui-nicusor-dan-60644958",
+      },
+      {
+        titlu: "Bursa.ro — AUR demareaza procesul de suspendare al lui Nicușor Dan și procedurile pentru organizarea alegerilor anticipate (1 iulie 2026)",
+        url: "https://www.bursa.ro/-aur-demareaza-procesul-de-suspendare-al-lui-nicusor-dan-si-procedurile-pentru-organizarea-alegerilor-anticipate-60554958",
+      },
+      {
+        titlu: "RomaniaTV — AUR anunță că începe oficial procedurile pentru suspendarea lui Nicușor Dan și declanșarea alegerilor anticipate (1 iulie 2026)",
+        url: "https://www.romaniatv.net/aur-anunta-ca-incepe-oficial-procedurile-pentru-suspendarea-presedintelui-nicusor-dan-si-declansarea-alegerilor-anticipate_9669733.html",
+      },
+      {
+        titlu: "Antena 3 — AUR a decis să înceapă procedurile pentru suspendarea lui Nicușor Dan: „Nu vom vota niciun guvern de coaliție propus de el” (1 iulie 2026)",
+        url: "https://www.antena3.ro/politica/aur-a-decis-sa-inceapa-procedurile-pentru-suspendarea-lui-nicusor-dan-nu-vom-vota-niciun-guvern-de-coalitie-propus-de-el-794125.html",
+      },
+      {
+        titlu: "CursDeGuvernare — AUR demareaza procedurile pentru suspendarea președintelui (1 iulie 2026)",
+        url: "https://cursdeguvernare.ro/aur-demareaza-procedurile-pentru-suspendarea-presedintelui.html",
       },
     ],
   },
@@ -1950,6 +1967,84 @@ export const decizii: Decizie[] = [
         titlu:
           "ActiveNews — Ziua și lovitura pentru Nicușor Dan: CCR dă undă verde legii care permite continuarea și finalizarea hidrocentralelor în zone protejate. Sesizarea lui Nicușor Dan a fost respinsă (24 iunie 2026)",
         url: "https://www.activenews.ro/stiri/Ziua-si-lovitura-pentru-Nicusor-Dan.-CCR-da-unda-verde-legii-care-permite-continuarea-si-finalizarea-hidrocentralelor-in-zone-protejate.-Sesizarea-lui-Nicusor-a-fost-respinsa-206167",
+      },
+    ],
+  },
+  {
+    slug: "pachet-legi-pnrr-30-iunie-2026",
+    titlu:
+      "Pachetul de legi PNRR: Parlamentul adoptă 4 legi și evită penalizări de 2,7 miliarde de euro",
+    data: "2026-06-30",
+    institutie: "Parlament",
+    domenii: ["PNRR", "fonduri europene", "cercetare", "mediu", "agricultură", "construcții"],
+    rezumat:
+      "Pe 30 iunie 2026, ultima zi a sesiunii parlamentare ordinare, Parlamentul a adoptat un pachet de patru legi necesare pentru îndeplinirea jaloanelor PNRR: digitalizarea cercetării-dezvoltării-inovării, managementul apei, reglementarea terenurilor agricole ADS și a energiei regenerabile, și accelerarea investițiilor publice în construcții. Adoptarea evită penalizări de peste 2,7 miliarde de euro prevăzute pentru nerespectarea termenului-limită de 31 august 2026. Cinci legi suplimentare, cu o miză de 3,5 miliarde de euro, rămân pentru o sesiune extraordinară pe care Bolojan a anunțat că o va solicita în iulie.",
+    explicatie:
+      "România trebuia să îndeplinească jaloanele asumate prin PNRR până la 31 august 2026 și să depună Comisiei Europene cererea de plată finală până pe 30 septembrie 2026. Nerespectarea jaloanelor atrage penalizări contractuale și blocarea tranșelor de finanțare.\n\nCele patru legi adoptate pe 30 iunie acoperă domenii stabilite prin acordul cu Comisia Europeană:\n(1) Digitalizarea sectorului cercetare-dezvoltare-inovare — condiție pentru un jalon privind investițiile publice în CDI;\n(2) Managementul integrat al apei — reforma gestionării resurselor de apă;\n(3) Reglementarea terenurilor agricole administrate de Agenția Domeniilor Statului și cadrul pentru energia regenerabilă — un jalon dublu, agricol și energetic;\n(4) Accelerarea procedurilor pentru investițiile publice în construcții — simplificarea avizării și a achizițiilor publice.\n\nGuvern Bolojan, demis pe 5 mai 2026 și funcționând în regim de interimar cu atribuții limitate, nu poate iniția legislativ în mod direct. Dragoș Pîslaru (PNL), președintele Comisiei parlamentare pentru fonduri europene, a coordonat procesul legislativ. Ilie Bolojan a anunțat votul și a confirmat evitarea penalizărilor.\n\nRămân neadoptate cinci legi cu o miză estimată la 3,5 miliarde de euro — printre care Codul Urbanismului și legea salarizării unitare. Bolojan a anunțat că va solicita convocarea sesiunii extraordinare în iulie, cu posibilitatea votului online pentru parlamentari.",
+    pro: [
+      "Adoptarea pachetului îndeplinește jaloanele PNRR asumate față de Comisia Europeană și evită penalizări de peste 2,7 miliarde de euro — beneficiu direct pentru bugetul de stat și pentru cetățean.",
+      "Votul în ultima zi de sesiune arată că, sub presiunea financiară concretă, Parlamentul a putut depăși divergențele politice pe un subiect de interes național direct.",
+      "Propunerea sesiunii extraordinare pentru restul de cinci legi lasă deschisă posibilitatea finalizării tabloului legislativ PNRR înainte de termenul de 30 septembrie.",
+    ],
+    contra: [
+      "Cinci legi cu o miză de 3,5 miliarde de euro nu au fost adoptate înainte de vacanța parlamentară — sesiunea extraordinară rămâne o promisiune, nu o certitudine.",
+      "Guvernul Bolojan funcționează în regim interimar cu atribuții limitate, ceea ce ridică întrebări privind capacitatea de implementare și de certificare a jaloanelor față de Comisia Europeană.",
+      "Pachetul a fost votat sub presiunea termenului-limită, nu ca urmare a unui calendar legislativ coordonat — o parte din jaloane ar fi trebuit acoperite cu luni în urmă.",
+    ],
+    votParalel: {
+      vot: "pentru",
+      verdict: "mixt",
+      scor: 4,
+      motivare:
+        "Guvernul paralel votează PENTRU adoptarea pachetului de legi PNRR: îndeplinirea jaloanelor asumate față de CE și evitarea penalizărilor de 2,7 miliarde de euro sunt un interes net al României, indiferent de contextul politic. Scorul nu poate depăși +4 din trei motive: adoptarea s-a produs în ultimele ore ale sesiunii, nu ca urmare a unui calendar legislativ coordonat — presiunea de termen, nu prioritizarea strategică, a produs votul; guvernul interimar, cu atribuții limitate, nu poate garanta implementarea și certificarea jaloanelor față de CE la același nivel cu un executiv cu depline puteri; cinci legi cu o miză de 3,5 miliarde de euro rămân neadoptate, cu riscul de a repeta, în sesiunea extraordinară, aceeași cursă contra cronometru.",
+    },
+    votReal: {
+      rezultat: "Adoptat",
+      detalii:
+        "Cele patru legi au trecut votul în Camera Deputaților și Senat pe 30 iunie 2026. Cifrele defalcate pe lege și pe cameră nu au fost disponibile din surse oficiale la data publicării.",
+    },
+    aliniere: "aliniat",
+    verdictFinal:
+      "Parlamentul a votat în sensul recomandat de guvernul paralel. Adoptarea celor patru legi PNRR evită penalizări de 2,7 miliarde de euro — un efect real, pozitiv, în beneficiul bugetului de stat și al cetățeanului. Întârzierile acumulate și adoptarea sub presiunea termenului rămân un cost sistemic, dar nu anulează efectul util al votului. Restul de cinci legi cu o miză de 3,5 miliarde de euro, dacă sunt adoptate în sesiunea extraordinară din iulie, vor completa tabloul legislativ PNRR înainte de termenul de 30 septembrie; dacă nu, penalizările riscate se mută pe palierul următor.",
+    controverse: [
+      "Pachetul de patru legi a fost votat în ultima zi a sesiunii ordinare, după luni în care jaloanele rămăseseră neacoperite pe fondul crizei de guvernare și al negocierilor eșuate pentru investitura unui nou cabinet.",
+      "Cinci legi suplimentare cu o miză de 3,5 miliarde de euro nu au intrat pe ordinea de zi a sesiunii ordinare; riscul penalizărilor aferente se mută în sesiunea extraordinară din iulie, a cărei convocare nu e garantată.",
+    ],
+    surse: [
+      {
+        titlu:
+          "Spotmedia — Bolojan vrea sesiune extraordinară în iulie; mai trebuie votate 5 legi: miza este de 3,5 miliarde de euro (30 iunie – 1 iulie 2026)",
+        url: "https://spotmedia.ro/stiri/politica/bolojan-vrea-sesiune-extraordinara-in-iulie-mai-trebuie-votate-5-legi-miza-35-miliarde-de-euro-parlamentarii-pot-vota-online-de-acasa-video",
+      },
+      {
+        titlu:
+          "Digi24 — Bolojan vrea o sesiune extraordinară a Parlamentului pentru legile din PNRR; miza este de 3,5 miliarde de euro (30 iunie – 1 iulie 2026)",
+        url: "https://www.digi24.ro/stiri/actualitate/politica/bolojan-vrea-o-sesiune-extraordinara-a-parlamentului-pentru-legile-din-pnrr-miza-este-de-35-miliarde-de-euro-3841277",
+      },
+      {
+        titlu:
+          "Stiripesurse — Ultima cursă pentru banii europeni: legile PNRR au trecut de Parlament (30 iunie 2026)",
+        url: "https://www.stiripesurse.ro/ultima-cursa-pentru-banii-europeni-legile-pnrr-au-trecut-de-parlament-iar-bolojan-vorbeste-despre-penalizari-evitate-de-miliarde_3899490",
+      },
+      {
+        titlu:
+          "Capital.ro — România evită penalizări de peste 2,7 miliarde de euro; Dragoș Pîslaru: „Parlamentul a adoptat un pachet esențial de legi pentru PNRR” (30 iunie 2026)",
+        url: "https://www.capital.ro/romania-evita-penalizari-de-peste-27-miliarde-de-euro-dragos-pislaru-parlamentul-a-adoptat-un-pachet-esential-de-legi-pentru-pnrr.html",
+      },
+      {
+        titlu:
+          "Antena 3 — Bolojan anunță adoptarea unor legi-cheie pentru reformele din PNRR; România evită penalizări de peste 2,7 miliarde de euro (30 iunie 2026)",
+        url: "https://www.antena3.ro/politica/bolojan-anunta-adoptarea-unor-legi-cheie-pentru-reformele-din-pnrr-romania-evita-penalizari-de-peste-2-7-miliarde-de-euro-794018.html",
+      },
+      {
+        titlu:
+          "Adevărul — Parlamentul a adoptat un pachet de legi pentru PNRR (30 iunie 2026)",
+        url: "https://adevarul.ro/politica/parlamentul-a-adoptat-un-pachet-de-legi-pentru-2540048.html",
+      },
+      {
+        titlu:
+          "Știrile ProTV — Bolojan anunță că Parlamentul a aprobat un nou pachet de legi pentru PNRR; România evită penalizări de 2,7 miliarde de euro (30 iunie 2026)",
+        url: "https://stirileprotv.ro/stiri/politic/bolojan-anunta-ca-parlamentul-a-aprobat-un-nou-pachet-de-legi-pentru-pnrr-romania-evita-penalizari-de-2-7-miliarde-de-euro.html",
       },
     ],
   },

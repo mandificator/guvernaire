@@ -172,6 +172,10 @@ export const actori: Actor[] = [
       "A condus guvernul între iunie 2025 și mai 2026: deficitul a scăzut de la 9,3% la 7,65% din PIB și ~45.600 de posturi au fost eliminate din administrație, pe fondul majorării TVA la 21%, al accizelor crescute și al înghețării pensiilor și salariilor. Mandatul s-a încheiat cu demiterea prin moțiune de cenzură, publicarea OUG 38/2026 după demitere și un conflict instituțional cu ÎCCJ.",
     actiuniRecente: [
       {
+        data: "2026-06-30",
+        text: "A anunțat adoptarea de către Parlament a unui pachet de patru legi necesare pentru jaloanele PNRR, declarând că adoptarea „evită penalizări financiare de peste 2,7 miliarde de euro”. A anunțat intenția de a solicita convocarea unei sesiuni extraordinare în iulie pentru adoptarea a cinci legi suplimentare cu o miză de 3,5 miliarde de euro, cu posibilitatea votului online al parlamentarilor.",
+      },
+      {
         data: "2026-06-28",
         text: "A replicat public acuzațiilor președintelui Nicușor Dan, declarând că „PNL nu blochează, PNL rămâne consecvent” și confirmând că președintele nu a agreat, la discuția de la Cotroceni, varianta de premier Siegfried Mureșan.",
       },
@@ -609,6 +613,10 @@ export const actori: Actor[] = [
     rezumat:
       "Lider al AUR, al doilea partid din Parlament. AUR a co-inițiat și votat moțiunea care a demis guvernul Bolojan; Simion cere alegeri anticipate și refuză guvernele de tranziție. Are interdicție de intrare în Ucraina, motivată de autoritățile ucrainene prin „activități anti-ucrainene sistematice” — acuzație pe care o respinge.",
     actiuniRecente: [
+      {
+        data: "2026-07-01",
+        text: "Consiliul Național Coordonator al AUR, întrunit în ședință extraordinară la Alexandria (județul Teleorman) cu 135 de membri prezenți, a votat în unanimitate: inițierea formală a procedurii de suspendare a președintelui Nicușor Dan, proceduri pentru alegeri anticipate și decizia că niciun parlamentar AUR nu va vota vreun guvern de coaliție propus de acesta. Procedura de suspendare necesită cel puțin o treime din totalul deputaților și senatorilor — AUR deținând circa 90 de mandate, nu poate declanșa procedura fără sprijinul altor formațiuni parlamentare.",
+      },
       {
         data: "2026-06-29",
         text: "A reluat amenințarea cu suspendarea președintelui Nicușor Dan, declarând despre felul „cum s-a comportat până acum” că „trebuie suspendat”, în contextul în care AUR are doar circa 90 de mandate în Parlament, insuficiente pentru a iniția singur procedura.",
